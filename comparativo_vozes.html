@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Vozes Femininas - Apresentadora ISO 17025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-card: rgba(18, 26, 43, 0.75);
+            --border-card: rgba(255, 255, 255, 0.08);
+            --border-hover: rgba(59, 130, 246, 0.5);
+            --accent-blue: #3b82f6;
+            --accent-cyan: #06b6d4;
+            --accent-purple: #8b5cf6;
+            --accent-emerald: #10b981;
+            --accent-amber: #f59e0b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: radial-gradient(circle at top right, #172554 0%, #0b0f19 50%, #030712 100%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 40px 20px 80px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .badge-header {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(59, 130, 246, 0.15);
+            color: #60a5fa;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            padding: 6px 16px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffffff 0%, #93c5fd 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 12px;
+        }
+
+        p.subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 750px;
+            margin: 0 auto 24px;
+        }
+
+        .script-box {
+            background: rgba(15, 23, 42, 0.85);
+            border: 1px solid rgba(59, 130, 246, 0.25);
+            border-radius: 16px;
+            padding: 20px 24px;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+
+        .script-box .label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent-cyan);
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .script-box blockquote {
+            font-size: 1.05rem;
+            color: #e2e8f0;
+            font-style: italic;
+            border-left: 3px solid var(--accent-blue);
+            padding-left: 16px;
+            line-height: 1.6;
+        }
+
+        .section-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin: 32px 0 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        .voice-card {
+            background: var(--bg-card);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--border-card);
+            border-radius: 20px;
+            padding: 24px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .voice-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--border-hover);
+            box-shadow: 0 20px 30px -10px rgba(59, 130, 246, 0.25);
+        }
+
+        .voice-card.active-card {
+            border-color: var(--accent-blue);
+            background: rgba(30, 58, 138, 0.25);
+        }
+
+        .card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+        }
+
+        .voice-name {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tag-engine {
+            padding: 4px 10px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .tag-edge {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .tag-eleven {
+            background: rgba(139, 92, 246, 0.15);
+            color: #a78bfa;
+            border: 1px solid rgba(139, 92, 246, 0.3);
+        }
+
+        .tag-current {
+            background: rgba(245, 158, 11, 0.15);
+            color: #fbbf24;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .voice-desc {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            flex-grow: 1;
+        }
+
+        .attributes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .attr-pill {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 6px;
+            padding: 4px 10px;
+            font-size: 0.8rem;
+            color: #cbd5e1;
+        }
+
+        .audio-wrapper {
+            background: rgba(11, 15, 25, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 12px;
+            margin-top: auto;
+        }
+
+        audio {
+            width: 100%;
+            height: 40px;
+            outline: none;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+        }
+
+        .footer-cta {
+            text-align: center;
+            background: rgba(30, 41, 59, 0.5);
+            border: 1px dashed rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            padding: 32px;
+            margin-top: 50px;
+        }
+
+        .footer-cta h3 {
+            font-size: 1.4rem;
+            margin-bottom: 8px;
+        }
+
+        .footer-cta p {
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="badge-header">🎧 Audição e Seleção de Vozes • Versão 2 (V2)</div>
+        <h1>Escolha da Nova Apresentadora</h1>
+        <p class="subtitle">
+            Ouça as amostras abaixo geradas com o mesmo trecho falado e escolha a voz que melhor combina com o perfil do podcast do LMA.
+        </p>
+
+        <div class="script-box">
+            <div class="label">
+                <span>📝 Trecho Teste Falado por Todas as Vozes:</span>
+            </div>
+            <blockquote>
+                "Olá! Seja muito bem-vindo ao podcast do Laboratório Multiusuário de Análises. Hoje vamos descomplicar os requisitos de gestão e a estrutura da norma ISO/IEC 17025. Preparado para dominar os padrões de qualidade e calibração comigo?"
+            </blockquote>
+        </div>
+    </header>
+
+    <!-- GRUPO 1: EDGE-TTS (GRATUITO, ILIMITADO E RÁPIDO) -->
+    <div class="section-title">
+        <span>⚡ Opções Edge-TTS (Ilimitadas, Ultra-Rápidas e sem Custo)</span>
+    </div>
+
+    <div class="grid">
+        <!-- 01: Thalita (Atual) -->
+        <div class="voice-card">
+            <div class="card-top">
+                <div class="voice-name">Thalita <span style="font-size: 0.85rem; color: #fbbf24;">(Atual)</span></div>
+                <span class="tag-engine tag-current">Em Uso Hoje</span>
+            </div>
+            <p class="voice-desc">A voz que está nos podcasts atuais. Ritmo acelerado (+12%) e pitch levemente agudo (+3Hz), estilo podcaster jovem.</p>
+            <div class="attributes">
+                <span class="attr-pill">Timbre: Jovem</span>
+                <span class="attr-pill">Ritmo: Rápido (+12%)</span>
+                <span class="attr-pill">Motor: Edge-TTS</span>
+            </div>
+            <div class="audio-wrapper">
+                <audio controls preload="none">
+                    <source src="amostras_vozes/01_Atual_Thalita_EdgeTTS.mp3" type="audio/mpeg">
+                    Seu navegador não suporta áudio.
+                </audio>
+            </div>
+        </div>
+
+        <!-- 02: Ava Multilingual -->
+        <div class="voice-card">
+            <div class="card-top">
+                <div class="voice-name">Ava Multilingual</div>
+                <span class="tag-engine tag-edge">Recomendada</span>
+            </div>
+            <p class="voice-desc">Nova geração neural da Microsoft. Tom natural, acolhedor, respiração humana e cadência muito mais tranquila e agradável para longas sessões de estudo.</p>
+            <div class="attributes">
+                <span class="attr-pill">Timbre: Acolhedor / Suave</span>
+                <span class="attr-pill">Ritmo: Equilibrado (+6%)</span>
+                <span class="attr-pill">Motor: Edge-TTS Neural</span>
+            </div>
+            <div class="audio-wrapper">
+                <audio controls preload="none">
+                    <source src="amostras_vozes/02_Ava_Multilingual_EdgeTTS.mp3" type="audio/mpeg">
+                    Seu navegador não suporta áudio.
+                </audio>
+            </div>
+        </div>
+
+        <!-- 03: Emma Multilingual -->
+        <div class="voice-card">
+            <div class="card-top">
+                <div class="voice-name">Emma Multilingual</div>
+                <span class="tag-engine tag-edge">Edge-TTS</span>
+            </div>
+            <p class="voice-desc">Voz clara, articulada e comunicativa. Ótima dicção de termos técnicos e tom moderno e descontraído sem ser estridente.</p>
+            <div class="attributes">
+                <span class="attr-pill">Timbre: Claro / Comunicativo</span>
+                <span class="attr-pill">Ritmo: Fluido (+6%)</span>
+                <span class="attr-pill">Motor: Edge-TTS Neural</span>
+            </div>
+            <div class="audio-wrapper">
+                <audio controls preload="none">
+                    <source src="amostras_vozes/03_Emma_Multilingual_EdgeTTS.mp3" type="audio/mpeg">
+                    Seu navegador não suporta áudio.
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <!-- GRUPO 2: ELEVENLABS MULTILINGUAL V2 -->
+    <div class="section-title">
+        <span>✨ Opções ElevenLabs Neural Studio (Ultra-Realistas)</span>
+    </div>
+
+    <div class="grid">
+        <!-- 06: Sarah -->
+        <div class="voice-card">
+            <div class="card-top">
+                <div class="voice-name">Sarah</div>
+                <span class="tag-engine tag-eleven">Profissional</span>
+            </div>
+            <p class="voice-desc">Tom maduro, confiante e extremamente profissional. Postura de âncora/locutora experiente de rádio, transmitindo muita autoridade e credibilidade.</p>
+            <div class="attributes">
+                <span class="attr-pill">Timbre: Maduro / Firme</span>
+                <span class="attr-pill">Estilo: Locutora de Rádio</span>
+                <span class="attr-pill">Motor: ElevenLabs v2</span>
+            </div>
+            <div class="audio-wrapper">
+                <audio controls preload="none">
+                    <source src="amostras_vozes/06_Sarah_Profissional_ElevenLabs.mp3" type="audio/mpeg">
+                    Seu navegador não suporta áudio.
+                </audio>
+            </div>
+        </div>
+
+        <!-- 07: Jessica -->
+        <div class="voice-card">
+            <div class="card-top">
+                <div class="voice-name">Jessica</div>
+                <span class="tag-engine tag-eleven">Dinâmica</span>
+            </div>
+            <p class="voice-desc">Voz jovem, alegre, expressiva e vibrante. Ideal para dar muita energia ao podcast e prender a atenção do ouvinte em conteúdos teóricos.</p>
+            <div class="attributes">
+                <span class="attr-pill">Timbre: Alegre / Jovem</span>
+                <span class="attr-pill">Estilo: Entusiasta</span>
+                <span class="attr-pill">Motor: ElevenLabs v2</span>
+            </div>
+            <div class="audio-wrapper">
+                <audio controls preload="none">
+                    <source src="amostras_vozes/07_Jessica_Dinamica_ElevenLabs.mp3" type="audio/mpeg">
+                    Seu navegador não suporta áudio.
+                </audio>
+            </div>
+        </div>
+
+        <!-- 04: Laura -->
+        <div class="voice-card">
+            <div class="card-top">
+                <div class="voice-name">Laura</div>
+                <span class="tag-engine tag-eleven">Espontânea</span>
+            </div>
+            <p class="voice-desc">Tom ensolarado, espontâneo e descontraído. Traz frescor e um estilo de conversa muito próximo do ouvinte, como uma colega de laboratório.</p>
+            <div class="attributes">
+                <span class="attr-pill">Timbre: Ensolarado / Amigável</span>
+                <span class="attr-pill">Estilo: Conversacional</span>
+                <span class="attr-pill">Motor: ElevenLabs v2</span>
+            </div>
+            <div class="audio-wrapper">
+                <audio controls preload="none">
+                    <source src="amostras_vozes/04_Laura_Entusiasta_ElevenLabs.mp3" type="audio/mpeg">
+                    Seu navegador não suporta áudio.
+                </audio>
+            </div>
+        </div>
+
+        <!-- 05: Alice -->
+        <div class="voice-card">
+            <div class="card-top">
+                <div class="voice-name">Alice</div>
+                <span class="tag-engine tag-eleven">Didática</span>
+            </div>
+            <p class="voice-desc">Voz envolvente de educadora/instrutora. Pausada, didática e clara, perfeita para explicar detalhes de normas e procedimentos de auditoria.</p>
+            <div class="attributes">
+                <span class="attr-pill">Timbre: Calmo / Educador</span>
+                <span class="attr-pill">Estilo: Didático</span>
+                <span class="attr-pill">Motor: ElevenLabs v2</span>
+            </div>
+            <div class="audio-wrapper">
+                <audio controls preload="none">
+                    <source src="amostras_vozes/05_Alice_Educadora_ElevenLabs.mp3" type="audio/mpeg">
+                    Seu navegador não suporta áudio.
+                </audio>
+            </div>
+        </div>
+
+        <!-- 08: Bella -->
+        <div class="voice-card">
+            <div class="card-top">
+                <div class="voice-name">Bella</div>
+                <span class="tag-engine tag-eleven">Equilibrada</span>
+            </div>
+            <p class="voice-desc">Voz calorosa, equilibrada e muito polida. Combina a simpatia de uma apresentadora com a seriedade de um ambiente acadêmico/laboratorial.</p>
+            <div class="attributes">
+                <span class="attr-pill">Timbre: Caloroso / Polido</span>
+                <span class="attr-pill">Estilo: Corporativo / Acadêmico</span>
+                <span class="attr-pill">Motor: ElevenLabs v2</span>
+            </div>
+            <div class="audio-wrapper">
+                <audio controls preload="none">
+                    <source src="amostras_vozes/08_Bella_Acolhedora_ElevenLabs.mp3" type="audio/mpeg">
+                    Seu navegador não suporta áudio.
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-cta">
+        <h3>Qual dessas vozes você prefere para a V2?</h3>
+        <p>Basta me dizer o nome da sua voz escolhida (ex: <b>Ava</b>, <b>Sarah</b>, <b>Jessica</b>, etc.). Em seguida, iniciarei a substituição e regeneração dos episódios diretamente na pasta V2!</p>
+    </div>
+</div>
+
+</body>
+</html>

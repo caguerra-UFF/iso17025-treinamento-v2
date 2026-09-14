@@ -1,0 +1,223 @@
+{
+  "title": "Parte 2 - Capítulo 09: Requisito 7.6 - Avaliação da Incerteza de Medição",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_2",
+  "chapter_filename": "Podcast_Parte2_Capitulo_9_Itens_9_1_a_9_8_Completo_Thalita_e_Francisca.mp3",
+  "episodes": [
+    {
+      "id": "9.1",
+      "filename": "Podcast_Parte2_Item_9_1_Identificar_Contribuicoes_Antes_de_Calcular.mp3",
+      "title": "Item 9.1 - Incerteza de Medição: Identificar Contribuições Antes da Matemática",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, chegamos ao temido Requisito 7.6 da ISO 17025: a avaliação da incerteza de medição! Muitos analistas entram em pânico abrindo planilhas cheias de fórmulas complexas. Qual é o primeiro passo correto antes de fazer qualquer conta?"
+        ],
+        [
+          "Francisca",
+          "O primeiro passo é conceitual e não matemático, Thalita! O requisito 7.6.1 exige que o laboratório identifique todas as contribuições para a incerteza de medição. Antes de somar números, você precisa mapear o processo analítico."
+        ],
+        [
+          "Thalita",
+          "E qual é a ferramenta consagrada para enxergar essas fontes de incerteza?"
+        ],
+        [
+          "Francisca",
+          "O diagrama de Ishikawa ou espinha de peixe! Nele você desenha os ramos clássicos: o equipamento de medição, os materiais de referência, a vidraria volumétrica, o operador, a temperatura da sala e a própria homogeneidade da amostra. Quando você vê o mapa completo, a montagem da planilha fica natural e sem omissões."
+        ],
+        [
+          "Thalita",
+          "Excelente! Quem mapeia o processo antes de calcular nunca é pego de surpresa por auditor."
+        ]
+      ]
+    },
+    {
+      "id": "9.2",
+      "filename": "Podcast_Parte2_Item_9_2_Tipo_A_e_Tipo_B_Desmistificados.mp3",
+      "title": "Item 9.2 - Incertezas Tipo A e Tipo B: A Divisão Metrológica Universal",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 9.2, Francisca, aparecem os famosos termos Tipo A e Tipo B. O que significam essas duas letras na prática da bancada?"
+        ],
+        [
+          "Francisca",
+          "É a divisão fundamental do GUM, o Guia para Expressão da Incerteza, Thalita! A incerteza Tipo A é obtida pela estatística direta das repetições: o operador mede dez vezes a mesma amostra e calcula a média e o desvio padrão."
+        ],
+        [
+          "Thalita",
+          "E onde entra a incerteza Tipo B?"
+        ],
+        [
+          "Francisca",
+          "O Tipo B é todo o conhecimento metrológico que vem de fora das repetições: a incerteza informada no certificado da balança, a tolerância do balão volumétrico dada pelo fabricante, e a pureza descrita no frasco do reagente. Juntando as repetições do Tipo A com as evidências do Tipo B, temos a incerteza combinada do método."
+        ],
+        [
+          "Thalita",
+          "Clareza cristalina! Estatística na bancada mais dados de certificados formam a incerteza completa."
+        ]
+      ]
+    },
+    {
+      "id": "9.3",
+      "filename": "Podcast_Parte2_Item_9_3_Repetibilidade_Precisao_Intermediaria.mp3",
+      "title": "Item 9.3 - Repetibilidade versus Precisão Intermediária",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 9.3, o curso alertou que medir dez vezes a mesma solução em trinta minutos não reflete a incerteza da rotina anual do laboratório. Por que isso, Francisca?"
+        ],
+        [
+          "Francisca",
+          "Porque isso é apenas repetibilidade pura sob condições ideais, Thalita! Na rotina de verdade, o ensaio é rodado na terça-feira pelo João e na quinta-feira pela Maria, com outro lote de tampão e em dias com temperaturas ambientes diferentes."
+        ],
+        [
+          "Thalita",
+          "E como a metrologia chama essa variabilidade mais realista?"
+        ],
+        [
+          "Francisca",
+          "Chama-se precisão intermediária! O laboratório deve avaliar a dispersão dos resultados ao longo de dias e semanas, variando operadores e lotes. Usar a precisão intermediária na planilha de incerteza torna o modelo robusto e evita subestimar a margem de erro perante o cliente."
+        ],
+        [
+          "Thalita",
+          "Uma visão madura: a incerteza tem que refletir a vida real do laboratório e não o melhor ensaio do ano."
+        ]
+      ]
+    },
+    {
+      "id": "9.4",
+      "filename": "Podcast_Parte2_Item_9_4_Vidrarias_e_a_Abordagem_do_Pior_Caso.mp3",
+      "title": "Item 9.4 - Vidrarias, Balanças e a Prática do Pior Caso",
+      "dialogue": [
+        [
+          "Thalita",
+          "Chegamos ao Item 9.4 com uma solução prática para quem usa dezenas de balões volumétricos e pipetas: o analista precisa calcular uma planilha de incerteza diferente para cada balão do armário, Francisca?"
+        ],
+        [
+          "Francisca",
+          "Não precisa enlouquecer com burocracia, Thalita! A metrologia consagrada aceita a chamada abordagem conservadora do pior caso. Se o laboratório possui dez balões de cem mililitros de classe A, adota-se a maior tolerância ou a calibração com maior incerteza daquele conjunto como o valor padrão da planilha."
+        ],
+        [
+          "Thalita",
+          "E os auditores aceitam essa simplificação?"
+        ],
+        [
+          "Francisca",
+          "Aceitam com louvor, porque ela é tecnicamente fundamentada e conservadora! Você simplifica a rotina de cálculo sem jamais subestimar a incerteza final do cliente. Gestão metrológica inteligente com rigor."
+        ],
+        [
+          "Thalita",
+          "Sensacional! Eficiência analítica sem abrir mão da conformidade técnica."
+        ]
+      ]
+    },
+    {
+      "id": "9.5",
+      "filename": "Podcast_Parte2_Item_9_5_Contribuicao_da_Amostragem_na_Incerteza.mp3",
+      "title": "Item 9.5 - A Contribuição Gigante da Amostragem na Incerteza Global",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 9.5, temos uma das maiores novidades da ISO 17025 versão 2017: quando o laboratório é responsável pela amostragem, essa etapa precisa entrar no cálculo de incerteza?"
+        ],
+        [
+          "Francisca",
+          "O requisito 7.6.1 é taxativo: se o laboratório faz a amostragem, as contribuições da amostragem devem ser avaliadas e incluídas, Thalita! E isso muda todo o jogo metrológico."
+        ],
+        [
+          "Thalita",
+          "Por que muda todo o jogo?"
+        ],
+        [
+          "Francisca",
+          "Porque na bancada, a incerteza da pipeta e do espectrofotômetro soma três por cento. Mas na amostragem no rio, com correntes e sedimentos, a incerteza pode chegar a vinte por cento! A amostragem costuma ser a maior fonte de dúvida de todo o ensaio. Ignorar a amostragem é apresentar uma ilusão de precisão."
+        ],
+        [
+          "Thalita",
+          "Lição monumental! Incluir a amostragem conecta o número metrológico à realidade da natureza."
+        ]
+      ]
+    },
+    {
+      "id": "9.6",
+      "filename": "Podcast_Parte2_Item_9_6_Regra_dos_Trinta_Por_Cento_Eurachem.mp3",
+      "title": "Item 9.6 - A Regra dos 30%: Quando uma Fonte Pode Ser Desprezada",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 9.6, a instrutora citou a regra do guia Eurachem: se uma fonte de incerteza for menor que um terço da maior componente, ela pode ser desprezada do cálculo final. Essa regra é aceita, Francisca?"
+        ],
+        [
+          "Francisca",
+          "Sim, Thalita, mas com respaldo matemático! Pela soma quadrática de incertezas, qualquer componente que seja menor que trinta por cento da maior fonte contribui com menos de cinco por cento na incerteza final combinada."
+        ],
+        [
+          "Thalita",
+          "E qual é o cuidado obrigatório que o laboratório deve tomar ao aplicar essa regra?"
+        ],
+        [
+          "Francisca",
+          "A exclusão não pode ser cega! O laboratório deve ter uma memória técnica documentada demonstrando que avaliou aquela fonte e que ela realmente é menor que um terço da dominante. Demonstrar que avaliou e descartou com justificativa matemática é a prova de domínio metrológico."
+        ],
+        [
+          "Thalita",
+          "Perfeito! Racionalização matemática fundamentada em guias internacionais."
+        ]
+      ]
+    },
+    {
+      "id": "9.7",
+      "filename": "Podcast_Parte2_Item_9_7_Incerteza_em_Ensaios_Qualitativos.mp3",
+      "title": "Item 9.7 - Ensaios Qualitativos: Existe Incerteza em Presença ou Ausência?",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 9.7, surge uma dúvida clássica de microbiologia e testes de triagem: ensaio qualitativo de presença ou ausência tem que calcular incerteza de medição com sinal de mais ou menos?"
+        ],
+        [
+          "Francisca",
+          "A Nota 2 do requisito 7.6.3 responde com precisão, Thalita: para métodos qualitativos onde não é possível determinar numericamente a incerteza, o laboratório não é obrigado a calcular uma fórmula matemática de mais ou menos!"
+        ],
+        [
+          "Thalita",
+          "E o que o laboratório precisa demonstrar nesse caso para atender à norma?"
+        ],
+        [
+          "Francisca",
+          "Deve demonstrar que compreende os fatores críticos que influenciam o resultado: a taxa de falsos positivos e falsos negativos, o limite de detecção do método e a especificidade do reagente. A incerteza em qualitativos se traduz em confiabilidade da decisão."
+        ],
+        [
+          "Thalita",
+          "Excelente distinção! A norma é inteligente e adapta o rigor metrológico à natureza do ensaio."
+        ]
+      ]
+    },
+    {
+      "id": "9.8",
+      "filename": "Podcast_Parte2_Item_9_8_A_ISO_Nao_Ensina_a_Formula.mp3",
+      "title": "Item 9.8 - A ISO Não Ensina a Fórmula: O Laboratório Escolhe o Modelo",
+      "dialogue": [
+        [
+          "Thalita",
+          "Pra fechar com chave de ouro a Seção 9, o Item 9.8 traz uma reflexão libertadora: a ISO 17025 não impõe uma fórmula matemática única de cálculo de incerteza! Qual é a responsabilidade do laboratório, Francisca?"
+        ],
+        [
+          "Francisca",
+          "A ISO 17025 exige a competência e o resultado: identificar contribuições e avaliar a incerteza. Mas o caminho metodológico é escolha do laboratório, Thalita! Você pode usar a modelagem clássica do GUM, a abordagem top-down do Eurachem usando dados de validação e controle de qualidade, ou a norma ISO 21748."
+        ],
+        [
+          "Thalita",
+          "E qual é o critério para aprovação em auditoria?"
+        ],
+        [
+          "Francisca",
+          "Que o modelo escolhido seja cientificamente válido, documentado em procedimento interno e consistente com os dados do método. O importante é saber defender a lógica da sua incerteza perante qualquer avaliador."
+        ],
+        [
+          "Thalita",
+          "Brilhante conclusão, Francisca! A metrologia da incerteza não é um bicho de sete cabeças, é a demonstração prática da maturidade técnica do laboratório."
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1669 @@
+[00:00:00 -> 00:00:06] lcn treinamentos, eu ministro treinamentos na 17.025,
+[00:00:06 -> 00:00:12] realizo auditorias internas, preste serviços de consultoria,
+[00:00:12 -> 00:00:19] tenho mestrado na área de engenharia de biocomostíbios e
+[00:00:19 -> 00:00:23] petroquímica e pós-graduação na área de gestão ambiental.
+[00:00:23 -> 00:00:29] Meu objetivo aqui nesse treinamento é passar um pouquinho do
+[00:00:29 -> 00:00:36] conhecimento da sobre 17.025 e em todos os meus trabalhos
+[00:00:36 -> 00:00:39] eu tenho sempre a premissa de deixar um pouquinho de mim e levar
+[00:00:39 -> 00:00:44] um pouquinho do outro. Espero que a gente consiga atingir esse
+[00:00:44 -> 00:00:52] objetivo. O treinamento, eu sempre tento fazer um
+[00:00:52 -> 00:00:56] treinamento direcionado para a atividade do laboratório.
+[00:00:56 -> 00:01:02] Então, vocês vão observar que eu peguei algumas situações
+[00:01:02 -> 00:01:07] para direcionar para atividade de monitoração ambiental.
+[00:01:07 -> 00:01:14] Os requisitos que a gente vai falar hoje, eles servem para dar
+[00:01:14 -> 00:01:20] suporte aos requisitos que vocês conversaram com a Alina na semana
+[00:01:20 -> 00:01:26] passada. Então, semana passada, a Alina falou com vocês sobre
+[00:01:26 -> 00:01:30] requisitos de recursos e requisitos de processo, que são os
+[00:01:30 -> 00:01:36] requisitos técnicos da 17.025. Os requisitos que nós vamos
+[00:01:36 -> 00:01:41] conversar hoje são requisitos que servem para dar suporte a
+[00:01:41 -> 00:01:50] esses requisitos técnicos. Gente, vocês podem me interromper a
+[00:01:50 -> 00:01:55] qualquer momento. O último treinamento que eu dei para
+[00:01:55 -> 00:02:00] eletronuclear foi muito legal porque as pessoas participaram,
+[00:02:00 -> 00:02:06] interromperam, tiraram dúvida e aí eu vou adequando a dinâmica
+[00:02:06 -> 00:02:12] do treinamento para a gente atingir esse objetivo.
+[00:02:12 -> 00:02:15] Então, eu espero que vocês participem, que vocês demonstrem
+[00:02:15 -> 00:02:19] para mim que vocês estão entendendo. Caso não, vocês
+[00:02:19 -> 00:02:24] também perguntem para eu adequar minha fala para todo mundo
+[00:02:24 -> 00:02:28] no final e sair com o entendimento melhor da norma.
+[00:02:28 -> 00:02:33] Eu peço também para que vocês, nesse momento, eu sei que está
+[00:02:33 -> 00:02:36] todo mundo aí nas suas estações de trabalho, mas que realmente
+[00:02:36 -> 00:02:41] vocês estejam aqui nesse momento prestando atenção no
+[00:02:41 -> 00:02:45] treinamento e não realizando outras atividades. Então, eu
+[00:02:45 -> 00:02:49] peço quem está trabalhando, quem está respondendo e-mail,
+[00:02:49 -> 00:02:53] eu peço que as câmeras fiquem abertas, para eu também não
+[00:02:53 -> 00:02:55] ficar com a sensação que eu estou falando com um bando de
+[00:02:55 -> 00:03:00] quadradinho. Então, eu peço, por favor, que as câmeras fiquem
+[00:03:00 -> 00:03:03] abertas, para quem está com a câmera fechada, abrir. Me
+[00:03:03 -> 00:03:09] ajuda aí, Jairu, para o pessoal abrir as câmeras e também eu
+[00:03:09 -> 00:03:14] peço para que o pessoal que está no treinamento não ficar
+[00:03:14 -> 00:03:18] realizando outras atividades e prestando aqui atenção no que
+[00:03:18 -> 00:03:32] está sendo falado, porque é importante, tá? É, a
+[00:03:32 -> 00:03:38] eletronuclear, ela tem um objetivo, né, de solicitar uma
+[00:03:38 -> 00:03:44] acreditação, né? E o que que isso significa, né? Então, a
+[00:03:44 -> 00:03:48] eletronuclear, ela tem um sistema, né, que está em fase de
+[00:03:48 -> 00:03:55] implementação, a luz da 17.025, com o objetivo de solicitar uma
+[00:03:55 -> 00:04:00] acreditação. E o que que é a acreditação, né? No Brasil,
+[00:04:00 -> 00:04:04] nós temos um organismo de acreditação, que é a
+[00:04:04 -> 00:04:09] coordenação geral de acreditação do imétro, né? E esse
+[00:04:09 -> 00:04:16] organismo, ele atesta formalmente a competência técnica,
+[00:04:16 -> 00:04:21] né? De OACES, que são organismos de avaliação da
+[00:04:21 -> 00:04:26] conformidade, os laboratórios, através de um processo de
+[00:04:26 -> 00:04:30] avaliação independente desses laboratórios, considerando
+[00:04:30 -> 00:04:36] requisitos específicos, de forma a assegurar imparcialidade,
+[00:04:36 -> 00:04:40] competência desses laboratórios, através de um
+[00:04:40 -> 00:04:46] processo de avaliação contínua. É, quanto o laboratório é
+[00:04:46 -> 00:04:50] acreditado pela CECRE, pela coordenação geral de
+[00:04:50 -> 00:04:55] acreditação do imétro, né? Essa acreditação, ela é
+[00:04:55 -> 00:04:59] reconhecida internacionalmente, através de um acordo de
+[00:04:59 -> 00:05:04] reconhecimento mutuo, né? Então, todos os países, né, que
+[00:05:04 -> 00:05:09] fazem parte desse acordo, o organismo de acreditador da
+[00:05:09 -> 00:05:13] quele país reconhece, né? As acreditações dos outros
+[00:05:13 -> 00:05:22] países, né? E quais são as vantagens de se obter uma
+[00:05:22 -> 00:05:25] acreditação, né? A primeira, eu falei, né? Ter esse
+[00:05:25 -> 00:05:30] reconhecimento de competência técnica é reconhecida
+[00:05:30 -> 00:05:37] internacionalmente, né? É confiabilidade e validade dos
+[00:05:37 -> 00:05:42] resultados, né? Por quê? Porque vocês, como a vocês a
+[00:05:42 -> 00:05:45] conversaram em coalina, vocês têm que trabalhar de acordo
+[00:05:45 -> 00:05:51] com processos, ter procedimentos técnicos documentados, né?
+[00:05:52 -> 00:05:57] É ter processos de garantia da validade dos resultados,
+[00:05:57 -> 00:06:02] rastrabilidade de todas as etapas, ter políticas e
+[00:06:02 -> 00:06:07] objetivos definidos, políticas que abordam competência,
+[00:06:07 -> 00:06:12] operação consistente, imparcialidade, né? Difundidos e
+[00:06:12 -> 00:06:20] eh eh em toda organização, aumento da produtividade e
+[00:06:20 -> 00:06:25] redução de trabalho. Quando eu tenho todas as etapas, né?
+[00:06:25 -> 00:06:30] Com rastrabilidade, né? Com uma cadeia de custódia. Quando
+[00:06:30 -> 00:06:36] eu tenho processos que asseguram a validade dos resultados,
+[00:06:36 -> 00:06:41] eu reduzo o retrabalho, né? Então, isso tem um aumento da
+[00:06:41 -> 00:06:47] produtividade. Eh responsabilidades e autoridades
+[00:06:47 -> 00:06:53] definidas e documentadas. Todo o pessoal que está ligado ao
+[00:06:53 -> 00:06:59] sistema de gestão, né? Eles têm que ter funções, né? Com
+[00:06:59 -> 00:07:02] requisitos de competência definidos e esses requisitos de
+[00:07:02 -> 00:07:07] competência, eles são definidos considerando as autoridades
+[00:07:07 -> 00:07:12] e responsabilidades dessa dessa função que a pessoa vai
+[00:07:12 -> 00:07:16] desempenhar. E todo o pessoal quando é nomeado para uma
+[00:07:16 -> 00:07:20] função, ele tem que ser comunicado sobre as suas
+[00:07:20 -> 00:07:32] responsabilidades e autoridades. Eh aqui eu quero trazer,
+[00:07:32 -> 00:07:38] né? Uma diferença, né? Entre a certificação e a
+[00:07:38 -> 00:07:42] acreditação, né? Eh a dezessete mil e vinte e cinco,
+[00:07:42 -> 00:07:48] eh não é uma norma comumente conhecida, mas a nove mil
+[00:07:48 -> 00:07:54] um é muito conhecida, né? A nove mil um ela está associada,
+[00:07:54 -> 00:08:00] né? Com foco principal, né? Que o laboratório quando ele
+[00:08:00 -> 00:08:06] tem a nove mil um implementado, né? Ele trabalha de acordo com
+[00:08:06 -> 00:08:11] processos organizacionais, né? E tem um sistema de gestão
+[00:08:11 -> 00:08:16] implementado. A dezessete mil e vinte e cinco, além disso,
+[00:08:16 -> 00:08:22] ela tem foco na competência técnica em operação
+[00:08:22 -> 00:08:27] consistente e competência, né? E aí aqui eu não tô falando
+[00:08:27 -> 00:08:30] somente de competência do pessoal, né? Eu tô falando
+[00:08:30 -> 00:08:35] sobre competência do laboratório e em prover resultados
+[00:08:35 -> 00:08:39] válidos. A dezessete mil e vinte e cinco, ela tem esse
+[00:08:39 -> 00:08:50] foco. É a nove mil um, ela verifica, né? Ela sai pra
+[00:08:50 -> 00:08:53] verificar se os processos, sistemas de gestão, estão
+[00:08:53 -> 00:08:57] em conformidade com a nove mil um. A dezessete mil e vinte
+[00:08:57 -> 00:09:02] e cinco, além disso, ela tem como objetivo assegurar
+[00:09:02 -> 00:09:05] a competência técnica para a realização de ensaios
+[00:09:05 -> 00:09:10] específicos e com resultados confiáveis, né? A nove mil
+[00:09:10 -> 00:09:15] um, ela traz como benefícios, né? Você ter uma eficiência
+[00:09:15 -> 00:09:21] operacional, você trabalhar de acordo com processos, né?
+[00:09:21 -> 00:09:27] Reconhecimento, né? Do compromisso com o sistema de gestão
+[00:09:27 -> 00:09:32] da da qualidade. A dezessete mil e vinte e cinco, além disso,
+[00:09:32 -> 00:09:37] né? Ela tem como benefício a confiança nos resultados e
+[00:09:37 -> 00:09:43] a competência técnica. A certificação, ela é dada por
+[00:09:43 -> 00:09:47] um organismo de certificação. Então, é o organismo de
+[00:09:47 -> 00:09:52] avaliação da conformidade, acreditado pela CGECRI e aí
+[00:09:52 -> 00:09:56] ele pode prover essa certificação para um laboratório.
+[00:09:56 -> 00:10:03] Já a a dezessete mil e vinte e cinco, a acreditação, ela
+[00:10:03 -> 00:10:07] é atestada por um organismo de acreditação. No caso do
+[00:10:07 -> 00:10:20] Brasil, a CGECRI. Quando eu falei sobre acreditação, né? Eu
+[00:10:20 -> 00:10:26] disse que a acreditação, né? É uma testação formal da
+[00:10:26 -> 00:10:29] competência técnica do laboratório através de um
+[00:10:29 -> 00:10:33] processo de avaliação, né? Por um organismo de
+[00:10:33 -> 00:10:38] acreditação, considerando requisitos específicos, né? No
+[00:10:38 -> 00:10:43] caso de laboratórios, de calibração, ensaio e
+[00:10:43 -> 00:10:49] amostragem, esses requisitos específicos, eles estão
+[00:10:49 -> 00:10:55] documentados na ABNT, ISO e EC dezessete mil e vinte e cinco.
+[00:10:55 -> 00:11:00] Tá? Então, ela especifica requisitos de competência,
+[00:11:00 -> 00:11:05] imparcialidade e operação consistente de laboratórios.
+[00:11:05 -> 00:11:10] Tá? E ela tem como objetivo prover a confiança nas
+[00:11:10 -> 00:11:14] operações dos laboratórios, de modo a permitir que eles
+[00:11:14 -> 00:11:19] demonstrem que operam de forma competente e que são capazes
+[00:11:19 -> 00:11:24] de gerar resultados válidos. Então, a CGECRI, né? A
+[00:11:24 -> 00:11:28] coordenação geral de acreditação do inmetro, ela utiliza,
+[00:11:28 -> 00:11:35] né? Essa norma internacional como uma norma de acreditação.
+[00:11:35 -> 00:11:38] Então, ela considera os requisitos da dezessete mil e vinte
+[00:11:38 -> 00:11:41] e cinco pra avaliar a competência técnica dos
+[00:11:41 -> 00:11:53] laboratórios. Se implementar, né? A dezessete mil e vinte e
+[00:11:53 -> 00:12:00] cinco num laboratório, ela requer etapa, né? Tem que
+[00:12:00 -> 00:12:05] ter, né? Etapas e pôr prometimento do pessoal envolvido,
+[00:12:05 -> 00:12:12] né? É a necessidade no início de uma grande dedicação do
+[00:12:12 -> 00:12:16] responsável pelo sistema de gestão, né? Pra implementação
+[00:12:16 -> 00:12:26] dos requisitos de gestão, né? E da equipe técnica para
+[00:12:26 -> 00:12:30] aprendizado sobre rastabilidade, incerteza de medição,
+[00:12:30 -> 00:12:37] então, sobre equipe técnica adquirindo competência, tá?
+[00:12:37 -> 00:12:42] Então, muitos que desconhecem a dezessete mil e vinte e
+[00:12:42 -> 00:12:44] cinco não têm vivência com a dezessete mil e vinte e cinco
+[00:12:44 -> 00:12:48] quando ela faz ser implementado no laboratório, o laboratório
+[00:12:48 -> 00:12:51] ele entende que é responsabilidade do gerente da
+[00:12:51 -> 00:12:54] qualidade, é a função como mente chamado pro responsável
+[00:12:54 -> 00:12:57] pelo sistema de gestão, é a responsabilidade dele
+[00:12:57 -> 00:13:03] implementar a dezessete mil e vinte e cinco. Mas, eh, todos
+[00:13:03 -> 00:13:06] os requisitos que a Lina conversou com vocês na semana
+[00:13:06 -> 00:13:11] passada, né? Eh, eles são requisitos técnicos, eles são
+[00:13:11 -> 00:13:17] de responsabilidade da área técnica implementar, né? Então,
+[00:13:17 -> 00:13:20] o envolvimento e o comprometimento do pessoal
+[00:13:20 -> 00:13:24] técnico do laboratório é de suma importância para
+[00:13:24 -> 00:13:27] implementação da dezessete mil e vinte e cinco de forma
+[00:13:27 -> 00:13:31] eficaz. Como eu disse, os requisitos que eu vou falar
+[00:13:31 -> 00:13:35] hoje, eles são para dar suporte à área técnica, aos
+[00:13:35 -> 00:13:40] requisitos técnicos. Eh, fatores críticos, né? Num processo
+[00:13:40 -> 00:13:45] de implementação da dezessete mil e vinte e cinco, né? A
+[00:13:45 -> 00:13:50] necessidade do efetivo apoio da direção, da alta direção,
+[00:13:50 -> 00:13:54] né? Proventos recursos necessários para a implementação
+[00:13:54 -> 00:14:00] da dezessete mil e vinte e cinco, né? Eh, definição de
+[00:14:00 -> 00:14:03] funções e atribuições claramente definidas e
+[00:14:03 -> 00:14:09] envolvimento do pessoal técnico, né? Então, eh, os
+[00:14:09 -> 00:14:14] requisitos de competência para as funções eh vinculadas ao
+[00:14:14 -> 00:14:17] sistema de gestão, eles têm que estar claramente definidos
+[00:14:18 -> 00:14:21] e a gente não tem que definir requisitos de competência
+[00:14:21 -> 00:14:25] para a pessoa, né? A gente tem que definir requisitos de
+[00:14:25 -> 00:14:30] competência necessários para que o pessoal envolvido seja
+[00:14:30 -> 00:14:36] competente. Capacitação técnica adequada, prover os
+[00:14:36 -> 00:14:40] treinamentos técnicos requeridos para assegurar a
+[00:14:40 -> 00:14:45] competência do pessoal, né? Eh, o responsável pelo sistema
+[00:14:45 -> 00:14:49] de gestão, ele também tem que ter requisitos de competência
+[00:14:49 -> 00:14:54] adequados, né? Para ele ter o conhecimento necessário
+[00:14:54 -> 00:14:58] para a implementação e após a implementação, a
+[00:14:58 -> 00:15:06] manutenção do sistema de gestão. Os investimentos
+[00:15:06 -> 00:15:09] necessários para implementar dezessete mil e vinte e cinco
+[00:15:09 -> 00:15:13] no laboratório, né? Involve treinamentos na dezessete
+[00:15:13 -> 00:15:18] mil e vinte e cinco, eh, treinamentos em certeza de
+[00:15:18 -> 00:15:23] medição, rastrabilidade metrológica, garantia da
+[00:15:23 -> 00:15:27] validade dos resultados, verificação de desempenho
+[00:15:27 -> 00:15:32] de métodos, treinamento de formação de auditores
+[00:15:32 -> 00:15:38] internos, em relação às instalações, né? Eh, as
+[00:15:38 -> 00:15:43] condições ambientais, estabelecer limites e adquirir
+[00:15:43 -> 00:15:48] instrumentos de controle, rastrabilidade metrológica,
+[00:15:48 -> 00:15:53] calibração dos equipamentos, né? Acquisição de
+[00:15:53 -> 00:15:58] materiais de referência certificados, participar
+[00:15:58 -> 00:16:01] em atividades de ensaio de proficiência, providas
+[00:16:01 -> 00:16:06] por eh, provedores acreditados. Então, além
+[00:16:06 -> 00:16:10] desses recursos, né, necessários, tem outros
+[00:16:10 -> 00:16:14] custos, né, para um processo de acreditação que
+[00:16:14 -> 00:16:21] estão definidos na NIA CECRE 140. É, um tempo
+[00:16:21 -> 00:16:25] médio para um laboratório, né, obter uma
+[00:16:25 -> 00:16:30] acreditação pela CECRE é de doze a dezoito
+[00:16:30 -> 00:16:37] meses, tá? E eletronuclear já está trabalhando
+[00:16:37 -> 00:16:40] aí com esse processo de implementação da dezessete
+[00:16:40 -> 00:16:44] mil e vinte e cinco para solicitação da da
+[00:16:44 -> 00:16:55] acreditação. Eh, responsabilidades, né? Eh,
+[00:16:55 -> 00:17:00] a alta direção, ela, na implementação do sistema
+[00:17:00 -> 00:17:04] de gestão, né, ela tem que dar, tem que estar
+[00:17:04 -> 00:17:07] comprometida com o sistema de gestão, dando todo
+[00:17:07 -> 00:17:10] suporte, provendo todos os recursos necessários,
+[00:17:10 -> 00:17:16] tem que definir políticas e objetivos à luz da
+[00:17:16 -> 00:17:21] dezessete mil e vinte e cinco. Os gerentes, né, a
+[00:17:21 -> 00:17:25] gerência técnica do laboratório, né, tem que ter
+[00:17:25 -> 00:17:28] estabelecer, tem que ter um planejamento e
+[00:17:28 -> 00:17:31] coordenação dessa implementação da dezessete
+[00:17:31 -> 00:17:34] mil e vinte e cinco, né, definindo as funções e
+[00:17:34 -> 00:17:38] atribuição, né, do pessoal envolvido no sistema
+[00:17:38 -> 00:17:42] de gestão, provendo treinamento e desenvolvimento
+[00:17:42 -> 00:17:44] da equipe, como eu disse, enrastabilidade
+[00:17:44 -> 00:17:47] metrológica, em certeza de medição, garantia
+[00:17:47 -> 00:17:51] da validade dos resultados. A equipe técnica,
+[00:17:51 -> 00:17:55] né, é o pessoal que está na bancada realizando
+[00:17:55 -> 00:18:01] os ensaios, né, emitindo relatórios, verificando
+[00:18:01 -> 00:18:04] desempenho de método, implementando ferramentas
+[00:18:04 -> 00:18:09] de garantia da, da validade, é, tem que estar
+[00:18:09 -> 00:18:12] comprometido com o sistema de gestão, né,
+[00:18:12 -> 00:18:16] então, com a implementação dos procedimentos,
+[00:18:16 -> 00:18:21] com a rastrabilidade das informações, né, com
+[00:18:21 -> 00:18:24] cálculo de incerteza de medição, com a
+[00:18:24 -> 00:18:27] implementação das ferramentas de garantia da
+[00:18:27 -> 00:18:32] validade definidas, né, verificando se o
+[00:18:32 -> 00:18:35] laboratório, ele consegue atender o método
+[00:18:35 -> 00:18:39] adequadamente, o método normalizado, tem que
+[00:18:39 -> 00:18:42] trabalhar de acordo com os procedimentos definidos
+[00:18:42 -> 00:18:46] no sistema de gestão, né, manutenção da
+[00:18:46 -> 00:18:50] qualidade e da conformidade. O responsável pelo
+[00:18:50 -> 00:18:54] sistema de gestão, ele é um facilitador do
+[00:18:54 -> 00:18:59] processo, ele sozinho, ele não consegue assegurar
+[00:18:59 -> 00:19:02] a eficácia do sistema de gestão, a necessidade
+[00:19:02 -> 00:19:05] de comprometimento de todas essas outras
+[00:19:05 -> 00:19:09] partes que eu citei, para que o responsável
+[00:19:09 -> 00:19:13] pelo sistema de gestão, ele consiga, né,
+[00:19:13 -> 00:19:18] identificar desvios, implementar melhorias
+[00:19:18 -> 00:19:21] contínuas dentro do processo, fazer um
+[00:19:21 -> 00:19:24] monitoramento, então, ele serve como um
+[00:19:24 -> 00:19:27] facilitador do processo, ele não é um
+[00:19:27 -> 00:19:30] responsável pela eficácia do sistema de
+[00:19:30 -> 00:19:33] gestão, né, responsável pela eficácia do
+[00:19:33 -> 00:19:36] sistema de gestão, são todos, esse todo
+[00:19:36 -> 00:19:39] conjunto de de de funções aqui que eu
+[00:19:39 -> 00:19:52] mencionei nesse slide, né, e entrando na
+[00:19:52 -> 00:20:07] 17.025, a 17.025 ela é estruturada em
+[00:20:07 -> 00:20:11] cinco requisitos, né, os requisitos
+[00:20:11 -> 00:20:16] gerais que abordam a imparcialidade e a
+[00:20:16 -> 00:20:19] confidencialidade, os requisitos de
+[00:20:19 -> 00:20:23] estrutura que fala sobre a estrutura
+[00:20:23 -> 00:20:28] organizacional, sobre a a organização ter
+[00:20:28 -> 00:20:31] que fazer, ter que ser uma entidade legal,
+[00:20:31 -> 00:20:34] então, fala da documentação legal,
+[00:20:34 -> 00:20:39] requirida, né, é sobre responsabilidades
+[00:20:39 -> 00:20:45] e autoridades, comunicação, né, planejamento
+[00:20:45 -> 00:20:49] de mudanças, os requisitos de recurso,
+[00:20:49 -> 00:20:54] né, pessoal, instalações, equipamentos,
+[00:20:54 -> 00:20:58] com rastroabilidade metrológica, os
+[00:20:58 -> 00:21:01] requisitos de processo, né, então,
+[00:21:01 -> 00:21:04] análise crítica para a prestação do
+[00:21:04 -> 00:21:09] serviço, métodos, amostragem, todos os
+[00:21:09 -> 00:21:12] requisitos, né, sessão seis e sete,
+[00:21:12 -> 00:21:14] foi a sessão que a Alina conversou com
+[00:21:14 -> 00:21:18] vocês e os requisitos de gestão, né,
+[00:21:18 -> 00:21:20] controle de documento, controle de
+[00:21:20 -> 00:21:23] registro, gerenciamento de riscos,
+[00:21:23 -> 00:21:26] auditorias internas, análise crítica
+[00:21:26 -> 00:21:29] pela gerência, né, então o foco do
+[00:21:29 -> 00:21:33] treinamento de hoje é a sessão quatro,
+[00:21:33 -> 00:21:44] cinco e oito da norma, né, primeira
+[00:21:44 -> 00:21:47] sessão da norma que nós vamos falar
+[00:21:47 -> 00:21:53] são os requisitos gerais e o primeiro
+[00:21:53 -> 00:21:56] requisito da dezessete mil e vinte e cinco
+[00:21:56 -> 00:22:01] é o requisito de imparcialidade, né,
+[00:22:01 -> 00:22:06] eu observo nas auditorias, né, nas
+[00:22:06 -> 00:22:08] consultorias que eu presto, que o
+[00:22:08 -> 00:22:10] pessoal sempre tem um entendimento
+[00:22:10 -> 00:22:13] muito claro do que a confidencialidade
+[00:22:13 -> 00:22:15] que também faz parte dos requisitos
+[00:22:15 -> 00:22:17] gerais da dezessete mil e vinte e cinco,
+[00:22:17 -> 00:22:20] né, o entendimento de que a gente não
+[00:22:20 -> 00:22:24] pode passar as informações, né, tem
+[00:22:24 -> 00:22:26] que tratar as informações com
+[00:22:26 -> 00:22:28] confidencialidade, o que que é
+[00:22:28 -> 00:22:31] gerado dentro do laboratório não
+[00:22:31 -> 00:22:34] pode ser passado para terceiros, isso
+[00:22:34 -> 00:22:37] é de claro entendimento do pessoal,
+[00:22:37 -> 00:22:39] mas quando a gente fala sobre
+[00:22:39 -> 00:22:42] imparcialidade, eu observo que o
+[00:22:42 -> 00:22:45] pessoal não tem um entendimento claro,
+[00:22:45 -> 00:22:48] né, sobre esse
+[00:22:48 -> 00:22:50] requisito, né, então quando a gente
+[00:22:50 -> 00:22:52] questiona todo mundo falar, não, a
+[00:22:52 -> 00:22:55] gente tem que trabalhar com imparcialidade,
+[00:22:55 -> 00:22:58] mas não sabe definir o que
+[00:22:58 -> 00:23:02] que é a imparcialidade. Segundo
+[00:23:02 -> 00:23:04] a dezessete mil e vinte e cinco, a
+[00:23:04 -> 00:23:07] imparcialidade implica na ausência
+[00:23:07 -> 00:23:10] de conflitos de interesse ou na sua
+[00:23:10 -> 00:23:13] resolução de modo a não influenciar
+[00:23:13 -> 00:23:16] de forma adversa as atividades do
+[00:23:16 -> 00:23:19] laboratório, né, e o que que isso
+[00:23:19 -> 00:23:22] significa, né, o laboratório
+[00:23:22 -> 00:23:25] ele deve demonstrar que pressões
+[00:23:25 -> 00:23:29] operacionais, institucionais,
+[00:23:29 -> 00:23:32] financeiras, pessoais, elas não
+[00:23:32 -> 00:23:38] interferem na geração, né, na
+[00:23:38 -> 00:23:40] análise e na comunicação dos
+[00:23:40 -> 00:23:45] resultados, né, então, por exemplo
+[00:23:45 -> 00:23:47] aqui no nosso, nesse caso aqui da
+[00:23:47 -> 00:23:50] eletronuclear, né, existe um
+[00:23:50 -> 00:23:52] vínculo do laboratório com a
+[00:23:52 -> 00:23:56] organização, né, esse vínculo
+[00:23:56 -> 00:24:01] ele não significa por si só a
+[00:24:01 -> 00:24:05] ausência de imparcialidade, mas ele
+[00:24:05 -> 00:24:08] requer, né, um reconhecimento dos
+[00:24:08 -> 00:24:12] riscos e controles proporcionais,
+[00:24:12 -> 00:24:16] né, associados esses riscos do
+[00:24:16 -> 00:24:20] laboratório prestar serviço para
+[00:24:20 -> 00:24:24] um cliente interno. Pode falar o
+[00:24:24 -> 00:24:28] Jaime. Então, nesse requisito aí
+[00:24:28 -> 00:24:31] Luana, da imparcialidade, é, só
+[00:24:31 -> 00:24:33] pra ver se eu entendi bem, no
+[00:24:33 -> 00:24:36] passado o laboratório LMA fazia
+[00:24:36 -> 00:24:39] parte da diretoria de operação.
+[00:24:39 -> 00:24:42] E a diretoria de operação,
+[00:24:42 -> 00:24:47] obviamente, tem necessidades e
+[00:24:47 -> 00:24:50] objetivos que são muito
+[00:24:50 -> 00:24:52] direcionados à produção, eles
+[00:24:52 -> 00:24:55] querem produzir e com o máximo de
+[00:24:55 -> 00:24:58] eficiência possível. E quando
+[00:24:58 -> 00:25:01] nós começamos a tratar desse
+[00:25:01 -> 00:25:05] assunto e buscar conhecimento,
+[00:25:05 -> 00:25:08] nos foi apresentado uma
+[00:25:08 -> 00:25:11] necessidade de mudança,
+[00:25:11 -> 00:25:14] né, porque a gente precisaria
+[00:25:14 -> 00:25:17] verificar o meio ambiente e verificar
+[00:25:17 -> 00:25:20] se havia impacto da instituição,
+[00:25:20 -> 00:25:23] né, dos refluentes da operação da
+[00:25:23 -> 00:25:26] empresa no meio ambiente e estávamos
+[00:25:26 -> 00:25:29] dentro da mesma diretoria que fazia
+[00:25:29 -> 00:25:32] que fazia toda a operação do
+[00:25:32 -> 00:25:35] sistema. E aí, nós
+[00:25:35 -> 00:25:38] mudamos de diretoria. Hoje em dia
+[00:25:38 -> 00:25:40] nós não fazemos mais parte da diretoria
+[00:25:40 -> 00:25:42] de operação, fazemos parte da
+[00:25:42 -> 00:25:45] diretoria técnica. Então, isso deixa
+[00:25:45 -> 00:25:48] por si só, aí é uma pergunta agora,
+[00:25:48 -> 00:25:51] o laboratório imparcial pra poder
+[00:25:51 -> 00:25:54] fazer esse monitoramento?
+[00:25:54 -> 00:25:58] É, isso não deixa por si só, né,
+[00:25:58 -> 00:26:01] pra deixar, porque a gente
+[00:26:01 -> 00:26:04] tem que avaliar os riscos de todo o processo.
+[00:26:04 -> 00:26:07] Essa mudança que foi realizada, Jaime,
+[00:26:07 -> 00:26:10] né, foi dentro de uma análise de
+[00:26:10 -> 00:26:14] riscos, né, que vocês definiram assim.
+[00:26:14 -> 00:26:17] Bom, vamos retirar o laboratório
+[00:26:17 -> 00:26:20] que serve pra monitoração
+[00:26:20 -> 00:26:23] ambiental, né, da atividade
+[00:26:23 -> 00:26:26] fim da elétron nuclear, dessa
+[00:26:26 -> 00:26:28] diretoria, pra um laboratório ter
+[00:26:28 -> 00:26:32] independência, pra segurar
+[00:26:32 -> 00:26:36] a independência do laboratório.
+[00:26:36 -> 00:26:39] Então, isso por si só
+[00:26:39 -> 00:26:42] não assegura
+[00:26:42 -> 00:26:45] a imparcialidade, mas é
+[00:26:45 -> 00:26:48] um dos meios que foi definido
+[00:26:48 -> 00:26:52] para minimizar
+[00:26:52 -> 00:26:56] o risco de pressor...
+[00:26:56 -> 00:27:00] interferências, né, da área fim
+[00:27:00 -> 00:27:03] da elétron nuclear nas atividades
+[00:27:03 -> 00:27:09] do laboratório, entendi?
+[00:27:09 -> 00:27:13] Eu trouxe
+[00:27:13 -> 00:27:16] alguns exemplos aqui
+[00:27:16 -> 00:27:19] de situações que podem
+[00:27:19 -> 00:27:22] comprometer
+[00:27:22 -> 00:27:25] a imparcialidade
+[00:27:25 -> 00:27:28] pra trazer o melhor
+[00:27:28 -> 00:27:31] entendimento sobre
+[00:27:31 -> 00:27:34] esse requisito, tá?
+[00:27:34 -> 00:27:37] Então, eu vou trazer esses
+[00:27:37 -> 00:27:40] exemplos e aí eu gostaria que vocês
+[00:27:40 -> 00:27:43] participassem, né, dizendo como que
+[00:27:43 -> 00:27:47] vocês entendem que essas
+[00:27:47 -> 00:27:50] situações podem
+[00:27:50 -> 00:27:53] impactar na imparcialidade, tá?
+[00:27:53 -> 00:27:57] Primeiro exemplo, né,
+[00:27:57 -> 00:28:00] pagamento de bônus para o técnico
+[00:28:00 -> 00:28:02] de laboratório que realizar mais
+[00:28:02 -> 00:28:04] ensaios por dia mês.
+[00:28:04 -> 00:28:07] Como que vocês acham
+[00:28:07 -> 00:28:10] que isso pode impactar
+[00:28:10 -> 00:28:13] a imparcialidade?
+[00:28:13 -> 00:28:25] E aí, pessoal?
+[00:28:25 -> 00:28:28] Vamos 11 aqui no treinamento.
+[00:28:28 -> 00:28:30] Calma, gente, um de cada vez,
+[00:28:30 -> 00:28:33] todo mundo querendo falar ao mesmo tempo, Luana.
+[00:28:33 -> 00:28:36] Pessoal, tá?
+[00:28:36 -> 00:28:38] Vamos chamar aqui, Luana.
+[00:28:38 -> 00:28:41] É um outro treinamento que a gente quase não...
+[00:28:41 -> 00:28:44] A gente teve que correr no final
+[00:28:44 -> 00:28:47] pra conseguir terminar porque todo mundo
+[00:28:47 -> 00:28:50] participou demais. Esse aqui o pessoal tá mais calado.
+[00:28:50 -> 00:28:53] Tá bem calado. E aí, gente?
+[00:28:53 -> 00:28:56] Como é que vocês acham que o pagamento de
+[00:28:56 -> 00:28:58] bônus para o técnico de laboratório
+[00:28:58 -> 00:29:01] que realizar mais ensaios por dia mês
+[00:29:01 -> 00:29:07] pode comprometer a imparcialidade?
+[00:29:07 -> 00:29:10] Eu acho que esse e o volume de serviços
+[00:29:10 -> 00:29:13] em certa forma se relacionam, né?
+[00:29:13 -> 00:29:16] Porque, assim,
+[00:29:16 -> 00:29:19] se você tem um limite, digamos,
+[00:29:19 -> 00:29:22] padrão técnico pra realizar aquele processo
+[00:29:22 -> 00:29:25] e você acelera ele aí
+[00:29:25 -> 00:29:28] com o pagamento dos bônus, você pode acabar tendo um prejuízo
+[00:29:28 -> 00:29:31] na qualidade daquele serviço que tá sendo prestado, né?
+[00:29:31 -> 00:29:36] Perfeito, João.
+[00:29:36 -> 00:29:39] Exatamente.
+[00:29:39 -> 00:29:42] E você foi assertivo
+[00:29:42 -> 00:29:45] tanto a questão do volume como o pagamento de bônus
+[00:29:45 -> 00:29:48] impacta a mesma coisa, né?
+[00:29:48 -> 00:29:51] Como você disse, né? O técnico
+[00:29:51 -> 00:29:54] que ele tá mais preocupado em realizar mais
+[00:29:54 -> 00:29:57] ensaio pra ganhar o bônus
+[00:29:57 -> 00:30:00] e também o laboratório trabalhar
+[00:30:00 -> 00:30:03] acima da sua capacidade produtiva
+[00:30:03 -> 00:30:06] isso pode comprometer a variedade
+[00:30:06 -> 00:30:10] de resultados, né?
+[00:30:10 -> 00:30:14] Pode perguntar, Renata.
+[00:30:14 -> 00:30:17] Isso aí, pelo que eu entendi, vai
+[00:30:17 -> 00:30:20] possivelmente prejudicar a qualidade do resultado
+[00:30:20 -> 00:30:24] que você perguntou com relação à imparcialidade, não foi?
+[00:30:24 -> 00:30:27] Isso, mas...
+[00:30:27 -> 00:30:30] Eu acho que uma coisa não tem a ver com a outra, não.
+[00:30:30 -> 00:30:33] Tem total a ver uma coisa com a outra.
+[00:30:33 -> 00:30:36] Não, não que tá sendo comentado agora.
+[00:30:36 -> 00:30:39] Se eu tivesse mais análises pra ganhar o bônus,
+[00:30:39 -> 00:30:42] eu não sei o que ter...
+[00:30:42 -> 00:30:45] A imparcialidade, talvez teria a ver com a qualidade,
+[00:30:45 -> 00:30:48] não com imparcialidade, pelo menos no meu ponto de vista.
+[00:30:48 -> 00:30:51] Não, a imparcialidade
+[00:30:51 -> 00:30:54] ela é ausência
+[00:30:54 -> 00:30:59] de conflito, de interesse,
+[00:30:59 -> 00:31:02] de modo a influenciar de forma
+[00:31:02 -> 00:31:05] adversa as atividades do laboratório,
+[00:31:05 -> 00:31:08] então, se eu tenho uma pressão indevida,
+[00:31:08 -> 00:31:11] pessoal trabalhando acima da capacidade produtiva,
+[00:31:11 -> 00:31:14] isso pode comprometer
+[00:31:14 -> 00:31:17] a imparcialidade.
+[00:31:17 -> 00:31:20] Se eu chego pro técnico
+[00:31:20 -> 00:31:23] e dou a possibilidade de pagar um bônus
+[00:31:23 -> 00:31:26] pra quem realizar mais ensaio,
+[00:31:26 -> 00:31:29] o técnico que ele tá mais preocupado
+[00:31:29 -> 00:31:32] com a quantidade
+[00:31:32 -> 00:31:35] de resultado que ele vai emitir
+[00:31:35 -> 00:31:38] do que com a qualidade.
+[00:31:38 -> 00:31:41] Isso pode comprometer
+[00:31:41 -> 00:31:44] a imparcialidade no sentido de ele não realizar
+[00:31:44 -> 00:31:47] o ensaio adequadamente
+[00:31:47 -> 00:31:50] porque ele tá ali buscando fazer mais ensaios
+[00:31:50 -> 00:31:53] e isso comprometer o resultado.
+[00:31:53 -> 00:31:56] Então, há um conflito de interesse
+[00:31:56 -> 00:31:59] dentro dessas duas situações.
+[00:31:59 -> 00:32:02] No segundo é uma pressão indevida
+[00:32:02 -> 00:32:06] e no primeiro é um conflito de interesse.
+[00:32:06 -> 00:32:09] E aí isso pode falar.
+[00:32:09 -> 00:32:12] Desculpa, esqueci de levantar a mão.
+[00:32:12 -> 00:32:15] Então, por exemplo, no caso
+[00:32:15 -> 00:32:18] que o João trouxe aí, que ele trouxe também
+[00:32:18 -> 00:32:21] o volume de serviço acima da capacidade produtiva,
+[00:32:21 -> 00:32:24] essa imparcialidade pode ser gerada pelo próprio laboratório
+[00:32:24 -> 00:32:27] porque o corpo técnico é insuficiente
+[00:32:27 -> 00:32:30] para que todas as análises,
+[00:32:30 -> 00:32:33] todos os processos sejam executados.
+[00:32:33 -> 00:32:36] E isso aí vai gerar, em função de uma decisão
+[00:32:36 -> 00:32:39] gerencial, empresarial,
+[00:32:39 -> 00:32:42] isso vai gerar um conflito
+[00:32:42 -> 00:32:45] porque a equipe vai estar sobrecarregada,
+[00:32:45 -> 00:32:48] não vai trabalhar da melhor forma possível
+[00:32:48 -> 00:32:51] e pode trazer aqui alguma influência
+[00:32:51 -> 00:32:54] em função dessa sobrecarga.
+[00:32:55 -> 00:32:58] E no que diz respeito ao bônus, Luana,
+[00:32:58 -> 00:33:01] eu posso até alterar metodologias, por exemplo,
+[00:33:01 -> 00:33:04] só para trazer um exemplo prático aqui.
+[00:33:04 -> 00:33:07] A gente tem um ensaio aqui de determinação
+[00:33:07 -> 00:33:10] de nitrogênio amaniacal, que ele precisa reagir
+[00:33:10 -> 00:33:12] durante quatro horas.
+[00:33:12 -> 00:33:15] Então, eu sou o técnico analista
+[00:33:15 -> 00:33:18] que faz essa análise.
+[00:33:18 -> 00:33:21] Eu posso aqui buscar formas
+[00:33:21 -> 00:33:24] para acelerar essa reação
+[00:33:24 -> 00:33:27] apenas para bater um número maior
+[00:33:27 -> 00:33:30] e ganhar o bônus.
+[00:33:30 -> 00:33:33] E aí eu estou impactando também
+[00:33:33 -> 00:33:36] no resultado em função da alteração da metodologia, é isso.
+[00:33:36 -> 00:33:39] Isso, perfeito. E aí há um conflito de interesse.
+[00:33:39 -> 00:33:42] Aqui eu estou trazendo exemplos,
+[00:33:42 -> 00:33:45] que posem risco,
+[00:33:45 -> 00:33:48] eu não estou afirmando que um pagamento de bônus
+[00:33:48 -> 00:33:51] gera parcialidade.
+[00:33:51 -> 00:33:54] Eu estou trazendo um exemplo
+[00:33:54 -> 00:33:57] que pode ser um risco em parcialidade.
+[00:33:57 -> 00:34:00] Você usou um exemplo claro aí,
+[00:34:00 -> 00:34:03] porque o técnico, ele está querendo ter
+[00:34:03 -> 00:34:06] uma maior produtividade para ganhar o bônus.
+[00:34:06 -> 00:34:09] E isso pode se impactar conforme o exemplo que você deu.
+[00:34:09 -> 00:34:13] Acelerar as etapas
+[00:34:13 -> 00:34:17] da realização do ensaio,
+[00:34:17 -> 00:34:20] não realizar o ensaio de acordo com o método,
+[00:34:20 -> 00:34:23] isso há um conflito
+[00:34:23 -> 00:34:26] que pode impactar o resultado.
+[00:34:26 -> 00:34:29] Então isso é um risco à imparcialidade.
+[00:34:29 -> 00:34:33] O último exemplo ficou claro, Renata.
+[00:34:33 -> 00:34:36] Ficou. Obrigada.
+[00:34:36 -> 00:34:40] Através do exemplo que o Jai me deu,
+[00:34:40 -> 00:34:44] que isso está associado à imparcialidade,
+[00:34:44 -> 00:34:50] o cliente ter acesso
+[00:34:50 -> 00:34:53] direto aos técnicos que realizam o ensaio.
+[00:34:53 -> 00:34:56] Então aqui vamos voltar para a realidade
+[00:34:56 -> 00:34:59] da eletronuclear.
+[00:34:59 -> 00:35:02] O cliente, a gente tem um cliente interno.
+[00:35:02 -> 00:35:06] Então dentro da
+[00:35:06 -> 00:35:09] organização,
+[00:35:09 -> 00:35:12] a necessidade,
+[00:35:12 -> 00:35:15] não estou falando sobre o pessoal do laboratório
+[00:35:15 -> 00:35:18] não ter contato com
+[00:35:18 -> 00:35:21] a operação, não é sobre isso.
+[00:35:21 -> 00:35:24] Mas quando a gente fala de acesso direto
+[00:35:24 -> 00:35:27] é no sentido de interferência
+[00:35:27 -> 00:35:30] sobre as atividades que aquele técnico
+[00:35:30 -> 00:35:35] realizando no laboratório.
+[00:35:35 -> 00:35:38] Então o pessoal da operação
+[00:35:38 -> 00:35:41] fazer alguma pressão endevida no técnico
+[00:35:41 -> 00:35:44] solicitando o resultado, solicitando
+[00:35:44 -> 00:35:47] que realize fora do prazo estabelecido
+[00:35:47 -> 00:35:50] a doença técnica do laboratório,
+[00:35:50 -> 00:35:53] tentando intervir numa realização de uma atividade
+[00:35:53 -> 00:35:56] que é de responsabilidade do laboratório.
+[00:35:56 -> 00:35:59] Então isso tudo pode ser
+[00:35:59 -> 00:36:06] um risco à imparcialidade.
+[00:36:06 -> 00:36:18] Como que a gente pode,
+[00:36:18 -> 00:36:21] a gente deve implementar
+[00:36:21 -> 00:36:24] esse requisito de imparcialidade.
+[00:36:24 -> 00:36:27] Como que a gente assegura
+[00:36:27 -> 00:36:30] que as atividades de laboratório sejam realizadas
+[00:36:30 -> 00:36:33] com imparcialidade, estabelecendo políticas
+[00:36:33 -> 00:36:36] claras de imparcialidade
+[00:36:36 -> 00:36:39] que todos os funcionários devem seguir.
+[00:36:39 -> 00:36:42] Certamente a Leto Nicleá tem um código
+[00:36:42 -> 00:36:45] de conduta, vocês têm um código de conduta.
+[00:36:45 -> 00:36:48] Então o código de conduta são políticas
+[00:36:48 -> 00:36:51] definidas pela organização
+[00:36:51 -> 00:36:55] para assegurar entre os pontos
+[00:36:55 -> 00:36:58] a imparcialidade.
+[00:36:58 -> 00:37:01] Certamente o código de conduta de vocês
+[00:37:01 -> 00:37:04] tem requisitos que falam sobre a imparcialidade.
+[00:37:04 -> 00:37:09] Acamentos regulares
+[00:37:09 -> 00:37:12] capacitados funcionários para
+[00:37:12 -> 00:37:15] reconhecer e lidar com riscos a imparcialidade.
+[00:37:15 -> 00:37:18] Então nesses treinamentos
+[00:37:18 -> 00:37:21] trazer exemplos
+[00:37:21 -> 00:37:24] de situações que podem impactar.
+[00:37:24 -> 00:37:32] Processos para identificar
+[00:37:32 -> 00:37:35] e avaliar riscos a imparcialidade.
+[00:37:35 -> 00:37:38] Então
+[00:37:38 -> 00:37:42] definir
+[00:37:42 -> 00:37:45] os riscos a imparcialidade
+[00:37:45 -> 00:37:48] e revisá-los
+[00:37:48 -> 00:37:51] periódicamente avaliando
+[00:37:51 -> 00:37:54] a eficácia das medidas de
+[00:37:54 -> 00:37:57] controles definidas e implementadas.
+[00:37:57 -> 00:38:00] Retroalimentação do pessoal.
+[00:38:00 -> 00:38:03] Realizar reuniões periódicas
+[00:38:03 -> 00:38:06] com o pessoal para conversar sobre
+[00:38:06 -> 00:38:09] possíveis riscos associados
+[00:38:09 -> 00:38:12] às suas atividades, riscos a imparcialidade
+[00:38:12 -> 00:38:15] associadas às suas atividades.
+[00:38:15 -> 00:38:18] Auditorias internas periódicas
+[00:38:18 -> 00:38:21] a fim de avaliar
+[00:38:21 -> 00:38:24] a conformidade com as políticas
+[00:38:24 -> 00:38:26] conhecidas pelo laboratório
+[00:38:26 -> 00:38:29] para avaliar se o laboratório está trabalhando
+[00:38:29 -> 00:38:40] de acordo com essas políticas.
+[00:38:40 -> 00:38:43] Passando aqui por pontos,
+[00:38:43 -> 00:38:46] que geralmente o código de conduta
+[00:38:46 -> 00:38:49] as políticas e a imparcialidade
+[00:38:49 -> 00:38:52] abordam a questão de conflito de interesse.
+[00:38:52 -> 00:38:55] Então definir meios de comunicação
+[00:38:55 -> 00:38:58] que assegurem que o colaborador
+[00:38:58 -> 00:39:01] possa divulgar qualquer potencial de conflito
+[00:39:01 -> 00:39:04] de interesse que possa afetar a sua imparcialidade.
+[00:39:04 -> 00:39:07] Então as empresas
+[00:39:07 -> 00:39:10] têm, às vezes, uma ouvidoria,
+[00:39:10 -> 00:39:13] tem um canal para o colaborador
+[00:39:13 -> 00:39:16] ele poder fazer algum tipo de denúncia
+[00:39:16 -> 00:39:19] sem que ele se sinta prejudicado.
+[00:39:19 -> 00:39:22] Então, não sei se a eletronuclear
+[00:39:22 -> 00:39:25] vocês têm esse canal de ouvidoria
+[00:39:25 -> 00:39:27] para...
+[00:39:27 -> 00:39:31] Então...
+[00:39:31 -> 00:39:33] Tem até dois canais,
+[00:39:33 -> 00:39:36] tem a ouvidoria interna para a gente
+[00:39:36 -> 00:39:39] e na Limped também que a gente use
+[00:39:39 -> 00:39:42] fala BR, que é uma ouvidoria geral da União.
+[00:39:42 -> 00:39:45] O Luana,
+[00:39:45 -> 00:39:48] só complementando a fala do João
+[00:39:48 -> 00:39:51] e além desses dois canais
+[00:39:51 -> 00:39:54] a eletronuclear tem a sua própria ouvidoria
+[00:39:54 -> 00:39:57] mas quando chega pelo fala BR,
+[00:39:57 -> 00:40:00] se eu não me engano,
+[00:40:00 -> 00:40:03] ainda é discriminado
+[00:40:03 -> 00:40:06] se é um assunto de ouvidoria
+[00:40:06 -> 00:40:09] ou se é sobre aporação de denúncias.
+[00:40:09 -> 00:40:12] Então ainda tem uma assessoria
+[00:40:12 -> 00:40:15] que trata da aporação de denúncias.
+[00:40:15 -> 00:40:18] Então a gente entende que é bem...
+[00:40:18 -> 00:40:22] que a Carla quer complementar, mas é bem eficaz isso aí.
+[00:40:23 -> 00:40:26] Bom dia pessoal, não é exatamente isso
+[00:40:26 -> 00:40:28] o Johnny está procurando reforçar
+[00:40:28 -> 00:40:31] embora o principal canal venha através do fala BR
+[00:40:31 -> 00:40:34] tem uma área ligada
+[00:40:34 -> 00:40:37] à diretoria executiva que é acima da presidência
+[00:40:37 -> 00:40:40] que cuida de todas as chamadas
+[00:40:40 -> 00:40:43] deixando claro essa independência, essa imparcialidade
+[00:40:43 -> 00:40:46] é uma área que está dentro do organograma da empresa
+[00:40:46 -> 00:40:51] está acima da presidência.
+[00:40:51 -> 00:40:54] Então a eletronuclear tem esse canal
+[00:40:54 -> 00:40:57] para o colaborador
+[00:40:57 -> 00:41:00] caso ele
+[00:41:00 -> 00:41:03] sofre, passe por algum conflito de interesse
+[00:41:03 -> 00:41:06] alguma pressão indevida
+[00:41:06 -> 00:41:11] ele possa divulgar
+[00:41:11 -> 00:41:14] essa informação que vai ser tratado
+[00:41:14 -> 00:41:17] pela eletronuclear.
+[00:41:17 -> 00:41:20] Pessoal
+[00:41:20 -> 00:41:23] os colaboradores não podem prestar serviços
+[00:41:23 -> 00:41:26] a qualquer outra organização
+[00:41:26 -> 00:41:29] então estou dando aqui um exemplo, gente
+[00:41:29 -> 00:41:32] então isso é uma forma também, uma política
+[00:41:32 -> 00:41:35] que as organizações às vezes definem
+[00:41:35 -> 00:41:38] não pode ter vínculo com outras organizações
+[00:41:38 -> 00:41:41] prestar serviços para outras organizações
+[00:41:41 -> 00:41:44] no caso da eletronuclear
+[00:41:44 -> 00:41:47] ela permite prestar serviços para outras organizações
+[00:41:47 -> 00:41:53] como é que as podem ter vínculos
+[00:41:53 -> 00:41:58] vínculo com outra organização
+[00:41:58 -> 00:42:01] Eu acho, não consigo afirmar
+[00:42:01 -> 00:42:04] que no nosso caso é análogo
+[00:42:04 -> 00:42:07] a questão de
+[00:42:07 -> 00:42:10] o Estatuto dos Servidores Públicos
+[00:42:10 -> 00:42:13] que você teoricamente implementou o médico do trabalho aqui
+[00:42:13 -> 00:42:16] talvez eventualmente possa clicar fora da empresa
+[00:42:16 -> 00:42:19] e eu acho que eventualmente da aula
+[00:42:19 -> 00:42:22] não é vedado
+[00:42:22 -> 00:42:25] mas fora isso
+[00:42:25 -> 00:42:28] por exemplo, sei lá, trabalhar como um analista
+[00:42:28 -> 00:42:31] de laboratório aqui em outro lugar de fato não é possível
+[00:42:31 -> 00:42:34] então ter essa
+[00:42:34 -> 00:42:37] questão tem organizações que definem isso
+[00:42:37 -> 00:42:40] como política para o pessoal, não ter vínculo
+[00:42:40 -> 00:42:43] com outras organizações
+[00:42:43 -> 00:42:46] pode falar, Carla
+[00:42:46 -> 00:42:50] é também só completando
+[00:42:50 -> 00:42:53] a gente pode ter microempresas
+[00:42:53 -> 00:42:56] desde que não prestem serviços e que não sejam
+[00:42:56 -> 00:42:59] atividades conflitantes como você colocou de interesse
+[00:42:59 -> 00:43:02] então por exemplo, só dando um exemplo
+[00:43:02 -> 00:43:05] eu tenho em meio, mas que não tem nada a ver
+[00:43:05 -> 00:43:08] coisa de arte, de música, então eu posso ter
+[00:43:08 -> 00:43:11] mas isso também é verificado
+[00:43:11 -> 00:43:14] então, periodicamente a gente tem que reportar
+[00:43:14 -> 00:43:17] se você tem algum tipo de CNPJ envolvido
+[00:43:17 -> 00:43:20] e com relação a ter outros tipos
+[00:43:20 -> 00:43:23] de contratos, por exemplo
+[00:43:23 -> 00:43:26] desde que não ultrapasse
+[00:43:26 -> 00:43:29] que não interfira dentro da cargurária
+[00:43:29 -> 00:43:32] das 40 horas semanais, é possível
+[00:43:32 -> 00:43:35] então assim, eu não sei se legalmente isso é permitido
+[00:43:35 -> 00:43:38] mas eu sei de pessoas aqui na empresa
+[00:43:38 -> 00:43:41] que não são funcionários públicos
+[00:43:41 -> 00:43:44] mas que tem outras atividades, por exemplo
+[00:43:44 -> 00:43:47] como o João citou, questão de dar aula
+[00:43:47 -> 00:43:50] eu acho que o principal e diferente aí, não ser atividade conflitante
+[00:43:50 -> 00:43:53] e que principalmente não preste serviço
+[00:43:53 -> 00:43:56] para eletronuclear, então por exemplo
+[00:43:56 -> 00:43:59] eu não posso ter uma empresa que tenha
+[00:43:59 -> 00:44:02] ainda que não seja
+[00:44:02 -> 00:44:05] prestadora de serviço direto de eletronuclear
+[00:44:05 -> 00:44:08] mas eu não posso ter uma empresa que possa vir prestar serviço
+[00:44:08 -> 00:44:11] para eletronuclear de alguma forma, por exemplo
+[00:44:11 -> 00:44:14] aí eu não posso ter um laboratório de
+[00:44:14 -> 00:44:17] análises ambientais, por exemplo
+[00:44:17 -> 00:44:20] não posso, porque isso poderia ser
+[00:44:20 -> 00:44:23] um conflito de interesse, então também não posso
+[00:44:23 -> 00:44:26] prestar serviço, poderia como consultoria
+[00:44:26 -> 00:44:29] onde não aparece o vínculo do CPF
+[00:44:29 -> 00:44:32] ou de um CNPJ, mas legalmente
+[00:44:32 -> 00:44:35] realmente não pode, então tem algumas coisas que podem
+[00:44:35 -> 00:44:38] mas desde que não haja esse conflito de interesse
+[00:44:38 -> 00:44:40] realmente.
+[00:44:40 -> 00:44:42] Exato.
+[00:44:42 -> 00:44:45] Então viu que todos os exemplos, todas as situações
+[00:44:45 -> 00:44:48] que a Carla trouxe, ela sempre
+[00:44:48 -> 00:44:51] só não pode ser da área
+[00:44:51 -> 00:44:54] então isso tudo é com foco na imparcialidade
+[00:44:54 -> 00:44:57] então é permitido ter
+[00:44:57 -> 00:45:00] um MEI desde que não preste
+[00:45:00 -> 00:45:03] serviço para
+[00:45:03 -> 00:45:06] a área ambiental
+[00:45:06 -> 00:45:09] então isso tudo é com foco em conflito de interesse
+[00:45:09 -> 00:45:12] imparcialidade.
+[00:45:12 -> 00:45:15] Obrigada e eu Carla pelos exemplos que você trouxe
+[00:45:15 -> 00:45:19] a organização
+[00:45:19 -> 00:45:22] estruturada, ter uma estrutura
+[00:45:22 -> 00:45:25] organizacional e gerencial definida
+[00:45:25 -> 00:45:28] assegurando a independência do gerenciamento
+[00:45:28 -> 00:45:31] técnico-laboratório, que foi até o que o Jaime
+[00:45:31 -> 00:45:34] comentou, que o laboratório fazia
+[00:45:34 -> 00:45:37] parte de uma diretoria e saiu
+[00:45:37 -> 00:45:40] dessa diretoria para assegurar
+[00:45:40 -> 00:45:43] a independência técnica do laboratório
+[00:45:43 -> 00:45:46] comerciais, relação
+[00:45:46 -> 00:45:49] com os provedores externos de forma transparente
+[00:45:49 -> 00:45:52] e profissional, sem que haja oferecimento
+[00:45:52 -> 00:45:55] ou recebimento
+[00:45:55 -> 00:45:58] de favorecimento.
+[00:45:58 -> 00:46:01] Então também essa relação com provedores externos
+[00:46:01 -> 00:46:04] tem que assegurar a imparcialidade
+[00:46:04 -> 00:46:16] o requisito 4.1
+[00:46:16 -> 00:46:19] define a necessidade de
+[00:46:19 -> 00:46:22] um planejamento de riscos a imparcialidade
+[00:46:22 -> 00:46:25] identificação de riscos
+[00:46:25 -> 00:46:28] e de acordo com essa
+[00:46:28 -> 00:46:31] classificação desse risco uma tomada de decisão
+[00:46:31 -> 00:46:34] em relação ao plano
+[00:46:34 -> 00:46:37] de ação, a fim de
+[00:46:37 -> 00:46:40] minimizar, monitorar
+[00:46:40 -> 00:46:43] ou eliminar esse risco.
+[00:46:43 -> 00:46:46] E aí eu trouxe como
+[00:46:46 -> 00:46:50] risco o nosso caso
+[00:46:50 -> 00:46:53] da eletronuclear, então
+[00:46:53 -> 00:46:56] cliente interno pressionar um
+[00:46:56 -> 00:46:59] técnico para a missão rápida dos resultados
+[00:46:59 -> 00:47:02] de ensaio.
+[00:47:02 -> 00:47:04] Então
+[00:47:04 -> 00:47:07] quais são
+[00:47:07 -> 00:47:10] as ações
+[00:47:10 -> 00:47:13] que a gente pode implementar
+[00:47:13 -> 00:47:16] dentro do laboratório a fim de
+[00:47:16 -> 00:47:19] minimizar esse risco
+[00:47:19 -> 00:47:22] a imparcialidade.
+[00:47:22 -> 00:47:25] Estabelecer, implementar uma política de imparcialidade
+[00:47:25 -> 00:47:28] você tem um código de conduta
+[00:47:28 -> 00:47:31] que toda a organização deve atender
+[00:47:31 -> 00:47:35] o cliente interno, que é a operação
+[00:47:35 -> 00:47:38] um termo de imparcialidade
+[00:47:38 -> 00:47:41] que todos da organização assinem
+[00:47:41 -> 00:47:44] no sentido de estar comprometido
+[00:47:44 -> 00:47:47] com o que está definido no código de
+[00:47:47 -> 00:47:50] conduta. Realizar treinamentos
+[00:47:50 -> 00:47:53] periódicos abordando a imparcialidade
+[00:47:53 -> 00:47:56] e trazer exemplos para o pessoal
+[00:47:56 -> 00:47:59] para o entendimento sobre a imparcialidade
+[00:47:59 -> 00:48:02] das vezes por um desconhecimento
+[00:48:02 -> 00:48:05] o técnico pode estar
+[00:48:05 -> 00:48:08] comprometendo a imparcialidade num processo
+[00:48:08 -> 00:48:11] sem que ele saiba que ele está comprometendo
+[00:48:11 -> 00:48:14] por falta de conhecimento, então
+[00:48:14 -> 00:48:17] explicar o que significa a imparcialidade
+[00:48:17 -> 00:48:20] para o pessoal para estar claro
+[00:48:20 -> 00:48:23] até para ele conseguir trazer para a gerência situações
+[00:48:23 -> 00:48:27] que podem estar comprometendo.
+[00:48:27 -> 00:48:30] Isso é um canal de comunicação, a gente falou
+[00:48:30 -> 00:48:34] vocês têm a ouvidoria, definição
+[00:48:34 -> 00:48:37] de prazos considerando a capacidade produtiva
+[00:48:37 -> 00:48:40] do laboratório, então a prestação do serviço
+[00:48:40 -> 00:48:43] para o cliente interno, ela tem prazos
+[00:48:43 -> 00:48:46] previamente definidos
+[00:48:46 -> 00:48:49] então vocês acordam com a operação
+[00:48:49 -> 00:48:52] o prazo para a emissão
+[00:48:52 -> 00:48:55] do relatório dos resultados
+[00:48:55 -> 00:48:59] e eles não podem
+[00:48:59 -> 00:49:02] exigir uma
+[00:49:02 -> 00:49:05] emissão do resultado em um período menor
+[00:49:05 -> 00:49:08] do que acordada previamente com ele
+[00:49:08 -> 00:49:11] questionamento sobre resultado somente com a
+[00:49:11 -> 00:49:14] gerência do laboratório, então
+[00:49:14 -> 00:49:17] quando o cliente interno quiser contestar
+[00:49:17 -> 00:49:20] resultado, ou qualquer
+[00:49:20 -> 00:49:23] outra questão, que ele tem que entrar em contato
+[00:49:23 -> 00:49:26] com a gerência do laboratório, ou pelas pessoas
+[00:49:26 -> 00:49:29] designadas pela gerência para esse contato
+[00:49:29 -> 00:49:32] signatários autorizados, que autorizam os relatórios
+[00:49:32 -> 00:49:36] e como que a gente pode verificar
+[00:49:36 -> 00:49:39] a eficácia
+[00:49:39 -> 00:49:42] desse plano de ação
+[00:49:42 -> 00:49:45] através de auditorias regulares
+[00:49:45 -> 00:49:48] para monitorar a conformidade
+[00:49:48 -> 00:49:51] com as políticas de imparcialidade
+[00:49:51 -> 00:49:55] e a retroalimentação do pessoal
+[00:49:55 -> 00:49:58] através de pesquisa interna, pesquisa de
+[00:49:58 -> 00:50:01] clima para saber, o pessoal trazer situações
+[00:50:01 -> 00:50:04] então, essas são formas
+[00:50:04 -> 00:50:07] de verificação da
+[00:50:07 -> 00:50:10] eficácia desse plano de ação
+[00:50:10 -> 00:50:13] a fim de minimizar esses riscos
+[00:50:13 -> 00:50:19] e aí pessoal
+[00:50:19 -> 00:50:22] como exercício
+[00:50:22 -> 00:50:25] eu mandei para vocês um
+[00:50:25 -> 00:50:28] um arquivo, em Word
+[00:50:28 -> 00:50:31] só, mas vocês podem usar a caderno
+[00:50:31 -> 00:50:34] para a gente fazer
+[00:50:34 -> 00:50:37] alguns exercícios que não aqui durante o
+[00:50:37 -> 00:50:41] treinamento, e o primeiro exercício
+[00:50:41 -> 00:50:44] eu gostaria que vocês
+[00:50:44 -> 00:50:47] identificassem riscos em parcialidade e definissem
+[00:50:47 -> 00:50:50] um plano de ação para minimizar
+[00:50:50 -> 00:50:53] ou eliminar esses riscos, vocês podem fazer
+[00:50:53 -> 00:50:56] em conjunto, se vocês quiserem
+[00:50:56 -> 00:50:59] conversarem entre vocês
+[00:50:59 -> 00:51:02] um foco
+[00:51:02 -> 00:51:05] no laboratório de vocês
+[00:51:05 -> 00:51:08] eu posso participar aqui também
+[00:51:08 -> 00:51:11] caso vocês tenham dúvidas
+[00:51:11 -> 00:51:16] vamos lá pessoal, podem ir
+[00:51:16 -> 00:51:19] abrir os áudios se vocês quiserem fazer
+[00:51:19 -> 00:51:24] juntos
+[00:51:24 -> 00:51:27] Luana, quanto tempo para executar essa atividade
+[00:51:27 -> 00:51:30] já que a gente falou em negociar prazo
+[00:51:30 -> 00:51:33] quanto tempo a gente
+[00:51:33 -> 00:51:36] 15 minutos? 20 minutinhos
+[00:51:36 -> 00:51:39] mas eu estou aqui participando aqui com vocês
+[00:51:39 -> 00:51:43] pessoal, em conjunto
+[00:51:43 -> 00:51:49] cada um vai fazer o seu, como vai funcionar isso aí?
+[00:51:49 -> 00:51:52] acho que pode ser em conjunto
+[00:51:52 -> 00:51:55] e com foco aí no laboratório de vocês
+[00:51:55 -> 00:51:58] o que vocês acham de riscos
+[00:51:58 -> 00:52:01] a imparcialidade
+[00:52:01 -> 00:52:05] Luana, você falou aqui sobre os exercícios
+[00:52:05 -> 00:52:08] aí eu achei você mandou ontem
+[00:52:08 -> 00:52:11] então tem aqui um
+[00:52:11 -> 00:52:13] é para usar esse
+[00:52:13 -> 00:52:16] tem um arquivo em um ordem
+[00:52:16 -> 00:52:19] e eu mandei também
+[00:52:19 -> 00:52:22] e os requisitos da norma, a Lina também deve ter mandado
+[00:52:22 -> 00:52:25] na passada, mas são os requisitos da norma
+[00:52:25 -> 00:52:28] um é para fingir acompanhamento dos requisitos
+[00:52:28 -> 00:52:31] e tem um documento em um ordem que é pra vocês usarem
+[00:52:31 -> 00:52:35] para fazer esses exercícios
+[00:52:35 -> 00:52:38] então eu posso compartilhar aqui pra gente fazendo junto?
+[00:52:38 -> 00:52:41] pode
+[00:52:41 -> 00:52:44] vou derrubar essa sua apresentação rapidinho aqui
+[00:52:44 -> 00:52:51] tá, claro, ótimo
+[00:52:51 -> 00:52:55] então é esse arquivo aqui
+[00:52:55 -> 00:53:02] que a gente vai fazer aí, descrição do risco
+[00:53:02 -> 00:53:05] posso dar um exemplo aqui pra vocês
+[00:53:05 -> 00:53:08] só para a gente diferenciar um start
+[00:53:08 -> 00:53:11] por exemplo, né
+[00:53:11 -> 00:53:14] um resultado
+[00:53:14 -> 00:53:17] acima do histórico
+[00:53:17 -> 00:53:20] o próximo ao limite
+[00:53:20 -> 00:53:23] é especificado
+[00:53:23 -> 00:53:30] e aí
+[00:53:30 -> 00:53:33] a operação
+[00:53:33 -> 00:53:36] fazendo uma pressão
+[00:53:36 -> 00:53:39] e contestando, não aceitando
+[00:53:39 -> 00:53:54] esse resultado
+[00:53:54 -> 00:53:58] Jaime, já todo, bom dia aí
+[00:53:58 -> 00:54:01] acho que a gente vivencia isso um pouco
+[00:54:01 -> 00:54:04] em relação à temperatura
+[00:54:04 -> 00:54:08] dava do mar
+[00:54:08 -> 00:54:11] exatamente, a temperatura tem relação direta
+[00:54:11 -> 00:54:15] com a potência do reator
+[00:54:15 -> 00:54:18] então quando a gente está captando água mais quente
+[00:54:18 -> 00:54:21] obviamente a gente está devolvendo mais quente
+[00:54:21 -> 00:54:24] e tem um limite, né, o Konama 430
+[00:54:24 -> 00:54:28] diz que não pode exceder
+[00:54:28 -> 00:54:31] a liberação de afluentes no corpo hídrico
+[00:54:31 -> 00:54:34] não pode exceder 40 graus
+[00:54:34 -> 00:54:37] então é excelente
+[00:54:37 -> 00:54:40] exemplo, Denise, qual a probabilidade de isso acontecer
+[00:54:40 -> 00:54:43] o pessoal da biologia
+[00:54:43 -> 00:54:46] da monitoração de temperatura aí
+[00:54:46 -> 00:54:49] está mais acostumado com os dados de verão
+[00:54:49 -> 00:54:52] e aí Gabi consegue ajudar a gente
+[00:54:52 -> 00:54:55] mas aqui a gente está com foco na imparcialidade
+[00:54:55 -> 00:54:58] então como a operação
+[00:54:58 -> 00:55:01] entende isso, porque pelo que estou entendendo
+[00:55:01 -> 00:55:04] tem um risco no resultado
+[00:55:04 -> 00:55:07] tem um risco no resultado
+[00:55:07 -> 00:55:11] e aí a operação
+[00:55:11 -> 00:55:14] como é que a gente não está focando
+[00:55:14 -> 00:55:17] no risco na atividade de laboratória
+[00:55:17 -> 00:55:20] que a gente está focando no risco
+[00:55:20 -> 00:55:23] a imparcialidade, então um resultado
+[00:55:23 -> 00:55:26] acima do escutórico próximo
+[00:55:26 -> 00:55:29] e a operação
+[00:55:29 -> 00:55:32] contestando esse resultado e fazendo uma pressão
+[00:55:32 -> 00:55:35] endevida no laboratório
+[00:55:35 -> 00:55:38] porque isso impacta a atividade deles
+[00:55:38 -> 00:55:41] como que
+[00:55:41 -> 00:55:44] em relação à probabilidade e impacto
+[00:55:44 -> 00:55:47] e qual é o plano de ação
+[00:55:47 -> 00:55:50] focando em parcialidade
+[00:55:50 -> 00:55:53] então seguindo essa linha de raciocínio
+[00:55:53 -> 00:55:56] a gente tem essa probabilidade
+[00:55:56 -> 00:55:59] muito mais clara de acontecer no verão
+[00:55:59 -> 00:56:02] então se eles vão fazer algum tipo de pressão
+[00:56:02 -> 00:56:05] por exemplo eles não vão fazer no inverno
+[00:56:05 -> 00:56:08] eles vão fazer essa linha que seria por exemplo 25%
+[00:56:08 -> 00:56:11] de probabilidade, é isso?
+[00:56:11 -> 00:56:14] É, a probabilidade disso acontecer
+[00:56:14 -> 00:56:17] dessa pressão endevida acontecer
+[00:56:17 -> 00:56:26] é baixa né
+[00:56:26 -> 00:56:31] é isso? Sim
+[00:56:31 -> 00:56:34] o impacto
+[00:56:34 -> 00:56:38] é alto né, caso haja né
+[00:56:38 -> 00:56:41] a probabilidade também
+[00:56:41 -> 00:56:44] em cima de um histórico verificar se isso já aconteceu
+[00:56:44 -> 00:56:47] no passado, sei lá
+[00:56:47 -> 00:56:50] em 30 anos aconteceu 3 vezes
+[00:56:50 -> 00:56:53] aí você vai dizer que a probabilidade é baixa né
+[00:56:53 -> 00:56:56] perfeito, eu não entrei
+[00:56:56 -> 00:56:59] aqui a gente vai falar mais um pouquinho de riscos
+[00:56:59 -> 00:57:02] lá na frente no requisito 8.5
+[00:57:02 -> 00:57:05] mas e essa probabilidade
+[00:57:05 -> 00:57:08] conforme você vai verificando eficácia
+[00:57:08 -> 00:57:11] você não pode mudar, não pode?
+[00:57:11 -> 00:57:14] porque assim, eu não estou tendo histórico
+[00:57:14 -> 00:57:17] ou eu estou classificando como média
+[00:57:17 -> 00:57:20] aí eu estou verificando eficácia, eu não tive essa história
+[00:57:20 -> 00:57:23] eu posso reclassificar esse risco
+[00:57:23 -> 00:57:26] não posso, aí eu tive situações
+[00:57:26 -> 00:57:29] eu posso mudar também
+[00:57:29 -> 00:57:32] e essa classificação, probabilidade versus impacto
+[00:57:32 -> 00:57:35] é para eu fazer uma análise sobre a decisão
+[00:57:35 -> 00:57:38] a probabilidade baixa, o impacto baixo
+[00:57:38 -> 00:57:41] eu posso definir aceitar o risco
+[00:57:41 -> 00:57:44] agora sendo baixo mas o impacto alto
+[00:57:44 -> 00:57:47] aí eu não vou definir aceitar
+[00:57:47 -> 00:57:50] não, pera aí, isso aqui eu vou
+[00:57:50 -> 00:57:53] é minimizar
+[00:57:53 -> 00:57:56] ou vou monitorar, tá? Então essa classificação
+[00:57:56 -> 00:57:59] probabilidade versus impacto é para
+[00:57:59 -> 00:58:02] tomada de decisão a respeito
+[00:58:02 -> 00:58:05] e esse risco, qual vai ser o meu plano de ação?
+[00:58:05 -> 00:58:11] é, Luana, mas
+[00:58:11 -> 00:58:14] eu não preciso de critérios
+[00:58:14 -> 00:58:17] para estar classificando
+[00:58:17 -> 00:58:20] o que é uma probabilidade alta
+[00:58:20 -> 00:58:23] ou o que é um pacto médio baixo
+[00:58:23 -> 00:58:26] eu não preciso relacionar quais são os critérios
+[00:58:26 -> 00:58:29] para eu poder classificá-lo? Sim, sim
+[00:58:29 -> 00:58:32] de jeito que, por exemplo, o João
+[00:58:32 -> 00:58:35] ele falou, tem como a gente usar
+[00:58:35 -> 00:58:38] até escalas de números, tá gente?
+[00:58:38 -> 00:58:41] então assim, ah, sem ocorrência
+[00:58:41 -> 00:58:44] aí você dá uma numeração
+[00:58:44 -> 00:58:47] a mesma coisa por impacto
+[00:58:47 -> 00:58:50] e aí essa multiplicação
+[00:58:50 -> 00:58:53] da probabilidade com impacto
+[00:58:53 -> 00:58:56] vai dar uma classificação
+[00:58:56 -> 00:58:59] do risco e aí essa classificação
+[00:58:59 -> 00:59:02] você vai tomar decisão, se você vai eliminar
+[00:59:02 -> 00:59:06] se você vai mitigar, pode perguntar
+[00:59:06 -> 00:59:10] Gabriela
+[00:59:10 -> 00:59:13] Oi, é, responda
+[00:59:13 -> 00:59:16] Não tem problema não, respondendo à Denise
+[00:59:16 -> 00:59:19] a gente tem já no laboratório um procedimento relacionado a isso
+[00:59:19 -> 00:59:22] então a gente usa, a gente tem um procedimento de matriz de risco
+[00:59:22 -> 00:59:25] eu não estou conseguindo encontrar ele aqui agora no Green Docks
+[00:59:25 -> 00:59:28] não sei o código dele, mas a gente já tem um procedimento
+[00:59:28 -> 00:59:31] que diz por numeração mesmo
+[00:59:31 -> 00:59:35] qual que é a, como que a gente classifica
+[00:59:35 -> 00:59:38] a probabilidade, o impacto
+[00:59:38 -> 00:59:40] e até em relação a decisão, né
+[00:59:40 -> 00:59:43] como que a gente vai tomar decisão com base no risco
+[00:59:43 -> 00:59:46] perfeito, então você já tem esse procedimento
+[00:59:46 -> 00:59:49] que vocês fazem essa classificação de acordo com
+[00:59:49 -> 00:59:52] numeração, né, e tem uma tabelinha lá no procedimento
+[00:59:52 -> 00:59:55] de vocês, né, que de acordo ali
+[00:59:55 -> 00:59:58] vocês vão dar essa numeração e depois
+[00:59:58 -> 01:00:01] tem essa multiplicação da probabilidade com impacto
+[01:00:01 -> 01:00:04] que dá um número e você toma uma decisão a respeito desse risco
+[01:00:04 -> 01:00:09] pode perguntar, Renata
+[01:00:09 -> 01:00:12] O risco que é no caso, em vez de ser
+[01:00:12 -> 01:00:15] o resultado em si acima do histórico
+[01:00:15 -> 01:00:18] não é uma pressão por um resultado
+[01:00:18 -> 01:00:21] conforme
+[01:00:21 -> 01:00:24] por parte da operação, porque isso aqui é o resultado
+[01:00:24 -> 01:00:27] Isso
+[01:00:27 -> 01:00:30] eu trouxe a situação para vocês incluir
+[01:00:30 -> 01:00:33] o risco, tá? Então eu trouxe a situação
+[01:00:33 -> 01:00:36] de ter o resultado
+[01:00:36 -> 01:00:39] acima do histórico, então qual é o risco
+[01:00:39 -> 01:00:42] associado com isso? Como a Renata falou
+[01:00:42 -> 01:00:45] uma pressão indevida, né, por um resultado
+[01:00:45 -> 01:01:02] E aí, qual seria a decisão?
+[01:01:02 -> 01:01:05] Tendo aí uma probabilidade, né
+[01:01:05 -> 01:01:08] um impacto alto
+[01:01:08 -> 01:01:15] né, qual vai ser aí a...
+[01:01:15 -> 01:01:18] E aí, Gabi, você que conhece bem o procedimento
+[01:01:18 -> 01:01:25] com a decisão? Eu acho que o melhor
+[01:01:25 -> 01:01:28] seria minimizar, né, agora como que vai
+[01:01:28 -> 01:01:31] minimizar, eu já não sei. Fique pensar no plano de ação
+[01:01:31 -> 01:01:42] Então aqui, ó, eu fiz as alterações
+[01:01:42 -> 01:01:45] como a Renata sugeriu ali, que o risco é
+[01:01:45 -> 01:01:48] a pressão e a pressão em função de um resultado
+[01:01:48 -> 01:01:51] acima do histórico, com uma probabilidade baixa
+[01:01:51 -> 01:01:54] no caso da temperatura, com um impacto alto
+[01:01:54 -> 01:01:57] Então a decisão é por minimizar e o plano
+[01:01:57 -> 01:02:00] de ação. A minha sugestão já é minha, que a gente
+[01:02:00 -> 01:02:03] coloque que esse contato tem que ser feito
+[01:02:03 -> 01:02:06] com a gerência do laboratório
+[01:02:06 -> 01:02:09] no caso é o chefe, né, da divisão aqui
+[01:02:09 -> 01:02:12] Então isso minimiza um pouco
+[01:02:12 -> 01:02:15] o impacto. Então as tratativas
+[01:02:15 -> 01:02:18] com o que ele tá fazendo a análise, né?
+[01:02:18 -> 01:02:23] Então as tratativas devem ocorrer
+[01:02:23 -> 01:02:26] com o gestor do laboratório, é isso?
+[01:02:26 -> 01:02:33] É, é uma sugestão
+[01:02:33 -> 01:02:36] Sim, Gabi
+[01:02:36 -> 01:02:39] Dentro do nosso procedimento, a gente tem as
+[01:02:39 -> 01:02:41] seguintes categorias, né?
+[01:02:41 -> 01:02:44] Evitar, transferir, mitigar, aceitar, explorar
+[01:02:44 -> 01:02:47] entre outros. Não tá especificado
+[01:02:47 -> 01:02:50] minimizar em si, mas talvez seria o mitigar
+[01:02:50 -> 01:03:01] É exatamente isso, mitigar
+[01:03:01 -> 01:03:04] É, Gabi já terminou, né? Já falou
+[01:03:04 -> 01:03:06] É, vai falar ainda, Gabi
+[01:03:06 -> 01:03:09] Pode falar, João
+[01:03:09 -> 01:03:12] No nosso caso, Luana, que a gente tá
+[01:03:12 -> 01:03:14] inserido dentro de uma organização
+[01:03:14 -> 01:03:17] É viável, por exemplo,
+[01:03:17 -> 01:03:19] além
+[01:03:19 -> 01:03:22] colocar essa questão das tratativas diretas com o gestor
+[01:03:22 -> 01:03:24] e com um outro ponto
+[01:03:24 -> 01:03:27] o acionamento do chefe do chefe do laboratório
+[01:03:27 -> 01:03:30] se for necessário, porque na nossa estrutura
+[01:03:30 -> 01:03:32] a nossa chefia tá toda numa diretoria
+[01:03:32 -> 01:03:35] Se essa pressão vier de outra diretoria
+[01:03:35 -> 01:03:37] no caso da diretoria de operação
+[01:03:37 -> 01:03:40] a gente não tem níveis hierárquicos superiores
+[01:03:40 -> 01:03:42] pra tentar
+[01:03:42 -> 01:03:44] barrar essa pressão
+[01:03:44 -> 01:03:47] É possível, nessa forma de organização
+[01:03:47 -> 01:03:52] pensar nesse encaminhamento?
+[01:03:52 -> 01:03:55] É isso, faz parte da gerencia
+[01:03:55 -> 01:03:58] do laboratório, né?
+[01:03:58 -> 01:04:00] Sim
+[01:04:00 -> 01:04:02] É que na verdade pra gente
+[01:04:02 -> 01:04:04] não estaria dentro do laboratório
+[01:04:04 -> 01:04:07] seria um gestor acima do laboratório
+[01:04:07 -> 01:04:09] Sim, mas essa gerencia
+[01:04:09 -> 01:04:11] não necessariamente ela pode
+[01:04:11 -> 01:04:13] estar dentro do laboratório
+[01:04:13 -> 01:04:15] Ela pode estar fora do laboratório
+[01:04:15 -> 01:04:18] Por exemplo, do laboratório é o jime pra baixo
+[01:04:18 -> 01:04:21] Certo? E tem uma diretoria
+[01:04:21 -> 01:04:23] que o jime responde
+[01:04:23 -> 01:04:25] que provê recursos
+[01:04:25 -> 01:04:27] E tá aqui a Carla
+[01:04:27 -> 01:04:29] Oi Carla, tudo bem?
+[01:04:29 -> 01:04:31] Então, é a Carla
+[01:04:31 -> 01:04:34] que provê os recursos
+[01:04:34 -> 01:04:37] Quando a gente chegar mais à frente
+[01:04:37 -> 01:04:39] a gente vai falar dessa gerencia
+[01:04:39 -> 01:04:41] que tem responsabilidade geral pelo laboratório
+[01:04:41 -> 01:04:44] E aí a gente vai ver
+[01:04:44 -> 01:04:46] como é que é essa estrutura
+[01:04:46 -> 01:04:50] dentro do LMA
+[01:04:50 -> 01:04:56] Pode falar aí
+[01:04:56 -> 01:04:58] o pessoal que tá com a mão levantada
+[01:04:58 -> 01:05:02] É, não sei se a linha de raciocínio
+[01:05:02 -> 01:05:05] tá correta, mas sim
+[01:05:05 -> 01:05:07] se tem um risco
+[01:05:07 -> 01:05:10] um plano de ação seria de repente
+[01:05:10 -> 01:05:13] aumentar o número de
+[01:05:13 -> 01:05:15] análise
+[01:05:15 -> 01:05:17] de um determinado ponto
+[01:05:17 -> 01:05:19] Duplicata, duplicata
+[01:05:19 -> 01:05:21] Duplicata, perfeito
+[01:05:21 -> 01:05:31] Porque assim, o que acontece, né?
+[01:05:31 -> 01:05:33] Carla, dentro desse contexto aí
+[01:05:33 -> 01:05:35] que você trouxe que seria uma próxima
+[01:05:35 -> 01:05:38] pergunta que eu ia fazer pra vocês, né?
+[01:05:38 -> 01:05:40] Porque se eu repito, tá?
+[01:05:40 -> 01:05:44] E o outro resultado dá dentro
+[01:05:44 -> 01:05:46] Eu vou considerar o dentro
+[01:05:46 -> 01:05:48] só porque satisfaz o cliente?
+[01:05:48 -> 01:05:51] Não. Então, eu tenho que fazer
+[01:05:51 -> 01:05:54] dentro e avaliar a repetibilidade
+[01:05:54 -> 01:05:57] dessas determinações
+[01:05:57 -> 01:06:00] Não é simplesmente repetir
+[01:06:00 -> 01:06:03] o que deu dentro, eu vou considerar o que deu dentro
+[01:06:03 -> 01:06:06] no sentido de favorecer
+[01:06:06 -> 01:06:09] satisfazer o cliente
+[01:06:09 -> 01:06:19] Então, eu tenho que ter critérios
+[01:06:19 -> 01:06:21] documentados pra repetição
+[01:06:21 -> 01:06:23] e confirmação dos resultados
+[01:06:23 -> 01:06:26] considerando aí o que
+[01:06:26 -> 01:06:29] o que a Denise comentou
+[01:06:29 -> 01:06:35] Pode falar, Gabriele
+[01:06:35 -> 01:06:37] Luana, tenho uma dúvida
+[01:06:37 -> 01:06:39] No caso, o cliente
+[01:06:39 -> 01:06:41] quando ele faz uma solicitação
+[01:06:41 -> 01:06:43] por exemplo, pro laboratório
+[01:06:43 -> 01:06:45] ele pode saber quem tá respondendo
+[01:06:45 -> 01:06:47] essa solicitação pra ele, né?
+[01:06:47 -> 01:06:49] Ele pode saber quem tá fazendo a análise
+[01:06:49 -> 01:06:52] quem tá respondendo o que ele precisa, certo?
+[01:06:52 -> 01:06:55] Ele pode saber, isso não tem a ver com a imparcialidade
+[01:06:55 -> 01:06:57] Não, porque o que acontece, né?
+[01:06:57 -> 01:06:59] Dentro desse contexto aqui
+[01:06:59 -> 01:07:01] que a gente tá conversando
+[01:07:01 -> 01:07:03] isso até vai falar diretamente com outro requisito
+[01:07:03 -> 01:07:06] da 17.025, que é o Requisito de Reclamação
+[01:07:06 -> 01:07:11] que a Lina conversou com vocês semana passada
+[01:07:11 -> 01:07:13] Então assim, uma não aceitação
+[01:07:13 -> 01:07:15] de um resultado, uma contestação
+[01:07:15 -> 01:07:17] de um resultado, entra lá
+[01:07:17 -> 01:07:19] no Requisito de Reclamação, não entra?
+[01:07:19 -> 01:07:21] Sim, não, mas eu tô querendo dizer o seguinte
+[01:07:21 -> 01:07:23] por exemplo, o cliente fez uma solicitação
+[01:07:23 -> 01:07:25] pro laboratório
+[01:07:25 -> 01:07:27] Aí vamos pra essa solicitação
+[01:07:27 -> 01:07:30] chegou direto pra mim
+[01:07:30 -> 01:07:32] Aí eu vou responder o cliente diretamente
+[01:07:32 -> 01:07:34] e ele vai saber que eu que tô respondendo
+[01:07:34 -> 01:07:36] ou isso tem que ser respondido pelo chefe
+[01:07:36 -> 01:07:38] do LMA pra que haja imparcialidade
+[01:07:38 -> 01:07:40] nessa resposta
+[01:07:40 -> 01:07:42] Aí eu vou jogar a pergunta pra vocês
+[01:07:42 -> 01:07:44] Como é que tá definido
+[01:07:44 -> 01:07:46] no processo de vocês de tratamento de reclamação?
+[01:07:46 -> 01:07:50] Certo, Gabriel?
+[01:07:50 -> 01:07:52] Tá, quando chega
+[01:07:52 -> 01:07:54] Quando tá definido, quando chega uma reclamação
+[01:07:54 -> 01:07:56] pro laboratório
+[01:07:56 -> 01:07:58] quem tem autoridade
+[01:07:58 -> 01:08:00] dentro do processo
+[01:08:00 -> 01:08:02] pra concluir sobre
+[01:08:02 -> 01:08:04] o processo de tratamento de reclamação?
+[01:08:04 -> 01:08:06] Tá, a gente recebe a reclamação
+[01:08:06 -> 01:08:08] ela pode vir pro, né
+[01:08:08 -> 01:08:10] vamos pro, chegou pra mim
+[01:08:10 -> 01:08:12] como sou eu que vou dar o primeiro passo nela
+[01:08:12 -> 01:08:14] Aí isso é passado
+[01:08:14 -> 01:08:16] pro setor administrativo
+[01:08:16 -> 01:08:18] que vai fazer a abertura dessa solicitação
+[01:08:18 -> 01:08:20] dessa reclamação do cliente
+[01:08:20 -> 01:08:22] aí feita a abertura, passa
+[01:08:22 -> 01:08:24] pro responsável da qualidade
+[01:08:24 -> 01:08:26] pra avaliar se essa reclamação
+[01:08:26 -> 01:08:28] ou essa solicitação
+[01:08:28 -> 01:08:30] é realmente procedente
+[01:08:30 -> 01:08:32] se somos nós que realmente podemos
+[01:08:32 -> 01:08:34] resolver isso.
+[01:08:34 -> 01:08:36] O responsável da qualidade quando fala
+[01:08:36 -> 01:08:38] faz uma análise de procedência
+[01:08:38 -> 01:08:40] se for uma procedência técnica
+[01:08:40 -> 01:08:42] ele tem que ter essa expertise técnica
+[01:08:42 -> 01:08:44] pra avaliar essa procedência.
+[01:08:44 -> 01:08:46] Isso, isso é feito junto
+[01:08:46 -> 01:08:48] com o setor da área
+[01:08:48 -> 01:08:50] da biologia ou da química
+[01:08:50 -> 01:08:52] então é feito com o responsável
+[01:08:52 -> 01:08:54] da qualidade
+[01:08:54 -> 01:08:56] juntamente com o supervisor da área
+[01:08:56 -> 01:08:58] pra realmente ter essa parte técnica
+[01:08:58 -> 01:09:00] como você falou, tá?
+[01:09:00 -> 01:09:02] E aí feito isso com os dois
+[01:09:02 -> 01:09:04] é passado pro corpo técnico
+[01:09:04 -> 01:09:06] fazer
+[01:09:06 -> 01:09:08] o que tá sendo solicitado
+[01:09:08 -> 01:09:10] ou tá dentro da reclamação
+[01:09:10 -> 01:09:12] e aí depois
+[01:09:12 -> 01:09:14] é feito a retroalimentação
+[01:09:14 -> 01:09:16] do cliente, seria isso o processo
+[01:09:18 -> 01:09:20] com uma pesquisa
+[01:09:20 -> 01:09:22] de satisfação pra ver se a resposta
+[01:09:22 -> 01:09:24] foi adequada
+[01:09:24 -> 01:09:26] e aí depois
+[01:09:26 -> 01:09:28] volta novamente pro
+[01:09:28 -> 01:09:30] responsável da qualidade
+[01:09:30 -> 01:09:32] pra avaliar com base na pesquisa
+[01:09:32 -> 01:09:34] de satisfação se
+[01:09:34 -> 01:09:36] foi atendido nessa reclamação
+[01:09:36 -> 01:09:38] essa solicitação também
+[01:09:38 -> 01:09:40] esse seria o passo a passo hoje
+[01:09:40 -> 01:09:42] Então, esse passo a passo
+[01:09:42 -> 01:09:44] tá ok
+[01:09:44 -> 01:09:46] É, então a minha dúvida é só essa
+[01:09:46 -> 01:09:48] se o próprio corpo técnico
+[01:09:48 -> 01:09:50] que é quem respondeu de fato
+[01:09:50 -> 01:09:52] vai responder direto
+[01:09:52 -> 01:09:54] pro cliente ou se essa resposta
+[01:09:54 -> 01:09:56] deveria sair pelo chefe dele mear
+[01:09:56 -> 01:09:58] por exemplo, ou pelo setor da qualidade
+[01:09:58 -> 01:10:00] enfim, não sei
+[01:10:00 -> 01:10:02] Então, ele deve
+[01:10:02 -> 01:10:04] pensar na imparcialidade
+[01:10:04 -> 01:10:06] não, no caso
+[01:10:06 -> 01:10:08] É, considerando todas
+[01:10:08 -> 01:10:10] essas etapas que você
+[01:10:10 -> 01:10:12] explicou, né
+[01:10:12 -> 01:10:14] que tá de acordo com o requisito 7.9
+[01:10:14 -> 01:10:16] e também
+[01:10:16 -> 01:10:18] tá de acordo com o requisito 4.1
+[01:10:18 -> 01:10:20] o processo ele não é avaliado
+[01:10:20 -> 01:10:22] somente por uma pessoa
+[01:10:22 -> 01:10:24] ele é avaliado por um corpo técnico
+[01:10:24 -> 01:10:26] então ele não é avaliado somente
+[01:10:26 -> 01:10:28] pela pessoa que realizou aquela atividade
+[01:10:28 -> 01:10:30] que emitiu aquele resultado
+[01:10:30 -> 01:10:32] e isso tudo tá definindo na 17.025
+[01:10:32 -> 01:10:34] e tem foco também da imparcialidade
+[01:10:34 -> 01:10:36] né
+[01:10:36 -> 01:10:38] o retorno
+[01:10:38 -> 01:10:40] pro cliente
+[01:10:40 -> 01:10:42] ele pode sim ser
+[01:10:42 -> 01:10:45] pelo pessoal da qualidade
+[01:10:45 -> 01:10:47] tá
+[01:10:47 -> 01:10:49] ele pode ser por alguém da área
+[01:10:49 -> 01:10:51] técnica agora é o retorno
+[01:10:51 -> 01:10:53] agora se o cliente
+[01:10:53 -> 01:10:55] fizer novamente contestações
+[01:10:55 -> 01:10:59] o processo
+[01:10:59 -> 01:11:01] novamente tem que ir pra
+[01:11:01 -> 01:11:03] quem tem autoridade de responder
+[01:11:03 -> 01:11:05] a comunicação
+[01:11:05 -> 01:11:07] sobre o resultado
+[01:11:07 -> 01:11:09] da tratamento da reclamação
+[01:11:09 -> 01:11:11] vocês vão definir dentro do processo
+[01:11:11 -> 01:11:13] quem pode ser
+[01:11:13 -> 01:11:15] e na minha opinião pode ser qualquer uma dessas pessoas
+[01:11:15 -> 01:11:17] que você citou agora
+[01:11:17 -> 01:11:19] se isso é
+[01:11:19 -> 01:11:21] comunicar a conclusão que foi
+[01:11:21 -> 01:11:23] avaliado
+[01:11:23 -> 01:11:25] pelas pessoas autorizadas agora
+[01:11:25 -> 01:11:27] se o cliente fizer novamente
+[01:11:27 -> 01:11:29] uma contestação, essa pessoa que
+[01:11:29 -> 01:11:31] respondeu
+[01:11:31 -> 01:11:33] não necessariamente ela tem autoridade
+[01:11:33 -> 01:11:35] pra concluir novamente
+[01:11:35 -> 01:11:37] entendeu Gabrielio que eu tô querendo dizer
+[01:11:37 -> 01:11:39] entendi
+[01:11:39 -> 01:11:41] então no caso o cliente pode saber
+[01:11:41 -> 01:11:43] quem foi
+[01:11:43 -> 01:11:45] quem é a pessoa que tá respondendo ele
+[01:11:45 -> 01:11:47] de fato né
+[01:11:47 -> 01:11:49] que fez a análise dele né enfim
+[01:11:49 -> 01:11:51] só que ele não pode atuar no processo
+[01:11:51 -> 01:11:53] por exemplo cobrando um prazo mais apertado
+[01:11:53 -> 01:11:55] é
+[01:11:55 -> 01:11:57] ou cobrando um que o resultado seja
+[01:11:57 -> 01:11:59] que ele quer por exemplo
+[01:11:59 -> 01:12:01] não e a pessoa
+[01:12:01 -> 01:12:03] que tá respondendo não necessariamente
+[01:12:03 -> 01:12:05] ela tem essa
+[01:12:05 -> 01:12:07] autoridade
+[01:12:07 -> 01:12:09] pra
+[01:12:09 -> 01:12:11] dar outras respostas diferentes
+[01:12:11 -> 01:12:13] do que porque uma coisa você comunicar
+[01:12:13 -> 01:12:15] uma resposta
+[01:12:15 -> 01:12:18] entendeu Gabrielio
+[01:12:18 -> 01:12:20] outra coisa é você
+[01:12:20 -> 01:12:22] analisar criticamente essa resposta
+[01:12:22 -> 01:12:24] pro
+[01:12:24 -> 01:12:27] pro cliente
+[01:12:27 -> 01:12:29] posso sim ter um setor
+[01:12:29 -> 01:12:31] que recebe a reclamação
+[01:12:31 -> 01:12:33] e esse setor
+[01:12:33 -> 01:12:35] ele comunica a análise
+[01:12:35 -> 01:12:37] de um corpo técnico
+[01:12:37 -> 01:12:40] é uma coisa
+[01:12:40 -> 01:12:42] posso concluir então
+[01:12:42 -> 01:12:44] que é uma combinação entre
+[01:12:44 -> 01:12:46] a análise
+[01:12:46 -> 01:12:48] em si do fato
+[01:12:48 -> 01:12:50] e a comunicação
+[01:12:50 -> 01:12:52] ficaria por conta do gestor então seria
+[01:12:52 -> 01:12:54] o corpo técnico mais o gestor
+[01:12:54 -> 01:12:56] compondo essa resposta
+[01:12:56 -> 01:12:59] que é
+[01:12:59 -> 01:13:01] pode ser
+[01:13:01 -> 01:13:03] o que eu só quero dizer
+[01:13:03 -> 01:13:05] que eu não quero fechar
+[01:13:05 -> 01:13:07] somente o gestor
+[01:13:07 -> 01:13:09] como quem pode dar a resposta
+[01:13:09 -> 01:13:11] porque aí eu estou fazendo uma comunicação
+[01:13:11 -> 01:13:13] eu estou dando um retorno
+[01:13:13 -> 01:13:15] pro cliente
+[01:13:15 -> 01:13:17] pode ser qualquer pessoa definida por vocês
+[01:13:17 -> 01:13:19] agora
+[01:13:19 -> 01:13:21] a análise
+[01:13:21 -> 01:13:23] sobre a procedência
+[01:13:23 -> 01:13:25] são por pessoas autorizadas
+[01:13:25 -> 01:13:28] entenderam a diferença
+[01:13:28 -> 01:13:32] do que eu quero dizer
+[01:13:32 -> 01:13:34] ficou claro gente o que eu quis dizer
+[01:13:34 -> 01:13:37] a diferença
+[01:13:37 -> 01:13:39] o retorno pro cliente
+[01:13:39 -> 01:13:41] vocês podem definir
+[01:13:41 -> 01:13:43] quais são as funções que podem retornar
+[01:13:43 -> 01:13:45] não necessariamente
+[01:13:45 -> 01:13:47] essa pessoa que está retornando pro cliente
+[01:13:47 -> 01:13:49] é quem analisou criticamente
+[01:13:49 -> 01:13:51] e validou a tratativa
+[01:13:51 -> 01:13:56] dessa reclamação
+[01:13:56 -> 01:13:59] entender ou Gabriel?
+[01:13:59 -> 01:14:14] Obrigada
+[01:14:14 -> 01:14:16] bom, dando continuidade então
+[01:14:16 -> 01:14:19] agora só deixa eu fazer uma pergunta
+[01:14:19 -> 01:14:21] para vocês aqui
+[01:14:21 -> 01:14:23] quando vocês levantaram essa questão
+[01:14:23 -> 01:14:25] aqui da
+[01:14:25 -> 01:14:27] que tem
+[01:14:27 -> 01:14:29] essa possibilidade no verão
+[01:14:29 -> 01:14:31] por conta da temperatura
+[01:14:31 -> 01:14:33] ter
+[01:14:33 -> 01:14:35] essa variação do resultado
+[01:14:35 -> 01:14:38] não é isso?
+[01:14:38 -> 01:14:40] sim
+[01:14:40 -> 01:14:42] e aí
+[01:14:42 -> 01:14:45] quando vocês falam
+[01:14:45 -> 01:14:47] em realizar o resultado
+[01:14:47 -> 01:14:49] análise em triplicata
+[01:14:49 -> 01:14:51] é da mesma amostra
+[01:14:51 -> 01:14:53] ou
+[01:14:53 -> 01:14:55] certo?
+[01:14:55 -> 01:14:57] eu tenho duas chances
+[01:14:57 -> 01:14:59] vamos lá
+[01:14:59 -> 01:15:01] só buscando a referência
+[01:15:01 -> 01:15:03] desse problema da temperatura
+[01:15:03 -> 01:15:05] eu posso fazer a mesma amostra
+[01:15:05 -> 01:15:07] em duplicatas ou triplicatas
+[01:15:07 -> 01:15:09] aí vai definir
+[01:15:09 -> 01:15:11] vai ser de acordo com a metodologia aplicada
+[01:15:11 -> 01:15:13] por isso eu posso
+[01:15:13 -> 01:15:15] para ter uma representatividade maior
+[01:15:15 -> 01:15:17] fazer a análise ao longo do dia
+[01:15:17 -> 01:15:19] ou ter um processo de
+[01:15:19 -> 01:15:21] monitoração online
+[01:15:21 -> 01:15:23] para entender porque aquela temperatura pode ser puntual
+[01:15:23 -> 01:15:25] hum hum
+[01:15:25 -> 01:15:27] entendi
+[01:15:27 -> 01:15:29] aqui no caso
+[01:15:29 -> 01:15:35] eu acho que cabem as duas coisas
+[01:15:35 -> 01:15:37] agora o resultado
+[01:15:37 -> 01:15:40] se repetindo e dando fora
+[01:15:40 -> 01:15:42] exatamente
+[01:15:42 -> 01:15:44] o resultado é mandatório
+[01:15:44 -> 01:15:46] as ações para adequar a temperatura
+[01:15:46 -> 01:15:48] efluente vão precisar ser tomadas
+[01:15:48 -> 01:15:50] então vocês têm que
+[01:15:50 -> 01:15:52] ter critérios documentados
+[01:15:52 -> 01:15:54] para a repetição e
+[01:15:54 -> 01:15:56] confirmação do resultado
+[01:15:56 -> 01:15:58] como você
+[01:15:58 -> 01:16:00] apresentou
+[01:16:00 -> 01:16:02] a IJAIM
+[01:16:02 -> 01:16:04] e
+[01:16:04 -> 01:16:06] preservação dos dados
+[01:16:06 -> 01:16:08] originais
+[01:16:08 -> 01:16:10] dentro desse contexto
+[01:16:10 -> 01:16:12] tenho aquele histórico
+[01:16:12 -> 01:16:14] daquela reanálise
+[01:16:14 -> 01:16:17] daquela amostra
+[01:16:17 -> 01:16:19] toda rastreabilidade
+[01:16:19 -> 01:16:21] e o resultado se repetindo
+[01:16:21 -> 01:16:24] como não conforme
+[01:16:24 -> 01:16:30] é ele que vai ser reportado
+[01:16:30 -> 01:16:32] perfeito
+[01:16:32 -> 01:16:34] e aí definindo
+[01:16:34 -> 01:16:36] esse canal como você falou
+[01:16:36 -> 01:16:38] com a gerência
+[01:16:38 -> 01:16:40] para evitar pressões
+[01:16:40 -> 01:16:46] indevidas
+[01:16:46 -> 01:16:48] então se você entende
+[01:16:48 -> 01:16:50] que o técnico dá esse retorno
+[01:16:50 -> 01:16:52] para a operação
+[01:16:52 -> 01:16:54] pode sofrer algum tipo
+[01:16:54 -> 01:16:56] de pressão indevida
+[01:16:56 -> 01:16:58] então vocês podem definir
+[01:16:58 -> 01:17:00] qual é o canal
+[01:17:00 -> 01:17:02] de comunicação
+[01:17:02 -> 01:17:04] com um cliente
+[01:17:04 -> 01:17:08] perfeito
+[01:17:08 -> 01:17:12] verificação de eficácia
+[01:17:12 -> 01:17:21] alguém?
+[01:17:21 -> 01:17:23] é a forma que vocês vão verificar
+[01:17:23 -> 01:17:25] se as ações
+[01:17:25 -> 01:17:27] que vocês definiram
+[01:17:27 -> 01:17:29] no plano de ação
+[01:17:29 -> 01:17:31] estão minimizando
+[01:17:31 -> 01:17:33] de fato esse risco
+[01:17:33 -> 01:17:35] é a forma de verificação
+[01:17:35 -> 01:17:37] da eficácia
+[01:17:37 -> 01:17:39] então quais são os meios
+[01:17:39 -> 01:17:41] que vocês podem
+[01:17:41 -> 01:17:43] utilizar
+[01:17:43 -> 01:17:45] para verificar
+[01:17:45 -> 01:17:47] essa eficácia
+[01:17:47 -> 01:17:52] poderia dizer que por exemplo
+[01:17:52 -> 01:17:54] a elaboração
+[01:17:54 -> 01:17:56] de verificação dos registros
+[01:17:56 -> 01:17:58] como se fosse uma auditoria
+[01:17:58 -> 01:18:00] interna
+[01:18:00 -> 01:18:02] porque isso vai ser a forma
+[01:18:02 -> 01:18:04] de verificar se os registros
+[01:18:04 -> 01:18:06] foram exatamente feitos
+[01:18:06 -> 01:18:08] por exemplo as duplicatas
+[01:18:08 -> 01:18:10] triplicatas
+[01:18:10 -> 01:18:12] a auditoria é a forma
+[01:18:12 -> 01:18:14] de avaliar se todos os registros
+[01:18:14 -> 01:18:16] estão preenchidos adequadamente
+[01:18:16 -> 01:18:18] isso o pessoal fez a replicata
+[01:18:18 -> 01:18:20] para confirmar
+[01:18:20 -> 01:18:22] aquele resultado
+[01:18:22 -> 01:18:24] dentro dessa metodologia
+[01:18:24 -> 01:18:26] definida que foi falada
+[01:18:26 -> 01:18:28] pelo Jaime
+[01:18:28 -> 01:18:30] já que a temperatura
+[01:18:30 -> 01:18:32] impacta o resultado
+[01:18:32 -> 01:18:34] ter essa questão ao longo do dia
+[01:18:34 -> 01:18:36] eu não estou querendo entrar na parte
+[01:18:36 -> 01:18:38] técnica da execução
+[01:18:38 -> 01:18:40] porque esse não é um foco do meu treinamento
+[01:18:40 -> 01:18:42] eu só estou indo em cima do que
+[01:18:42 -> 01:18:44] vocês estão me trazendo
+[01:18:44 -> 01:18:46] porque quem tem expertise técnica
+[01:18:46 -> 01:18:48] é a Lina para essa área
+[01:18:48 -> 01:18:50] pode falar aí Renata e Gabriele
+[01:18:50 -> 01:18:53] eu queria perguntar
+[01:18:53 -> 01:18:55] se no caso
+[01:18:55 -> 01:18:57] essas
+[01:18:57 -> 01:18:59] essa pressão entre aspas
+[01:18:59 -> 01:19:01] ou essas reclamações
+[01:19:01 -> 01:19:03] se fossem
+[01:19:03 -> 01:19:05] coisas que seriam
+[01:19:05 -> 01:19:08] registradas
+[01:19:08 -> 01:19:10] então seria verificar
+[01:19:10 -> 01:19:12] o número de reclamações
+[01:19:12 -> 01:19:14] do período
+[01:19:14 -> 01:19:16] mas eu não sei se isso seria
+[01:19:16 -> 01:19:18] um processo que viria
+[01:19:18 -> 01:19:20] de uma forma registrada
+[01:19:20 -> 01:19:22] isso seria verbal
+[01:19:22 -> 01:19:24] porque isso teria como fazer
+[01:19:24 -> 01:19:26] uma medição dessa forma que eu estou pensando
+[01:19:26 -> 01:19:28] todo o recebimento
+[01:19:28 -> 01:19:30] de uma reclamação
+[01:19:30 -> 01:19:32] de acordo com o nosso
+[01:19:32 -> 01:19:34] procedimento
+[01:19:34 -> 01:19:36] o processo da 17.125 deve ser
+[01:19:36 -> 01:19:38] registrado
+[01:19:38 -> 01:19:40] seja ela procedente ou não
+[01:19:40 -> 01:19:42] então o cliente reclamou
+[01:19:42 -> 01:19:44] ver o número de reclamações
+[01:19:44 -> 01:19:46] talvez fosse uma forma
+[01:19:46 -> 01:19:48] de fazer uma verificação
+[01:19:48 -> 01:19:50] uma verificação da eficácia
+[01:19:50 -> 01:19:53] na verdade
+[01:19:53 -> 01:19:55] é isso das procedentes
+[01:19:55 -> 01:19:58] porque a gente pode ter
+[01:19:58 -> 01:20:00] reclamação do cliente
+[01:20:00 -> 01:20:02] que não é procedente
+[01:20:02 -> 01:20:05] deixa eu só registrar
+[01:20:05 -> 01:20:07] que a Gabi está na vez
+[01:20:07 -> 01:20:09] eu não estou conseguindo
+[01:20:09 -> 01:20:11] levantar a mãozinha
+[01:20:11 -> 01:20:13] então depois da Gabi eu queria fazer um comentário
+[01:20:13 -> 01:20:15] pode falar Gabi
+[01:20:15 -> 01:20:17] já estou íntima também
+[01:20:17 -> 01:20:19] ele chamou de Gabi
+[01:20:19 -> 01:20:21] pensando nas tratativas
+[01:20:21 -> 01:20:23] com o gestor
+[01:20:23 -> 01:20:25] acho que seria mais uma questão
+[01:20:25 -> 01:20:27] e também pensando na verificação
+[01:20:27 -> 01:20:29] da eficácia
+[01:20:29 -> 01:20:31] acho que ter registros
+[01:20:31 -> 01:20:33] por exemplo do ocorrido
+[01:20:33 -> 01:20:35] por e-mails
+[01:20:35 -> 01:20:37] essas tratativas ocorram por meio de reuniões
+[01:20:37 -> 01:20:39] as devidas atas
+[01:20:39 -> 01:20:41] de reunião
+[01:20:41 -> 01:20:43] para registro
+[01:20:43 -> 01:20:45] também são formas de verificar
+[01:20:45 -> 01:20:48] que a gente está
+[01:20:48 -> 01:20:50] correndo com um plano de ação
+[01:20:50 -> 01:20:52] e verificar a eficácia dele
+[01:20:52 -> 01:20:54] isso que você falou
+[01:20:54 -> 01:20:56] Gabi sobre
+[01:20:56 -> 01:20:58] ter isso em atas
+[01:20:58 -> 01:21:00] reuniões
+[01:21:00 -> 01:21:02] toda essa forma
+[01:21:02 -> 01:21:04] isso tudo é a forma de retroalimentação
+[01:21:04 -> 01:21:06] do cliente
+[01:21:06 -> 01:21:08] então a gente está aqui
+[01:21:08 -> 01:21:10] você acabou falando do requisito de
+[01:21:10 -> 01:21:12] melhoria que a gente vai falar mais a frente
+[01:21:12 -> 01:21:14] e sobre processo de tratamento de reclamação
+[01:21:14 -> 01:21:16] o processo de tratamento de reclamação
+[01:21:16 -> 01:21:18] de vocês ele define
+[01:21:18 -> 01:21:20] a sistemática como vocês recebem
+[01:21:20 -> 01:21:22] e registram essas reclamações
+[01:21:22 -> 01:21:24] então aqui
+[01:21:24 -> 01:21:26] é seguir o processo
+[01:21:26 -> 01:21:30] de tratativa de reclamação
+[01:21:30 -> 01:21:32] na verdade é isso
+[01:21:32 -> 01:21:34] é o
+[01:21:34 -> 01:21:36] processo de vocês de tratamento de reclamação
+[01:21:36 -> 01:21:39] eu volto bastante
+[01:21:39 -> 01:21:41] nisso porque eu fiz o procedimento
+[01:21:41 -> 01:21:43] de atendimento ao cliente
+[01:21:43 -> 01:21:45] então é isso
+[01:21:45 -> 01:21:47] a verificação
+[01:21:47 -> 01:21:49] do plano de ação
+[01:21:49 -> 01:21:51] é
+[01:21:51 -> 01:21:56] implementação do processo de tratamento de reclamação
+[01:21:56 -> 01:21:58] lá no nosso plano de ação
+[01:21:58 -> 01:22:00] tem que ter
+[01:22:00 -> 01:22:02] no caso de contestação
+[01:22:02 -> 01:22:04] de não aceitação
+[01:22:04 -> 01:22:06] implementação e do procedimento que você escreveu
+[01:22:06 -> 01:22:11] de reclamação
+[01:22:11 -> 01:22:13] o Luana
+[01:22:13 -> 01:22:15] por exemplo a gente está agora no último campo
+[01:22:15 -> 01:22:17] aqui que é de verificação da eficácia
+[01:22:17 -> 01:22:19] então a Carla falou
+[01:22:19 -> 01:22:21] sobre auditorias regulares
+[01:22:21 -> 01:22:23] alguém falou sobre reuniões
+[01:22:23 -> 01:22:25] e atas e afins
+[01:22:25 -> 01:22:27] nesse caso específico
+[01:22:27 -> 01:22:29] por exemplo
+[01:22:29 -> 01:22:31] quando a gente
+[01:22:31 -> 01:22:33] está verificando aqui
+[01:22:33 -> 01:22:37] a temperatura do efluente
+[01:22:37 -> 01:22:39] eu tenho aqui
+[01:22:39 -> 01:22:41] então dentro do meu plano de ação
+[01:22:41 -> 01:22:43] realizar duplicata e triplicata da mesma amostra
+[01:22:43 -> 01:22:45] e fazer um acompanhamento
+[01:22:45 -> 01:22:47] digamos assim
+[01:22:47 -> 01:22:49] um pouco mais
+[01:22:49 -> 01:22:51] contínuo
+[01:22:51 -> 01:22:53] para entender em que momento
+[01:22:53 -> 01:22:55] essa temperatura
+[01:22:55 -> 01:22:57] vai estar dentro do limite
+[01:22:57 -> 01:22:59] de forma
+[01:22:59 -> 01:23:01] e essa sequência
+[01:23:01 -> 01:23:03] de ações
+[01:23:03 -> 01:23:05] ela vai gerar uma sequência
+[01:23:05 -> 01:23:07] de resultados dos ensaios
+[01:23:07 -> 01:23:09] exatamente
+[01:23:09 -> 01:23:11] o teu procedimento deve prever isso
+[01:23:11 -> 01:23:13] desse parômetro
+[01:23:13 -> 01:23:15] que vocês estão medindo
+[01:23:15 -> 01:23:17] esse teu procedimento prever isso
+[01:23:17 -> 01:23:19] então procedimento prever isso
+[01:23:19 -> 01:23:21] e a pergunta que eu ia fazer é o seguinte
+[01:23:21 -> 01:23:23] procedimento de ensaio
+[01:23:23 -> 01:23:25] de ensaio
+[01:23:25 -> 01:23:27] perfeito
+[01:23:27 -> 01:23:29] quando eu chego no ensaio
+[01:23:29 -> 01:23:31] que me informa
+[01:23:31 -> 01:23:33] que a temperatura retornou
+[01:23:33 -> 01:23:35] ao valor
+[01:23:35 -> 01:23:37] aceitável pela norma
+[01:23:37 -> 01:23:39] isso vai ser assinado
+[01:23:39 -> 01:23:41] vai ter uma dupla ou tripla verificação
+[01:23:41 -> 01:23:43] esse próprio resultado
+[01:23:43 -> 01:23:45] de ensaio
+[01:23:45 -> 01:23:47] ele já não é uma verificação de eficácia também
+[01:23:47 -> 01:23:49] porque eu tenho outra pessoa
+[01:23:49 -> 01:23:51] verificando
+[01:23:51 -> 01:23:53] que tudo aquilo que estava
+[01:23:53 -> 01:23:55] realizado dentro das ações
+[01:23:55 -> 01:23:57] para aquele ensaio
+[01:23:57 -> 01:23:59] foi realizado
+[01:23:59 -> 01:24:01] isso pode ser uma verificação de eficácia
+[01:24:01 -> 01:24:03] porque a auditoria pode vir daqui a muito tempo
+[01:24:03 -> 01:24:05] a verificação sim
+[01:24:05 -> 01:24:07] mas essa implementação
+[01:24:07 -> 01:24:09] de ter um segundo olhar
+[01:24:09 -> 01:24:11] isso tudo é um plano de ação
+[01:24:11 -> 01:24:14] para a pressão indevida
+[01:24:14 -> 01:24:16] você concorda?
+[01:24:16 -> 01:24:19] entendeu a diferença o Jaime?
+[01:24:19 -> 01:24:21] a verificação dupla
+[01:24:21 -> 01:24:25] é um plano de ação
+[01:24:25 -> 01:24:27] como você vai verificar
+[01:24:27 -> 01:24:29] se isso está acontecendo através dos registros?
+[01:24:29 -> 01:24:31] aí novamente
+[01:24:31 -> 01:24:33] entra essa questão das auditorias regulares
+[01:24:33 -> 01:24:35] que a Carla falou
+[01:24:35 -> 01:24:37] que vai verificar realmente
+[01:24:37 -> 01:24:39] se tem uma dupla verificação
+[01:24:39 -> 01:24:41] dos resultados de ensaio
+[01:24:41 -> 01:24:46] perfeito
+[01:24:46 -> 01:24:49] tirou minha dúvida
+[01:24:49 -> 01:24:51] ou Luana, a gente está terminando aqui
+[01:24:51 -> 01:24:53] eu não sei estar dentro dos 20 minutos
+[01:24:53 -> 01:24:55] que a gente tinha combinado
+[01:24:55 -> 01:24:57] mas só para dizer
+[01:24:57 -> 01:24:59] que a gente já recebeu a informação
+[01:24:59 -> 01:25:01] que o CofrBake chegou
+[01:25:01 -> 01:25:03] eu não quero causar
+[01:25:03 -> 01:25:05] um tipo de saída antecipada
+[01:25:05 -> 01:25:07] mas eu quero saber se
+[01:25:07 -> 01:25:09] ao finalizar
+[01:25:09 -> 01:25:11] vamos dar um intervalinho sim
+[01:25:11 -> 01:25:13] usamos até mais do que
+[01:25:13 -> 01:25:15] 20 minutos
+[01:25:15 -> 01:25:17] usamos, você tomou aqui a 40 minutos
+[01:25:17 -> 01:25:19] a gente pode dar um intervalo aí
+[01:25:19 -> 01:25:23] para vocês
+[01:25:23 -> 01:25:25] vamos fechar então a classificação aqui
+[01:25:25 -> 01:25:27] mas a gente encerra
+[01:25:27 -> 01:25:29] a classificação gente
+[01:25:29 -> 01:25:31] não é para fechar, na verdade é
+[01:25:31 -> 01:25:33] verifique a eficácia
+[01:25:33 -> 01:25:35] foi eficaz?
+[01:25:35 -> 01:25:37] aí eu posso classificar
+[01:25:37 -> 01:25:39] o risco se ele realmente
+[01:25:39 -> 01:25:41] ele está controlado
+[01:25:41 -> 01:25:43] ou se eu tenho que revisar meu plano de ação
+[01:25:43 -> 01:25:45] tá gente? essa classificação
+[01:25:45 -> 01:25:47] tem esse objetivo
+[01:25:47 -> 01:25:50] tá?
+[01:25:50 -> 01:25:52] aí vocês vão avaliar através da verificação
+[01:25:52 -> 01:25:54] da eficácia se o risco
+[01:25:54 -> 01:25:56] ele está controlado
+[01:25:56 -> 01:25:58] caso você chegue à conclusão que não
+[01:25:58 -> 01:26:00] aí vocês vão revisar
+[01:26:00 -> 01:26:02] o plano de ação de vocês
+[01:26:02 -> 01:26:23] é isso?
+[01:26:23 -> 01:26:27] ou revisar o plano de ação
+[01:26:27 -> 01:26:29] o nosso plano de ação tem mais coisa
+[01:26:29 -> 01:26:31] para colocar aqui tá gente
+[01:26:31 -> 01:26:33] como vocês falaram
+[01:26:33 -> 01:26:35] a contestação
+[01:26:35 -> 01:26:37] com a gerência
+[01:26:37 -> 01:26:39] do laboratório
+[01:26:39 -> 01:26:41] implementação
+[01:26:41 -> 01:26:43] do processo de tratamento de reclamação
+[01:26:43 -> 01:26:45] que inclui um corpo
+[01:26:45 -> 01:26:47] técnico para variar o resultado
+[01:26:47 -> 01:26:54] e a implementação
+[01:26:54 -> 01:26:56] do processo de tratamento de reclamação
+[01:26:56 -> 01:27:10] que é de acordo
+[01:27:10 -> 01:27:12] com o procedimento que a Gabi
+[01:27:12 -> 01:27:15] escreveu né
+[01:27:15 -> 01:27:17] então você já tem um processo
+[01:27:17 -> 01:27:19] documentado de tratamento de reclamação
+[01:27:19 -> 01:27:21] que é um procedimento de vocês
+[01:27:21 -> 01:27:23] tá? bom gente
+[01:27:23 -> 01:27:25] podemos dar uma paradinha de
+[01:27:25 -> 01:27:27] 15 minutinhos para o café
+[01:27:27 -> 01:27:33] tá?
+[01:27:33 -> 01:27:35] 15 minutinhos agora
+[01:27:35 -> 01:27:37] a gente volta a 9 e 50
+[01:27:37 -> 01:27:39] isso tá bom?
+[01:27:39 -> 01:27:41] tá
+[01:27:41 -> 01:27:43] você poderia estar convidada
+[01:27:43 -> 01:27:45] mas a distância
+[01:27:45 -> 01:27:47] vou fazer ali um
+[01:27:47 -> 01:27:49] expresso e tomo aqui
+[01:27:49 -> 01:27:51] enquanto vocês estão tomando aí o copy
+[01:27:51 -> 01:27:53] veio aqui de vocês
+[01:27:53 -> 01:27:55] tá bom? até daqui a pouco pessoal

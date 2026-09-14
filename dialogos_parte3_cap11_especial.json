@@ -1,0 +1,73 @@
+{
+  "title": "Parte 3 - Capítulo 11 Especial: Mitos, Excessos e Fatos da ISO/IEC 17025 (Parte 3)",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_3",
+  "episodes": [
+    {
+      "id": "11_especial",
+      "filename": "Podcast_Parte3_Capitulo_11_Mitos_Excessos_e_Fatos_Garantia_e_Gestao.mp3",
+      "title": "Capítulo 11 Especial - Mitos, Excessos e Fatos: O Confronto Definitivo da Garantia e Gestão",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, chegamos a um dos momentos mais aguardados e empolgantes da nossa jornada: o Capítulo 11 Especial de Mitos, Fatos e Armadilhas da Parte 3 da ISO 17025! Preparada para derrubar os mitos que ainda assombram os laboratórios?"
+        ],
+        [
+          "Francisca",
+          "Preparadíssima, Thalita! Vamos colocar os pingos nos is e separar as exigências reais da norma daqueles excessos burocráticos e lendas urbanas que só atrasam a rotina."
+        ],
+        [
+          "Thalita",
+          "Vamos direto ao Mito Número Um: Qualquer gráfico de dispersão feito no Excel serve como carta de controle para atender o requisito 7.7.1?"
+        ],
+        [
+          "Francisca",
+          "Mito perigoso, Thalita! Um gráfico que apenas plota pontinhos sem limites estatísticos de alerta a dois desvios padrão e de ação a três desvios padrão não é carta de controle, é só um desenho decorativo! A norma exige procedimentos documentados para registrar dados de forma a possibilitar a detecção de tendências e critérios de ação pré-definidos para quando os dados saírem do controle estatístico."
+        ],
+        [
+          "Thalita",
+          "Mito derrubado com autoridade! E o Mito Número Dois: Participar de ensaio de proficiência a cada quatro anos em apenas um parâmetro isolado é suficiente para cobrir todo o escopo do laboratório?"
+        ],
+        [
+          "Francisca",
+          "Outro mito clássico e fonte de não conformidade grave! A política NIT-DICLA-026 da Cgcre exige que o laboratório tenha um plano quadrienal contínuo cobrindo todas as áreas e subgrupos significativos de sua acreditação. Participar de um único parâmetro não valida a competência dos outros cinquenta ensaios do seu escopo!"
+        ],
+        [
+          "Thalita",
+          "Perfeito! E o Mito Número Três: Emitir relatório simplificado para cliente interno desobriga o laboratório de manter as informações do requisito 7.8.2 arquivadas?"
+        ],
+        [
+          "Francisca",
+          "Falso absoluto! O relatório entregue ao cliente interno pode sim ser enxuto para dar agilidade à produção, mas o requisito 7.8.1.3 é claríssimo: todas as informações listadas de 7.8.2 a 7.8.7 devem estar prontamente disponíveis e rastreáveis nos registros do laboratório para consulta ou auditoria imediata!"
+        ],
+        [
+          "Thalita",
+          "Mito Número Quatro: Se o certificado de calibração veio com o selo da RBC da Cgcre, o equipamento está automaticamente aprovado e apto para uso?"
+        ],
+        [
+          "Francisca",
+          "Um dos erros mais comuns dos novatos! O selo da RBC atesta apenas que o prestador de serviço calibrou o instrumento com rastreabilidade metrológica reconhecida. Mas quem define se o erro e a incerteza daquele instrumento atendem às necessidades do ensaio é o próprio laboratório! Sem a análise crítica frente ao uso pretendido, o certificado é apenas um papel sem validade de uso."
+        ],
+        [
+          "Thalita",
+          "Excelente! E o Mito Número Cinco: Reclamação só existe se o cliente enviar um ofício formal registrado em cartório?"
+        ],
+        [
+          "Francisca",
+          "Grande ilusão! Uma mensagem no WhatsApp pro setor comercial dizendo que o laudo atrasou ou um e-mail com questionamento sobre uma duplicata estranha são reclamações legítimas segundo o requisito 7.9! Devem ser registradas, tratadas com imparcialidade e arquivadas com todas as evidências de resposta."
+        ],
+        [
+          "Thalita",
+          "E para fechar, o Mito Número Seis: Planilha de cálculo no Excel não precisa de validação porque a Microsoft já validou o programa?"
+        ],
+        [
+          "Francisca",
+          "Essa faz qualquer auditor sorrir! A Microsoft validou o motor do software de prateleira, mas não as fórmulas, macros e coeficientes de regressão que o seu laboratório digitou! Qualquer planilha que realize cálculos de ensaios ou calibrações deve ter suas fórmulas bloqueadas, controle de versões e testes formais com dados conhecidos registrados, conforme o requisito 7.11.2!"
+        ],
+        [
+          "Thalita",
+          "Que banho de clareza, Francisca! Mitos desfeitos com respaldo literal na norma e na prática metrológica de excelência."
+        ]
+      ]
+    }
+  ]
+}

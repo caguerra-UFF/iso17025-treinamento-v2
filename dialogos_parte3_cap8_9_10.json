@@ -1,0 +1,304 @@
+{
+  "title": "Parte 3 - Capítulos 08, 09 e 10: Reclamações (7.9), Trabalho Não Conforme (7.10) e Controle de Dados/LIMS (7.11)",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_3",
+  "chapter_filename": "Podcast_Parte3_Capitulos_8_9_10_Reclamacoes_TNC_e_Sistemas_Completo_Thalita_e_Francisca.mp3",
+  "episodes": [
+    {
+      "id": "8.1",
+      "filename": "Podcast_Parte3_Item_8_1_Processo_Documentado_e_Disponivel.mp3",
+      "title": "Item 8.1 - Reclamações (7.9): Processo Documentado e Disponível a Qualquer Solicitante",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, entramos no Capítulo 8 com o Requisito 7.9: Reclamações! Uma empresa me perguntou: o procedimento de tratamento de reclamações é um segredo interno da qualidade, ou o cliente tem direito de ver?"
+        ],
+        [
+          "Francisca",
+          "O cliente não só tem direito de ver, como o requisito 7.9.1 exige que uma descrição documentada do processo de tratamento de reclamações esteja disponível para qualquer parte interessada que solicitar!"
+        ],
+        [
+          "Thalita",
+          "E o laboratório precisa entregar o procedimento operacional padrão inteiro com os formulários confidenciais?"
+        ],
+        [
+          "Francisca",
+          "Não precisa abrir o POP interno completo, mas deve disponibilizar um fluxo claro ou resumo explicativo em seu site ou na recepção, mostrando exatamente como a reclamação é recebida, investigada, quem toma a decisão e em que prazo o cliente receberá o retorno formal."
+        ],
+        [
+          "Thalita",
+          "Perfeito! Transparência que gera credibilidade e tranquilidade para o cliente."
+        ]
+      ]
+    },
+    {
+      "id": "8.2",
+      "filename": "Podcast_Parte3_Item_8_2_Independencia_na_Analise_e_Conclusao.mp3",
+      "title": "Item 8.2 - Independência na Decisão: Quem Fez o Ensaio Não Pode Julgar a Reclamação",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 8.2, a ISO 17025 traz uma das regras de ouro mais cobradas pelos avaliadores no requisito 7.9.6: a imparcialidade na conclusão da reclamação. Quem pode aprovar o desfecho de uma reclamação, Francisca?"
+        ],
+        [
+          "Francisca",
+          "Qualquer pessoa competente, desde que não esteja envolvida nas atividades laboratoriais em questão, Thalita! Se o cliente reclama do ensaio de DBO realizado pelo analista Carlos, o Carlos jamais pode ser a pessoa que analisa, conclui e redige a carta de resposta."
+        ],
+        [
+          "Thalita",
+          "Isso é para evitar que a própria pessoa passe pano no seu possível erro?"
+        ],
+        [
+          "Francisca",
+          "Exatamente! O requisito exige independência para garantir imparcialidade. A investigação técnica pode e deve ouvir o Carlos, mas a aprovação da conclusão e da decisão final cabe ao gestor da qualidade ou a um revisor independente."
+        ],
+        [
+          "Thalita",
+          "Rigor e imparcialidade: a essência do Sistema de Gestão da ISO 17025."
+        ]
+      ]
+    },
+    {
+      "id": "8.3",
+      "filename": "Podcast_Parte3_Item_8_3_Reclamacoes_Explicitas_e_Implicitas.mp3",
+      "title": "Item 8.3 - Reclamações Explícitas e Implícitas: Não Espere um Ofício Formal",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 8.3, Francisca, muitos laboratórios dizem orgulhosos: nós nunca tivemos nenhuma reclamação de cliente! E quando o auditor olha a caixa de e-mails, acha várias mensagens de clientes insatisfeitos com atraso ou incoerência de resultados. O que aconteceu ali?"
+        ],
+        [
+          "Francisca",
+          "Aconteceu a armadilha de achar que reclamação só existe se vier em papel timbrado com o título RECLAMAÇÃO FORMAL, Thalita! A definição de reclamação é qualquer expressão de insatisfação apresentada por um cliente em relação às atividades do laboratório."
+        ],
+        [
+          "Thalita",
+          "Até uma mensagem de WhatsApp para o comercial dizendo que o laudo atrasou ou veio com dado estranho é reclamação?"
+        ],
+        [
+          "Francisca",
+          "Sem dúvida nenhuma! Todas as reclamações, sejam explícitas ou implícitas, por telefone, mensagem ou e-mail, devem ser registradas e tratadas pelo processo de 7.9. Fingir que não ouviu é não conformidade grave."
+        ],
+        [
+          "Thalita",
+          "Excelente lição! Ouvir o cliente com humildade e método é o combustível da melhoria contínua."
+        ]
+      ]
+    },
+    {
+      "id": "9.1",
+      "filename": "Podcast_Parte3_Item_9_1_Conceito_e_Abrangencia_do_TNC.mp3",
+      "title": "Item 9.1 - Trabalho Não Conforme (7.10): Conceito Amplo e Abrangência",
+      "dialogue": [
+        [
+          "Thalita",
+          "Avançamos para o Capítulo 9: Requisito 7.10, o temido Trabalho Não Conforme, ou TNC! Francisca, TNC é apenas quando o resultado do ensaio sai errado no laudo?"
+        ],
+        [
+          "Francisca",
+          "Não, Thalita! O requisito 7.10.1 tem um escopo muito mais amplo: é qualquer aspecto do trabalho do laboratório ou resultados que não estejam em conformidade com os procedimentos internos ou com os requisitos acordados com o cliente!"
+        ],
+        [
+          "Thalita",
+          "Pode dar exemplos de TNCs que acontecem antes do laudo sair?"
+        ],
+        [
+          "Francisca",
+          "Uma amostra que foi preservada na temperatura errada; um reagente vencido usado na digestão; uma calibração vencida do espectrofotômetro; um branco que deu acima do limite de detecção. Tudo isso é Trabalho Não Conforme e exige contenção imediata!"
+        ],
+        [
+          "Thalita",
+          "Compreendido! Qualquer desvio da rota metodológica é um TNC e precisa ser contido na hora."
+        ]
+      ]
+    },
+    {
+      "id": "9.2",
+      "filename": "Podcast_Parte3_Item_9_2_Risco_Impacto_e_Resultados_Anteriores.mp3",
+      "title": "Item 9.2 - Avaliação de Impacto Retroativo: A Pergunta Mais Importante do TNC",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 9.2, quando um Trabalho Não Conforme é identificado, a maioria das pessoas quer apenas consertar o problema daquele instante. Mas qual é a pergunta obrigatória que a ISO 17025 faz no requisito 7.10.1 alínea b, Francisca?"
+        ],
+        [
+          "Francisca",
+          "A pergunta que todo gestor deve fazer: Desde quando isso está acontecendo e qual foi o impacto nos resultados anteriormente emitidos?"
+        ],
+        [
+          "Thalita",
+          "Ou seja, olhar para trás no espelho retrovisor?"
+        ],
+        [
+          "Francisca",
+          "Obrigatório! Se descobrirmos que uma micropipeta estava descalibrada e dosando dez por cento a menos, não basta calibrar a pipeta hoje. Temos que rastrear todas as amostras pipetadas por ela no último mês e avaliar se algum laudo emitido para clientes foi comprometido!"
+        ],
+        [
+          "Thalita",
+          "Isso é maturidade metrológica! Proteger a segurança dos dados passados com total transparência."
+        ]
+      ]
+    },
+    {
+      "id": "9.3",
+      "filename": "Podcast_Parte3_Item_9_3_Notificacao_ao_Cliente_e_Retomada_do_Trabalho.mp3",
+      "title": "Item 9.3 - Notificação do Cliente, Cancelamento de Laudos e Retomada",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 9.3, e se a investigação do TNC comprovar que resultados errados foram realmente enviados a clientes externos?"
+        ],
+        [
+          "Francisca",
+          "O requisito 7.10.1 alínea c é terminante: o cliente deve ser imediatamente notificado e os relatórios afetados devem ser retificados ou recolhidos e cancelados!"
+        ],
+        [
+          "Thalita",
+          "E para autorizar a volta da rotina na bancada?"
+        ],
+        [
+          "Francisca",
+          "A retomada do trabalho exige autorização formal de profissional designado, conforme a alínea e. Não se retoma o ensaio até que a causa imediata esteja controlada e a confiança no método restabelecida."
+        ],
+        [
+          "Thalita",
+          "A coragem da responsabilidade técnica: transparência imediata ao cliente e retorno seguro."
+        ]
+      ]
+    },
+    {
+      "id": "9.4",
+      "filename": "Podcast_Parte3_Item_9_4_Relacao_com_Acao_Corretiva_e_Matriz_de_Risco.mp3",
+      "title": "Item 9.4 - Relação entre TNC e Ação Corretiva: Nem Todo TNC Gera AC",
+      "dialogue": [
+        [
+          "Thalita",
+          "Fechando o Capítulo 9, o Item 9.4 esclarece uma dúvida crônica de auditados: todo Trabalho Não Conforme obriga a abertura de uma Ação Corretiva formal pela Seção 8.7, Francisca?"
+        ],
+        [
+          "Francisca",
+          "Não, Thalita! A ISO 17025 de 2017 trouxe o pensamento baseado em risco. Se for um evento isolado, de baixo impacto e sem reincidência, a disposição imediata e a correção local do TNC são suficientes."
+        ],
+        [
+          "Thalita",
+          "E quando a Ação Corretiva se torna obrigatória?"
+        ],
+        [
+          "Francisca",
+          "Quando a avaliação de risco mostrar que há probabilidade de recorrência ou quando houver dúvida sobre a conformidade das operações com o próprio sistema de gestão. Nesses casos, investiga-se a causa raiz pela Seção 8.7 para erradicar o problema definitivamente."
+        ],
+        [
+          "Thalita",
+          "Excelente! Gestão de risco que evita a burocracia inútil de abrir ações corretivas para tropeços isolados."
+        ]
+      ]
+    },
+    {
+      "id": "10.1",
+      "filename": "Podcast_Parte3_Item_10_1_Acesso_Protecao_e_Integridade_dos_Dados.mp3",
+      "title": "Item 10.1 - Controle de Dados (7.11): Acesso, Proteção e Integridade",
+      "dialogue": [
+        [
+          "Thalita",
+          "Chegamos ao Capítulo 10: Requisito 7.11, Controle de Dados e Gestão da Informação! Francisca, em tempos digitais, quais são os pilares fundamentais exigidos pelo requisito 7.11.1?"
+        ],
+        [
+          "Francisca",
+          "São três pilares inegociáveis, Thalita: proteção contra acesso não autorizado, proteção contra adulteração ou perda de dados, e garantia da integridade e confidencialidade das informações em todo o ciclo de vida!"
+        ],
+        [
+          "Thalita",
+          "E isso se aplica só aos servidores locais ou também a celulares e estações de bancada?"
+        ],
+        [
+          "Francisca",
+          "A tudo! Computadores de bancada não podem ter senhas compartilhadas em post-it na tela. Cada analista deve ter seu login individual para garantir a rastreabilidade inequívoca de quem inseriu, alterou ou validou cada resultado."
+        ],
+        [
+          "Thalita",
+          "Segurança da informação moderna: login pessoal e rastreabilidade total de cada clique."
+        ]
+      ]
+    },
+    {
+      "id": "10.2",
+      "filename": "Podcast_Parte3_Item_10_2_Sistemas_em_Nuvem_e_Responsabilidade_do_Laboratorio.mp3",
+      "title": "Item 10.2 - Sistemas em Nuvem e LIMS Externo: A Responsabilidade Inalienável",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 10.2, se o laboratório contrata um software LIMS em nuvem de uma empresa conceituada e o sistema perde dados ou cai por dias, o laboratório pode culpar o fornecedor de software perante a Cgcre?"
+        ],
+        [
+          "Francisca",
+          "De maneira nenhuma, Thalita! O requisito 7.11.4 é explícito: quando os sistemas forem gerenciados ou mantidos por fornecedores externos, o laboratório continua sendo o único e exclusivo responsável pelo cumprimento de todos os requisitos da norma!"
+        ],
+        [
+          "Thalita",
+          "E o que o laboratório deve exigir desse fornecedor de nuvem?"
+        ],
+        [
+          "Francisca",
+          "Contratos com cláusulas claras de nível de serviço, garantias de confidencialidade, planos de contingência, segurança cibernética e cópias de segurança auditadas. Terceirizar a infraestrutura não terceiriza a responsabilidade da acreditação."
+        ],
+        [
+          "Thalita",
+          "Alerta vital para a era digital: quem responde perante a acreditação é sempre o laboratório."
+        ]
+      ]
+    },
+    {
+      "id": "10.3",
+      "filename": "Podcast_Parte3_Item_10_3_Backup_Periodico_e_Teste_de_Restauracao.mp3",
+      "title": "Item 10.3 - Backup: Fazer a Cópia Não Basta, É Preciso Testar a Restauração",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 10.3, falamos de backup. Quase todo laboratório diz que faz backup diário ou semanal. Mas qual é a falha que os auditores mais encontram na prática, Francisca?"
+        ],
+        [
+          "Francisca",
+          "A ausência do teste de restauração, Thalita! Ter um disco rígido gravando cópias todos os dias não prova nada se ninguém nunca testou restaurar esse backup num computador zerado para ver se o banco de dados sobe sem corrupção!"
+        ],
+        [
+          "Thalita",
+          "Ou seja, o valor do backup é medido pela capacidade real de restaurar a operação?"
+        ],
+        [
+          "Francisca",
+          "Exatamente! O requisito 7.11.3 exige proteção contra perda de dados. O procedimento deve prever simulações periódicas de recuperação de desastres com registro formal de que os dados foram reconstituídos com sucesso."
+        ],
+        [
+          "Thalita",
+          "Lição de ouro de TI: backup não testado é ilusão de segurança."
+        ]
+      ]
+    },
+    {
+      "id": "10.4",
+      "filename": "Podcast_Parte3_Item_10_4_Validacao_de_Planilhas_e_Calculos.mp3",
+      "title": "Item 10.4 - Validação de Planilhas e Fórmulas: Bloqueio e Teste de Limites",
+      "dialogue": [
+        [
+          "Thalita",
+          "Fechando o Capítulo 10 com um dos temas mais quentes de auditoria: o Item 10.4, validação de planilhas de cálculo no Excel! Francisca, usar Excel na bancada é proibido pela ISO 17025?"
+        ],
+        [
+          "Francisca",
+          "Não é proibido de forma alguma, Thalita! Mas uma planilha desenvolvida internamente com fórmulas matemáticas, médias e curvas de calibração é considerada um software desenvolvido pelo laboratório e deve ser formalmente validada antes do uso, conforme o requisito 7.11.2!"
+        ],
+        [
+          "Thalita",
+          "E quais são as regras práticas para blindar uma planilha contra auditorias?"
+        ],
+        [
+          "Francisca",
+          "Três regras essenciais: primeiro, bloquear e proteger com senha todas as células que contêm fórmulas; segundo, controlar o número da versão no cabeçalho; e terceiro, manter um registro de validação testando a planilha com dados manuais conhecidos para comprovar que as fórmulas não contêm erros matemáticos ocultos."
+        ],
+        [
+          "Thalita",
+          "Sensacional, Francisca! Uma blindagem técnica completa contra o erro de digitação e a fórmula corrompida."
+        ]
+      ]
+    }
+  ]
+}

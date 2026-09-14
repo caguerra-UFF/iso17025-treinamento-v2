@@ -1,0 +1,21 @@
+# Pastas e arquivos temporários de scratch/testes locais
+scratch/
+__pycache__/
+*.pyc
+*.bak*
+*.tmp
+
+# Credenciais e segredos locais
+.env
+client_oauth.json
+token_gcloud.json
+
+# Arquivos de log de tarefas
+*.log
+
+# Pastas de testes de voz intermediárias e backups locais (mantidos apenas localmente)
+amostras_jessica_v2/
+amostras_anonimizacao/
+amostras_vozes/
+Trechos_Aulas_Modulada/
+Trechos_Aulas_Thalita/

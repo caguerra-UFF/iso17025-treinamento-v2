@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Correção de Eco / Áudio Duplicado | Dia 02/09</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #0f172a; --surface: #1e293b; --border: #334155; --text: #f8fafc; --accent: #38bdf8; --danger: #ef4444; --success: #10b981; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        body { background: var(--bg); color: var(--text); padding: 40px 20px; min-height: 100vh; display: flex; flex-direction: column; align-items: center; }
+        .container { max-width: 800px; width: 100%; }
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { font-size: 1.8rem; font-weight: 800; background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        p.subtitle { color: #94a3b8; font-size: 0.95rem; margin-top: 8px; }
+        .diagnostic-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 24px; }
+        .diagnostic-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 10px; color: #cbd5e1; }
+        .metric { display: inline-block; background: rgba(15,23,42,0.6); padding: 6px 12px; border-radius: 6px; margin: 4px; font-size: 0.85rem; border: 1px solid var(--border); }
+        .metric strong { color: var(--accent); }
+        .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        @media (max-width: 650px) { .cards { grid-template-columns: 1fr; } }
+        .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 14px; }
+        .card.before { border-top: 4px solid var(--danger); }
+        .card.after { border-top: 4px solid var(--success); }
+        .card-header { display: flex; justify-content: space-between; align-items: center; }
+        .badge { font-size: 0.75rem; font-weight: 700; padding: 3px 8px; border-radius: 6px; text-transform: uppercase; }
+        .badge.red { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+        .badge.green { background: rgba(16, 185, 129, 0.2); color: #34d399; }
+        audio { width: 100%; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔬 Diagnóstico & Correção de Áudio Duplicado (OBS)</h1>
+            <p class="subtitle">Trecho do <strong>Dia 02/09/2026 (Item 2.1 - 35 minutos de aula)</strong></p>
+        </header>
+
+        <div class="diagnostic-card">
+            <div class="diagnostic-title">📊 Diagnóstico Matemático e Temporal:</div>
+            <div class="metric">Atraso Medido entre Fontes: <strong>54.71 ms (2.626 amostras)</strong></div>
+            <div class="metric">Intensidade do Eco: <strong>~75% do sinal original</strong></div>
+            <div class="metric">Causa: <strong>OBS mixando 2 saídas (ex: Desktop Audio + Monitor/Teams)</strong></div>
+            <div class="metric">Solução Aplicada: <strong>Filtro IIR de Deconvolução Inversa H⁻¹(z)</strong></div>
+        </div>
+
+        <div class="cards">
+            <div class="card before">
+                <div class="card-header">
+                    <h3>1. Áudio Original do OBS</h3>
+                    <span class="badge red">Com Eco / Duplicado</span>
+                </div>
+                <p style="color: #94a3b8; font-size: 0.85rem;">Repare na voz da instrutora soando com atraso de retorno de 54ms (voz dobrada / efeito de tubo).</p>
+                <audio controls src="amostra_dia1_com_eco.mp3"></audio>
+            </div>
+
+            <div class="card after">
+                <div class="card-header">
+                    <h3>2. Áudio com Filtro Inverso</h3>
+                    <span class="badge green">Eco Subtraído</span>
+                </div>
+                <p style="color: #94a3b8; font-size: 0.85rem;">O filtro matemático subtrai com precisão cirúrgica a réplica atrasada em 54.71ms, limpando o eco.</p>
+                <audio controls src="amostra_dia1_eco_removido.mp3"></audio>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

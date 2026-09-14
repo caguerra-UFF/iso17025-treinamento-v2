@@ -1,0 +1,715 @@
+lcn treinamentos, eu ministro treinamentos na 17.025, realizo auditorias internas, preste serviços de consultoria, tenho mestrado na área de engenharia de biocomostíbios e petroquímica e pós-graduação na área de gestão ambiental.
+
+Meu objetivo aqui nesse treinamento é passar um pouquinho do conhecimento da sobre 17.025 e em todos os meus trabalhos eu tenho sempre a premissa de deixar um pouquinho de mim e levar um pouquinho do outro. Espero que a gente consiga atingir esse objetivo. O treinamento, eu sempre tento fazer um treinamento direcionado para a atividade do laboratório.
+
+Então, vocês vão observar que eu peguei algumas situações para direcionar para atividade de monitoração ambiental.
+
+Os requisitos que a gente vai falar hoje, eles servem para dar suporte aos requisitos que vocês conversaram com a Alina na semana passada. Então, semana passada, a Alina falou com vocês sobre requisitos de recursos e requisitos de processo, que são os requisitos técnicos da 17.025. Os requisitos que nós vamos conversar hoje são requisitos que servem para dar suporte a
+
+esses requisitos técnicos. Gente, vocês podem me interromper a qualquer momento. O último treinamento que eu dei para eletronuclear foi muito legal porque as pessoas participaram, interromperam, tiraram dúvida e aí eu vou adequando a dinâmica do treinamento para a gente atingir esse objetivo.
+
+Então, eu espero que vocês participem, que vocês demonstrem para mim que vocês estão entendendo. Caso não, vocês também perguntem para eu adequar minha fala para todo mundo no final e sair com o entendimento melhor da norma.
+
+Eu peço também para que vocês, nesse momento, eu sei que está todo mundo aí nas suas estações de trabalho, mas que realmente vocês estejam aqui nesse momento prestando atenção no treinamento e não realizando outras atividades. Então, eu peço quem está trabalhando, quem está respondendo e-mail, eu peço que as câmeras fiquem abertas, para eu também não
+
+ficar com a sensação que eu estou falando com um bando de quadradinho. Então, eu peço, por favor, que as câmeras fiquem abertas, para quem está com a câmera fechada, abrir. Me ajuda aí, Jairu, para o pessoal abrir as câmeras e também eu peço para que o pessoal que está no treinamento não ficar realizando outras atividades e prestando aqui atenção no que
+
+está sendo falado, porque é importante, tá? É, a eletronuclear, ela tem um objetivo, né, de solicitar uma acreditação, né? E o que que isso significa, né? Então, a eletronuclear, ela tem um sistema, né, que está em fase de implementação, a luz da 17.025, com o objetivo de solicitar uma acreditação. E o que que é a acreditação, né? No Brasil,
+
+nós temos um organismo de acreditação, que é a coordenação geral de acreditação do imétro, né? E esse organismo, ele atesta formalmente a competência técnica, né? De OACES, que são organismos de avaliação da conformidade, os laboratórios, através de um processo de avaliação independente desses laboratórios, considerando
+
+requisitos específicos, de forma a assegurar imparcialidade, competência desses laboratórios, através de um processo de avaliação contínua. É, quanto o laboratório é acreditado pela CECRE, pela coordenação geral de acreditação do imétro, né? Essa acreditação, ela é reconhecida internacionalmente, através de um acordo de
+
+reconhecimento mutuo, né? Então, todos os países, né, que fazem parte desse acordo, o organismo de acreditador da quele país reconhece, né? As acreditações dos outros países, né? E quais são as vantagens de se obter uma acreditação, né? A primeira, eu falei, né? Ter esse reconhecimento de competência técnica é reconhecida
+
+internacionalmente, né? É confiabilidade e validade dos resultados, né? Por quê? Porque vocês, como a vocês a conversaram em coalina, vocês têm que trabalhar de acordo com processos, ter procedimentos técnicos documentados, né?
+
+É ter processos de garantia da validade dos resultados, rastrabilidade de todas as etapas, ter políticas e objetivos definidos, políticas que abordam competência, operação consistente, imparcialidade, né? Difundidos e eh eh em toda organização, aumento da produtividade e redução de trabalho. Quando eu tenho todas as etapas, né?
+
+Com rastrabilidade, né? Com uma cadeia de custódia. Quando eu tenho processos que asseguram a validade dos resultados, eu reduzo o retrabalho, né? Então, isso tem um aumento da produtividade. Eh responsabilidades e autoridades definidas e documentadas. Todo o pessoal que está ligado ao sistema de gestão, né? Eles têm que ter funções, né? Com
+
+requisitos de competência definidos e esses requisitos de competência, eles são definidos considerando as autoridades e responsabilidades dessa dessa função que a pessoa vai desempenhar. E todo o pessoal quando é nomeado para uma função, ele tem que ser comunicado sobre as suas responsabilidades e autoridades. Eh aqui eu quero trazer,
+
+né? Uma diferença, né? Entre a certificação e a acreditação, né? Eh a dezessete mil e vinte e cinco, eh não é uma norma comumente conhecida, mas a nove mil um é muito conhecida, né? A nove mil um ela está associada, né? Com foco principal, né? Que o laboratório quando ele tem a nove mil um implementado, né? Ele trabalha de acordo com
+
+processos organizacionais, né? E tem um sistema de gestão implementado. A dezessete mil e vinte e cinco, além disso, ela tem foco na competência técnica em operação consistente e competência, né? E aí aqui eu não tô falando somente de competência do pessoal, né? Eu tô falando sobre competência do laboratório e em prover resultados
+
+válidos. A dezessete mil e vinte e cinco, ela tem esse foco. É a nove mil um, ela verifica, né? Ela sai pra verificar se os processos, sistemas de gestão, estão em conformidade com a nove mil um. A dezessete mil e vinte e cinco, além disso, ela tem como objetivo assegurar a competência técnica para a realização de ensaios
+
+específicos e com resultados confiáveis, né? A nove mil um, ela traz como benefícios, né? Você ter uma eficiência operacional, você trabalhar de acordo com processos, né?
+
+Reconhecimento, né? Do compromisso com o sistema de gestão da da qualidade. A dezessete mil e vinte e cinco, além disso, né? Ela tem como benefício a confiança nos resultados e a competência técnica. A certificação, ela é dada por um organismo de certificação. Então, é o organismo de avaliação da conformidade, acreditado pela CGECRI e aí
+
+ele pode prover essa certificação para um laboratório.
+
+Já a a dezessete mil e vinte e cinco, a acreditação, ela é atestada por um organismo de acreditação. No caso do Brasil, a CGECRI. Quando eu falei sobre acreditação, né? Eu disse que a acreditação, né? É uma testação formal da competência técnica do laboratório através de um processo de avaliação, né? Por um organismo de
+
+acreditação, considerando requisitos específicos, né? No caso de laboratórios, de calibração, ensaio e amostragem, esses requisitos específicos, eles estão documentados na ABNT, ISO e EC dezessete mil e vinte e cinco.
+
+Tá? Então, ela especifica requisitos de competência, imparcialidade e operação consistente de laboratórios.
+
+Tá? E ela tem como objetivo prover a confiança nas operações dos laboratórios, de modo a permitir que eles demonstrem que operam de forma competente e que são capazes de gerar resultados válidos. Então, a CGECRI, né? A coordenação geral de acreditação do inmetro, ela utiliza, né? Essa norma internacional como uma norma de acreditação.
+
+Então, ela considera os requisitos da dezessete mil e vinte e cinco pra avaliar a competência técnica dos laboratórios. Se implementar, né? A dezessete mil e vinte e cinco num laboratório, ela requer etapa, né? Tem que ter, né? Etapas e pôr prometimento do pessoal envolvido, né? É a necessidade no início de uma grande dedicação do
+
+responsável pelo sistema de gestão, né? Pra implementação dos requisitos de gestão, né? E da equipe técnica para aprendizado sobre rastabilidade, incerteza de medição, então, sobre equipe técnica adquirindo competência, tá?
+
+Então, muitos que desconhecem a dezessete mil e vinte e cinco não têm vivência com a dezessete mil e vinte e cinco quando ela faz ser implementado no laboratório, o laboratório ele entende que é responsabilidade do gerente da qualidade, é a função como mente chamado pro responsável pelo sistema de gestão, é a responsabilidade dele
+
+implementar a dezessete mil e vinte e cinco. Mas, eh, todos os requisitos que a Lina conversou com vocês na semana passada, né? Eh, eles são requisitos técnicos, eles são de responsabilidade da área técnica implementar, né? Então, o envolvimento e o comprometimento do pessoal técnico do laboratório é de suma importância para
+
+implementação da dezessete mil e vinte e cinco de forma eficaz. Como eu disse, os requisitos que eu vou falar hoje, eles são para dar suporte à área técnica, aos requisitos técnicos. Eh, fatores críticos, né? Num processo de implementação da dezessete mil e vinte e cinco, né? A necessidade do efetivo apoio da direção, da alta direção,
+
+né? Proventos recursos necessários para a implementação da dezessete mil e vinte e cinco, né? Eh, definição de funções e atribuições claramente definidas e envolvimento do pessoal técnico, né? Então, eh, os requisitos de competência para as funções eh vinculadas ao sistema de gestão, eles têm que estar claramente definidos
+
+e a gente não tem que definir requisitos de competência para a pessoa, né? A gente tem que definir requisitos de competência necessários para que o pessoal envolvido seja competente. Capacitação técnica adequada, prover os treinamentos técnicos requeridos para assegurar a competência do pessoal, né? Eh, o responsável pelo sistema
+
+de gestão, ele também tem que ter requisitos de competência adequados, né? Para ele ter o conhecimento necessário para a implementação e após a implementação, a manutenção do sistema de gestão. Os investimentos necessários para implementar dezessete mil e vinte e cinco no laboratório, né? Involve treinamentos na dezessete
+
+mil e vinte e cinco, eh, treinamentos em certeza de medição, rastrabilidade metrológica, garantia da validade dos resultados, verificação de desempenho de métodos, treinamento de formação de auditores internos, em relação às instalações, né? Eh, as condições ambientais, estabelecer limites e adquirir
+
+instrumentos de controle, rastrabilidade metrológica, calibração dos equipamentos, né? Acquisição de materiais de referência certificados, participar em atividades de ensaio de proficiência, providas por eh, provedores acreditados. Então, além desses recursos, né, necessários, tem outros
+
+custos, né, para um processo de acreditação que estão definidos na NIA CECRE 140. É, um tempo médio para um laboratório, né, obter uma acreditação pela CECRE é de doze a dezoito meses, tá? E eletronuclear já está trabalhando aí com esse processo de implementação da dezessete
+
+mil e vinte e cinco para solicitação da da acreditação. Eh, responsabilidades, né? Eh, a alta direção, ela, na implementação do sistema de gestão, né, ela tem que dar, tem que estar comprometida com o sistema de gestão, dando todo suporte, provendo todos os recursos necessários,
+
+tem que definir políticas e objetivos à luz da dezessete mil e vinte e cinco. Os gerentes, né, a gerência técnica do laboratório, né, tem que ter estabelecer, tem que ter um planejamento e coordenação dessa implementação da dezessete mil e vinte e cinco, né, definindo as funções e
+
+atribuição, né, do pessoal envolvido no sistema de gestão, provendo treinamento e desenvolvimento da equipe, como eu disse, enrastabilidade metrológica, em certeza de medição, garantia da validade dos resultados. A equipe técnica, né, é o pessoal que está na bancada realizando
+
+os ensaios, né, emitindo relatórios, verificando desempenho de método, implementando ferramentas de garantia da, da validade, é, tem que estar comprometido com o sistema de gestão, né, então, com a implementação dos procedimentos, com a rastrabilidade das informações, né, com
+
+cálculo de incerteza de medição, com a implementação das ferramentas de garantia da validade definidas, né, verificando se o laboratório, ele consegue atender o método adequadamente, o método normalizado, tem que trabalhar de acordo com os procedimentos definidos
+
+no sistema de gestão, né, manutenção da qualidade e da conformidade. O responsável pelo sistema de gestão, ele é um facilitador do processo, ele sozinho, ele não consegue assegurar a eficácia do sistema de gestão, a necessidade de comprometimento de todas essas outras
+
+partes que eu citei, para que o responsável pelo sistema de gestão, ele consiga, né, identificar desvios, implementar melhorias contínuas dentro do processo, fazer um monitoramento, então, ele serve como um facilitador do processo, ele não é um
+
+responsável pela eficácia do sistema de gestão, né, responsável pela eficácia do sistema de gestão, são todos, esse todo conjunto de de de funções aqui que eu mencionei nesse slide, né, e entrando na 17.025, a 17.025 ela é estruturada em
+
+cinco requisitos, né, os requisitos gerais que abordam a imparcialidade e a confidencialidade, os requisitos de estrutura que fala sobre a estrutura organizacional, sobre a a organização ter que fazer, ter que ser uma entidade legal,
+
+então, fala da documentação legal, requirida, né, é sobre responsabilidades e autoridades, comunicação, né, planejamento de mudanças, os requisitos de recurso, né, pessoal, instalações, equipamentos, com rastroabilidade metrológica, os
+
+requisitos de processo, né, então, análise crítica para a prestação do serviço, métodos, amostragem, todos os requisitos, né, sessão seis e sete, foi a sessão que a Alina conversou com vocês e os requisitos de gestão, né,
+
+controle de documento, controle de registro, gerenciamento de riscos, auditorias internas, análise crítica pela gerência, né, então o foco do treinamento de hoje é a sessão quatro, cinco e oito da norma, né, primeira
+
+sessão da norma que nós vamos falar são os requisitos gerais e o primeiro requisito da dezessete mil e vinte e cinco é o requisito de imparcialidade, né, eu observo nas auditorias, né, nas consultorias que eu presto, que o
+
+pessoal sempre tem um entendimento muito claro do que a confidencialidade que também faz parte dos requisitos gerais da dezessete mil e vinte e cinco, né, o entendimento de que a gente não pode passar as informações, né, tem
+
+que tratar as informações com confidencialidade, o que que é gerado dentro do laboratório não pode ser passado para terceiros, isso é de claro entendimento do pessoal, mas quando a gente fala sobre
+
+imparcialidade, eu observo que o pessoal não tem um entendimento claro, né, sobre esse requisito, né, então quando a gente questiona todo mundo falar, não, a gente tem que trabalhar com imparcialidade,
+
+mas não sabe definir o que que é a imparcialidade. Segundo a dezessete mil e vinte e cinco, a imparcialidade implica na ausência de conflitos de interesse ou na sua resolução de modo a não influenciar
+
+de forma adversa as atividades do laboratório, né, e o que que isso significa, né, o laboratório ele deve demonstrar que pressões operacionais, institucionais, financeiras, pessoais, elas não
+
+interferem na geração, né, na análise e na comunicação dos resultados, né, então, por exemplo aqui no nosso, nesse caso aqui da eletronuclear, né, existe um vínculo do laboratório com a
+
+organização, né, esse vínculo ele não significa por si só a ausência de imparcialidade, mas ele requer, né, um reconhecimento dos riscos e controles proporcionais, né, associados esses riscos do
+
+laboratório prestar serviço para um cliente interno. Pode falar o Jaime. Então, nesse requisito aí Luana, da imparcialidade, é, só pra ver se eu entendi bem, no passado o laboratório LMA fazia
+
+parte da diretoria de operação.
+
+E a diretoria de operação, obviamente, tem necessidades e objetivos que são muito direcionados à produção, eles querem produzir e com o máximo de eficiência possível. E quando
+
+nós começamos a tratar desse assunto e buscar conhecimento, nos foi apresentado uma necessidade de mudança, né, porque a gente precisaria verificar o meio ambiente e verificar
+
+se havia impacto da instituição, né, dos refluentes da operação da empresa no meio ambiente e estávamos dentro da mesma diretoria que fazia que fazia toda a operação do sistema. E aí, nós
+
+mudamos de diretoria. Hoje em dia nós não fazemos mais parte da diretoria de operação, fazemos parte da diretoria técnica. Então, isso deixa por si só, aí é uma pergunta agora, o laboratório imparcial pra poder
+
+fazer esse monitoramento?
+
+É, isso não deixa por si só, né, pra deixar, porque a gente tem que avaliar os riscos de todo o processo.
+
+Essa mudança que foi realizada, Jaime, né, foi dentro de uma análise de riscos, né, que vocês definiram assim.
+
+Bom, vamos retirar o laboratório que serve pra monitoração ambiental, né, da atividade fim da elétron nuclear, dessa diretoria, pra um laboratório ter independência, pra segurar
+
+a independência do laboratório.
+
+Então, isso por si só não assegura a imparcialidade, mas é um dos meios que foi definido para minimizar o risco de pressor...
+
+interferências, né, da área fim da elétron nuclear nas atividades do laboratório, entendi?
+
+Eu trouxe alguns exemplos aqui de situações que podem comprometer a imparcialidade pra trazer o melhor
+
+entendimento sobre esse requisito, tá?
+
+Então, eu vou trazer esses exemplos e aí eu gostaria que vocês participassem, né, dizendo como que vocês entendem que essas situações podem impactar na imparcialidade, tá?
+
+Primeiro exemplo, né, pagamento de bônus para o técnico de laboratório que realizar mais ensaios por dia mês.
+
+Como que vocês acham que isso pode impactar a imparcialidade?
+
+E aí, pessoal?
+
+Vamos 11 aqui no treinamento.
+
+Calma, gente, um de cada vez, todo mundo querendo falar ao mesmo tempo, Luana.
+
+Pessoal, tá?
+
+Vamos chamar aqui, Luana.
+
+É um outro treinamento que a gente quase não...
+
+A gente teve que correr no final pra conseguir terminar porque todo mundo participou demais. Esse aqui o pessoal tá mais calado.
+
+Tá bem calado. E aí, gente?
+
+Como é que vocês acham que o pagamento de bônus para o técnico de laboratório que realizar mais ensaios por dia mês pode comprometer a imparcialidade?
+
+Eu acho que esse e o volume de serviços em certa forma se relacionam, né?
+
+Porque, assim, se você tem um limite, digamos, padrão técnico pra realizar aquele processo e você acelera ele aí com o pagamento dos bônus, você pode acabar tendo um prejuízo na qualidade daquele serviço que tá sendo prestado, né?
+
+Perfeito, João.
+
+Exatamente.
+
+E você foi assertivo tanto a questão do volume como o pagamento de bônus impacta a mesma coisa, né?
+
+Como você disse, né? O técnico que ele tá mais preocupado em realizar mais ensaio pra ganhar o bônus e também o laboratório trabalhar acima da sua capacidade produtiva isso pode comprometer a variedade
+
+de resultados, né?
+
+Pode perguntar, Renata.
+
+Isso aí, pelo que eu entendi, vai possivelmente prejudicar a qualidade do resultado que você perguntou com relação à imparcialidade, não foi?
+
+Isso, mas...
+
+Eu acho que uma coisa não tem a ver com a outra, não.
+
+Tem total a ver uma coisa com a outra.
+
+Não, não que tá sendo comentado agora.
+
+Se eu tivesse mais análises pra ganhar o bônus, eu não sei o que ter...
+
+A imparcialidade, talvez teria a ver com a qualidade, não com imparcialidade, pelo menos no meu ponto de vista.
+
+Não, a imparcialidade ela é ausência de conflito, de interesse, de modo a influenciar de forma adversa as atividades do laboratório, então, se eu tenho uma pressão indevida,
+
+pessoal trabalhando acima da capacidade produtiva, isso pode comprometer a imparcialidade.
+
+Se eu chego pro técnico e dou a possibilidade de pagar um bônus pra quem realizar mais ensaio, o técnico que ele tá mais preocupado com a quantidade de resultado que ele vai emitir
+
+do que com a qualidade.
+
+Isso pode comprometer a imparcialidade no sentido de ele não realizar o ensaio adequadamente porque ele tá ali buscando fazer mais ensaios e isso comprometer o resultado.
+
+Então, há um conflito de interesse dentro dessas duas situações.
+
+No segundo é uma pressão indevida e no primeiro é um conflito de interesse.
+
+E aí isso pode falar.
+
+Desculpa, esqueci de levantar a mão.
+
+Então, por exemplo, no caso que o João trouxe aí, que ele trouxe também o volume de serviço acima da capacidade produtiva, essa imparcialidade pode ser gerada pelo próprio laboratório porque o corpo técnico é insuficiente para que todas as análises,
+
+todos os processos sejam executados.
+
+E isso aí vai gerar, em função de uma decisão gerencial, empresarial, isso vai gerar um conflito porque a equipe vai estar sobrecarregada, não vai trabalhar da melhor forma possível e pode trazer aqui alguma influência
+
+em função dessa sobrecarga.
+
+E no que diz respeito ao bônus, Luana, eu posso até alterar metodologias, por exemplo, só para trazer um exemplo prático aqui.
+
+A gente tem um ensaio aqui de determinação de nitrogênio amaniacal, que ele precisa reagir durante quatro horas.
+
+Então, eu sou o técnico analista que faz essa análise.
+
+Eu posso aqui buscar formas para acelerar essa reação apenas para bater um número maior e ganhar o bônus.
+
+E aí eu estou impactando também no resultado em função da alteração da metodologia, é isso.
+
+Isso, perfeito. E aí há um conflito de interesse.
+
+Aqui eu estou trazendo exemplos, que posem risco, eu não estou afirmando que um pagamento de bônus gera parcialidade.
+
+Eu estou trazendo um exemplo que pode ser um risco em parcialidade.
+
+Você usou um exemplo claro aí, porque o técnico, ele está querendo ter uma maior produtividade para ganhar o bônus.
+
+E isso pode se impactar conforme o exemplo que você deu.
+
+Acelerar as etapas da realização do ensaio, não realizar o ensaio de acordo com o método, isso há um conflito que pode impactar o resultado.
+
+Então isso é um risco à imparcialidade.
+
+O último exemplo ficou claro, Renata.
+
+Ficou. Obrigada.
+
+Através do exemplo que o Jai me deu, que isso está associado à imparcialidade, o cliente ter acesso direto aos técnicos que realizam o ensaio.
+
+Então aqui vamos voltar para a realidade da eletronuclear.
+
+O cliente, a gente tem um cliente interno.
+
+Então dentro da organização, a necessidade, não estou falando sobre o pessoal do laboratório não ter contato com a operação, não é sobre isso.
+
+Mas quando a gente fala de acesso direto é no sentido de interferência sobre as atividades que aquele técnico realizando no laboratório.
+
+Então o pessoal da operação fazer alguma pressão endevida no técnico solicitando o resultado, solicitando que realize fora do prazo estabelecido a doença técnica do laboratório, tentando intervir numa realização de uma atividade
+
+que é de responsabilidade do laboratório.
+
+Então isso tudo pode ser um risco à imparcialidade.
+
+Como que a gente pode, a gente deve implementar esse requisito de imparcialidade.
+
+Como que a gente assegura que as atividades de laboratório sejam realizadas com imparcialidade, estabelecendo políticas claras de imparcialidade que todos os funcionários devem seguir.
+
+Certamente a Leto Nicleá tem um código de conduta, vocês têm um código de conduta.
+
+Então o código de conduta são políticas definidas pela organização para assegurar entre os pontos a imparcialidade.
+
+Certamente o código de conduta de vocês tem requisitos que falam sobre a imparcialidade.
+
+Acamentos regulares capacitados funcionários para reconhecer e lidar com riscos a imparcialidade.
+
+Então nesses treinamentos trazer exemplos de situações que podem impactar.
+
+Processos para identificar e avaliar riscos a imparcialidade.
+
+Então definir os riscos a imparcialidade e revisá-los periódicamente avaliando a eficácia das medidas de
+
+controles definidas e implementadas.
+
+Retroalimentação do pessoal.
+
+Realizar reuniões periódicas com o pessoal para conversar sobre possíveis riscos associados às suas atividades, riscos a imparcialidade associadas às suas atividades.
+
+Auditorias internas periódicas a fim de avaliar a conformidade com as políticas conhecidas pelo laboratório para avaliar se o laboratório está trabalhando de acordo com essas políticas.
+
+Passando aqui por pontos, que geralmente o código de conduta as políticas e a imparcialidade abordam a questão de conflito de interesse.
+
+Então definir meios de comunicação que assegurem que o colaborador possa divulgar qualquer potencial de conflito de interesse que possa afetar a sua imparcialidade.
+
+Então as empresas têm, às vezes, uma ouvidoria, tem um canal para o colaborador ele poder fazer algum tipo de denúncia sem que ele se sinta prejudicado.
+
+Então, não sei se a eletronuclear vocês têm esse canal de ouvidoria para...
+
+Então...
+
+Tem até dois canais, tem a ouvidoria interna para a gente e na Limped também que a gente use fala BR, que é uma ouvidoria geral da União.
+
+O Luana, só complementando a fala do João e além desses dois canais a eletronuclear tem a sua própria ouvidoria mas quando chega pelo fala BR, se eu não me engano,
+
+ainda é discriminado se é um assunto de ouvidoria ou se é sobre aporação de denúncias.
+
+Então ainda tem uma assessoria que trata da aporação de denúncias.
+
+Então a gente entende que é bem...
+
+que a Carla quer complementar, mas é bem eficaz isso aí.
+
+Bom dia pessoal, não é exatamente isso o Johnny está procurando reforçar embora o principal canal venha através do fala BR tem uma área ligada à diretoria executiva que é acima da presidência que cuida de todas as chamadas
+
+deixando claro essa independência, essa imparcialidade é uma área que está dentro do organograma da empresa está acima da presidência.
+
+Então a eletronuclear tem esse canal para o colaborador caso ele sofre, passe por algum conflito de interesse alguma pressão indevida ele possa divulgar
+
+essa informação que vai ser tratado pela eletronuclear.
+
+Pessoal os colaboradores não podem prestar serviços a qualquer outra organização então estou dando aqui um exemplo, gente então isso é uma forma também, uma política que as organizações às vezes definem
+
+não pode ter vínculo com outras organizações prestar serviços para outras organizações no caso da eletronuclear ela permite prestar serviços para outras organizações como é que as podem ter vínculos vínculo com outra organização
+
+Eu acho, não consigo afirmar que no nosso caso é análogo a questão de o Estatuto dos Servidores Públicos que você teoricamente implementou o médico do trabalho aqui talvez eventualmente possa clicar fora da empresa
+
+e eu acho que eventualmente da aula não é vedado mas fora isso por exemplo, sei lá, trabalhar como um analista de laboratório aqui em outro lugar de fato não é possível então ter essa
+
+questão tem organizações que definem isso como política para o pessoal, não ter vínculo com outras organizações pode falar, Carla é também só completando a gente pode ter microempresas
+
+desde que não prestem serviços e que não sejam atividades conflitantes como você colocou de interesse então por exemplo, só dando um exemplo eu tenho em meio, mas que não tem nada a ver coisa de arte, de música, então eu posso ter mas isso também é verificado
+
+então, periodicamente a gente tem que reportar se você tem algum tipo de CNPJ envolvido e com relação a ter outros tipos de contratos, por exemplo desde que não ultrapasse que não interfira dentro da cargurária
+
+das 40 horas semanais, é possível então assim, eu não sei se legalmente isso é permitido mas eu sei de pessoas aqui na empresa que não são funcionários públicos mas que tem outras atividades, por exemplo como o João citou, questão de dar aula
+
+eu acho que o principal e diferente aí, não ser atividade conflitante e que principalmente não preste serviço para eletronuclear, então por exemplo eu não posso ter uma empresa que tenha ainda que não seja prestadora de serviço direto de eletronuclear
+
+mas eu não posso ter uma empresa que possa vir prestar serviço para eletronuclear de alguma forma, por exemplo aí eu não posso ter um laboratório de análises ambientais, por exemplo não posso, porque isso poderia ser um conflito de interesse, então também não posso
+
+prestar serviço, poderia como consultoria onde não aparece o vínculo do CPF ou de um CNPJ, mas legalmente realmente não pode, então tem algumas coisas que podem mas desde que não haja esse conflito de interesse realmente.
+
+Exato.
+
+Então viu que todos os exemplos, todas as situações que a Carla trouxe, ela sempre só não pode ser da área então isso tudo é com foco na imparcialidade então é permitido ter um MEI desde que não preste
+
+serviço para a área ambiental então isso tudo é com foco em conflito de interesse imparcialidade.
+
+Obrigada e eu Carla pelos exemplos que você trouxe a organização estruturada, ter uma estrutura organizacional e gerencial definida assegurando a independência do gerenciamento técnico-laboratório, que foi até o que o Jaime
+
+comentou, que o laboratório fazia parte de uma diretoria e saiu dessa diretoria para assegurar a independência técnica do laboratório comerciais, relação com os provedores externos de forma transparente
+
+e profissional, sem que haja oferecimento ou recebimento de favorecimento.
+
+Então também essa relação com provedores externos tem que assegurar a imparcialidade o requisito 4.1 define a necessidade de um planejamento de riscos a imparcialidade identificação de riscos
+
+e de acordo com essa classificação desse risco uma tomada de decisão em relação ao plano de ação, a fim de minimizar, monitorar ou eliminar esse risco.
+
+E aí eu trouxe como risco o nosso caso da eletronuclear, então cliente interno pressionar um técnico para a missão rápida dos resultados de ensaio.
+
+Então quais são as ações que a gente pode implementar dentro do laboratório a fim de minimizar esse risco
+
+a imparcialidade.
+
+Estabelecer, implementar uma política de imparcialidade você tem um código de conduta que toda a organização deve atender o cliente interno, que é a operação um termo de imparcialidade que todos da organização assinem
+
+no sentido de estar comprometido com o que está definido no código de conduta. Realizar treinamentos periódicos abordando a imparcialidade e trazer exemplos para o pessoal para o entendimento sobre a imparcialidade
+
+das vezes por um desconhecimento o técnico pode estar comprometendo a imparcialidade num processo sem que ele saiba que ele está comprometendo por falta de conhecimento, então explicar o que significa a imparcialidade
+
+para o pessoal para estar claro até para ele conseguir trazer para a gerência situações que podem estar comprometendo.
+
+Isso é um canal de comunicação, a gente falou vocês têm a ouvidoria, definição de prazos considerando a capacidade produtiva do laboratório, então a prestação do serviço para o cliente interno, ela tem prazos previamente definidos
+
+então vocês acordam com a operação o prazo para a emissão do relatório dos resultados e eles não podem exigir uma emissão do resultado em um período menor
+
+do que acordada previamente com ele questionamento sobre resultado somente com a gerência do laboratório, então quando o cliente interno quiser contestar resultado, ou qualquer outra questão, que ele tem que entrar em contato
+
+com a gerência do laboratório, ou pelas pessoas designadas pela gerência para esse contato signatários autorizados, que autorizam os relatórios e como que a gente pode verificar a eficácia desse plano de ação
+
+através de auditorias regulares para monitorar a conformidade com as políticas de imparcialidade e a retroalimentação do pessoal através de pesquisa interna, pesquisa de clima para saber, o pessoal trazer situações
+
+então, essas são formas de verificação da eficácia desse plano de ação a fim de minimizar esses riscos e aí pessoal como exercício
+
+eu mandei para vocês um um arquivo, em Word só, mas vocês podem usar a caderno para a gente fazer alguns exercícios que não aqui durante o treinamento, e o primeiro exercício
+
+eu gostaria que vocês identificassem riscos em parcialidade e definissem um plano de ação para minimizar ou eliminar esses riscos, vocês podem fazer em conjunto, se vocês quiserem conversarem entre vocês
+
+um foco no laboratório de vocês eu posso participar aqui também caso vocês tenham dúvidas vamos lá pessoal, podem ir abrir os áudios se vocês quiserem fazer
+
+juntos Luana, quanto tempo para executar essa atividade já que a gente falou em negociar prazo quanto tempo a gente 15 minutos? 20 minutinhos mas eu estou aqui participando aqui com vocês
+
+pessoal, em conjunto cada um vai fazer o seu, como vai funcionar isso aí?
+
+acho que pode ser em conjunto e com foco aí no laboratório de vocês o que vocês acham de riscos a imparcialidade Luana, você falou aqui sobre os exercícios aí eu achei você mandou ontem
+
+então tem aqui um é para usar esse tem um arquivo em um ordem e eu mandei também e os requisitos da norma, a Lina também deve ter mandado na passada, mas são os requisitos da norma
+
+um é para fingir acompanhamento dos requisitos e tem um documento em um ordem que é pra vocês usarem para fazer esses exercícios então eu posso compartilhar aqui pra gente fazendo junto?
+
+pode vou derrubar essa sua apresentação rapidinho aqui tá, claro, ótimo então é esse arquivo aqui que a gente vai fazer aí, descrição do risco posso dar um exemplo aqui pra vocês
+
+só para a gente diferenciar um start por exemplo, né um resultado acima do histórico o próximo ao limite é especificado
+
+e aí a operação fazendo uma pressão e contestando, não aceitando esse resultado Jaime, já todo, bom dia aí
+
+acho que a gente vivencia isso um pouco em relação à temperatura dava do mar exatamente, a temperatura tem relação direta com a potência do reator então quando a gente está captando água mais quente
+
+obviamente a gente está devolvendo mais quente e tem um limite, né, o Konama 430 diz que não pode exceder a liberação de afluentes no corpo hídrico não pode exceder 40 graus então é excelente
+
+exemplo, Denise, qual a probabilidade de isso acontecer o pessoal da biologia da monitoração de temperatura aí está mais acostumado com os dados de verão e aí Gabi consegue ajudar a gente mas aqui a gente está com foco na imparcialidade
+
+então como a operação entende isso, porque pelo que estou entendendo tem um risco no resultado tem um risco no resultado e aí a operação como é que a gente não está focando
+
+no risco na atividade de laboratória que a gente está focando no risco a imparcialidade, então um resultado acima do escutórico próximo e a operação contestando esse resultado e fazendo uma pressão
+
+endevida no laboratório porque isso impacta a atividade deles como que em relação à probabilidade e impacto e qual é o plano de ação focando em parcialidade
+
+então seguindo essa linha de raciocínio a gente tem essa probabilidade muito mais clara de acontecer no verão então se eles vão fazer algum tipo de pressão por exemplo eles não vão fazer no inverno eles vão fazer essa linha que seria por exemplo 25%
+
+de probabilidade, é isso?
+
+É, a probabilidade disso acontecer dessa pressão endevida acontecer é baixa né é isso? Sim o impacto é alto né, caso haja né
+
+a probabilidade também em cima de um histórico verificar se isso já aconteceu no passado, sei lá em 30 anos aconteceu 3 vezes aí você vai dizer que a probabilidade é baixa né perfeito, eu não entrei
+
+aqui a gente vai falar mais um pouquinho de riscos lá na frente no requisito 8.5 mas e essa probabilidade conforme você vai verificando eficácia você não pode mudar, não pode?
+
+porque assim, eu não estou tendo histórico ou eu estou classificando como média aí eu estou verificando eficácia, eu não tive essa história eu posso reclassificar esse risco não posso, aí eu tive situações eu posso mudar também
+
+e essa classificação, probabilidade versus impacto é para eu fazer uma análise sobre a decisão a probabilidade baixa, o impacto baixo eu posso definir aceitar o risco agora sendo baixo mas o impacto alto aí eu não vou definir aceitar
+
+não, pera aí, isso aqui eu vou é minimizar ou vou monitorar, tá? Então essa classificação probabilidade versus impacto é para tomada de decisão a respeito e esse risco, qual vai ser o meu plano de ação?
+
+é, Luana, mas eu não preciso de critérios para estar classificando o que é uma probabilidade alta ou o que é um pacto médio baixo eu não preciso relacionar quais são os critérios
+
+para eu poder classificá-lo? Sim, sim de jeito que, por exemplo, o João ele falou, tem como a gente usar até escalas de números, tá gente?
+
+então assim, ah, sem ocorrência aí você dá uma numeração a mesma coisa por impacto e aí essa multiplicação da probabilidade com impacto vai dar uma classificação
+
+do risco e aí essa classificação você vai tomar decisão, se você vai eliminar se você vai mitigar, pode perguntar Gabriela Oi, é, responda Não tem problema não, respondendo à Denise
+
+a gente tem já no laboratório um procedimento relacionado a isso então a gente usa, a gente tem um procedimento de matriz de risco eu não estou conseguindo encontrar ele aqui agora no Green Docks não sei o código dele, mas a gente já tem um procedimento que diz por numeração mesmo qual que é a, como que a gente classifica
+
+a probabilidade, o impacto e até em relação a decisão, né como que a gente vai tomar decisão com base no risco perfeito, então você já tem esse procedimento que vocês fazem essa classificação de acordo com numeração, né, e tem uma tabelinha lá no procedimento
+
+de vocês, né, que de acordo ali vocês vão dar essa numeração e depois tem essa multiplicação da probabilidade com impacto que dá um número e você toma uma decisão a respeito desse risco pode perguntar, Renata O risco que é no caso, em vez de ser
+
+o resultado em si acima do histórico não é uma pressão por um resultado conforme por parte da operação, porque isso aqui é o resultado Isso eu trouxe a situação para vocês incluir
+
+o risco, tá? Então eu trouxe a situação de ter o resultado acima do histórico, então qual é o risco associado com isso? Como a Renata falou uma pressão indevida, né, por um resultado E aí, qual seria a decisão?
+
+Tendo aí uma probabilidade, né um impacto alto né, qual vai ser aí a...
+
+E aí, Gabi, você que conhece bem o procedimento com a decisão? Eu acho que o melhor seria minimizar, né, agora como que vai minimizar, eu já não sei. Fique pensar no plano de ação Então aqui, ó, eu fiz as alterações como a Renata sugeriu ali, que o risco é
+
+a pressão e a pressão em função de um resultado acima do histórico, com uma probabilidade baixa no caso da temperatura, com um impacto alto Então a decisão é por minimizar e o plano de ação. A minha sugestão já é minha, que a gente coloque que esse contato tem que ser feito
+
+com a gerência do laboratório no caso é o chefe, né, da divisão aqui Então isso minimiza um pouco o impacto. Então as tratativas com o que ele tá fazendo a análise, né?
+
+Então as tratativas devem ocorrer com o gestor do laboratório, é isso?
+
+É, é uma sugestão Sim, Gabi Dentro do nosso procedimento, a gente tem as seguintes categorias, né?
+
+Evitar, transferir, mitigar, aceitar, explorar entre outros. Não tá especificado minimizar em si, mas talvez seria o mitigar É exatamente isso, mitigar É, Gabi já terminou, né? Já falou É, vai falar ainda, Gabi
+
+Pode falar, João No nosso caso, Luana, que a gente tá inserido dentro de uma organização É viável, por exemplo, além colocar essa questão das tratativas diretas com o gestor
+
+e com um outro ponto o acionamento do chefe do chefe do laboratório se for necessário, porque na nossa estrutura a nossa chefia tá toda numa diretoria Se essa pressão vier de outra diretoria no caso da diretoria de operação
+
+a gente não tem níveis hierárquicos superiores pra tentar barrar essa pressão É possível, nessa forma de organização pensar nesse encaminhamento?
+
+É isso, faz parte da gerencia do laboratório, né?
+
+Sim É que na verdade pra gente não estaria dentro do laboratório seria um gestor acima do laboratório Sim, mas essa gerencia não necessariamente ela pode
+
+estar dentro do laboratório Ela pode estar fora do laboratório Por exemplo, do laboratório é o jime pra baixo Certo? E tem uma diretoria que o jime responde que provê recursos
+
+E tá aqui a Carla Oi Carla, tudo bem?
+
+Então, é a Carla que provê os recursos Quando a gente chegar mais à frente a gente vai falar dessa gerencia que tem responsabilidade geral pelo laboratório E aí a gente vai ver
+
+como é que é essa estrutura dentro do LMA Pode falar aí o pessoal que tá com a mão levantada É, não sei se a linha de raciocínio tá correta, mas sim
+
+se tem um risco um plano de ação seria de repente aumentar o número de análise de um determinado ponto Duplicata, duplicata
+
+Duplicata, perfeito Porque assim, o que acontece, né?
+
+Carla, dentro desse contexto aí que você trouxe que seria uma próxima pergunta que eu ia fazer pra vocês, né?
+
+Porque se eu repito, tá?
+
+E o outro resultado dá dentro Eu vou considerar o dentro só porque satisfaz o cliente?
+
+Não. Então, eu tenho que fazer dentro e avaliar a repetibilidade dessas determinações Não é simplesmente repetir o que deu dentro, eu vou considerar o que deu dentro no sentido de favorecer
+
+satisfazer o cliente Então, eu tenho que ter critérios documentados pra repetição e confirmação dos resultados considerando aí o que o que a Denise comentou
+
+Pode falar, Gabriele Luana, tenho uma dúvida No caso, o cliente quando ele faz uma solicitação por exemplo, pro laboratório ele pode saber quem tá respondendo
+
+essa solicitação pra ele, né?
+
+Ele pode saber quem tá fazendo a análise quem tá respondendo o que ele precisa, certo?
+
+Ele pode saber, isso não tem a ver com a imparcialidade Não, porque o que acontece, né?
+
+Dentro desse contexto aqui que a gente tá conversando isso até vai falar diretamente com outro requisito da 17.025, que é o Requisito de Reclamação que a Lina conversou com vocês semana passada Então assim, uma não aceitação
+
+de um resultado, uma contestação de um resultado, entra lá no Requisito de Reclamação, não entra?
+
+Sim, não, mas eu tô querendo dizer o seguinte por exemplo, o cliente fez uma solicitação pro laboratório Aí vamos pra essa solicitação chegou direto pra mim Aí eu vou responder o cliente diretamente
+
+e ele vai saber que eu que tô respondendo ou isso tem que ser respondido pelo chefe do LMA pra que haja imparcialidade nessa resposta Aí eu vou jogar a pergunta pra vocês Como é que tá definido
+
+no processo de vocês de tratamento de reclamação?
+
+Certo, Gabriel?
+
+Tá, quando chega Quando tá definido, quando chega uma reclamação pro laboratório quem tem autoridade dentro do processo pra concluir sobre
+
+o processo de tratamento de reclamação?
+
+Tá, a gente recebe a reclamação ela pode vir pro, né vamos pro, chegou pra mim como sou eu que vou dar o primeiro passo nela Aí isso é passado pro setor administrativo
+
+que vai fazer a abertura dessa solicitação dessa reclamação do cliente aí feita a abertura, passa pro responsável da qualidade pra avaliar se essa reclamação ou essa solicitação
+
+é realmente procedente se somos nós que realmente podemos resolver isso.
+
+O responsável da qualidade quando fala faz uma análise de procedência se for uma procedência técnica ele tem que ter essa expertise técnica pra avaliar essa procedência.
+
+Isso, isso é feito junto com o setor da área da biologia ou da química então é feito com o responsável da qualidade juntamente com o supervisor da área
+
+pra realmente ter essa parte técnica como você falou, tá?
+
+E aí feito isso com os dois é passado pro corpo técnico fazer o que tá sendo solicitado ou tá dentro da reclamação e aí depois
+
+é feito a retroalimentação do cliente, seria isso o processo com uma pesquisa de satisfação pra ver se a resposta foi adequada e aí depois
+
+volta novamente pro responsável da qualidade pra avaliar com base na pesquisa de satisfação se foi atendido nessa reclamação essa solicitação também
+
+esse seria o passo a passo hoje Então, esse passo a passo tá ok É, então a minha dúvida é só essa se o próprio corpo técnico que é quem respondeu de fato
+
+vai responder direto pro cliente ou se essa resposta deveria sair pelo chefe dele mear por exemplo, ou pelo setor da qualidade enfim, não sei Então, ele deve
+
+pensar na imparcialidade não, no caso É, considerando todas essas etapas que você explicou, né que tá de acordo com o requisito 7.9
+
+e também tá de acordo com o requisito 4.1 o processo ele não é avaliado somente por uma pessoa ele é avaliado por um corpo técnico então ele não é avaliado somente
+
+pela pessoa que realizou aquela atividade que emitiu aquele resultado e isso tudo tá definindo na 17.025 e tem foco também da imparcialidade né o retorno
+
+pro cliente ele pode sim ser pelo pessoal da qualidade tá ele pode ser por alguém da área técnica agora é o retorno
+
+agora se o cliente fizer novamente contestações o processo novamente tem que ir pra quem tem autoridade de responder a comunicação
+
+sobre o resultado da tratamento da reclamação vocês vão definir dentro do processo quem pode ser e na minha opinião pode ser qualquer uma dessas pessoas que você citou agora
+
+se isso é comunicar a conclusão que foi avaliado pelas pessoas autorizadas agora se o cliente fizer novamente uma contestação, essa pessoa que
+
+respondeu não necessariamente ela tem autoridade pra concluir novamente entendeu Gabrielio que eu tô querendo dizer entendi então no caso o cliente pode saber
+
+quem foi quem é a pessoa que tá respondendo ele de fato né que fez a análise dele né enfim só que ele não pode atuar no processo por exemplo cobrando um prazo mais apertado
+
+é ou cobrando um que o resultado seja que ele quer por exemplo não e a pessoa que tá respondendo não necessariamente ela tem essa
+
+autoridade pra dar outras respostas diferentes do que porque uma coisa você comunicar uma resposta entendeu Gabrielio
+
+outra coisa é você analisar criticamente essa resposta pro pro cliente posso sim ter um setor que recebe a reclamação
+
+e esse setor ele comunica a análise de um corpo técnico é uma coisa posso concluir então que é uma combinação entre
+
+a análise em si do fato e a comunicação ficaria por conta do gestor então seria o corpo técnico mais o gestor compondo essa resposta
+
+que é pode ser o que eu só quero dizer que eu não quero fechar somente o gestor como quem pode dar a resposta
+
+porque aí eu estou fazendo uma comunicação eu estou dando um retorno pro cliente pode ser qualquer pessoa definida por vocês agora a análise
+
+sobre a procedência são por pessoas autorizadas entenderam a diferença do que eu quero dizer ficou claro gente o que eu quis dizer a diferença
+
+o retorno pro cliente vocês podem definir quais são as funções que podem retornar não necessariamente essa pessoa que está retornando pro cliente é quem analisou criticamente
+
+e validou a tratativa dessa reclamação entender ou Gabriel?
+
+Obrigada bom, dando continuidade então agora só deixa eu fazer uma pergunta para vocês aqui quando vocês levantaram essa questão aqui da
+
+que tem essa possibilidade no verão por conta da temperatura ter essa variação do resultado não é isso?
+
+sim e aí quando vocês falam em realizar o resultado análise em triplicata é da mesma amostra
+
+ou certo?
+
+eu tenho duas chances vamos lá só buscando a referência desse problema da temperatura eu posso fazer a mesma amostra em duplicatas ou triplicatas
+
+aí vai definir vai ser de acordo com a metodologia aplicada por isso eu posso para ter uma representatividade maior fazer a análise ao longo do dia ou ter um processo de
+
+monitoração online para entender porque aquela temperatura pode ser puntual hum hum entendi aqui no caso eu acho que cabem as duas coisas
+
+agora o resultado se repetindo e dando fora exatamente o resultado é mandatório as ações para adequar a temperatura efluente vão precisar ser tomadas
+
+então vocês têm que ter critérios documentados para a repetição e confirmação do resultado como você apresentou
+
+a IJAIM e preservação dos dados originais dentro desse contexto tenho aquele histórico
+
+daquela reanálise daquela amostra toda rastreabilidade e o resultado se repetindo como não conforme é ele que vai ser reportado
+
+perfeito e aí definindo esse canal como você falou com a gerência para evitar pressões indevidas
+
+então se você entende que o técnico dá esse retorno para a operação pode sofrer algum tipo de pressão indevida então vocês podem definir
+
+qual é o canal de comunicação com um cliente perfeito verificação de eficácia alguém?
+
+é a forma que vocês vão verificar se as ações que vocês definiram no plano de ação estão minimizando de fato esse risco
+
+é a forma de verificação da eficácia então quais são os meios que vocês podem utilizar para verificar
+
+essa eficácia poderia dizer que por exemplo a elaboração de verificação dos registros como se fosse uma auditoria interna
+
+porque isso vai ser a forma de verificar se os registros foram exatamente feitos por exemplo as duplicatas triplicatas a auditoria é a forma
+
+de avaliar se todos os registros estão preenchidos adequadamente isso o pessoal fez a replicata para confirmar aquele resultado dentro dessa metodologia
+
+definida que foi falada pelo Jaime já que a temperatura impacta o resultado ter essa questão ao longo do dia eu não estou querendo entrar na parte
+
+técnica da execução porque esse não é um foco do meu treinamento eu só estou indo em cima do que vocês estão me trazendo porque quem tem expertise técnica é a Lina para essa área
+
+pode falar aí Renata e Gabriele eu queria perguntar se no caso essas essa pressão entre aspas ou essas reclamações
+
+se fossem coisas que seriam registradas então seria verificar o número de reclamações do período
+
+mas eu não sei se isso seria um processo que viria de uma forma registrada isso seria verbal porque isso teria como fazer uma medição dessa forma que eu estou pensando
+
+todo o recebimento de uma reclamação de acordo com o nosso procedimento o processo da 17.125 deve ser registrado
+
+seja ela procedente ou não então o cliente reclamou ver o número de reclamações talvez fosse uma forma de fazer uma verificação uma verificação da eficácia
+
+na verdade é isso das procedentes porque a gente pode ter reclamação do cliente que não é procedente deixa eu só registrar
+
+que a Gabi está na vez eu não estou conseguindo levantar a mãozinha então depois da Gabi eu queria fazer um comentário pode falar Gabi já estou íntima também
+
+ele chamou de Gabi pensando nas tratativas com o gestor acho que seria mais uma questão e também pensando na verificação da eficácia
+
+acho que ter registros por exemplo do ocorrido por e-mails essas tratativas ocorram por meio de reuniões as devidas atas de reunião
+
+para registro também são formas de verificar que a gente está correndo com um plano de ação e verificar a eficácia dele isso que você falou
+
+Gabi sobre ter isso em atas reuniões toda essa forma isso tudo é a forma de retroalimentação do cliente
+
+então a gente está aqui você acabou falando do requisito de melhoria que a gente vai falar mais a frente e sobre processo de tratamento de reclamação o processo de tratamento de reclamação de vocês ele define
+
+a sistemática como vocês recebem e registram essas reclamações então aqui é seguir o processo de tratativa de reclamação na verdade é isso
+
+é o processo de vocês de tratamento de reclamação eu volto bastante nisso porque eu fiz o procedimento de atendimento ao cliente então é isso
+
+a verificação do plano de ação é implementação do processo de tratamento de reclamação lá no nosso plano de ação tem que ter
+
+no caso de contestação de não aceitação implementação e do procedimento que você escreveu de reclamação o Luana por exemplo a gente está agora no último campo
+
+aqui que é de verificação da eficácia então a Carla falou sobre auditorias regulares alguém falou sobre reuniões e atas e afins nesse caso específico
+
+por exemplo quando a gente está verificando aqui a temperatura do efluente eu tenho aqui então dentro do meu plano de ação
+
+realizar duplicata e triplicata da mesma amostra e fazer um acompanhamento digamos assim um pouco mais contínuo para entender em que momento
+
+essa temperatura vai estar dentro do limite de forma e essa sequência de ações ela vai gerar uma sequência
+
+de resultados dos ensaios exatamente o teu procedimento deve prever isso desse parômetro que vocês estão medindo esse teu procedimento prever isso
+
+então procedimento prever isso e a pergunta que eu ia fazer é o seguinte procedimento de ensaio de ensaio perfeito quando eu chego no ensaio
+
+que me informa que a temperatura retornou ao valor aceitável pela norma isso vai ser assinado vai ter uma dupla ou tripla verificação
+
+esse próprio resultado de ensaio ele já não é uma verificação de eficácia também porque eu tenho outra pessoa verificando que tudo aquilo que estava
+
+realizado dentro das ações para aquele ensaio foi realizado isso pode ser uma verificação de eficácia porque a auditoria pode vir daqui a muito tempo a verificação sim
+
+mas essa implementação de ter um segundo olhar isso tudo é um plano de ação para a pressão indevida você concorda?
+
+entendeu a diferença o Jaime?
+
+a verificação dupla é um plano de ação como você vai verificar se isso está acontecendo através dos registros?
+
+aí novamente entra essa questão das auditorias regulares que a Carla falou que vai verificar realmente se tem uma dupla verificação dos resultados de ensaio
+
+perfeito tirou minha dúvida ou Luana, a gente está terminando aqui eu não sei estar dentro dos 20 minutos que a gente tinha combinado mas só para dizer
+
+que a gente já recebeu a informação que o CofrBake chegou eu não quero causar um tipo de saída antecipada mas eu quero saber se ao finalizar
+
+vamos dar um intervalinho sim usamos até mais do que 20 minutos usamos, você tomou aqui a 40 minutos a gente pode dar um intervalo aí para vocês
+
+vamos fechar então a classificação aqui mas a gente encerra a classificação gente não é para fechar, na verdade é verifique a eficácia foi eficaz?
+
+aí eu posso classificar o risco se ele realmente ele está controlado ou se eu tenho que revisar meu plano de ação tá gente? essa classificação tem esse objetivo
+
+tá?
+
+aí vocês vão avaliar através da verificação da eficácia se o risco ele está controlado caso você chegue à conclusão que não aí vocês vão revisar o plano de ação de vocês
+
+é isso?
+
+ou revisar o plano de ação o nosso plano de ação tem mais coisa para colocar aqui tá gente como vocês falaram a contestação com a gerência
+
+do laboratório implementação do processo de tratamento de reclamação que inclui um corpo técnico para variar o resultado e a implementação
+
+do processo de tratamento de reclamação que é de acordo com o procedimento que a Gabi escreveu né então você já tem um processo documentado de tratamento de reclamação
+
+que é um procedimento de vocês tá? bom gente podemos dar uma paradinha de 15 minutinhos para o café tá?
+
+15 minutinhos agora a gente volta a 9 e 50 isso tá bom?
+
+tá você poderia estar convidada mas a distância vou fazer ali um expresso e tomo aqui enquanto vocês estão tomando aí o copy
+
+veio aqui de vocês tá bom? até daqui a pouco pessoal

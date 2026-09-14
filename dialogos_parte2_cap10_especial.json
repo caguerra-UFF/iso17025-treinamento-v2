@@ -1,0 +1,57 @@
+{
+  "title": "Parte 2 - Capítulo 10 Especial: Mitos, Excessos e Fatos da ISO 17025 no Processo Técnico",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_2",
+  "episodes": [
+    {
+      "id": "10.1",
+      "filename": "Podcast_Parte2_Capitulo_10_Mitos_Excessos_e_Fatos_Processo_ISO17025.mp3",
+      "title": "Capítulo 10 Especial - O Guia Anti-Pegadinhas do Dia 2: Mitos e Fatos do Processo Técnico",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, chegamos ao Capítulo 10 Especial da Parte 2: o guia anti-pegadinhas definitivo sobre os processos analíticos da ISO 17025! Aquelas frases que todo mundo repete nos laboratórios como verdades absolutas, mas que na realidade vão além do texto da norma. Pronta para derrubar mais alguns mitos?"
+        ],
+        [
+          "Francisca",
+          "Sempre pronta, Thalita! Separar o texto oficial da ISO 17025 daquilo que é exigência de método específico ou excesso burocrático de curso é o segredo para ter um laboratório ágil, eficiente e aprovado sem estresse nas auditorias da Cgcre."
+        ],
+        [
+          "Thalita",
+          "Vamos direto ao mito número um de campo: 'Gelo reciclável em gel rígido é proibido pela ISO para transportar amostras ambientais'. O que a norma realmente diz?"
+        ],
+        [
+          "Francisca",
+          "Mito clássico, Thalita! A ISO 17025 não proíbe nem determina nenhuma marca ou tipo de refrigerante. A exigência normativa do item 7.4 é garantir que a amostra chegue íntegra e na faixa de temperatura requerida pelo método de ensaio. Se o laboratório tem um estudo térmico comprovando que o gelo reciclável mantém a temperatura do frasco testemunha, o uso é perfeitamente válido e muito mais higiênico do que gelo derretido!"
+        ],
+        [
+          "Thalita",
+          "Mito número dois: 'A ISO 17025 proíbe expressamente o uso de lápis e exige caneta esferográfica azul ou preta'."
+        ],
+        [
+          "Francisca",
+          "Outro excesso de interpretação! A norma exige nos itens 7.5 e 8.4 integridade, legibilidade e que qualquer emenda seja rastreável às versões originais sem ser apagada. Lápis é evitado porque pode ser apagado por borracha, mas a exigência de tinta indelével é uma excelente política interna do laboratório, e não um mandamento literal do texto internacional."
+        ],
+        [
+          "Thalita",
+          "Mito número três: 'Todos os ensaios do laboratório são obrigados a rodar brancos e duplicatas a cada vinte amostras, com tolerância máxima de vinte por cento'."
+        ],
+        [
+          "Francisca",
+          "Fonte complementar confundida com a ISO! A ISO 17025 exige controle de qualidade planejado e monitorado no item 7.7, mas não crava o número vinte nem a porcentagem de vinte por cento. Esses valores vêm de métodos normalizados da EPA, Standard Methods ou normas ABNT específicas de cada parâmetro."
+        ],
+        [
+          "Thalita",
+          "E fechando com chave de ouro, mito número quatro: 'Se uma fonte de incerteza for menor que trinta por cento da maior, eu posso simplesmente ignorar na planilha sem justificar'."
+        ],
+        [
+          "Francisca",
+          "Alerta vermelho de não conformidade! A regra dos trinta por cento do guia Eurachem é uma recomendação matemática que requer justificativa documental. O laboratório precisa demonstrar em relatório que avaliou a fonte e que ela realmente não altera significativamente a incerteza expandida."
+        ],
+        [
+          "Thalita",
+          "Que aula magistral, Francisca! Saber o que é norma, o que é método e o que é mito transforma qualquer profissional em um especialista seguro de bancada e de auditoria!"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "title": "Parte 2 - Capítulo 05: Requisito 7.3 - Amostragem em Campo",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_2",
+  "chapter_filename": "Podcast_Parte2_Capitulo_5_Itens_5_1_a_5_5_Completo_Thalita_e_Francisca.mp3",
+  "episodes": [
+    {
+      "id": "5.1",
+      "filename": "Podcast_Parte2_Item_5_1_Plano_e_Metodo_de_Amostragem.mp3",
+      "title": "Item 5.1 - Plano e Método de Amostragem: A Origem do Resultado",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, entramos no Capítulo 5 da Parte 2: o Requisito 7.3 da ISO 17025, amostragem. O instrutor enfatizou que a melhor análise química do mundo não salva uma amostragem malfeita no rio ou na chaminé. O que a norma exige quando o laboratório realiza a coleta?"
+        ],
+        [
+          "Francisca",
+          "Exatamente, Thalita! A amostragem é a raiz de toda a confiabilidade metrológica. O requisito 7.3.1 exige que o laboratório tenha um plano e um método de amostragem documentados. O plano deve ser baseado em critérios estatísticos apropriados e abordar os fatores críticos que garantem a representatividade da amostra."
+        ],
+        [
+          "Thalita",
+          "E qual é a diferença entre o plano e o método de amostragem?"
+        ],
+        [
+          "Francisca",
+          "O método é o procedimento técnico passo a passo: que equipamento usar, profundidade de coleta, frasco e preservante. Já o plano é a estratégia: quantos pontos coletar, em que horários, em que frequência e sob quais condições ambientais. Os dois caminham juntos e são inseparáveis."
+        ],
+        [
+          "Thalita",
+          "Perfeito! Sem planejamento estatístico e procedimento padronizado, o laudo é apenas um número ao acaso."
+        ]
+      ]
+    },
+    {
+      "id": "5.2",
+      "filename": "Podcast_Parte2_Item_5_2_Procedimento_em_Formato_de_Fluxograma.mp3",
+      "title": "Item 5.2 - Procedimento de Campo em Formato de Fluxograma",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 5.2, Francisca, vem uma dica pedagógica fantástica do treinamento: transformar os longos procedimentos escritos de amostragem em fluxogramas ilustrados. A ISO 17025 aceita procedimentos visuais?"
+        ],
+        [
+          "Francisca",
+          "Não só aceita como aplaude, Thalita! A ISO exige que as informações necessárias estejam descritas e compreendidas, mas não impõe texto corrido monótono de vinte páginas. Um fluxograma plastificado ou digital na tela de um tablet, com fotos dos frascos e sequência das etapas, reduz drasticamente o erro humano sob sol e chuva."
+        ],
+        [
+          "Thalita",
+          "E o que esse fluxograma precisa conter para ser 100% auditável?"
+        ],
+        [
+          "Francisca",
+          "A sequência lógica da coleta: medições in situ primeiro, tipo de frasco correto para cada parâmetro, ordem de adição dos conservantes e acondicionamento na caixa térmica. É a engenharia da usabilidade aplicada à metrologia de campo."
+        ],
+        [
+          "Thalita",
+          "Sensacional! Facilita a vida do técnico e garante a adesão rigorosa ao método."
+        ]
+      ]
+    },
+    {
+      "id": "5.3",
+      "filename": "Podcast_Parte2_Item_5_3_Disponibilidade_no_Local_da_Amostragem.mp3",
+      "title": "Item 5.3 - Disponibilidade do Método no Local da Coleta",
+      "dialogue": [
+        [
+          "Thalita",
+          "Chegamos ao Item 5.3 com uma exigência da ISO 17025 que muitos auditores cobram na ponta da linha: onde deve estar o procedimento de amostragem durante a coleta?"
+        ],
+        [
+          "Francisca",
+          "O requisito 7.3.2 é explícito e não deixa margem para dúvida, Thalita: o método de amostragem deve estar disponível no local onde a amostragem é realizada! Deixar a pasta com o POP na sede do laboratório e mandar o técnico para o campo confiar na memória é não conformidade na certa."
+        ],
+        [
+          "Thalita",
+          "E como os laboratórios modernos atendem a esse requisito na prática?"
+        ],
+        [
+          "Francisca",
+          "Por meio de tablets, celulares corporativos com cópias controladas offline em PDF, ou pastas de campo plastificadas com a versão vigente carimbada. O avaliador da Cgcre pode perguntar ao coletador no meio do manguezal ou da represa: mostre-me o procedimento que você está seguindo agora."
+        ],
+        [
+          "Thalita",
+          "Exigência claríssima! O procedimento tem que estar onde a ação metrológica acontece."
+        ]
+      ]
+    },
+    {
+      "id": "5.4",
+      "filename": "Podcast_Parte2_Item_5_4_Checklist_de_Materiais_e_Logistica.mp3",
+      "title": "Item 5.4 - Checklist de Materiais e Prevenção de Falhas Logísticas",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 5.4, o curso abordou a logística de saída para o campo. Francisca, por que o checklist de materiais é considerado um item de garantia da qualidade essencial?"
+        ],
+        [
+          "Francisca",
+          "Porque o campo é um ambiente sem volta, Thalita! Se a equipe viaja trezentos quilômetros para um ponto remoto e descobre que faltou o ácido nítrico para preservar os metais, ou que o gelo não é suficiente para manter a temperatura, a campanha inteira foi jogada no lixo."
+        ],
+        [
+          "Thalita",
+          "E quais itens não podem faltar nesse checklist formal de saída?"
+        ],
+        [
+          "Francisca",
+          "Frascos certificados limpos com sobra de dez por cento para duplicatas, reagentes conservantes dentro da validade, gelo em quantidade calculada, equipamentos de medição checados com pilhas reservas e fichas de campo ou tablets sincronizados. O checklist de saída é a primeira barreira contra desvios de ensaio."
+        ],
+        [
+          "Thalita",
+          "Excelente! Disciplina logística que assegura a integridade de toda a amostragem."
+        ]
+      ]
+    },
+    {
+      "id": "5.5",
+      "filename": "Podcast_Parte2_Item_5_5_Politica_Cgcre_para_Amostragem.mp3",
+      "title": "Item 5.5 - Documentos Orientativos e Mandatórios da Cgcre para Amostragem",
+      "dialogue": [
+        [
+          "Thalita",
+          "Pra fechar o Capítulo 5, o Item 5.5 tratou dos documentos complementares da Cgcre citados no treinamento para quem tem amostragem no escopo de acreditação. O que o laboratório precisa monitorar, Francisca?"
+        ],
+        [
+          "Francisca",
+          "Os laboratórios acreditados pela Cgcre para amostragem precisam acompanhar rigorosamente as Normas Inmetro Técnicas específicas, como a NIT-DICLA-057 e os guias de coleta ambiental. A ISO 17025 dá os princípios gerais de processo, mas as NITs detalham as exigências mandatórias para rastreabilidade de campo, brancos e treinamento de amostradores."
+        ],
+        [
+          "Thalita",
+          "E qual é o cuidado que o gestor da qualidade deve ter ao desenhar os POPs?"
+        ],
+        [
+          "Francisca",
+          "Consultar periodicamente o portal oficial da Cgcre para verificar se houve revisão da NIT ou inclusão de novos requisitos de controle de qualidade de campo. Estar alinhado à política nacional da Cgcre blinda o laboratório contra surpresas em reavaliações de escopo."
+        ],
+        [
+          "Thalita",
+          "Perfeito, Francisca! Uma visão completa que une a norma internacional à regulação nacional da amostragem."
+        ]
+      ]
+    }
+  ]
+}

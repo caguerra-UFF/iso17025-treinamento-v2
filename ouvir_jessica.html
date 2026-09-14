@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audioteca V2 - Voz Apresentadora Jessica (61 Episódios)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0b0f19;
+            --card-bg: rgba(18, 26, 43, 0.85);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --accent: #3b82f6;
+            --accent-purple: #a855f7;
+            --accent-green: #10b981;
+            --text-main: #f8fafc;
+            --text-sub: #94a3b8;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: radial-gradient(circle at 10% 20%, #1e1b4b 0%, #0b0f19 50%, #030712 100%);
+            color: var(--text-main);
+            padding: 40px 20px 80px;
+            line-height: 1.6;
+        }
+        .container { max-width: 1100px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 40px; }
+        .badge {
+            display: inline-block;
+            background: rgba(168, 85, 247, 0.15);
+            color: #c084fc;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            padding: 6px 16px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 2.3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffffff 0%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        p.desc {
+            color: var(--text-sub);
+            font-size: 1.05rem;
+            max-width: 750px;
+            margin: 0 auto 24px;
+        }
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 35px;
+            flex-wrap: wrap;
+        }
+        .stat-item {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--card-border);
+            padding: 10px 18px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .stat-val { font-weight: 700; color: #38bdf8; }
+        .chap-section {
+            margin-bottom: 35px;
+        }
+        .chap-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 8px;
+            color: #e2e8f0;
+        }
+        .ep-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 16px;
+        }
+        .ep-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 14px;
+            padding: 16px;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .ep-card:hover {
+            border-color: rgba(168, 85, 247, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px -5px rgba(0,0,0,0.3);
+        }
+        .ep-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            gap: 8px;
+        }
+        .ep-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #ffffff;
+            line-height: 1.4;
+        }
+        .ep-tag {
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            border-radius: 6px;
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .ep-audio {
+            margin-top: 12px;
+        }
+        audio {
+            width: 100%;
+            height: 36px;
+            border-radius: 8px;
+            outline: none;
+        }
+        .ep-footer {
+            margin-top: 8px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: var(--text-sub);
+        }
+        .ep-link {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+        .ep-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="badge">✨ Versão 2 • Nova Voz Apresentadora</div>
+        <h1>Audioteca de Episódios com a Jessica (61 Prontos)</h1>
+        <p class="desc">
+            Todos os episódios abaixo foram gerados com a nova voz da <b>Jessica (ElevenLabs)</b> mantendo 100% o conteúdo técnico e diálogo original com a <b>Francisca (Edge-TTS)</b>.
+        </p>
+
+        <div class="stats-bar">
+            <div class="stat-item"><span>🎙️ Apresentadora:</span> <span class="stat-val">Jessica (ElevenLabs)</span></div>
+            <div class="stat-item"><span>🏛️ Especialista:</span> <span class="stat-val">Francisca (Edge-TTS)</span></div>
+            <div class="stat-item"><span>📁 Episódios Prontos:</span> <span class="stat-val" style="color: #34d399;">61 faixas</span></div>
+            <div class="stat-item"><span>📊 Status da Cota:</span> <span class="stat-val" style="color: #f59e0b;">Segunda Chave Esgotada no Item 4.1 (Parte 3)</span></div>
+        </div>
+    </header>
+
+    <div class="chap-section">
+        <div class="chap-title">📁 Parte 2 — Capítulo 02: MRCs e Rastreabilidade (4 episódios)</div>
+        <div class="ep-grid">
+    
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.1 - Quantidade Mínima de Amostra do MRC e Homogeneidade</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_2_1_Quantidade_Minima_MRC_Homogeneidade.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>422 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_2_1_Quantidade_Minima_MRC_Homogeneidade.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.2 - Validade Após Abertura: A Vida Real do Frasco na Bancada</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_2_2_Validade_Apos_Abertura_ou_Reamostragem.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>410 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_2_2_Validade_Apos_Abertura_ou_Reamostragem.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.3 - Material Vencido: Rastreabilidade Metrológica versus Controle Interno</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_2_3_Material_Vencido_Rastreabilidade_vs_Controle.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>351 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_2_3_Material_Vencido_Rastreabilidade_vs_Controle.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.4 - Competência do Produtor de MRC e Reconhecimento</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_2_4_Competencia_do_Produtor_e_Reconhecimento.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>426 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_2_4_Competencia_do_Produtor_e_Reconhecimento.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="chap-section">
+        <div class="chap-title">📁 Parte 2 — Capítulo 03: Requisito 7.1 - Análise Crítica de Pedidos e Contratos (6 episódios)</div>
+        <div class="ep-grid">
+    
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.1 - Cliente Interno e Análise Crítica Simplificada</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_3_1_Cliente_Interno_Analise_Critica_Simplificada.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>447 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_3_1_Cliente_Interno_Analise_Critica_Simplificada.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.2 - O Que Precisa Ser Definido no Pedido</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_3_2_O_Que_Precisa_Ser_Definido_no_Pedido.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>329 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_3_2_O_Que_Precisa_Ser_Definido_no_Pedido.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.3 - Regra de Decisão e o Tratamento da Incerteza</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_3_3_Regra_de_Decisao_e_Tratamento_da_Incerteza.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>499 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_3_3_Regra_de_Decisao_e_Tratamento_da_Incerteza.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.4 - Provedores Externos no Contrato: Transparência Total</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_3_4_Provedores_Externos_Dentro_do_Contrato.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>363 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_3_4_Provedores_Externos_Dentro_do_Contrato.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.5 - Alterações de Contrato e Desvios Durante a Execução</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_3_5_Alteracoes_Desvios_e_Aceite_do_Cliente.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>394 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_3_5_Alteracoes_Desvios_e_Aceite_do_Cliente.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.6 - Cooperação com o Cliente: Portas Abertas com Confidencialidade</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_3_6_Cooperacao_com_o_Cliente.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>420 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_3_6_Cooperacao_com_o_Cliente.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="chap-section">
+        <div class="chap-title">📁 Parte 2 — Capítulo 04: Requisito 7.2 - Seleção, Verificação e Validação de Métodos (3 episódios)</div>
+        <div class="ep-grid">
+    
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 4.1 - Método Apropriado à Matriz e ao Uso Pretendido</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_4_1_Metodo_Apropriado_Matriz_e_Uso.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>400 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_4_1_Metodo_Apropriado_Matriz_e_Uso.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 4.2 - A Regra da Última Versão Válida e as Exceções Legítimas</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_4_2_Ultima_Versao_Valida_do_Metodo.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>414 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_4_2_Ultima_Versao_Valida_do_Metodo.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 4.3 - Método Revisado: A Necessidade de Nova Verificação</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_4_3_Metodo_Revisado_e_Nova_Verificacao.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>399 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_4_3_Metodo_Revisado_e_Nova_Verificacao.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="chap-section">
+        <div class="chap-title">📁 Parte 2 — Capítulo 05: Requisito 7.3 - Amostragem em Campo (5 episódios)</div>
+        <div class="ep-grid">
+    
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 5.1 - Plano e Método de Amostragem: A Origem do Resultado</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_5_1_Plano_e_Metodo_de_Amostragem.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>425 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_5_1_Plano_e_Metodo_de_Amostragem.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 5.2 - Procedimento de Campo em Formato de Fluxograma</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_5_2_Procedimento_em_Formato_de_Fluxograma.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>343 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_5_2_Procedimento_em_Formato_de_Fluxograma.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 5.3 - Disponibilidade do Método no Local da Coleta</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_5_3_Disponibilidade_no_Local_da_Amostragem.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>313 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_5_3_Disponibilidade_no_Local_da_Amostragem.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 5.4 - Checklist de Materiais e Prevenção de Falhas Logísticas</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_5_4_Checklist_de_Materiais_e_Logistica.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>308 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_5_4_Checklist_de_Materiais_e_Logistica.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 5.5 - Documentos Orientativos e Mandatórios da Cgcre para Amostragem</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_5_5_Politica_Cgcre_para_Amostragem.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>384 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_5_5_Politica_Cgcre_para_Amostragem.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="chap-section">
+        <div class="chap-title">📁 Parte 2 — Capítulo 06: Preservação, Transporte e Brancos (7 episódios)</div>
+        <div class="ep-grid">
+    
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 6.1 - Tempos de Preservação e Condições Específicas</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_6_1_Tempos_de_Preservacao_e_Condicoes.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>392 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_6_1_Tempos_de_Preservacao_e_Condicoes.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 6.2 - O Guia Definitivo dos Brancos: Equipamento, Campo, Viagem e Método</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_6_2_Brancos_de_Equipamento_Campo_Viagem_Metodo.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>400 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_6_2_Brancos_de_Equipamento_Campo_Viagem_Metodo.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 6.3 - Temperatura da Caixa Térmica versus Temperatura Real da Amostra</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_6_3_Temperatura_da_Caixa_vs_da_Amostra.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>383 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_6_3_Temperatura_da_Caixa_vs_da_Amostra.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 6.4 - O Mito de que Gelo Reciclável Não Serve</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_6_4_O_Mito_do_Gelo_Reciclavel.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>410 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_6_4_O_Mito_do_Gelo_Reciclavel.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 6.5 - Duplicata de Campo versus Duplicata de Laboratório: A Incerteza da Amostragem</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_6_5_Duplicata_de_Campo_vs_Laboratorio.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>326 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_6_5_Duplicata_de_Campo_vs_Laboratorio.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 6.6 - Frequência de Controle: A Regra de Um a Cada Vinte</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_6_6_Frequencia_Um_a_Cada_Vinte.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>356 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_6_6_Frequencia_Um_a_Cada_Vinte.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 6.7 - Amostra Fortificada e Branco Fortificado: Avaliando a Recuperação</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_6_7_Amostra_Fortificada_e_Efeito_de_Matriz.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>385 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_6_7_Amostra_Fortificada_e_Efeito_de_Matriz.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="chap-section">
+        <div class="chap-title">📁 Parte 2 — Capítulo 07: Requisito 7.4 - Manuseio de Itens de Ensaio (4 episódios)</div>
+        <div class="ep-grid">
+    
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 7.1 - O Procedimento do Ciclo Completo do Item de Ensaio</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_7_1_Procedimento_Ciclo_Completo_do_Item.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>352 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_7_1_Procedimento_Ciclo_Completo_do_Item.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 7.2 - Identificação Inequívoca e Rastreabilidade de Subamostras</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_7_2_Identificacao_Inequivoca_e_Subamostras.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>357 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_7_2_Identificacao_Inequivoca_e_Subamostras.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 7.3 - Item Recebido Fora de Condição: Consulta e Disclaimer Obrigatório</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_7_3_Item_Recebido_Fora_de_Condicao.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>454 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_7_3_Item_Recebido_Fora_de_Condicao.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 7.4 - Armazenamento, Segregação e Monitoramento Ambiental</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_7_4_Armazenamento_Segregacao_e_Monitoramento.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>355 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_7_4_Armazenamento_Segregacao_e_Monitoramento.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="chap-section">
+        <div class="chap-title">📁 Parte 2 — Capítulo 08: Requisito 7.5 - Registros Técnicos e Contemporaneidade (5 episódios)</div>
+        <div class="ep-grid">
+    
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 8.1 - Registros Técnicos: O Teste da Reconstrução Histórica</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_8_1_Reconstruir_a_Atividade_Laboratorial.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>408 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_8_1_Reconstruir_a_Atividade_Laboratorial.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 8.2 - Contemporaneidade: O Registro Imediato no Momento da Ação</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_8_2_Contemporaneidade_do_Registro.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>386 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_8_2_Contemporaneidade_do_Registro.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 8.3 - O Famoso 'Lápis Não Pode': A Rastreabilidade do Erro</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_8_3_O_Famoso_Lapis_Nao_Pode.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>372 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_8_3_O_Famoso_Lapis_Nao_Pode.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 8.4 - Controle de Planilhas Eletrônicas e Trilha de Auditoria</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_8_4_Controle_de_Planilhas_e_Trilha_de_Auditoria.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>350 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_8_4_Controle_de_Planilhas_e_Trilha_de_Auditoria.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 8.5 - Prazo de Retenção de Registros Técnicos</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_8_5_Prazo_de_Retencao_de_Registros.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>346 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_8_5_Prazo_de_Retencao_de_Registros.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="chap-section">
+        <div class="chap-title">📁 Parte 2 — Capítulo 09: Requisito 7.6 - Avaliação da Incerteza de Medição (8 episódios)</div>
+        <div class="ep-grid">
+    
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 9.1 - Incerteza de Medição: Identificar Contribuições Antes da Matemática</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_9_1_Identificar_Contribuicoes_Antes_de_Calcular.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>401 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_9_1_Identificar_Contribuicoes_Antes_de_Calcular.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 9.2 - Incertezas Tipo A e Tipo B: A Divisão Metrológica Universal</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_9_2_Tipo_A_e_Tipo_B_Desmistificados.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>255 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_9_2_Tipo_A_e_Tipo_B_Desmistificados.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 9.3 - Repetibilidade versus Precisão Intermediária</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_9_3_Repetibilidade_Precisao_Intermediaria.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>325 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_9_3_Repetibilidade_Precisao_Intermediaria.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 9.4 - Vidrarias, Balanças e a Prática do Pior Caso</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_9_4_Vidrarias_e_a_Abordagem_do_Pior_Caso.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>317 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_9_4_Vidrarias_e_a_Abordagem_do_Pior_Caso.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 9.5 - A Contribuição Gigante da Amostragem na Incerteza Global</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_9_5_Contribuicao_da_Amostragem_na_Incerteza.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>290 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_9_5_Contribuicao_da_Amostragem_na_Incerteza.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 9.6 - A Regra dos 30%: Quando uma Fonte Pode Ser Desprezada</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_9_6_Regra_dos_Trinta_Por_Cento_Eurachem.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>356 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_9_6_Regra_dos_Trinta_Por_Cento_Eurachem.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 9.7 - Ensaios Qualitativos: Existe Incerteza em Presença ou Ausência?</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_9_7_Incerteza_em_Ensaios_Qualitativos.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>351 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_9_7_Incerteza_em_Ensaios_Qualitativos.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 9.8 - A ISO Não Ensina a Fórmula: O Laboratório Escolhe o Modelo</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Item_9_8_A_ISO_Nao_Ensina_a_Formula.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>410 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Item_9_8_A_ISO_Nao_Ensina_a_Formula.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="chap-section">
+        <div class="chap-title">📁 Parte 2 — Capítulos Especiais 10 & 11: Mitos, Fatos e Checklist de Auditoria (2 episódios)</div>
+        <div class="ep-grid">
+    
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Capítulo 10 Especial - O Guia Anti-Pegadinhas do Dia 2: Mitos e Fatos do Processo Técnico</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Capitulo_10_Mitos_Excessos_e_Fatos_Processo_ISO17025.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>1073 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Capitulo_10_Mitos_Excessos_e_Fatos_Processo_ISO17025.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Capítulo 11 Especial - Plano de Implantação Prático e Checklist dos Requisitos de Processo</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte2_Capitulo_11_Plano_de_Implantacao_e_Checklist_Dia2.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>587 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte2_Capitulo_11_Plano_de_Implantacao_e_Checklist_Dia2.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="chap-section">
+        <div class="chap-title">📁 Parte 3 — Capítulo 02: Requisito 7.7.1 - Garantia da Validade e Controles Internos (10 episódios)</div>
+        <div class="ep-grid">
+    
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.1 - Garantia da Validade: Procedimento e Detecção de Tendências</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_2_1_Procedimento_Registros_e_Tendencias.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>330 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_2_1_Procedimento_Registros_e_Tendencias.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.2 - Limites Internos da Carta de Controle versus Limites Legais</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_2_2_Limites_Internos_vs_Criterios_Externos.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>307 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_2_2_Limites_Internos_vs_Criterios_Externos.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.3 - Padrões Certificados e Materiais de Controle Secundário</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_2_3_MRCs_e_Materiais_de_Controle.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>360 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_2_3_MRCs_e_Materiais_de_Controle.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.4 - Checagens Funcionais e Checagens Intermediárias de Instrumentos</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_2_4_Checagens_Funcionais_e_Intermediarias.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>316 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_2_4_Checagens_Funcionais_e_Intermediarias.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.5 - Duplicatas de Ensaio e Limite de Repetibilidade</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_2_5_Replicatas_Duplicatas_e_Repetibilidade.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>337 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_2_5_Replicatas_Duplicatas_e_Repetibilidade.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.6 - Reensaio de Amostras Retidas: O Teste Cego do Histórico</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_2_6_Reensaio_de_Itens_Retidos.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>292 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_2_6_Reensaio_de_Itens_Retidos.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.7 - Correlação Entre Características Diferentes: A Coerência Química</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_2_7_Correlacao_Entre_Caracteristicas_Diferentes.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>341 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_2_7_Correlacao_Entre_Caracteristicas_Diferentes.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.8 - Comparações Intralaboratoriais Entre Analistas</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_2_8_Analise_Critica_e_Comparacoes_Intralaboratoriais.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>304 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_2_8_Analise_Critica_e_Comparacoes_Intralaboratoriais.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.9 - Amostras Cegas: O Teste Supremo da Rotina Real</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_2_9_Ensaios_de_Amostras_Cegas.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>297 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_2_9_Ensaios_de_Amostras_Cegas.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 2.10 - Todos os 11 Mecanismos São Obrigatórios? O Alerta da Norma</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_2_10_Todos_os_Mecanismos_Sao_Obrigatorios.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>476 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_2_10_Todos_os_Mecanismos_Sao_Obrigatorios.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="chap-section">
+        <div class="chap-title">📁 Parte 3 — Capítulo 03: Requisito 7.7.2 - Ensaios de Proficiência (PEP) e NIT-DICLA-026 (7 episódios)</div>
+        <div class="ep-grid">
+    
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.1 - O Que a ISO 17025 Realmente Exige em Comparações Externas</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_3_1_O_Que_a_ISO_Exige_no_PEP.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>404 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_3_1_O_Que_a_ISO_Exige_no_PEP.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.2 - A Política Brasileira da Cgcre e a NIT-DICLA-026</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_3_2_Politica_Cgcre_NIT_DICLA_026.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>342 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_3_2_Politica_Cgcre_NIT_DICLA_026.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.3 - O Que Fazer Quando Não Existe Provedor de PEP no Mercado</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_3_3_Indisponibilidade_de_Provedor_de_PEP.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>347 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_3_3_Indisponibilidade_de_Provedor_de_PEP.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.4 - Relatório Preliminar versus Relatório Final do Provedor</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_3_4_Relatorio_Preliminar_vs_Final.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>339 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_3_4_Relatorio_Preliminar_vs_Final.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.5 - Leitura Crítica de Z-score: O Perigo de Olhar Apenas para o Número</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_3_5_Leitura_Critica_do_Zscore_e_Tendencias.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>395 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_3_5_Leitura_Critica_do_Zscore_e_Tendencias.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.6 - Resultado Insatisfatório no PEP: O Roteiro Mandatório de Ação</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_3_6_Resultado_Insatisfatorio_e_Acao_Corretiva.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>363 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_3_6_Resultado_Insatisfatorio_e_Acao_Corretiva.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+            <div class="ep-card">
+                <div class="ep-header">
+                    <div class="ep-title">Item 3.7 - Comentários Técnicos do Provedor: Uma Mina de Ouro para Melhoria</div>
+                    <span class="ep-tag">Voz Jessica</span>
+                </div>
+                <div class="ep-audio">
+                    <audio controls preload="none">
+                        <source src="amostras_jessica_v2/Podcast_Parte3_Item_3_7_Comentarios_Tecnicos_do_Provedor_Melhoria.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+                <div class="ep-footer">
+                    <span>435 chars Jessica</span>
+                    <a href="amostras_jessica_v2/Podcast_Parte3_Item_3_7_Comentarios_Tecnicos_do_Provedor_Melhoria.mp3" target="_blank" class="ep-link">Baixar / Abrir MP3 ↗</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>

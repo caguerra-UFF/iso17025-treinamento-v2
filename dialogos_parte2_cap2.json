@@ -1,0 +1,115 @@
+{
+  "title": "Parte 2 - Capítulo 02: Continuação de MRCs",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_2",
+  "chapter_filename": "Podcast_Parte2_Capitulo_2_Itens_2_1_a_2_4_Completo_Thalita_e_Francisca.mp3",
+  "episodes": [
+    {
+      "id": "2.1",
+      "filename": "Podcast_Parte2_Item_2_1_Quantidade_Minima_MRC_Homogeneidade.mp3",
+      "title": "Item 2.1 - Quantidade Mínima de Amostra do MRC e Homogeneidade",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, abrindo a Parte 2 do treinamento sobre a ISO 17025, o curso retomou a leitura de certificados de materiais de referência. Por que a quantidade mínima especificada no certificado é uma linha vermelha que o analista não pode cruzar?"
+        ],
+        [
+          "Francisca",
+          "Porque a quantidade mínima é exatamente a porção para a qual o produtor do padrão comprovou estatisticamente a homogeneidade e a estabilidade do lote, Thalita! Se o certificado estipula cinco mililitros ou cem miligramas, usar uma fração menor significa que o valor certificado e a incerteza declarada não têm garantia alguma."
+        ],
+        [
+          "Thalita",
+          "E se o método analítico do laboratório consumir apenas um mililitro?"
+        ],
+        [
+          "Francisca",
+          "O analista não pode simplesmente retirar esse um mililitro direto do frasco original! Ele precisa retirar a quantidade mínima garantida de cinco mililitros para preservar a representatividade e, a partir dela, fazer a diluição ou alíquota necessária. Ignorar a massa mínima é invalidar a rastreabilidade do padrão."
+        ],
+        [
+          "Thalita",
+          "Regra de ouro metrológica: a homogeneidade do padrão só existe acima da quantidade mínima atestada pelo produtor!"
+        ]
+      ]
+    },
+    {
+      "id": "2.2",
+      "filename": "Podcast_Parte2_Item_2_2_Validade_Apos_Abertura_ou_Reamostragem.mp3",
+      "title": "Item 2.2 - Validade Após Abertura: A Vida Real do Frasco na Bancada",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 2.2, Francisca, a instrutora destacou uma situação comum: o frasco lacrado tem validade de dois anos, mas o certificado informa que após aberto dura apenas três meses. Qual é o procedimento mandatório do laboratório?"
+        ],
+        [
+          "Francisca",
+          "Quando o certificado ou bula estabelece a validade após abertura, essa nova data passa a ser o limite operacional absoluto, Thalita! No exato momento em que o lacre é rompido, o laboratório deve registrar na etiqueta do frasco e no sistema a data de abertura e a nova data de descarte."
+        ],
+        [
+          "Thalita",
+          "E o que fazer se o produtor não trouxer nenhuma validade pós-abertura no certificado?"
+        ],
+        [
+          "Francisca",
+          "Essa é a armadilha clássica: não invente prazos do nada, mas também não confie cegamente que uma solução aberta vai durar anos! Padrões sofrem evaporação, contaminação do ar e degradação. O laboratório deve ter um estudo técnico de estabilidade ou um protocolo de controle para justificar o prazo adotado internamente."
+        ],
+        [
+          "Thalita",
+          "Excelente! Registro no momento da abertura e justificativa técnica blindam a integridade dos padrões."
+        ]
+      ]
+    },
+    {
+      "id": "2.3",
+      "filename": "Podcast_Parte2_Item_2_3_Material_Vencido_Rastreabilidade_vs_Controle.mp3",
+      "title": "Item 2.3 - Material Vencido: Rastreabilidade Metrológica versus Controle Interno",
+      "dialogue": [
+        [
+          "Thalita",
+          "Chegamos ao Item 2.3, trazendo uma distinção técnica cirúrgica que o guia comentou: um material de referência vencido pode ou não ser aproveitado pelo laboratório?"
+        ],
+        [
+          "Francisca",
+          "Separar a função de rastreabilidade da função de controle interno é o segredo aqui, Thalita! Para calibrar equipamentos, traçar curvas analíticas e garantir a rastreabilidade ao Sistema Internacional, material vencido é terminantemente proibido. Venceu a validade do certificado, acabou o status de MRC."
+        ],
+        [
+          "Thalita",
+          "Mas e para checagem interna de rotina ou carta de controle?"
+        ],
+        [
+          "Francisca",
+          "Aí a situação muda com respaldo técnico! O laboratório pode usar o material como padrão de controle secundário para avaliar a repetibilidade do método, desde que documente um estudo prévio comparando-o com um MRC novo válido. E atenção: o frasco precisa de etiqueta destacada indicando Uso restrito a controle interno, proibido usar para rastreabilidade."
+        ],
+        [
+          "Thalita",
+          "Perfeita separação! Você aproveita o insumo para verificar precisão, sem comprometer a exatidão nem a rastreabilidade dos laudos."
+        ]
+      ]
+    },
+    {
+      "id": "2.4",
+      "filename": "Podcast_Parte2_Item_2_4_Competencia_do_Produtor_e_Reconhecimento.mp3",
+      "title": "Item 2.4 - Competência do Produtor de MRC e Reconhecimento",
+      "dialogue": [
+        [
+          "Thalita",
+          "Pra fechar a Seção 2 da Parte 2, o Item 2.4 tratou dos símbolos de reconhecimento de produtores de materiais de referência, inclusive para cepas microbiológicas. Francisca, como demonstrar que o produtor é competente perante a ISO 17025?"
+        ],
+        [
+          "Francisca",
+          "O requisito 6.5.2 da ISO 17025 reconhece que produtores acreditados na norma ISO 17034 são formalmente considerados competentes, Thalita! A presença do símbolo de acreditação no certificado é a evidência mais robusta e incontestável em qualquer auditoria."
+        ],
+        [
+          "Thalita",
+          "E no caso de padrões biológicos e coleções de micro-organismos?"
+        ],
+        [
+          "Francisca",
+          "Para cepas microbiológicas, a rastreabilidade é assegurada pela procedência de coleções de cultura reconhecidas internacionalmente, como a ATCC, ou produtores nacionais certificados associados a essas coleções. Isso garante a identidade taxonômica, pureza e viabilidade das cepas."
+        ],
+        [
+          "Thalita",
+          "Com isso, fechamos com maestria a metrologia de MRCs e estamos prontos para mergulhar nos requisitos de processo da ISO 17025!"
+        ]
+      ]
+    }
+  ]
+}

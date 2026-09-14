@@ -1,0 +1,204 @@
+{
+  "title": "Parte 2 - Capítulo 06: Preservação, Transporte e Brancos de Amostragem",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_2",
+  "chapter_filename": "Podcast_Parte2_Capitulo_6_Itens_6_1_a_6_7_Completo_Thalita_e_Francisca.mp3",
+  "episodes": [
+    {
+      "id": "6.1",
+      "filename": "Podcast_Parte2_Item_6_1_Tempos_de_Preservacao_e_Condicoes.mp3",
+      "title": "Item 6.1 - Tempos de Preservação e Condições Específicas",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, entramos no Capítulo 6 da Parte 2, tratando da preservação e integridade das amostras de campo. O treinamento citou regras rígidas de prazo máximo entre coleta e análise. De onde vêm esses prazos da preservação?"
+        ],
+        [
+          "Francisca",
+          "Eles vêm diretamente das normas de ensaio, como o Standard Methods, a EPA e normas ABNT, Thalita! A ISO 17025 exige nos requisitos 7.3 e 7.4 que o laboratório preserve a integridade do item, mas não estabelece prazos em horas no seu texto."
+        ],
+        [
+          "Thalita",
+          "E por que o controle desse relógio de preservação é tão implacável?"
+        ],
+        [
+          "Francisca",
+          "Porque reações biológicas e químicas não esperam! Amostras microbiológicas exigem análise em até vinte e quatro horas; DBO em quarenta e oito horas sob refrigeração. Se a amostra passar do prazo de preservação fixado pelo método, o resultado perde a validade técnica e o laudo não pode ser emitido como conforme."
+        ],
+        [
+          "Thalita",
+          "Perfeito! O método analítico manda no tempo e o laboratório tem que ter logística afinada para cumprir."
+        ]
+      ]
+    },
+    {
+      "id": "6.2",
+      "filename": "Podcast_Parte2_Item_6_2_Brancos_de_Equipamento_Campo_Viagem_Metodo.mp3",
+      "title": "Item 6.2 - O Guia Definitivo dos Brancos: Equipamento, Campo, Viagem e Método",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 6.2, o treinamento apresentou uma verdadeira constelação de brancos analíticos: branco de equipamento, de campo, de viagem e de método! Francisca, qual é a função exata de cada um nessa cadeia de custódia?"
+        ],
+        [
+          "Francisca",
+          "Essa é uma aula fundamental de controle de qualidade, Thalita! Vamos lá: o branco de equipamento ou de enxágue testa se o amostrador ou balde foi bem limpo e não contaminou a amostra seguinte."
+        ],
+        [
+          "Thalita",
+          "E o branco de campo e o de viagem?"
+        ],
+        [
+          "Francisca",
+          "O branco de campo é um frasco de água pura aberto no local da coleta para captar se vapores ou poeira da atmosfera local contaminaram o frasco. Já o branco de viagem fica sempre lacrado dentro da caixa térmica para verificar se houve contaminação cruzada durante o transporte no caminhão."
+        ],
+        [
+          "Thalita",
+          "E fecha com o branco de método na bancada!"
+        ],
+        [
+          "Francisca",
+          "Exato! O branco de método passa por todos os reagentes no laboratório para descontar o sinal residual dos insumos. Cada branco é uma sentinela que isola exatamente onde pode ter ocorrido uma contaminação."
+        ],
+        [
+          "Thalita",
+          "Brilhante! Rastreabilidade analítica que protege o resultado contra qualquer dúvida sobre contaminação externa."
+        ]
+      ]
+    },
+    {
+      "id": "6.3",
+      "filename": "Podcast_Parte2_Item_6_3_Temperatura_da_Caixa_vs_da_Amostra.mp3",
+      "title": "Item 6.3 - Temperatura da Caixa Térmica versus Temperatura Real da Amostra",
+      "dialogue": [
+        [
+          "Thalita",
+          "Chegamos ao Item 6.3 com uma pegadinha física de transporte: o termômetro da caixa térmica marcava quatro graus, mas o auditor questionou se a amostra estava realmente refrigerada. Por que essa diferença, Francisca?"
+        ],
+        [
+          "Francisca",
+          "Porque medir o ar da caixa ou a superfície da tampa de isopor não reflete a temperatura do líquido no fundo do frasco, Thalita! Amostras quentes recém-coletadas podem levar horas para atingir o equilíbrio térmico sob refrigeração."
+        ],
+        [
+          "Thalita",
+          "E qual é a boa prática recomendada para comprovar a temperatura sem contaminar as amostras reais?"
+        ],
+        [
+          "Francisca",
+          "O uso de um frasco testemunha de controle de temperatura! Um frasco idêntico preenchido com água viaja junto no meio das amostras. Na chegada ao laboratório, o termômetro calibrado mede a água desse frasco testemunha. Isso comprova com rigor metrológico a temperatura real a que a carga foi submetida."
+        ],
+        [
+          "Thalita",
+          "Genial! Simples, barato e 100% à prova de questionamentos em auditoria."
+        ]
+      ]
+    },
+    {
+      "id": "6.4",
+      "filename": "Podcast_Parte2_Item_6_4_O_Mito_do_Gelo_Reciclavel.mp3",
+      "title": "Item 6.4 - O Mito de que Gelo Reciclável Não Serve",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 6.4, temos uma das maiores polêmicas do curso: o instrutor cravou que gelo reciclável em gel rígido não serve para transporte e que o laboratório só pode usar gelo de água mineral. Isso está escrito na ISO 17025, Francisca?"
+        ],
+        [
+          "Francisca",
+          "Mito absoluto, Thalita! A nossa equipe técnica marcou esse trecho com Alerta e Correção. A ISO 17025 não proíbe nem impõe nenhum tipo específico de gelo! O requisito da norma é preservar a integridade do item e atender à faixa de temperatura exigida pelo método."
+        ],
+        [
+          "Thalita",
+          "E o gelo reciclável pode ser usado com segurança pelo laboratório?"
+        ],
+        [
+          "Francisca",
+          "Com certeza, desde que o laboratório faça um estudo prévio de perfil térmico comprovando que a quantidade de blocos de gel mantém a temperatura requerida durante todo o tempo de transporte! Além disso, o gelo reciclável tem a enorme vantagem de não derreter em água livre, evitando infiltração em tampas e descolamento de rótulos."
+        ],
+        [
+          "Thalita",
+          "Excelente desmistificação! Evidência técnica e dados de estabilidade térmica valem muito mais do que mitos orais."
+        ]
+      ]
+    },
+    {
+      "id": "6.5",
+      "filename": "Podcast_Parte2_Item_6_5_Duplicata_de_Campo_vs_Laboratorio.mp3",
+      "title": "Item 6.5 - Duplicata de Campo versus Duplicata de Laboratório: A Incerteza da Amostragem",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 6.5, o treinamento discutiu o papel das duplicatas. Qual é a diferença essencial entre coletar uma duplicata de campo e rodar uma duplicata de laboratório, Francisca?"
+        ],
+        [
+          "Francisca",
+          "A duplicata de laboratório pega o mesmo frasco já homogeneizado na bancada e testa apenas a repetibilidade do procedimento analítico do operador. Já a duplicata de campo coleta duas amostras independentes no mesmo ponto do rio ou solo!"
+        ],
+        [
+          "Thalita",
+          "E o que essa duplicata de campo nos revela?"
+        ],
+        [
+          "Francisca",
+          "Ela revela a variabilidade espacial e temporal da coleta, ou seja, a incerteza da própria amostragem! Muitas vezes o ensaio no laboratório tem precisão de dois por cento, mas a amostragem no campo tem variabilidade de vinte por cento. Avaliar duplicatas de campo é o que permite conhecer e controlar a incerteza real do processo."
+        ],
+        [
+          "Thalita",
+          "Uma distinção metrológica impecável: olhar só para a bancada é enxergar apenas metade da incerteza do ensaio."
+        ]
+      ]
+    },
+    {
+      "id": "6.6",
+      "filename": "Podcast_Parte2_Item_6_6_Frequencia_Um_a_Cada_Vinte.mp3",
+      "title": "Item 6.6 - Frequência de Controle: A Regra de Um a Cada Vinte",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 6.6, a instrutora mencionou a regra clássica de rodar um controle a cada vinte amostras, com limite aceitável de vinte por cento de desvio. Essa frequência é uma exigência universal da ISO 17025?"
+        ],
+        [
+          "Francisca",
+          "Não é da ISO em si, Thalita! A classificação é Fonte Complementar. A ISO 17025 exige no item 7.7 que o laboratório tenha procedimento para monitorar a validade dos resultados, mas não crava o número vinte. A proporção de cinco por cento, ou um a cada vinte, é um padrão clássico consagrado por normas ambientais da EPA e do Standard Methods."
+        ],
+        [
+          "Thalita",
+          "E o laboratório pode adotar frequências diferentes?"
+        ],
+        [
+          "Francisca",
+          "Pode, desde que fundamentado no risco e no método! Para lotes pequenos ou ensaios muito críticos, pode-se exigir um controle a cada dez; para ensaios automatizados de altíssima estabilidade, o histórico pode justificar outra proporção. O importante é que a frequência esteja documentada e seja rigorosamente cumprida."
+        ],
+        [
+          "Thalita",
+          "Perfeito! Regra de boa prática que ganha força obrigatória quando incorporada ao procedimento interno."
+        ]
+      ]
+    },
+    {
+      "id": "6.7",
+      "filename": "Podcast_Parte2_Item_6_7_Amostra_Fortificada_e_Efeito_de_Matriz.mp3",
+      "title": "Item 6.7 - Amostra Fortificada e Branco Fortificado: Avaliando a Recuperação",
+      "dialogue": [
+        [
+          "Thalita",
+          "Pra fechar o Capítulo 6, o Item 6.7 abordou a fortificação analítica, o famoso spike. Francisca, por que fortificar a amostra real é tão diferente de fortificar a água pura do branco?"
+        ],
+        [
+          "Francisca",
+          "Porque o branco fortificado testa se o reagente e a digestão funcionam no mundo ideal da água pura. Mas a amostra real vem carregada de sais, matéria orgânica e interferentes! Fortificar a amostra real permite calcular a recuperação analítica na presença do chamado efeito de matriz."
+        ],
+        [
+          "Thalita",
+          "E o que o analista faz se a recuperação na amostra real der fora da faixa aceitável?"
+        ],
+        [
+          "Francisca",
+          "Ele identifica que a matriz está suprimindo ou amplificando o sinal do analito! A partir daí, o laboratório adota estratégias de correção: diluição, adição de padrão ou uso de modificadores de matriz. É o controle de qualidade ativo garantindo que o número emitido no laudo seja a verdade química da amostra."
+        ],
+        [
+          "Thalita",
+          "Sensacional, Francisca! Uma jornada completa de garantia da qualidade da amostragem até a digestão química na bancada."
+        ]
+      ]
+    }
+  ]
+}

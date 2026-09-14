@@ -1,0 +1,34 @@
+====================================================================================================
+METADADOS DE SLIDES E CORRELAÇÃO - 2026-09-10 08-06-59.mp4
+Duração Total: 01:33:21 | Total de Slides Únicos: 28
+====================================================================================================
+SLIDE    TEMPO        DURAÇÃO    CLÁUSULA/ITEM             ASSUNTO / TÍTULO
+----------------------------------------------------------------------------------------------------
+#001     00:00:00     00:03:30   Conceito de Acreditação   Prolissiona
+#002     00:03:30     00:01:51   Conceito de Acreditação   LCV - Acreditação
+#003     00:05:21     00:02:09   Conceito de Acreditação   Vantagens da Acreditação
+#004     00:07:30     00:02:45   Conceito de Acreditação   Certificação x Acreditação
+#005     00:10:15     00:01:33   Conceito de Acreditação   que é ABNT ISO/IEC 17025?
+#006     00:11:48     00:01:51   Seção 7 Requisitos de Processo LCV - Implementação
+#007     00:13:39     00:01:24   Seção 7 Requisitos de Processo Implementação
+#008     00:15:03     00:01:48   Conceito de Acreditação   LCV - Investimentos
+#009     00:16:51     00:02:57   Seção 7 Requisitos de Processo LCV - Responsabilidades
+#010     00:19:48     00:01:54   Seção 5 Requisitos de Estrutura 04 - Requisitos Gerais
+#011     00:21:42     00:00:12   Seção 4 - Requisitos Gerais 4.Requisitos Gerais
+#012     00:21:54     00:14:21   Item 4.1                  4.1 Imparcialidade
+#013     00:36:15     00:01:15   Item 4.1                  4.1 Imparcialidade
+#014     00:37:30     00:01:06   Item 4.1                  4.1 Imparcialidade
+#015     00:38:36     00:07:33   Item 4.1                  4.1 Imparcialidade
+#016     00:46:09     00:00:06   Item 4.1 Imparcialidade   LCV - Exercício 1
+#017     00:46:15     00:04:03   Item 4.1 Imparcialidade   Planejamento de riscos à imparcialidade
+#018     00:50:18     00:02:27   Item 4.1 Imparcialidade   Exercício 1
+#019     00:52:45     00:00:06   Geral / Treinamento       Loading content
+#020     00:52:51     00:18:27   Geral / Treinamento       5/  `
+#021     01:11:18     00:13:57   Item 8.5 Riscos e Oportunidades hr10 - 2 - U
+#022     01:25:15     00:00:06   Item 8.5 Riscos e Oportunidades Ynurol4ue
+#023     01:25:21     00:02:12   Item 8.5 Riscos e Oportunidades her10
+#024     01:27:33     00:00:06   Geral / Treinamento       CM - CS
+#025     01:27:39     00:00:15   Geral / Treinamento       CM - CS
+#026     01:27:54     00:00:06   Geral / Treinamento       CM - CS
+#027     01:28:00     00:00:21   Geral / Treinamento       CM - CS
+#028     01:28:21     00:05:00   Item 4.2                  4.2 Confidencialidade

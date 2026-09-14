@@ -1,0 +1,53 @@
+{
+  "title": "Parte 2 - Capítulo 11 Especial: Plano de Implantação e Checklist de Auditoria",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_2",
+  "episodes": [
+    {
+      "id": "11.1",
+      "filename": "Podcast_Parte2_Capitulo_11_Plano_de_Implantacao_e_Checklist_Dia2.mp3",
+      "title": "Capítulo 11 Especial - Plano de Implantação Prático e Checklist dos Requisitos de Processo",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, chegamos ao grande encerramento da Parte 2 da nossa série sobre a ISO 17025! Depois de viajar por contratos, métodos, amostragem, cadeia de custódia, registros contemporâneos e modelos de incerteza, quais são as ações práticas imediatas para o gestor implementar na rotina?"
+        ],
+        [
+          "Francisca",
+          "O guia técnico do treinamento consolidou um plano de ação impecável em seis entregas prioritárias, Thalita! Vamos a elas."
+        ],
+        [
+          "Thalita",
+          "Quais são as primeiras três entregas de processo?"
+        ],
+        [
+          "Francisca",
+          "Primeiro: formalizar a análise crítica de contratos com regras de decisão claras e registros mestres para clientes internos. Segundo: criar uma matriz viva de métodos, amarrando a versão vigente da norma oficial ao POP interno e aos registros de verificação experimental. Terceiro: transformar os procedimentos de amostragem em fluxogramas ilustrados acompanhados de checklists obrigatórios de saída para o campo!"
+        ],
+        [
+          "Thalita",
+          "E as três entregas finais para blindar a bancada e os laudos?"
+        ],
+        [
+          "Francisca",
+          "Quarto: adotar o frasco testemunha de temperatura na recepção de amostras e o procedimento de consulta ao cliente com declaração de isenção em caso de desvios. Quinto: assegurar a contemporaneidade dos registros com proibição de borracha e trilha de auditoria digital em planilhas e softwares. E sexto: formalizar o modelo de incerteza por método, incluindo a componente da amostragem sempre que a coleta for realizada pelo laboratório!"
+        ],
+        [
+          "Thalita",
+          "E com isso, como o laboratório faz a sua autoavaliação antes da auditoria oficial?"
+        ],
+        [
+          "Francisca",
+          "Basta passar o pente fino nas perguntas de autoavaliação: se os contratos estão acordados antes do início, se a última versão válida do método está verificada, se as amostras estão inequívocas e se cada número do laudo é 100% rastreável aos dados brutos!"
+        ],
+        [
+          "Thalita",
+          "Que fechamento monumental de todo o ciclo de processos da ISO 17025! Parabéns pela precisão técnica, Francisca!"
+        ],
+        [
+          "Francisca",
+          "Obrigada, Thalita! Ter processos técnicos controlados e compreendidos pela equipe é o que transforma o selo de acreditação em excelência operacional diária. Até a Parte 3!"
+        ]
+      ]
+    }
+  ]
+}

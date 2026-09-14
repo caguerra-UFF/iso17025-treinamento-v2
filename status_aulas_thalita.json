@@ -1,0 +1,968 @@
+{
+  "generated": {
+    "Trecho_Item_192_ISO_7_8_4.mp3": {
+      "chars": 855,
+      "time": 19.29350519180298
+    },
+    "Trecho_Item_031_ISO_6_4_3.mp3": {
+      "chars": 2407,
+      "time": 47.18079853057861
+    },
+    "Trecho_Item_032_ISO_6_4_3.mp3": {
+      "chars": 2447,
+      "time": 60.37954616546631
+    },
+    "Trecho_Item_108_ISO_7_2_1.mp3": {
+      "chars": 4130,
+      "time": 76.67227840423584
+    },
+    "Trecho_Item_194_ISO_7_8_5.mp3": {
+      "chars": 1574,
+      "time": 33.31218767166138
+    },
+    "Trecho_Item_033_ISO_6_4_3.mp3": {
+      "chars": 2000,
+      "time": 28.204313039779663
+    },
+    "Trecho_Item_034_ISO_6_4_3.mp3": {
+      "chars": 1669,
+      "time": 23.755287647247314
+    },
+    "Trecho_Item_109_ISO_7_2_1_3.mp3": {
+      "chars": 3818,
+      "time": 96.17225480079651
+    },
+    "Trecho_Item_111_ISO_7_3_1.mp3": {
+      "chars": 2327,
+      "time": 51.35917639732361
+    },
+    "Trecho_Item_195_ISO_7_8_6.mp3": {
+      "chars": 1489,
+      "time": 53.730313777923584
+    },
+    "Trecho_Item_196_ISO_7_8_6.mp3": {
+      "chars": 1131,
+      "time": 30.13208556175232
+    },
+    "Trecho_Item_112_ISO_7_3_1.mp3": {
+      "chars": 3099,
+      "time": 73.61087703704834
+    },
+    "Trecho_Item_197_ISO_7_8_6.mp3": {
+      "chars": 1544,
+      "time": 43.5182888507843
+    },
+    "Trecho_Item_113_ISO_7_3_1.mp3": {
+      "chars": 1754,
+      "time": 59.169339656829834
+    },
+    "Trecho_Item_035_ISO_6_4_4.mp3": {
+      "chars": 3937,
+      "time": 69.51023244857788
+    },
+    "Trecho_Item_036_ISO_6_4_4.mp3": {
+      "chars": 3937,
+      "time": 42.992281436920166
+    },
+    "Trecho_Item_198_ISO_7_8_7.mp3": {
+      "chars": 2673,
+      "time": 59.123698711395264
+    },
+    "Trecho_Item_037_ISO_6_4_4.mp3": {
+      "chars": 3645,
+      "time": 67.5779230594635
+    },
+    "Trecho_Item_114_ISO_7_3_1.mp3": {
+      "chars": 4258,
+      "time": 84.9889907836914
+    },
+    "Trecho_Item_115_ISO_7_3_1.mp3": {
+      "chars": 2731,
+      "time": 46.23051071166992
+    },
+    "Trecho_Item_116_ISO_7_3_1.mp3": {
+      "chars": 2292,
+      "time": 34.51029348373413
+    },
+    "Trecho_Item_201_ISO_7_8_8.mp3": {
+      "chars": 1001,
+      "time": 36.33412742614746
+    },
+    "Trecho_Item_039_ISO_6_4_5.mp3": {
+      "chars": 2040,
+      "time": 32.540889739990234
+    },
+    "Trecho_Item_118_ISO_7_4_1.mp3": {
+      "chars": 2228,
+      "time": 40.754411935806274
+    },
+    "Trecho_Item_200_ISO_7_8_8.mp3": {
+      "chars": 2844,
+      "time": 107.26342272758484
+    },
+    "Trecho_Item_191_ISO_7_8_4.mp3": {
+      "chars": 2172,
+      "time": 40.77936029434204
+    },
+    "Trecho_Item_202_ISO_7_8_8.mp3": {
+      "chars": 2476,
+      "time": 47.40575861930847
+    },
+    "Trecho_Item_040_ISO_6_4_5.mp3": {
+      "chars": 2313,
+      "time": 43.57160830497742
+    },
+    "Trecho_Item_204_ISO_7_9_1.mp3": {
+      "chars": 2029,
+      "time": 29.834146976470947
+    },
+    "Trecho_Item_038_ISO_6_4_4.mp3": {
+      "chars": 4684,
+      "time": 177.8417739868164
+    },
+    "Trecho_Item_041_ISO_6_4_5.mp3": {
+      "chars": 2287,
+      "time": 40.12091135978699
+    },
+    "Trecho_Item_119_ISO_7_4_1.mp3": {
+      "chars": 4342,
+      "time": 65.76733922958374
+    },
+    "Trecho_Item_120_ISO_7_4_1.mp3": {
+      "chars": 1436,
+      "time": 24.426347494125366
+    },
+    "Trecho_Item_206_ISO_7_9_1.mp3": {
+      "chars": 1210,
+      "time": 25.3465416431427
+    },
+    "Trecho_Item_042_ISO_6_4_5.mp3": {
+      "chars": 1716,
+      "time": 50.968443870544434
+    },
+    "Trecho_Item_043_ISO_6_4_5.mp3": {
+      "chars": 932,
+      "time": 18.988855838775635
+    },
+    "Trecho_Item_121_ISO_7_4_1.mp3": {
+      "chars": 3303,
+      "time": 68.54415225982666
+    },
+    "Trecho_Item_122_ISO_7_4_1.mp3": {
+      "chars": 1156,
+      "time": 25.188169956207275
+    },
+    "Trecho_Item_207_ISO_7_9_6.mp3": {
+      "chars": 1626,
+      "time": 26.72760248184204
+    },
+    "Trecho_Item_044_ISO_6_4_5.mp3": {
+      "chars": 1368,
+      "time": 32.50194811820984
+    },
+    "Trecho_Item_208_ISO_7_10.mp3": {
+      "chars": 1389,
+      "time": 28.880263090133667
+    },
+    "Trecho_Item_205_ISO_7_9_1.mp3": {
+      "chars": 2387,
+      "time": 133.24793124198914
+    },
+    "Trecho_Item_123_ISO_7_4_1.mp3": {
+      "chars": 3512,
+      "time": 68.5019645690918
+    },
+    "Trecho_Item_045_ISO_6_4_5.mp3": {
+      "chars": 2071,
+      "time": 40.80042386054993
+    },
+    "Trecho_Item_210_ISO_7_10_1.mp3": {
+      "chars": 1223,
+      "time": 22.778287172317505
+    },
+    "Trecho_Item_124_ISO_7_4_1.mp3": {
+      "chars": 3026,
+      "time": 73.99041318893433
+    },
+    "Trecho_Item_126_ISO_7_4_2.mp3": {
+      "chars": 1632,
+      "time": 53.973366022109985
+    },
+    "Trecho_Item_046_ISO_6_4_5.mp3": {
+      "chars": 1628,
+      "time": 56.19114875793457
+    },
+    "Trecho_Item_212_ISO_7_10_1.mp3": {
+      "chars": 1389,
+      "time": 1.979367733001709
+    },
+    "Trecho_Item_211_ISO_7_10_1.mp3": {
+      "chars": 1436,
+      "time": 48.734002351760864
+    },
+    "Trecho_Item_127_ISO_7_4_2.mp3": {
+      "chars": 928,
+      "time": 22.643303394317627
+    },
+    "Trecho_Item_047_ISO_6_4_5.mp3": {
+      "chars": 1864,
+      "time": 39.090423345565796
+    },
+    "Trecho_Item_050_ISO_6_4_5.mp3": {
+      "chars": 945,
+      "time": 23.588896989822388
+    },
+    "Trecho_Item_213_ISO_7_10_1.mp3": {
+      "chars": 3084,
+      "time": 48.475911378860474
+    },
+    "Trecho_Item_051_ISO_6_4_5.mp3": {
+      "chars": 1387,
+      "time": 50.385130167007446
+    },
+    "Trecho_Item_214_ISO_7_11.mp3": {
+      "chars": 1712,
+      "time": 32.62055706977844
+    },
+    "Trecho_Item_129_ISO_7_4_3.mp3": {
+      "chars": 2243,
+      "time": 80.10154271125793
+    },
+    "Trecho_Item_215_ISO_7_11.mp3": {
+      "chars": 1364,
+      "time": 19.35706639289856
+    },
+    "Trecho_Item_128_ISO_7_4_3.mp3": {
+      "chars": 4267,
+      "time": 167.17751693725586
+    },
+    "Trecho_Item_052_ISO_6_4_5.mp3": {
+      "chars": 3771,
+      "time": 98.34939193725586
+    },
+    "Trecho_Item_130_ISO_7_5_1.mp3": {
+      "chars": 4428,
+      "time": 90.56132936477661
+    },
+    "Trecho_Item_053_ISO_6_4_5.mp3": {
+      "chars": 3771,
+      "time": 79.26170420646667
+    },
+    "Trecho_Item_131_ISO_7_5_1.mp3": {
+      "chars": 3181,
+      "time": 64.61145305633545
+    },
+    "Trecho_Item_216_ISO_7_11.mp3": {
+      "chars": 3698,
+      "time": 66.30477356910706
+    },
+    "Trecho_Item_054_ISO_6_4_5.mp3": {
+      "chars": 1960,
+      "time": 65.31211400032043
+    },
+    "Trecho_Item_218_ISO_7_11_1.mp3": {
+      "chars": 984,
+      "time": 29.85012650489807
+    },
+    "Trecho_Item_133_ISO_7_5_1.mp3": {
+      "chars": 1398,
+      "time": 25.14184546470642
+    },
+    "Trecho_Item_223_ISO_7_11_2.mp3": {
+      "chars": 1506,
+      "time": 25.44822072982788
+    },
+    "Trecho_Item_132_ISO_7_5_1.mp3": {
+      "chars": 3476,
+      "time": 108.31000590324402
+    },
+    "Trecho_Item_134_ISO_7_5_2.mp3": {
+      "chars": 3096,
+      "time": 50.41727423667908
+    },
+    "Trecho_Item_224_ISO_7_11_2.mp3": {
+      "chars": 1240,
+      "time": 28.655166387557983
+    },
+    "Trecho_Item_055_ISO_6_4_5.mp3": {
+      "chars": 3315,
+      "time": 114.87850642204285
+    },
+    "Trecho_Item_057_ISO_6_4_8.mp3": {
+      "chars": 1332,
+      "time": 21.55316185951233
+    },
+    "Trecho_Item_056_ISO_6_4_5.mp3": {
+      "chars": 3883,
+      "time": 103.26997256278992
+    },
+    "Trecho_Item_135_ISO_7_5_2.mp3": {
+      "chars": 2016,
+      "time": 46.83192491531372
+    },
+    "Trecho_Item_058_ISO_6_4_8.mp3": {
+      "chars": 895,
+      "time": 25.91431164741516
+    },
+    "Trecho_Item_225_ISO_7_11_2.mp3": {
+      "chars": 4413,
+      "time": 62.960482597351074
+    },
+    "Trecho_Item_060_ISO_6_4_10.mp3": {
+      "chars": 1506,
+      "time": 31.551589250564575
+    },
+    "Trecho_Item_138_ISO_7_6_1.mp3": {
+      "chars": 1415,
+      "time": 30.93144464492798
+    },
+    "Trecho_Item_226_ISO_7_11_2.mp3": {
+      "chars": 3836,
+      "time": 60.29545998573303
+    },
+    "Trecho_Item_136_ISO_7_5_2.mp3": {
+      "chars": 3003,
+      "time": 72.07872128486633
+    },
+    "Trecho_Item_061_ISO_6_4_10.mp3": {
+      "chars": 1074,
+      "time": 16.892577171325684
+    },
+    "Trecho_Item_062_ISO_6_4_10.mp3": {
+      "chars": 795,
+      "time": 17.490686893463135
+    },
+    "Trecho_Item_229_ISO_8_1.mp3": {
+      "chars": 1205,
+      "time": 22.89273762702942
+    },
+    "Trecho_Item_227_ISO_7_11_4.mp3": {
+      "chars": 4107,
+      "time": 73.39133620262146
+    },
+    "Trecho_Item_140_ISO_7_6_1.mp3": {
+      "chars": 736,
+      "time": 12.750325202941895
+    },
+    "Trecho_Item_230_ISO_8_2.mp3": {
+      "chars": 991,
+      "time": 14.314065217971802
+    },
+    "Trecho_Item_141_ISO_7_6_1.mp3": {
+      "chars": 1255,
+      "time": 21.376048803329468
+    },
+    "Trecho_Item_063_ISO_6_4_10.mp3": {
+      "chars": 1411,
+      "time": 22.637126207351685
+    },
+    "Trecho_Item_064_ISO_6_4_10.mp3": {
+      "chars": 2071,
+      "time": 4.395977258682251
+    },
+    "Trecho_Item_231_ISO_8_2.mp3": {
+      "chars": 1266,
+      "time": 31.97166609764099
+    },
+    "Trecho_Item_139_ISO_7_6_1.mp3": {
+      "chars": 1994,
+      "time": 93.072190284729
+    },
+    "Trecho_Item_232_ISO_8_3.mp3": {
+      "chars": 2528,
+      "time": 41.43013548851013
+    },
+    "Trecho_Item_065_ISO_6_4_10.mp3": {
+      "chars": 1540,
+      "time": 37.91385555267334
+    },
+    "Trecho_Item_233_ISO_8_3.mp3": {
+      "chars": 1309,
+      "time": 22.47161316871643
+    },
+    "Trecho_Item_143_ISO_7_6_1.mp3": {
+      "chars": 4579,
+      "time": 70.22519183158875
+    },
+    "Trecho_Item_142_ISO_7_6_1.mp3": {
+      "chars": 3245,
+      "time": 96.36944580078125
+    },
+    "Trecho_Item_066_ISO_6_4_11.mp3": {
+      "chars": 2299,
+      "time": 49.73240780830383
+    },
+    "Trecho_Item_144_ISO_7_6_1.mp3": {
+      "chars": 1621,
+      "time": 37.4233877658844
+    },
+    "Trecho_Item_234_ISO_8_3.mp3": {
+      "chars": 1259,
+      "time": 20.18010139465332
+    },
+    "Trecho_Item_235_ISO_8_3.mp3": {
+      "chars": 1124,
+      "time": 11.85169243812561
+    },
+    "Trecho_Item_146_ISO_7_6_1.mp3": {
+      "chars": 592,
+      "time": 12.073486328125
+    },
+    "Trecho_Item_067_ISO_6_4_11.mp3": {
+      "chars": 1146,
+      "time": 33.601078271865845
+    },
+    "Trecho_Item_069_ISO_6_4_11.mp3": {
+      "chars": 1382,
+      "time": 26.881207704544067
+    },
+    "Trecho_Item_145_ISO_7_6_1.mp3": {
+      "chars": 2064,
+      "time": 57.132750272750854
+    },
+    "Trecho_Item_236_ISO_8_4.mp3": {
+      "chars": 2865,
+      "time": 48.17737150192261
+    },
+    "Trecho_Item_237_ISO_8_4.mp3": {
+      "chars": 1726,
+      "time": 31.70427179336548
+    },
+    "Trecho_Item_068_ISO_6_4_11.mp3": {
+      "chars": 2792,
+      "time": 73.64578247070312
+    },
+    "Trecho_Item_238_ISO_8_4.mp3": {
+      "chars": 1213,
+      "time": 23.026004314422607
+    },
+    "Trecho_Item_147_ISO_7_6_1.mp3": {
+      "chars": 2436,
+      "time": 76.03196001052856
+    },
+    "Trecho_Item_148_ISO_7_6_3.mp3": {
+      "chars": 1594,
+      "time": 49.31839418411255
+    },
+    "Trecho_Item_149_ISO_7_6_3.mp3": {
+      "chars": 1538,
+      "time": 46.922282457351685
+    },
+    "Trecho_Item_239_ISO_8_5.mp3": {
+      "chars": 1508,
+      "time": 51.44384050369263
+    },
+    "Trecho_Item_070_ISO_6_4_11.mp3": {
+      "chars": 3598,
+      "time": 140.18966245651245
+    },
+    "Trecho_Item_072_ISO_6_4_13.mp3": {
+      "chars": 1670,
+      "time": 67.83355665206909
+    },
+    "Trecho_Item_150_ISO_7_7_1.mp3": {
+      "chars": 2129,
+      "time": 65.38325190544128
+    },
+    "Trecho_Item_071_ISO_6_4_13.mp3": {
+      "chars": 5317,
+      "time": 164.23521876335144
+    },
+    "Trecho_Item_240_ISO_8_5.mp3": {
+      "chars": 2807,
+      "time": 64.05925488471985
+    },
+    "Trecho_Item_073_ISO_6_4_13.mp3": {
+      "chars": 1087,
+      "time": 36.22465252876282
+    },
+    "Trecho_Item_151_ISO_7_7_1.mp3": {
+      "chars": 1661,
+      "time": 35.89555764198303
+    },
+    "Trecho_Item_242_ISO_8_5.mp3": {
+      "chars": 1074,
+      "time": 15.447144031524658
+    },
+    "Trecho_Item_153_ISO_7_7_1.mp3": {
+      "chars": 523,
+      "time": 23.227325677871704
+    },
+    "Trecho_Item_241_ISO_8_5.mp3": {
+      "chars": 1296,
+      "time": 34.18741178512573
+    },
+    "Trecho_Item_075_ISO_6_4_13.mp3": {
+      "chars": 644,
+      "time": 23.784331798553467
+    },
+    "Trecho_Item_243_ISO_8_5.mp3": {
+      "chars": 1167,
+      "time": 35.612717628479004
+    },
+    "Trecho_Item_154_ISO_7_7_1.mp3": {
+      "chars": 1968,
+      "time": 43.6138756275177
+    },
+    "Trecho_Item_244_ISO_8_5.mp3": {
+      "chars": 1173,
+      "time": 19.347184419631958
+    },
+    "Trecho_Item_076_ISO_6_4_13.mp3": {
+      "chars": 1676,
+      "time": 43.522212266922
+    },
+    "Trecho_Item_074_ISO_6_4_13.mp3": {
+      "chars": 1635,
+      "time": 135.1815116405487
+    },
+    "Trecho_Item_155_ISO_7_7_1.mp3": {
+      "chars": 2302,
+      "time": 83.06249475479126
+    },
+    "Trecho_Item_156_ISO_7_7_1.mp3": {
+      "chars": 2636,
+      "time": 56.426793336868286
+    },
+    "Trecho_Item_157_ISO_7_7_1.mp3": {
+      "chars": 1082,
+      "time": 21.703648805618286
+    },
+    "Trecho_Item_078_ISO_6_5_1.mp3": {
+      "chars": 1083,
+      "time": 41.7515332698822
+    },
+    "Trecho_Item_077_ISO_6_4_13.mp3": {
+      "chars": 4072,
+      "time": 121.04586338996887
+    },
+    "Trecho_Item_079_ISO_6_5_1.mp3": {
+      "chars": 1242,
+      "time": 23.47658681869507
+    },
+    "Trecho_Item_246_ISO_8_5.mp3": {
+      "chars": 2798,
+      "time": 55.72952437400818
+    },
+    "Trecho_Item_080_ISO_6_5_2.mp3": {
+      "chars": 923,
+      "time": 24.585607767105103
+    },
+    "Trecho_Item_158_ISO_7_7_1.mp3": {
+      "chars": 2505,
+      "time": 59.75918173789978
+    },
+    "Trecho_Item_247_ISO_8_5.mp3": {
+      "chars": 1482,
+      "time": 58.09148573875427
+    },
+    "Trecho_Item_004_ISO_4_1.mp3": {
+      "chars": 3616,
+      "time": 69.22177386283875
+    },
+    "Trecho_Item_159_ISO_7_7_1.mp3": {
+      "chars": 3077,
+      "time": 51.72216796875
+    },
+    "Trecho_Item_248_ISO_8_5.mp3": {
+      "chars": 2535,
+      "time": 55.71986389160156
+    },
+    "Trecho_Item_245_ISO_8_5.mp3": {
+      "chars": 3195,
+      "time": 193.27919507026672
+    },
+    "Trecho_Item_005_ISO_4_1.mp3": {
+      "chars": 1522,
+      "time": 23.2787024974823
+    },
+    "Trecho_Item_160_ISO_7_7_1.mp3": {
+      "chars": 1539,
+      "time": 27.164280891418457
+    },
+    "Trecho_Item_249_ISO_8_5.mp3": {
+      "chars": 1901,
+      "time": 37.61093521118164
+    },
+    "Trecho_Item_082_ISO_6_5_2.mp3": {
+      "chars": 1650,
+      "time": 30.604434728622437
+    },
+    "Trecho_Item_006_ISO_4_1.mp3": {
+      "chars": 754,
+      "time": 20.853872299194336
+    },
+    "Trecho_Item_081_ISO_6_5_2.mp3": {
+      "chars": 1780,
+      "time": 65.48461937904358
+    },
+    "Trecho_Item_007_ISO_4_1.mp3": {
+      "chars": 660,
+      "time": 10.30486798286438
+    },
+    "Trecho_Item_250_ISO_8_5.mp3": {
+      "chars": 1429,
+      "time": 21.57926321029663
+    },
+    "Trecho_Item_083_ISO_6_5_2.mp3": {
+      "chars": 1199,
+      "time": 36.94074583053589
+    },
+    "Trecho_Item_161_ISO_7_7_1.mp3": {
+      "chars": 3958,
+      "time": 67.3639452457428
+    },
+    "Trecho_Item_251_ISO_8_6.mp3": {
+      "chars": 3163,
+      "time": 49.680011510849
+    },
+    "Trecho_Item_162_ISO_7_7_1.mp3": {
+      "chars": 2616,
+      "time": 52.6775107383728
+    },
+    "Trecho_Item_008_ISO_4_1.mp3": {
+      "chars": 1585,
+      "time": 21.823066473007202
+    },
+    "Trecho_Item_252_ISO_8_6.mp3": {
+      "chars": 1413,
+      "time": 17.899176359176636
+    },
+    "Trecho_Item_163_ISO_7_7_1.mp3": {
+      "chars": 746,
+      "time": 28.18868327140808
+    },
+    "Trecho_Item_084_ISO_6_5_2.mp3": {
+      "chars": 3942,
+      "time": 70.74349308013916
+    },
+    "Trecho_Item_009_ISO_4_1.mp3": {
+      "chars": 1316,
+      "time": 20.425679683685303
+    },
+    "Trecho_Item_164_ISO_7_7_1.mp3": {
+      "chars": 1293,
+      "time": 50.30183291435242
+    },
+    "Trecho_Item_085_ISO_6_5_2.mp3": {
+      "chars": 3942,
+      "time": 78.15116620063782
+    },
+    "Trecho_Item_086_ISO_6_5_2.mp3": {
+      "chars": 1715,
+      "time": 62.18666076660156
+    },
+    "Trecho_Item_010_ISO_4_1.mp3": {
+      "chars": 1128,
+      "time": 29.89059090614319
+    },
+    "Trecho_Item_087_ISO_6_6_2.mp3": {
+      "chars": 2029,
+      "time": 38.81125617027283
+    },
+    "Trecho_Item_254_ISO_8_7.mp3": {
+      "chars": 2962,
+      "time": 48.02409744262695
+    },
+    "Trecho_Item_253_ISO_8_7.mp3": {
+      "chars": 4649,
+      "time": 116.42394375801086
+    },
+    "Trecho_Item_167_ISO_7_7_2.mp3": {
+      "chars": 3708,
+      "time": 83.61156964302063
+    },
+    "Trecho_Item_255_ISO_8_7.mp3": {
+      "chars": 1313,
+      "time": 23.285651683807373
+    },
+    "Trecho_Item_011_ISO_4_2.mp3": {
+      "chars": 1371,
+      "time": 31.350581884384155
+    },
+    "Trecho_Item_012_ISO_4_2.mp3": {
+      "chars": 407,
+      "time": 7.347267389297485
+    },
+    "Trecho_Item_088_ISO_6_6_2.mp3": {
+      "chars": 1459,
+      "time": 34.488083362579346
+    },
+    "Trecho_Item_256_ISO_8_7.mp3": {
+      "chars": 1301,
+      "time": 22.895938634872437
+    },
+    "Trecho_Item_089_ISO_6_6_2.mp3": {
+      "chars": 1459,
+      "time": 2.185661792755127
+    },
+    "Trecho_Item_013_ISO_5_1.mp3": {
+      "chars": 1383,
+      "time": 16.209930419921875
+    },
+    "Trecho_Item_257_ISO_8_8.mp3": {
+      "chars": 1229,
+      "time": 23.076159954071045
+    },
+    "Trecho_Item_169_ISO_7_7_2.mp3": {
+      "chars": 4175,
+      "time": 73.79374384880066
+    },
+    "Trecho_Item_090_ISO_6_6_2.mp3": {
+      "chars": 990,
+      "time": 16.290813207626343
+    },
+    "Trecho_Item_014_ISO_5_2.mp3": {
+      "chars": 856,
+      "time": 14.10561490058899
+    },
+    "Trecho_Item_258_ISO_8_8.mp3": {
+      "chars": 187,
+      "time": 7.426691770553589
+    },
+    "Trecho_Item_168_ISO_7_7_2.mp3": {
+      "chars": 4155,
+      "time": 129.3633041381836
+    },
+    "Trecho_Item_015_ISO_5_3.mp3": {
+      "chars": 880,
+      "time": 15.971968173980713
+    },
+    "Trecho_Item_170_ISO_7_7_2.mp3": {
+      "chars": 4143,
+      "time": 121.53623867034912
+    },
+    "Trecho_Item_091_ISO_6_6_2.mp3": {
+      "chars": 4627,
+      "time": 85.0611526966095
+    },
+    "Trecho_Item_171_ISO_7_7_2.mp3": {
+      "chars": 3837,
+      "time": 108.60232210159302
+    },
+    "Trecho_Item_016_ISO_5_4.mp3": {
+      "chars": 849,
+      "time": 18.7419753074646
+    },
+    "Trecho_Item_259_ISO_8_8.mp3": {
+      "chars": 4269,
+      "time": 75.18345403671265
+    },
+    "Trecho_Item_092_ISO_6_6_3.mp3": {
+      "chars": 2352,
+      "time": 45.361407995224
+    },
+    "Trecho_Item_260_ISO_8_8.mp3": {
+      "chars": 1528,
+      "time": 30.745882511138916
+    },
+    "Trecho_Item_172_ISO_7_7_2.mp3": {
+      "chars": 2698,
+      "time": 162.83866214752197
+    },
+    "Trecho_Item_017_ISO_5_5.mp3": {
+      "chars": 1793,
+      "time": 34.2137496471405
+    },
+    "Trecho_Item_094_ISO_7_1_1.mp3": {
+      "chars": 2205,
+      "time": 77.09645652770996
+    },
+    "Trecho_Item_174_ISO_7_7_3.mp3": {
+      "chars": 1152,
+      "time": 27.683335781097412
+    },
+    "Trecho_Item_261_ISO_8_8.mp3": {
+      "chars": 1406,
+      "time": 30.786590814590454
+    },
+    "Trecho_Item_018_ISO_5_5.mp3": {
+      "chars": 1040,
+      "time": 15.215487480163574
+    },
+    "Trecho_Item_095_ISO_7_1_1.mp3": {
+      "chars": 604,
+      "time": 38.29612970352173
+    },
+    "Trecho_Item_175_ISO_7_8_1.mp3": {
+      "chars": 1102,
+      "time": 20.761778354644775
+    },
+    "Trecho_Item_262_ISO_8_8.mp3": {
+      "chars": 1455,
+      "time": 26.101279735565186
+    },
+    "Trecho_Item_173_ISO_7_7_2.mp3": {
+      "chars": 4391,
+      "time": 143.82875800132751
+    },
+    "Trecho_Item_096_ISO_7_1_1.mp3": {
+      "chars": 1202,
+      "time": 20.453438758850098
+    },
+    "Trecho_Item_019_ISO_5_5.mp3": {
+      "chars": 1720,
+      "time": 21.871211051940918
+    },
+    "Trecho_Item_263_ISO_8_9.mp3": {
+      "chars": 1250,
+      "time": 20.943814516067505
+    },
+    "Trecho_Item_176_ISO_7_8_1.mp3": {
+      "chars": 1945,
+      "time": 34.932674169540405
+    },
+    "Trecho_Item_020_ISO_5_6.mp3": {
+      "chars": 1486,
+      "time": 22.42729377746582
+    },
+    "Trecho_Item_098_ISO_7_1_1.mp3": {
+      "chars": 187,
+      "time": 4.584819316864014
+    },
+    "Trecho_Item_097_ISO_7_1_1.mp3": {
+      "chars": 2251,
+      "time": 32.152109146118164
+    },
+    "Trecho_Item_177_ISO_7_8_1.mp3": {
+      "chars": 1564,
+      "time": 31.674281120300293
+    },
+    "Trecho_Item_264_ISO_8_9.mp3": {
+      "chars": 1330,
+      "time": 24.11253523826599
+    },
+    "Trecho_Item_021_ISO_5_7.mp3": {
+      "chars": 1358,
+      "time": 18.8546302318573
+    },
+    "Trecho_Item_022_ISO_6_1.mp3": {
+      "chars": 737,
+      "time": 12.772034883499146
+    },
+    "Trecho_Item_178_ISO_7_8_1.mp3": {
+      "chars": 726,
+      "time": 29.534346103668213
+    },
+    "Trecho_Item_265_ISO_8_9.mp3": {
+      "chars": 1580,
+      "time": 27.270870685577393
+    },
+    "Trecho_Item_181_ISO_7_8_2.mp3": {
+      "chars": 1096,
+      "time": 25.838374853134155
+    },
+    "Trecho_Item_266_ISO_8_9.mp3": {
+      "chars": 1812,
+      "time": 26.659533262252808
+    },
+    "Trecho_Item_099_ISO_7_1_3.mp3": {
+      "chars": 2465,
+      "time": 54.222052812576294
+    },
+    "Trecho_Item_023_ISO_6_2.mp3": {
+      "chars": 1476,
+      "time": 22.18618416786194
+    },
+    "Trecho_Item_182_ISO_7_8_2.mp3": {
+      "chars": 1086,
+      "time": 22.9560763835907
+    },
+    "Trecho_Item_267_ISO_8_9.mp3": {
+      "chars": 1431,
+      "time": 33.184725284576416
+    },
+    "Trecho_Item_024_ISO_6_2.mp3": {
+      "chars": 1258,
+      "time": 28.080345392227173
+    },
+    "Trecho_Item_101_ISO_7_1_4.mp3": {
+      "chars": 1709,
+      "time": 35.4640588760376
+    },
+    "Trecho_Item_100_ISO_7_1_3.mp3": {
+      "chars": 4080,
+      "time": 84.19877243041992
+    },
+    "Trecho_Item_268_ISO_8_9.mp3": {
+      "chars": 1795,
+      "time": 25.71809697151184
+    },
+    "Trecho_Item_025_ISO_6_3.mp3": {
+      "chars": 807,
+      "time": 14.210873365402222
+    },
+    "Trecho_Item_269_ISO_8_9.mp3": {
+      "chars": 513,
+      "time": 6.675872564315796
+    },
+    "Trecho_Item_183_ISO_7_8_2.mp3": {
+      "chars": 2548,
+      "time": 44.50166416168213
+    },
+    "Trecho_Item_102_ISO_7_1_7.mp3": {
+      "chars": 2150,
+      "time": 42.0176215171814
+    },
+    "Trecho_Item_184_ISO_7_8_2.mp3": {
+      "chars": 909,
+      "time": 21.97931742668152
+    },
+    "Trecho_Item_270_ISO_8_9.mp3": {
+      "chars": 1602,
+      "time": 22.38938283920288
+    },
+    "Trecho_Item_026_ISO_6_3.mp3": {
+      "chars": 3752,
+      "time": 45.75090146064758
+    },
+    "Trecho_Item_185_ISO_7_8_2.mp3": {
+      "chars": 1582,
+      "time": 53.22391176223755
+    },
+    "Trecho_Item_103_ISO_7_2_1.mp3": {
+      "chars": 1670,
+      "time": 61.77160620689392
+    },
+    "Trecho_Item_186_ISO_7_8_2.mp3": {
+      "chars": 1538,
+      "time": 39.616230964660645
+    },
+    "Trecho_Item_027_ISO_6_4_1.mp3": {
+      "chars": 1861,
+      "time": 58.32156038284302
+    },
+    "Trecho_Item_105_ISO_7_2_1.mp3": {
+      "chars": 1535,
+      "time": 89.21251368522644
+    },
+    "Trecho_Item_028_ISO_6_4_1.mp3": {
+      "chars": 1716,
+      "time": 32.936678647994995
+    },
+    "Trecho_Item_106_ISO_7_2_1.mp3": {
+      "chars": 3633,
+      "time": 99.26522302627563
+    },
+    "Trecho_Item_107_ISO_7_2_1.mp3": {
+      "chars": 1127,
+      "time": 48.20079469680786
+    },
+    "Trecho_Item_029_ISO_6_4_3.mp3": {
+      "chars": 1414,
+      "time": 36.394999980926514
+    },
+    "Trecho_Item_030_ISO_6_4_3.mp3": {
+      "chars": 3937,
+      "time": 5.0242063999176025
+    },
+    "Trecho_Item_189_ISO_7_8_3.mp3": {
+      "chars": 2209,
+      "time": 43.16647672653198
+    },
+    "Trecho_Item_187_ISO_7_8_2.mp3": {
+      "chars": 3792,
+      "time": 106.8730776309967
+    }
+  }
+}

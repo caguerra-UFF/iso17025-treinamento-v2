@@ -1,0 +1,115 @@
+{
+  "title": "Parte 2 - Capítulo 07: Requisito 7.4 - Manuseio de Itens de Ensaio",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_2",
+  "chapter_filename": "Podcast_Parte2_Capitulo_7_Itens_7_1_a_7_4_Completo_Thalita_e_Francisca.mp3",
+  "episodes": [
+    {
+      "id": "7.1",
+      "filename": "Podcast_Parte2_Item_7_1_Procedimento_Ciclo_Completo_do_Item.mp3",
+      "title": "Item 7.1 - O Procedimento do Ciclo Completo do Item de Ensaio",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, entramos no Capítulo 7 da Parte 2: o Requisito 7.4 da ISO 17025, manuseio de itens de ensaio ou calibração. O que significa na prática cobrir o ciclo completo da amostra no laboratório?"
+        ],
+        [
+          "Francisca",
+          "Significa que o procedimento não pode cobrir apenas a chegada na portaria, Thalita! O requisito 7.4.1 exige que o laboratório tenha procedimentos para o transporte, recebimento, manuseio, proteção, armazenamento, retenção e o descarte ou devolução final de cada item."
+        ],
+        [
+          "Thalita",
+          "E por que essa cadeia inteira tem que estar sob controle documentado?"
+        ],
+        [
+          "Francisca",
+          "Para evitar deterioração, perda ou dano ao item durante todo o tempo em que ele estiver sob a guarda do laboratório. Se uma amostra fica esquecida na bancada sob calor em vez de ir para a câmara fria, o resultado analítico é destruído antes mesmo do ensaio começar."
+        ],
+        [
+          "Thalita",
+          "Exatamente! A integridade física e química da amostra é sagrada da entrada ao descarte."
+        ]
+      ]
+    },
+    {
+      "id": "7.2",
+      "filename": "Podcast_Parte2_Item_7_2_Identificacao_Inequivoca_e_Subamostras.mp3",
+      "title": "Item 7.2 - Identificação Inequívoca e Rastreabilidade de Subamostras",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 7.2, Francisca, a regra é clara: identificação inequívoca! Mas o que acontece quando uma mesma coleta no campo é dividida em quatro frascos diferentes para setores analíticos distintos?"
+        ],
+        [
+          "Francisca",
+          "Aí entra a regra de ouro do requisito 7.4.2, Thalita! A identificação deve ser mantida enquanto o item estiver no laboratório. Quando você subdivide a amostra mãe em alíquotas para metais, microbiologia e físico-química, o sistema de codificação tem que amarrar de forma indissolúvel cada frasco filho à amostra de origem."
+        ],
+        [
+          "Thalita",
+          "E como evitar que duas amostras de clientes diferentes se misturem na bancada?"
+        ],
+        [
+          "Francisca",
+          "Códigos de barras unívocos, etiquetas com numeração sequencial do LIMS e regras visuais de bancada. O sistema deve garantir que, mesmo em caso de fracionamento ou transferência de recipiente, seja impossível confundir fisicamente ou documentalmente qualquer item."
+        ],
+        [
+          "Thalita",
+          "Perfeito! Rastreabilidade interna que elimina o pesadelo de trocar amostras na rotina."
+        ]
+      ]
+    },
+    {
+      "id": "7.3",
+      "filename": "Podcast_Parte2_Item_7_3_Item_Recebido_Fora_de_Condicao.mp3",
+      "title": "Item 7.3 - Item Recebido Fora de Condição: Consulta e Disclaimer Obrigatório",
+      "dialogue": [
+        [
+          "Thalita",
+          "Chegamos ao Item 7.3, uma das situações mais delicadas da rotina: a amostra chega ao laboratório fora da temperatura exigida, com frasco trincado ou após o prazo máximo de preservação. O laboratório pode simplesmente rodar o ensaio, Francisca?"
+        ],
+        [
+          "Francisca",
+          "Nunca sem antes cumprir o rito do requisito 7.4.3, Thalita! Havendo qualquer anomalia ou desvio das condições especificadas, o laboratório é obrigado a consultar o cliente antes de prosseguir e registrar formalmente essa consulta."
+        ],
+        [
+          "Thalita",
+          "E se o cliente insistir para analisar mesmo assim, dizendo que a coleta foi cara e precisa do dado?"
+        ],
+        [
+          "Francisca",
+          "O laboratório pode realizar o ensaio a pedido do cliente, mas a ISO exige incluir uma declaração de isenção de responsabilidade no relatório final, o famoso disclaimer! O laudo deve alertar em destaque que o item foi recebido fora de condição e indicar expressamente quais resultados podem ter sido afetados por esse desvio."
+        ],
+        [
+          "Thalita",
+          "Uma proteção jurídica e técnica impecável: o cliente decide, mas a verdade metrológica fica registrada no laudo."
+        ]
+      ]
+    },
+    {
+      "id": "7.4",
+      "filename": "Podcast_Parte2_Item_7_4_Armazenamento_Segregacao_e_Monitoramento.mp3",
+      "title": "Item 7.4 - Armazenamento, Segregação e Monitoramento Ambiental",
+      "dialogue": [
+        [
+          "Thalita",
+          "Pra fechar a Seção 7, o Item 7.4 aborda o armazenamento e a guarda das amostras. Francisca, como deve ser o controle das câmaras frias e geladeiras do laboratório?"
+        ],
+        [
+          "Francisca",
+          "O requisito 7.4.4 exige que as condições ambientais de armazenamento sejam mantidas, monitoradas e registradas, Thalita! Não basta ter uma geladeira; é preciso ter termômetro calibrado registrando temperatura máxima e mínima diariamente, ou sensores automatizados com alarme."
+        ],
+        [
+          "Thalita",
+          "E em relação ao risco de contaminação cruzada entre amostras no estoque?"
+        ],
+        [
+          "Francisca",
+          "Segregação física obrigatória! Amostras brutas de esgoto ou resíduos perigosos altamente concentrados jamais podem ser guardadas na mesma prateleira ou refrigerador de águas ultra-puras ou amostras de traços de contaminantes. A segregação preserva a integridade de todo o lote."
+        ],
+        [
+          "Thalita",
+          "Sensacional, Francisca! Da recepção ao armazenamento refrigerado, a amostra é tratada com o mais alto rigor metrológico."
+        ]
+      ]
+    }
+  ]
+}

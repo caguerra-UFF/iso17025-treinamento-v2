@@ -1,0 +1,2079 @@
+[00:11:37 -> 00:13:59] Pessoal que retornou, vou pedir para já abrir a câmera para saber quem já está aí, por favor.
+[00:13:59 -> 00:14:05] Pessoal que já retornou, por favor, abre uma câmera aí para saber se o pessoal já voltou.
+[00:14:05 -> 00:18:44] Bom, gente, retornado.
+[00:18:44 -> 00:19:01] Entrando no requisito de confidencialidade, o laboratório deve garantir que as informações obtidas ou geradas
+[00:19:01 -> 00:19:06] durante a realização das atividades de laboratório sejam mantidas em confidencialidade,
+[00:19:06 -> 00:19:10] considerando todo o pessoal que tem acesso às informações confidenciais,
+[00:19:10 -> 00:19:15] incluindo o pessoal interno, externo e provedores externos.
+[00:19:15 -> 00:19:23] A 17º e 25º, ela define a necessidade de acordos legais de confidencialidade.
+[00:19:23 -> 00:19:27] Então, firmar acordos de confidencialidade com todo o pessoal.
+[00:19:27 -> 00:19:34] Os laboratórios implementam isso através de um termo de confidencialidade,
+[00:19:34 -> 00:19:41] cláusula de confidencialidade em contrato de trabalho,
+[00:19:41 -> 00:19:49] um termo associado ao código de conduta,
+[00:19:50 -> 00:19:57] declarando que o colaborador se compromete a atender os requisitos daquele código
+[00:19:57 -> 00:20:01] que inclui requisitos de confidencialidade.
+[00:20:01 -> 00:20:07] Então, no caso de confidencialidade, há a necessidade desse acordo legal.
+[00:20:07 -> 00:20:13] Controle de acesso, implementar sistemas de controle de acesso físico.
+[00:20:13 -> 00:20:20] Então, placa de controle de acesso nas áreas do laboratório
+[00:20:20 -> 00:20:24] e locais que têm informações do cliente.
+[00:20:24 -> 00:20:29] Não somente o acesso às instalações,
+[00:20:29 -> 00:20:36] mas também o acesso à eletrônia e as informações confidenciais.
+[00:20:36 -> 00:20:46] Então, através de login e senha, as pastas protegidas com as informações do cliente,
+[00:20:46 -> 00:20:53] treinamentos regulares, realizar treinamentos periódicos sobre a importância da confidencialidade.
+[00:20:53 -> 00:21:07] Tem empresas que realizam treinamentos periódicos no código de conduta.
+[00:21:07 -> 00:21:13] Vocês sabem informar quem tem autoridade no laboratório
+[00:21:13 -> 00:21:18] para informar os resultados de ensaio para o cliente?
+[00:21:18 -> 00:21:34] Como é que os resultados são fornecidos para o cliente?
+[00:21:34 -> 00:21:38] Quem tem autoridade no laboratório para informar os resultados?
+[00:21:38 -> 00:21:55] Eu acho que os resultados são informados através dos relatórios.
+[00:21:55 -> 00:22:07] Se for alguma coisa específica que tiver fora dos parâmetros e que necessitar de uma ação imediata,
+[00:22:07 -> 00:22:14] eu acredito que seja o gestor da LMA, quem faça contato com o gestor da OR responsável.
+[00:22:14 -> 00:22:24] Quem tem autoridade dentro do LMA para encaminhar os relatórios para o cliente,
+[00:22:24 -> 00:22:28] para autorizar a emissão dos relatórios?
+[00:22:28 -> 00:22:35] Os relatórios são feitos normalmente pelos técnicos, aprovados pelo gestor,
+[00:22:35 -> 00:22:38] e liberados, eu acho que pela Carla.
+[00:22:38 -> 00:22:46] Então, eu não me lembro. Eu não estou à frente disso aqui do laboratório.
+[00:22:46 -> 00:22:57] Eu liberaria como alta direção, mas até quando eu me lembro do todo o processo que estava sendo executado aqui pelo laboratório,
+[00:22:57 -> 00:23:05] haveria assim uma lista de pessoas que teriam autoridade para liberar os resultados.
+[00:23:05 -> 00:23:09] Então, eu não sei se isso aí realmente não posso responder pelo laboratório.
+[00:23:09 -> 00:23:11] Mas pelo que eu me lembro era isso.
+[00:23:11 -> 00:23:13] Alguém do laboratório em si me corrige.
+[00:23:13 -> 00:23:21] Isso teria uma relação de pessoas autorizadas a liberar esses laudos e essas análises.
+[00:23:21 -> 00:23:26] Obviamente com a anuência do chefe do laboratório.
+[00:23:26 -> 00:23:33] Então, estou entendendo que exista essa relação de pessoas previamente autorizadas.
+[00:23:33 -> 00:23:37] Eu entendo que seja dessa forma.
+[00:23:37 -> 00:23:40] Com uma lista ou dentro de um procedimento.
+[00:23:40 -> 00:23:45] Quem é do laboratório que realmente pode me confirmar que essa parte do processo,
+[00:23:45 -> 00:23:51] como agora eu estou em outro lado, eu não sei mais responder esses detalhes.
+[00:23:51 -> 00:23:59] Em última instância, para fora, precisando fazer interlupção com outros órgãos ou com outros interessados.
+[00:23:59 -> 00:24:04] A depender da alta direção, aí sim, sairia com alguma assinatura minha.
+[00:24:04 -> 00:24:11] Mas a análise em si dos resultados, dos resultados de fato executados e apresentados
+[00:24:11 -> 00:24:18] seria total responsabilidade das pessoas elencadas pelo próprio laboratório, pela gestão do laboratório.
+[00:24:18 -> 00:24:23] Eu fico, no meu caso, eu sou acima disso, não participo diretamente.
+[00:24:23 -> 00:24:27] Eu não tenho autorização para liberar nenhum áudio.
+[00:24:27 -> 00:24:30] Eu não participo dessa liberação.
+[00:24:30 -> 00:24:34] Eu estou fora dessa etapa do processo.
+[00:24:34 -> 00:24:43] Então, pelo que a Carla comentou, tem uma lista de pessoas autorizadas a liberar os resultados.
+[00:24:43 -> 00:24:53] Então, só pode informar o resultado por cliente as pessoas que estão dentro dessa lista de pessoas autorizadas.
+[00:24:53 -> 00:25:00] O pessoal da operação, o cliente interno, pode falar diretamente com os técnicos no laboratório
+[00:25:00 -> 00:25:08] sobre resultados ou solicitar prazos para emissão de certificados diferentes do acordado na proposta do serviço?
+[00:25:08 -> 00:25:26] E aí, pessoal, pode?
+[00:25:26 -> 00:25:32] Eu já acabei de falar com o Jaima aqui, que ele falou que já está entrando no treinamento
+[00:25:32 -> 00:25:37] e eu falei que já está fazendo falta aqui, que eu acho que tem questões aqui,
+[00:25:37 -> 00:25:42] que eu acho que seriam mais para ele responder.
+[00:25:42 -> 00:25:46] Eu acho que o pessoal da operação não pode falar diretamente com os técnicos.
+[00:25:46 -> 00:25:48] Não, respeito Renata.
+[00:25:48 -> 00:25:53] Não pode tratar diretamente com o técnico, como até vocês disseram anteriormente,
+[00:25:53 -> 00:25:59] é com a gerência do laboratório, prazo, de execução.
+[00:25:59 -> 00:26:08] E relacionado, mais uma vez a Carla, Renata vai falar, está faltando gente do laboratório aqui, que não entrou.
+[00:26:08 -> 00:26:14] Vocês certamente também se têm definido pessoas que são autorizadas a acessar o laboratório.
+[00:26:14 -> 00:26:18] Então, principalmente o cliente interno,
+[00:26:18 -> 00:26:27] ele não deve ser autorizado a acessar o laboratório sem um acompanhamento do pessoal do laboratório.
+[00:26:27 -> 00:26:37] Então, vocês têm certamente estabelecido dentro dos procedimentos de vocês um controle de acesso.
+[00:26:37 -> 00:26:47] Quais são as pessoas autorizadas a acessar o laboratório e as áreas que têm informações do cliente,
+[00:26:47 -> 00:26:56] por último, sendo da Electro Nuclear, existe um acesso restrito de pessoal dentro da Electro Nuclear,
+[00:26:56 -> 00:26:59] que está autorizado a acessar o laboratório.
+[00:26:59 -> 00:27:04] Pode falar, Gabriela, se ele levantou a mão.
+[00:27:04 -> 00:27:11] Eu ia falar que aqui a gente faz esse controle de acesso por identificação facial em algumas das salas, por exemplo.
+[00:27:11 -> 00:27:22] E a gente tem também com pessoas que vêm de fora, a gente tem um registro e um livro da pessoa que está acessando e sempre com uma escolta também.
+[00:27:22 -> 00:27:31] E esse controle facial é somente para o pessoal do laboratório,
+[00:27:31 -> 00:27:36] ou tem pessoas fora do laboratório que estão autorizadas a acessar o laboratório?
+[00:27:36 -> 00:27:45] Em termos da parte facial, dependendo do caso, a gente consegue fazer liberação para uma outra pessoa acessar por um período determinado.
+[00:27:45 -> 00:27:51] Mas, no geral, é só o pessoal do laboratório, com algumas exceções.
+[00:27:52 -> 00:27:59] Então, essas foram as sistemáticas apresentadas pela Gabriela,
+[00:27:59 -> 00:28:05] estabelecidas para essa questão de assegurar a confidencialidade, ter controle de acesso,
+[00:28:05 -> 00:28:11] em relação às informações também armazenadas eletrônicamente.
+[00:28:11 -> 00:28:30] E aí, pessoal, vamos entrar nos requisitos de estrutura, que é a sessão 5 da 17.025.
+[00:28:30 -> 00:28:40] O primeiro requisito da 17.025, ele define que o laboratório tem que ser uma entidade legal,
+[00:28:40 -> 00:28:50] ou fazer parte de uma entidade legal, que seja legalmente responsável por suas atividades.
+[00:28:51 -> 00:28:54] Para os laboratórios que são postulantes da acreditação,
+[00:28:54 -> 00:29:03] ou laboratórios acreditados, tem documentos da CGECRE, que definem requisitos que o laboratório tem que atender.
+[00:29:03 -> 00:29:12] Então, por exemplo, a eletroneclear, que tem essa acreditação no radar, essa busca dessa acreditação,
+[00:29:12 -> 00:29:17] em relação à documentação legal, tem que atender a nitidícula 31.
+[00:29:17 -> 00:29:28] E aí, a nitidícula 31 exige, como documentos legais, o contrato social ou o estatuto,
+[00:29:28 -> 00:29:42] no caso do estatuto, a procuração que define quem é o representante legal daquela organização,
+[00:29:42 -> 00:29:52] ao varar de funcionamento, se ao varar de funcionamento fizer menção ao lado do corpo de bombeiro
+[00:29:52 -> 00:29:58] e da vigilância sanitária, também tem que ser apresentado e o CNPJ.
+[00:29:58 -> 00:30:10] Então, essa é a documentação legal exigida pela CGECRE, para a fim de avaliar se a entidade é uma entidade legal,
+[00:30:10 -> 00:30:20] se faz parte da entidade legal, identificar a gerência que tem a responsabilidade geral pelo laboratório.
+[00:30:20 -> 00:30:29] Quando a gente estava falando aqui de imparcialidade, a gente ficou, ah não, porque a gerência tem que ser acompanhada pela gerência,
+[00:30:29 -> 00:30:32] a comunicação tem que ser através da gerência.
+[00:30:32 -> 00:30:47] Essa gerência, falada no requisito 5.2, da 17.25, é a gerência que tem responsabilidade pela provisão de recursos
+[00:30:47 -> 00:30:52] e quem responde pelas operações técnicas do laboratório.
+[00:30:52 -> 00:31:01] Essa gerência, ela pode ser composta por 1, 2, 3, 4, 5, não importa o número de pessoas e funções.
+[00:31:02 -> 00:31:10] Mas essa gerência que tem responsabilidade geral pelo laboratório, é a gerência que provê recursos
+[00:31:10 -> 00:31:15] e quem responde pelas operações técnicas do laboratório.
+[00:31:19 -> 00:31:25] Vocês têm o entendimento de quais funções tem responsabilidade geral pelo laboratório,
+[00:31:25 -> 00:31:30] até o Jaime, quando estava falando de imparcialidade, falou sobre a Carla,
+[00:31:30 -> 00:31:37] que entra aí como a alta direção a parte de provisão de recursos necessários para o laboratório.
+[00:31:37 -> 00:31:43] Mas quem compõe a gerência, quem responde pelas operações técnicas do laboratório?
+[00:31:43 -> 00:31:53] Quem ou qual conjunto de pessoas que responde pelas operações técnicas do laboratório?
+[00:31:53 -> 00:32:00] A gente tem uma organização que é o seguinte, nós estamos vinculados à Carla, que ela é assessora.
+[00:32:00 -> 00:32:06] Ela tem uma estrutura que é assessoria de gestão ambiental, gestão ambiental do licenciamento.
+[00:32:06 -> 00:32:11] E a gente tem uma divisão, que eu sou o chefe dessa divisão, no momento.
+[00:32:11 -> 00:32:16] A gente tem o João Pedro, como supervisor da biologia.
+[00:32:16 -> 00:32:19] E a gente tem a Janine, como supervisora da química.
+[00:32:19 -> 00:32:23] Então essa é a estrutura, eu não sei se é exatamente isso que você perguntou,
+[00:32:23 -> 00:32:29] mas a estrutura formal do laboratório e os demais fazem parte do corpo técnico.
+[00:32:29 -> 00:32:38] Então a Carla entra na parte de provisão de recursos e as operações técnicas.
+[00:32:38 -> 00:32:47] Quem gerencia as operações técnicas é você, mas a Janine da parte de química
+[00:32:47 -> 00:32:52] e quem mais do biológico, o João Pedro.
+[00:32:52 -> 00:32:58] Então a gerência que responde pelas operações técnicas, ela já é a Janine e o João Pedro.
+[00:32:58 -> 00:33:02] E quem entra para a provisão de recursos é a Carla.
+[00:33:02 -> 00:33:13] Então vocês 4 compõem a gerência que tem responsabilidade geral pelo laboratório.
+[00:33:13 -> 00:33:18] É definir a estrutura organizacional e gerencial do laboratório.
+[00:33:18 -> 00:33:23] Essa estrutura geralmente ela está definida através de um organograma.
+[00:33:23 -> 00:33:28] E esse organograma tem que estar disponível para o pessoal.
+[00:33:28 -> 00:33:33] Vocês conseguem acessar o organograma da organização como, gente?
+[00:33:33 -> 00:33:34] Entranete.
+[00:33:34 -> 00:33:42] Ele está num procedimento, existe um procedimento e ele está num sistema que a gente tem aqui
+[00:33:42 -> 00:33:48] de gerenciamento de documentos chamado de Green Docks.
+[00:33:48 -> 00:33:56] E ele está sempre acessível por esse sistema até para a gente manter sempre o documento mais atual para consulta.
+[00:33:56 -> 00:33:59] Então consulta é feito diretamente no sistema.
+[00:33:59 -> 00:34:05] Então vocês conseguem acessar a estrutura organizacional e gerencial através do organograma
+[00:34:05 -> 00:34:11] que está disponível para vocês através do sistema que o Jain me mencionou.
+[00:34:11 -> 00:34:27] Aqui um exemplo resumido de uma estrutura organizacional, né?
+[00:34:27 -> 00:34:35] Onde como Jain me mencionou a gerência de operação, né?
+[00:34:35 -> 00:34:40] Ela está em outra diretoria, né?
+[00:34:40 -> 00:34:47] Aqui, gente, eu não fiz uma estrutura organizacional da eletronuclear porque eu não tenho acesso
+[00:34:47 -> 00:34:49] essa estrutura, né?
+[00:34:49 -> 00:34:52] Eu já até tive, já vi, mas foi só em 2024.
+[00:34:52 -> 00:34:57] Então como eu não tenho acesso aqui, eu fiz uma forma resumida, tá?
+[00:34:57 -> 00:35:01] Então temos o diretor, né?
+[00:35:01 -> 00:35:08] Para a parte de provisão de recursos, o gerente técnico que responde pelas operações técnicas
+[00:35:08 -> 00:35:14] do laboratório e o gerente da qualidade que é o responsável pelo sistema de gestão, né?
+[00:35:14 -> 00:35:20] O gerente da qualidade, ele está ligado ao laboratório também, tá?
+[00:35:20 -> 00:35:23] E aí dentro do laboratório as funções.
+[00:35:23 -> 00:35:30] Tem supervisor, tem analista técnico ou estagiário, né?
+[00:35:30 -> 00:35:39] Essa estrutura organizacional gerencial, ela deve demonstrar as relações entre as
+[00:35:39 -> 00:35:45] gerencias, as operações técnicas e serviços de apoio.
+[00:35:45 -> 00:35:48] São serviços de apoio, né?
+[00:35:48 -> 00:35:51] RH, TI, financeiro.
+[00:35:51 -> 00:35:58] Então todas essas são áreas de apoio que dão suporte para o laboratório, né?
+[00:35:58 -> 00:36:05] São áreas que não estão dentro do laboratório, mas fazem parte de...
+[00:36:05 -> 00:36:11] Para dar o apoio para a realização das atividades no laboratório.
+[00:36:11 -> 00:36:21] E essas funções, todas as funções que têm atividades críticas dentro do processo,
+[00:36:21 -> 00:36:28] e isso inclui também a área de apoio, por exemplo, temos ali o RH, né?
+[00:36:28 -> 00:36:31] Para a parte de seleção de pessoal.
+[00:36:31 -> 00:36:38] Ele tem uma atividade crítica dentro do processo do sistema de gestão da 17.025.
+[00:36:38 -> 00:36:43] Então tem que ter definido a função, o cargo, né?
+[00:36:43 -> 00:36:45] E os requisitos de competência.
+[00:36:45 -> 00:36:48] Então não são somente para as funções do laboratório.
+[00:36:48 -> 00:36:54] São funções para as áreas de apoio também que têm atividades críticas dentro do processo.
+[00:36:54 -> 00:37:07] Então responsabilidade, autoridade e interrelacionamento do pessoal definido.
+[00:37:07 -> 00:37:13] E aí trazendo aqui algumas responsabilidades dentro daquela estrutura que eu demonstrei, né?
+[00:37:13 -> 00:37:21] O diretor tem como responsabilidade e autoridade estabelecer e manter políticas da qualidade,
+[00:37:21 -> 00:37:28] garantir a disponibilidade dos recursos necessários para a eficácia do sistema de gestão, né?
+[00:37:28 -> 00:37:38] A segurar que as responsabilidades e autoridades para cada função estão claramente definidas e comunicadas.
+[00:37:38 -> 00:37:47] O gerente técnico, que responde pelas operações técnicas do laboratório,
+[00:37:47 -> 00:37:52] garantir que os ensaios sejam realizados de acordo com os métodos estabelecidos,
+[00:37:52 -> 00:37:57] de acordo com os métodos normalizados, com os procedimentos técnicos do laboratório,
+[00:37:57 -> 00:38:01] identificar desvios e implementar as suas corretivas,
+[00:38:01 -> 00:38:12] então de identificar falhas técnicas durante o processo e gerir a gestão dessas não-conformidades,
+[00:38:12 -> 00:38:20] estabelecer planos de ação, garantir que as políticas e objetivos associados à competência,
+[00:38:20 -> 00:38:26] em parcialidade e operação consistente estejam efetivamente implementados no laboratório.
+[00:38:28 -> 00:38:35] Início de ações para evitar e minimizar desvio, então para o gerenciamento de riscos,
+[00:38:35 -> 00:38:39] autorização de pessoal para a realização de atividades específicas,
+[00:38:39 -> 00:38:45] então quem responde pelas operações técnicas, autoriza o pessoal para realizar ensaio,
+[00:38:45 -> 00:38:51] para verificar desempenho de método, para autorizar relatórios,
+[00:38:51 -> 00:38:58] emissão de resultados para o cliente, que responde pelas operações técnicas,
+[00:38:58 -> 00:39:04] é responsável pelo monitoramento e supervisão do pessoal e das operações.
+[00:39:07 -> 00:39:13] Então vocês aí dentro desse conjunto, Jaime, a Janine e o João,
+[00:39:13 -> 00:39:19] eles são responsáveis por essas atividades.
+[00:39:19 -> 00:39:26] E o responsável pelo sistema de gestão, o gerente da qualidade,
+[00:39:26 -> 00:39:31] ele é responsável pela implementação, manutenção e melhoria do sistema de gestão,
+[00:39:31 -> 00:39:37] como um facilitador do processo, planejamento de auditorias internas,
+[00:39:37 -> 00:39:42] monitorar e revisar os processos da qualidade,
+[00:39:42 -> 00:39:50] assegurar que os procedimentos estejam sendo analisados criticamente dentro da periodicidade estabelecida,
+[00:39:50 -> 00:39:59] que eles estejam disponíveis para o pessoal realizar as suas atividades dentro das suas versões vigentes,
+[00:39:59 -> 00:40:05] relar a sua gerência, a gerência que tem responsabilidade geral pelo laboratório,
+[00:40:05 -> 00:40:10] sobre o desempenho do sistema de gestão e qualquer necessidade de melhoria,
+[00:40:10 -> 00:40:15] identificação dos desvios do sistema de gestão,
+[00:40:15 -> 00:40:20] ou dos procedimentos para a realização das atividades de laboratório.
+[00:40:20 -> 00:40:25] Então essas são as responsabilidades do responsável pelo sistema de gestão.
+[00:40:25 -> 00:40:37] Então eu trouxe as responsabilidades de três funções chaves dentro do sistema de gestão.
+[00:40:37 -> 00:40:42] Mas como eu disse, todas as funções que têm atividades críticas no processo
+[00:40:42 -> 00:40:47] têm que ter as suas responsabilidades e autoridades definidas.
+[00:40:47 -> 00:40:57] A 17.025, ela também define que o laboratório deve definir e documentar
+[00:40:57 -> 00:41:03] o conjunto de atividades de laboratório e atendimento dos requisitos.
+[00:41:03 -> 00:41:11] A 17.025, ela é uma norma para três atividades de laboratório,
+[00:41:11 -> 00:41:14] ensaio, calibração e amostragem.
+[00:41:14 -> 00:41:19] No caso do laboratório da eletronutriar,
+[00:41:19 -> 00:41:23] vocês realizam duas atividades de laboratório,
+[00:41:23 -> 00:41:26] ensaio e amostragem.
+[00:41:26 -> 00:41:33] Então dentro dessas atividades de ensaio e amostragem
+[00:41:33 -> 00:41:37] que o laboratório de monitoração realiza,
+[00:41:37 -> 00:41:41] vocês têm que definir e documentar
+[00:41:41 -> 00:41:47] qual conjunto dessas atividades está em conformidade com a 17.025.
+[00:41:47 -> 00:41:53] Quais atividades que fazem parte do escopo da 17.025 de vocês,
+[00:41:53 -> 00:41:55] do sistema de gestão de vocês?
+[00:41:55 -> 00:42:00] Então um exemplo, os ensaios radioquímicos,
+[00:42:00 -> 00:42:06] biológicos e químicos realizados nas instalações permanentes do laboratório
+[00:42:06 -> 00:42:11] de monitoração ambiental está em conformidade com a 17.025.
+[00:42:11 -> 00:42:13] Então aqui é um exemplo.
+[00:42:13 -> 00:42:18] Aqui não foi incluído atividades de amostragem,
+[00:42:18 -> 00:42:20] mas aqui é um exemplo só.
+[00:42:20 -> 00:42:23] Então vocês têm que definir quais atividades de amostragem
+[00:42:23 -> 00:42:28] e de ensaio está em conformidade com a 17.025.
+[00:42:28 -> 00:42:33] E essas atividades realizadas nas instalações permanentes
+[00:42:33 -> 00:42:36] e nas instalações do cliente,
+[00:42:36 -> 00:42:42] elas devem ser realizadas atendendo os requisitos da 17.025,
+[00:42:42 -> 00:42:48] os requisitos do cliente, os requisitos dos regulamentadores,
+[00:42:48 -> 00:42:52] vocês têm como regulamentadores o INEIA,
+[00:42:52 -> 00:42:56] a Comissão Nacional de Energia Nuclear, o IBAMA
+[00:42:56 -> 00:43:00] e as organizações que fornecem reconhecimento,
+[00:43:00 -> 00:43:05] a CGECRI, no caso de laboratórios postulantes de acreditação
+[00:43:05 -> 00:43:09] ou laboratórios acreditados.
+[00:43:09 -> 00:43:15] Vocês têm documentado qual conjunto de atividades de laboratório
+[00:43:15 -> 00:43:17] que está em conformidade com a 17.025,
+[00:43:17 -> 00:43:19] alguém sabe informar,
+[00:43:19 -> 00:43:26] onde está documentado o escopo de ensaios e amostragens
+[00:43:26 -> 00:43:29] que faz parte do sistema de gestão de vocês?
+[00:43:29 -> 00:43:35] Luana, a Genine está mais à frente desse processo aí,
+[00:43:35 -> 00:43:41] mas de qualquer forma, a gente tem um manual da qualidade
+[00:43:41 -> 00:43:45] e a gente está estruturando,
+[00:43:45 -> 00:43:50] óbvio que a gente tem números, processos e números parâmetros de análise,
+[00:43:50 -> 00:43:54] a gente está definindo um número ideal
+[00:43:56 -> 00:44:00] e aí a gente vai ter agora uma auditoria interna,
+[00:44:00 -> 00:44:04] isso vai ser mais um parâmetro para a gente ajustar esse número
+[00:44:04 -> 00:44:08] e a partir daí a gente vai decidir o número de ensaios
+[00:44:08 -> 00:44:11] que a gente vai chamar.
+[00:44:11 -> 00:44:14] Vai fazer parte do sistema de gestão de vocês.
+[00:44:14 -> 00:44:17] Exatamente, então agora, no momento,
+[00:44:17 -> 00:44:21] eu acho que pronto, pronto, pronto, já de acordo com a 17.025,
+[00:44:21 -> 00:44:22] não tem nenhum.
+[00:44:22 -> 00:44:25] Vocês não têm definido.
+[00:44:25 -> 00:44:26] Entendi.
+[00:44:26 -> 00:44:29] A amostragem vai entrar também?
+[00:44:29 -> 00:44:30] Eu acho que não.
+[00:44:30 -> 00:44:32] Nesse primeiro momento, eu acho que não.
+[00:44:32 -> 00:44:34] Nesse primeiro momento não, só vai entrar.
+[00:44:34 -> 00:44:36] Mas eu posso tirar essa dúvida com a Genine aqui,
+[00:44:36 -> 00:44:40] mandar um zap para ela e assim que ela responder, eu te aviso.
+[00:44:40 -> 00:44:48] Tá.
+[00:44:48 -> 00:44:50] A necessidade de ter uma comunicação interna
+[00:44:50 -> 00:44:53] sobre a eficácia do sistema de gestão,
+[00:44:53 -> 00:44:58] então o que deve ser comunicado?
+[00:44:58 -> 00:45:01] Resultados de auditorias internas,
+[00:45:01 -> 00:45:05] resultados de avaliações externas, seja do cliente,
+[00:45:05 -> 00:45:07] seja de organismo de acreditação,
+[00:45:07 -> 00:45:10] políticas e objetivos,
+[00:45:10 -> 00:45:16] indicadores e metas associadas às políticas e objetivos,
+[00:45:16 -> 00:45:19] pesquisa de satisfação,
+[00:45:19 -> 00:45:23] resultado de atividade e ensaio de proficiência.
+[00:45:23 -> 00:45:27] Então, todas essas informações a respeito da eficácia
+[00:45:27 -> 00:45:31] do sistema de gestão deve ser comunicada para o pessoal.
+[00:45:31 -> 00:45:35] E como que essas informações podem ser comunicadas?
+[00:45:35 -> 00:45:38] Através de quadros de avisos, intranet,
+[00:45:38 -> 00:45:42] reuniões periódicas,
+[00:45:42 -> 00:45:47] eu lembro quando eu fiz o diagnóstico na eletroniclear,
+[00:45:47 -> 00:45:51] vocês declararam que realizavam reuniões periódicas
+[00:45:51 -> 00:45:58] para abordar situações a respeito do sistema de gestão,
+[00:45:58 -> 00:46:05] treinamentos sobre imparcialidade, sobre confidencialidade,
+[00:46:05 -> 00:46:10] sobre gestão de riscos, e-mails.
+[00:46:10 -> 00:46:14] Então, todas são formas de comunicação
+[00:46:14 -> 00:46:20] de informações a respeito da eficácia do sistema de gestão.
+[00:46:20 -> 00:46:24] E qual o objetivo, que é 7.025,
+[00:46:24 -> 00:46:28] define sobre essa necessidade de comunicação?
+[00:46:28 -> 00:46:34] Garantia que todos o pessoal envolvido no sistema de gestão
+[00:46:34 -> 00:46:40] esteja informados sobre decisões e mudanças implementadas
+[00:46:40 -> 00:46:48] para o engajamento do pessoal com os processos do sistema de gestão
+[00:46:48 -> 00:46:51] e com formidade contínua.
+[00:46:51 -> 00:46:57] Vocês sabem mencionar formas de comunicação interna de vocês.
+[00:46:57 -> 00:47:00] O meu disse, ainda tem as reuniões periódicas,
+[00:47:00 -> 00:47:03] vocês ainda estão fazendo as reuniões periódicas, Gabriel.
+[00:47:03 -> 00:47:08] João, vocês fazem as reuniões periódicas, não é isso?
+[00:47:08 -> 00:47:13] E mais quais outras formas de comunicação da eficácia
+[00:47:13 -> 00:47:15] do sistema de gestão você tem implementado?
+[00:47:15 -> 00:47:18] Vocês sabem dizer quadros de avisos?
+[00:47:18 -> 00:47:20] Você tem quadros de avisos?
+[00:47:20 -> 00:47:27] Onde a política da qualidade está disponível para vocês?
+[00:47:27 -> 00:47:31] Luana, a política da qualidade já foi elaborada,
+[00:47:31 -> 00:47:35] já foi submetida para um departamento que a gente tem aqui
+[00:47:35 -> 00:47:38] de garantia da qualidade.
+[00:47:38 -> 00:47:41] Eu creio que ela já consta no procedimento,
+[00:47:41 -> 00:47:46] porém não tenho certeza, acho que ela não está exposta no quadro de avisos.
+[00:47:46 -> 00:47:49] Mas ela está divulgada através do procedimento que está disponível
+[00:47:49 -> 00:47:55] no sistema de disponibilização de documentos de vocês, né?
+[00:47:55 -> 00:47:58] Exatamente, e toda vez que você tem um procedimento
+[00:47:58 -> 00:48:01] que está entrando em vigor, um procedimento novo,
+[00:48:01 -> 00:48:05] é emitindo um e-mail para fazer a divulgação
+[00:48:05 -> 00:48:08] para que todos os envolvidos tomem conhecimento.
+[00:48:08 -> 00:48:11] Então, esse e-mail ele vai direcionado para a equipe,
+[00:48:11 -> 00:48:13] toda, uma forma geral.
+[00:48:13 -> 00:48:16] Se for um procedimento interno, assim, só do setor,
+[00:48:16 -> 00:48:18] é uma instrução de trabalho.
+[00:48:18 -> 00:48:22] Se for um procedimento que envolva outras áreas,
+[00:48:22 -> 00:48:24] é um procedimento corporativo.
+[00:48:24 -> 00:48:28] Então, a gente envia o nome do procedimento, o link para acessar,
+[00:48:28 -> 00:48:31] o nome, o consecutivo e o título,
+[00:48:31 -> 00:48:34] e o link para acessar e a data de início
+[00:48:34 -> 00:48:36] e a data do envio do e-mail.
+[00:48:36 -> 00:48:39] Então, esse processo é padrão para a empresa toda.
+[00:48:39 -> 00:48:42] Então, mais uma forma de comunicação
+[00:48:42 -> 00:48:47] exemplificada pelo Jairo, tá?
+[00:48:47 -> 00:48:58] A norma, ela define que,
+[00:48:58 -> 00:49:03] ao serem implementadas mudanças dentro do sistema de gestão,
+[00:49:03 -> 00:49:07] a necessidade de um planejamento
+[00:49:07 -> 00:49:10] a fim de assegurar a eficácia, tá?
+[00:49:10 -> 00:49:14] Por mais que seja uma mudança positiva,
+[00:49:14 -> 00:49:19] algo que vai prover melhoria para o processo,
+[00:49:19 -> 00:49:23] por exemplo, a implementação de um sistema informatizado
+[00:49:23 -> 00:49:26] para a gestão de dados,
+[00:49:26 -> 00:49:30] a necessidade de um planejamento,
+[00:49:30 -> 00:49:34] definindo objetivos.
+[00:49:34 -> 00:49:38] Qual é o objetivo da implementação dessa mudança?
+[00:49:38 -> 00:49:41] Da onde foi requerida essa mudança,
+[00:49:41 -> 00:49:44] às vezes, vem de uma necessidade externa,
+[00:49:44 -> 00:49:47] definida por um regulamentador.
+[00:49:47 -> 00:49:52] Quais são os riscos envolvidos na implementação dessa mudança?
+[00:49:52 -> 00:49:56] Quais recursos necessários?
+[00:49:56 -> 00:49:59] Quais são as áreas envolvidas
+[00:49:59 -> 00:50:01] para a implementação dessa mudança?
+[00:50:01 -> 00:50:05] Qual o plano de ação, considerando os riscos,
+[00:50:05 -> 00:50:10] recursos necessários, áreas envolvidas?
+[00:50:11 -> 00:50:16] Quais meios de comunicação do andamento
+[00:50:16 -> 00:50:19] da implementação dessa mudança?
+[00:50:19 -> 00:50:23] Da finalização da implementação dessa mudança
+[00:50:23 -> 00:50:25] e qual a eficácia?
+[00:50:25 -> 00:50:30] Qual foi o resultado obtido
+[00:50:30 -> 00:50:33] da implementação dessa mudança?
+[00:50:33 -> 00:50:36] Então, sempre quando for implementar mudanças,
+[00:50:36 -> 00:50:42] algumas delas há a necessidade desse planejamento.
+[00:50:42 -> 00:50:47] Vocês têm um procedimento para a gestão de mudanças.
+[00:50:47 -> 00:50:55] Quando eu faço essas perguntas para vocês,
+[00:50:55 -> 00:50:59] é com o objetivo de tentar fazer vocês
+[00:50:59 -> 00:51:02] pensarem nos processos de vocês
+[00:51:02 -> 00:51:05] e vocês tentarem enxergar
+[00:51:05 -> 00:51:08] o que eu estou falando aqui na 17.025
+[00:51:08 -> 00:51:10] dentro do sistema de vocês.
+[00:51:10 -> 00:51:12] Então, não tem problema vocês não saberem,
+[00:51:12 -> 00:51:15] mas é só para vocês pensarem no processo
+[00:51:15 -> 00:51:18] e ver se não, Lona, a gente tem um procedimento sim
+[00:51:18 -> 00:51:21] e vocês enxergarem a 17.025
+[00:51:21 -> 00:51:24] dentro dos processos de vocês, tá?
+[00:51:24 -> 00:51:28] É com esse objetivo que eu faço essas perguntas, tá, gente?
+[00:51:28 -> 00:51:34] E aí, vocês têm conhecimento?
+[00:51:34 -> 00:51:37] Vocês terem um procedimento de gestão de mudanças?
+[00:51:37 -> 00:51:41] Vocês têm algum formulário?
+[00:51:41 -> 00:51:43] Eu acho que sobre esse tema, não.
+[00:51:43 -> 00:51:46] Eu, pelo menos, não recordo de nunca...
+[00:51:46 -> 00:51:48] O procedimento em si se existe, eu nunca vi.
+[00:51:48 -> 00:51:51] E nem quando a gente apresenta as listas
+[00:51:51 -> 00:51:53] e faz acompanhamento de validade,
+[00:51:53 -> 00:51:56] eu nunca vi nada parecido sobre esse tema, Lona.
+[00:51:56 -> 00:52:00] Nem toda mudança requer uma gestão,
+[00:52:00 -> 00:52:05] incluindo todas essas atividades, tá, gente?
+[00:52:05 -> 00:52:08] Mas, por exemplo, a implementação de um sistema informatizado,
+[00:52:08 -> 00:52:10] de gestão de dados,
+[00:52:10 -> 00:52:12] ele requer um planejamento,
+[00:52:12 -> 00:52:15] um plano de ação definido, né?
+[00:52:15 -> 00:52:18] Uma avaliação de riscos, tá?
+[00:52:18 -> 00:52:25] Então, caso vocês não tenham um processo documentado,
+[00:52:25 -> 00:52:28] um formulário, eu recomendo que vocês estabeleçam
+[00:52:28 -> 00:52:30] para a implementação,
+[00:52:30 -> 00:52:32] em alguns casos de tipo,
+[00:52:32 -> 00:52:34] para algumas mudanças,
+[00:52:34 -> 00:52:41] vocês implementarem essa gestão, tá?
+[00:52:41 -> 00:52:44] Aí, considerando, né, laboratórios postulantes
+[00:52:44 -> 00:52:47] de acreditação, a NIT Dicula 31,
+[00:52:47 -> 00:52:49] que é o regulamento da CECRE,
+[00:52:49 -> 00:52:53] ela define quais mudanças devem ser comunicadas previamente
+[00:52:53 -> 00:52:55] a CECRE.
+[00:52:55 -> 00:52:57] Então, assim, laboratórios acreditados, né,
+[00:52:57 -> 00:53:00] têm que ter conhecimento de quais mudanças
+[00:53:00 -> 00:53:02] devem comunicar a CECRE
+[00:53:02 -> 00:53:05] que estão estabelecidos na NIT Dicula 31.
+[00:53:05 -> 00:53:16] Alguma dúvida pessoal sobre a sessão 5 da Norma,
+[00:53:16 -> 00:53:20] vocês querem complementar alguma coisa,
+[00:53:20 -> 00:53:22] perguntar alguma coisa,
+[00:53:22 -> 00:53:25] foi entendido?
+[00:53:25 -> 00:53:30] Então, os requisitos de recursos
+[00:53:30 -> 00:53:32] são os requisitos técnicos
+[00:53:32 -> 00:53:35] que a Lina conversou com vocês
+[00:53:35 -> 00:53:38] na semana passada, né?
+[00:53:38 -> 00:53:42] O requisito que eu trouxe aqui de recursos
+[00:53:42 -> 00:53:48] foi somente o requisito de pessoal, tá, gente?
+[00:53:48 -> 00:53:53] Que também faz parte aqui da parte de gestão,
+[00:53:53 -> 00:53:56] por isso que eu trouxe, tá?
+[00:53:56 -> 00:54:00] A 17.025, ela define
+[00:54:00 -> 00:54:05] que o laboratório tem que ter um procedimento documentado
+[00:54:05 -> 00:54:08] para gestão de pessoal, tá?
+[00:54:08 -> 00:54:11] E essa gestão de pessoal,
+[00:54:11 -> 00:54:14] ela tem o objetivo
+[00:54:14 -> 00:54:18] de assegurar a competência do pessoal
+[00:54:18 -> 00:54:21] para a realização das suas atividades.
+[00:54:21 -> 00:54:25] Então, inicia com
+[00:54:25 -> 00:54:27] um procedimento
+[00:54:27 -> 00:54:30] para definição dos requisitos de competência,
+[00:54:30 -> 00:54:34] né, para funções críticas no processo.
+[00:54:34 -> 00:54:37] E esses requisitos de competência,
+[00:54:37 -> 00:54:39] eles têm que considerar
+[00:54:39 -> 00:54:42] requisitos de formação,
+[00:54:42 -> 00:54:45] experiência, habilidades,
+[00:54:45 -> 00:54:47] treinamentos,
+[00:54:47 -> 00:54:49] conhecimento técnico,
+[00:54:49 -> 00:54:52] para os requisitos de competência
+[00:54:52 -> 00:54:55] têm que considerar esses requisitos, tá?
+[00:54:55 -> 00:54:57] E quando vocês forem definir,
+[00:54:57 -> 00:54:59] vocês têm que considerar
+[00:54:59 -> 00:55:01] as responsabilidades e autoridades
+[00:55:01 -> 00:55:05] para essa função.
+[00:55:05 -> 00:55:07] Então, certamente, vocês têm
+[00:55:07 -> 00:55:09] uma descrição de cargos, né?
+[00:55:09 -> 00:55:11] Onde estão definidos
+[00:55:11 -> 00:55:15] requisitos de competência para cada função, certo?
+[00:55:15 -> 00:55:18] É...
+[00:55:18 -> 00:55:21] Definidos requisitos de competência, né?
+[00:55:21 -> 00:55:24] Tem etapa de seleção de pessoal,
+[00:55:24 -> 00:55:27] né, qual é o processo de seleção
+[00:55:27 -> 00:55:29] da organização.
+[00:55:29 -> 00:55:32] Então, vocês têm...
+[00:55:32 -> 00:55:35] dos servidores públicos, né,
+[00:55:35 -> 00:55:37] que são através de concurso
+[00:55:37 -> 00:55:40] e vocês também têm terceirizados, não têm?
+[00:55:40 -> 00:55:44] Vocês também trabalham com terceirizados.
+[00:55:44 -> 00:55:46] Seja pelo...
+[00:55:46 -> 00:55:48] pelo processo, né,
+[00:55:48 -> 00:55:51] de concurso público ou por terceirizados,
+[00:55:51 -> 00:55:53] esse processo,
+[00:55:53 -> 00:55:56] ele tem que assegurar que sejam selecionados
+[00:55:56 -> 00:55:59] pessoas competentes, né?
+[00:55:59 -> 00:56:02] Então, é...
+[00:56:02 -> 00:56:05] para o caso dos terceirizados, né,
+[00:56:05 -> 00:56:07] processos de entrevista,
+[00:56:07 -> 00:56:09] análise curricular,
+[00:56:09 -> 00:56:11] então, têm etapas do processo,
+[00:56:11 -> 00:56:13] né, para a seleção
+[00:56:13 -> 00:56:15] desse pessoal.
+[00:56:15 -> 00:56:17] Selecionado o pessoal,
+[00:56:17 -> 00:56:20] seja através do concurso público
+[00:56:20 -> 00:56:23] ou através do processo de...
+[00:56:23 -> 00:56:25] de contratação,
+[00:56:25 -> 00:56:27] seja bolsista,
+[00:56:27 -> 00:56:29] seja CLT,
+[00:56:29 -> 00:56:31] estagiário, né?
+[00:56:31 -> 00:56:33] O pessoal vai ter que passar
+[00:56:33 -> 00:56:35] por treinamentos específicos
+[00:56:35 -> 00:56:38] para desempenho da função,
+[00:56:38 -> 00:56:41] né?
+[00:56:41 -> 00:56:43] Então, tem procedimentos que são inerentes
+[00:56:43 -> 00:56:45] a função, a função,
+[00:56:45 -> 00:56:47] que é para qualquer função.
+[00:56:47 -> 00:56:50] Então, treinamento nas políticas
+[00:56:50 -> 00:56:53] e objetivos do sistema de gestão,
+[00:56:53 -> 00:56:56] treinamento no manual da qualidade,
+[00:56:56 -> 00:56:58] né, o Jaime disse que vocês têm
+[00:56:58 -> 00:57:00] um manual da qualidade,
+[00:57:00 -> 00:57:02] onde falam de todos os requisitos
+[00:57:02 -> 00:57:04] do sistema de gestão,
+[00:57:04 -> 00:57:06] né?
+[00:57:06 -> 00:57:09] E tem os treinamentos específicos
+[00:57:09 -> 00:57:11] para as atividades específicas,
+[00:57:11 -> 00:57:13] né?
+[00:57:13 -> 00:57:15] Então, o técnico que vai executar
+[00:57:15 -> 00:57:17] ensaio,
+[00:57:17 -> 00:57:19] então, treinamento nos procedimentos
+[00:57:19 -> 00:57:21] de ensaio,
+[00:57:21 -> 00:57:23] o técnico que vai verificar
+[00:57:23 -> 00:57:25] desempenho de método,
+[00:57:25 -> 00:57:27] validar método,
+[00:57:27 -> 00:57:29] autorizar resultados,
+[00:57:29 -> 00:57:31] então, ele tem que passar
+[00:57:31 -> 00:57:34] pelo período de supervisão.
+[00:57:34 -> 00:57:36] Então, realizar
+[00:57:36 -> 00:57:38] as atividades
+[00:57:38 -> 00:57:40] supervisionadas por algum técnico
+[00:57:40 -> 00:57:42] já autorizado,
+[00:57:42 -> 00:57:44] por uma pessoa designada
+[00:57:44 -> 00:57:46] pela, por quem responde
+[00:57:46 -> 00:57:48] pelas operações técnicas
+[00:57:48 -> 00:57:50] para acompanhamento
+[00:57:50 -> 00:57:52] desse profissional
+[00:57:52 -> 00:57:54] que está em fase de supervisão.
+[00:57:54 -> 00:57:56] Nessa etapa de supervisão,
+[00:57:56 -> 00:57:58] todos os dados
+[00:57:58 -> 00:58:00] emitidos por esse técnico
+[00:58:00 -> 00:58:02] sobre supervisão
+[00:58:02 -> 00:58:04] devem ser assinados
+[00:58:04 -> 00:58:06] em conjunto
+[00:58:06 -> 00:58:08] com técnico autorizado,
+[00:58:08 -> 00:58:11] tá?
+[00:58:11 -> 00:58:13] Ele não tem autoridade
+[00:58:13 -> 00:58:15] o técnico sobre supervisão
+[00:58:15 -> 00:58:17] de emitir resultados
+[00:58:17 -> 00:58:19] sozinho, tá?
+[00:58:19 -> 00:58:21] Então, sempre tem que ter
+[00:58:21 -> 00:58:23] aquela assinatura ao lado
+[00:58:23 -> 00:58:25] de quem está responsável
+[00:58:25 -> 00:58:28] pela supervisão.
+[00:58:28 -> 00:58:30] Passado esse período de supervisão,
+[00:58:30 -> 00:58:32] entra
+[00:58:32 -> 00:58:34] a etapa de
+[00:58:34 -> 00:58:36] autorização,
+[00:58:36 -> 00:58:38] que é vocês validarem
+[00:58:38 -> 00:58:40] se aquele técnico, aquele profissional
+[00:58:40 -> 00:58:42] está apto
+[00:58:42 -> 00:58:44] para realizar
+[00:58:44 -> 00:58:46] as atividades.
+[00:58:46 -> 00:58:48] Então, por exemplo, um técnico que
+[00:58:48 -> 00:58:50] vai realizar ensaio,
+[00:58:50 -> 00:58:52] você pode
+[00:58:52 -> 00:58:54] fazer
+[00:58:54 -> 00:58:56] considerar os resultados
+[00:58:56 -> 00:58:58] da supervisão
+[00:58:58 -> 00:59:00] junto
+[00:59:00 -> 00:59:02] com a realização
+[00:59:02 -> 00:59:05] de um ensaio de uma amostra conhecida
+[00:59:05 -> 00:59:07] para validar
+[00:59:07 -> 00:59:09] aquela atividade
+[00:59:09 -> 00:59:11] daquele técnico.
+[00:59:11 -> 00:59:13] Então, considerando esses resultados
+[00:59:13 -> 00:59:15] isso vai ser avaliado
+[00:59:15 -> 00:59:17] por quem responde pelas operações técnicas
+[00:59:17 -> 00:59:19] no laboratório
+[00:59:19 -> 00:59:21] para autorizar
+[00:59:21 -> 00:59:23] o profissional, a realização
+[00:59:23 -> 00:59:30] de uma atividade específica.
+[00:59:30 -> 00:59:32] E após essa
+[00:59:32 -> 00:59:34] realização do profissional
+[00:59:34 -> 00:59:36] ele tem que ser
+[00:59:36 -> 00:59:38] periodicamente
+[00:59:38 -> 00:59:40] monitorado.
+[00:59:40 -> 00:59:42] O que esse monitoramento
+[00:59:42 -> 00:59:44] da
+[00:59:44 -> 00:59:46] competência
+[00:59:46 -> 00:59:48] é você verificar
+[00:59:48 -> 00:59:50] se aquele profissional
+[00:59:50 -> 00:59:52] permanece atendendo
+[00:59:52 -> 00:59:54] aos requisitos de competência
+[00:59:54 -> 00:59:56] para a função que ele desempenha.
+[00:59:58 -> 01:00:00] O laboratório
+[01:00:00 -> 01:00:02] é um procedimento
+[01:00:02 -> 01:00:04] e reter registro de
+[01:00:04 -> 01:00:06] todas essas etapas
+[01:00:06 -> 01:00:08] que eu falei.
+[01:00:08 -> 01:00:10] Vocês
+[01:00:10 -> 01:00:12] certamente
+[01:00:12 -> 01:00:14] em conjunto
+[01:00:14 -> 01:00:16] com recursos humanos
+[01:00:16 -> 01:00:18] da eletronuclear
+[01:00:18 -> 01:00:20] tem estabelecido um procedimento
+[01:00:20 -> 01:00:22] para definição
+[01:00:22 -> 01:00:24] de requisitos de competência
+[01:00:24 -> 01:00:26] para seleção,
+[01:00:26 -> 01:00:28] para treinamento,
+[01:00:28 -> 01:00:30] para o procedimento da competência
+[01:00:30 -> 01:00:32] do pessoal.
+[01:00:32 -> 01:00:34] Um conjunto de procedimentos
+[01:00:34 -> 01:00:36] que definem essas etapas do processo.
+[01:00:36 -> 01:00:46] E aqui
+[01:00:46 -> 01:00:48] eu trouxe
+[01:00:48 -> 01:00:50] uma atividade
+[01:00:50 -> 01:00:52] crítica
+[01:00:52 -> 01:00:54] uma atividade específica
+[01:00:54 -> 01:00:56] crítica
+[01:00:56 -> 01:00:58] que é direcionada
+[01:00:58 -> 01:01:00] para o signatário
+[01:01:00 -> 01:01:02] autorizado.
+[01:01:02 -> 01:01:04] A luz do documento
+[01:01:04 -> 01:01:06] 20
+[01:01:06 -> 01:01:08] o signatário autorizado
+[01:01:08 -> 01:01:10] é a pessoa autorizada
+[01:01:10 -> 01:01:12] pelo laboratório como
+[01:01:12 -> 01:01:14] responsável pelo conteúdo
+[01:01:14 -> 01:01:16] dos relatórios
+[01:01:16 -> 01:01:18] de ensaio emitidos pelo laboratório.
+[01:01:18 -> 01:01:20] Então, quando vocês emitem
+[01:01:20 -> 01:01:22] o relatório, tem um nome
+[01:01:22 -> 01:01:24] ali de uma pessoa.
+[01:01:26 -> 01:01:28] Essa pessoa responde
+[01:01:28 -> 01:01:30] tecnicamente
+[01:01:30 -> 01:01:32] pelos resultados emitidos
+[01:01:32 -> 01:01:35] naquele relato.
+[01:01:35 -> 01:01:37] E
+[01:01:37 -> 01:01:39] para essa pessoa
+[01:01:39 -> 01:01:41] responder tecnicamente
+[01:01:41 -> 01:01:43] pelos resultados
+[01:01:43 -> 01:01:45] pelos dados emitidos
+[01:01:45 -> 01:01:47] naquele relato
+[01:01:47 -> 01:01:49] que o nome dela, que leva o nome dela
+[01:01:49 -> 01:01:51] ela tem que ser capaz
+[01:01:51 -> 01:01:53] de interpretar os resultados
+[01:01:53 -> 01:01:55] apresentados nesses documentos.
+[01:01:57 -> 01:01:59] E discutir
+[01:01:59 -> 01:02:01] tecnicamente
+[01:02:01 -> 01:02:04] esses
+[01:02:04 -> 01:02:06] resultados.
+[01:02:06 -> 01:02:08] Então, o atário autorizado
+[01:02:08 -> 01:02:10] tem conhecimento sobre as
+[01:02:10 -> 01:02:12] especificações do revelamentador.
+[01:02:12 -> 01:02:14] Ele tem que ter conhecimento
+[01:02:14 -> 01:02:16] sobre a matriz
+[01:02:16 -> 01:02:19] analisada
+[01:02:19 -> 01:02:21] sobre histórico de resultados.
+[01:02:21 -> 01:02:28] Por quê? Porque ele é responsável
+[01:02:28 -> 01:02:30] por todo o conteúdo
+[01:02:30 -> 01:02:32] do relatório de ensaio.
+[01:02:32 -> 01:02:34] Todas as informações
+[01:02:34 -> 01:02:36] presentes naquele relatório
+[01:02:36 -> 01:02:38] são de responsabilidade
+[01:02:38 -> 01:02:40] do signatário autorizado.
+[01:02:45 -> 01:02:47] Ele tem que conseguir
+[01:02:47 -> 01:02:49] interpretar os resultados apresentados
+[01:02:49 -> 01:02:51] discutir tecnicamente
+[01:02:51 -> 01:02:53] emitir opiniões técnicas
+[01:02:53 -> 01:02:55] quando requerido pelo cliente.
+[01:02:57 -> 01:02:59] Verificar
+[01:02:59 -> 01:03:01] se os resultados de ensaio estão
+[01:03:01 -> 01:03:03] em conformidade com as especificações.
+[01:03:03 -> 01:03:06] Auxiliar
+[01:03:06 -> 01:03:08] tecnicamente a gerência
+[01:03:08 -> 01:03:10] quando solicitado
+[01:03:10 -> 01:03:12] para esclarecimentos clientes
+[01:03:12 -> 01:03:14] na interpretação dos resultados
+[01:03:14 -> 01:03:16] dos ensaios emitidos.
+[01:03:16 -> 01:03:18] E auxiliar tecnicamente a gerência
+[01:03:18 -> 01:03:20] na validação
+[01:03:20 -> 01:03:22] investigação de reclamações.
+[01:03:22 -> 01:03:24] Ele tem que ter
+[01:03:24 -> 01:03:26] conhecimento também, gente.
+[01:03:26 -> 01:03:28] Então, de tratamento de trabalho
+[01:03:28 -> 01:03:31] não conforme,
+[01:03:31 -> 01:03:33] de ferramentas de garantia da validade
+[01:03:33 -> 01:03:35] dos resultados, interpretação
+[01:03:35 -> 01:03:37] de ferramentas de garantia da validade
+[01:03:37 -> 01:03:39] cartas de controle.
+[01:03:39 -> 01:03:42] Então,
+[01:03:42 -> 01:03:44] tem que ter conhecimento de todos esses dados
+[01:03:44 -> 01:03:46] para quando chegar ao relatório
+[01:03:46 -> 01:03:48] e ele
+[01:03:48 -> 01:03:50] analisar criticamente
+[01:03:50 -> 01:03:52] para autorizar para o cliente.
+[01:03:52 -> 01:03:54] Então, a Carla
+[01:03:54 -> 01:03:56] quando a gente estava
+[01:03:56 -> 01:03:58] falando sobre confidencialidade
+[01:03:58 -> 01:04:00] eu perguntei quais são as pessoas
+[01:04:00 -> 01:04:02] autorizadas
+[01:04:02 -> 01:04:04] a encaminhar
+[01:04:04 -> 01:04:06] os resultados
+[01:04:06 -> 01:04:08] de ensaio para o cliente
+[01:04:08 -> 01:04:10] e a Carla falou de uma lista
+[01:04:10 -> 01:04:12] de pessoas autorizadas.
+[01:04:12 -> 01:04:14] Essa lista
+[01:04:14 -> 01:04:16] de pessoas autorizadas
+[01:04:16 -> 01:04:18] são ensignatários
+[01:04:18 -> 01:04:20] autorizados.
+[01:04:20 -> 01:04:22] E aí a Carla
+[01:04:22 -> 01:04:24] ela não
+[01:04:24 -> 01:04:26] sobre confirmar como é
+[01:04:26 -> 01:04:28] se vocês têm essa
+[01:04:28 -> 01:04:30] listagem de pessoas autorizadas
+[01:04:30 -> 01:04:32] mas eu acredito
+[01:04:32 -> 01:04:34] que sim.
+[01:04:34 -> 01:04:36] Vocês têm uma listagem de pessoas
+[01:04:36 -> 01:04:38] autorizadas
+[01:04:38 -> 01:04:40] a incluir o nome
+[01:04:40 -> 01:04:42] no relatório de ensaio
+[01:04:42 -> 01:04:44] assinar aqueles relatórios porque responde
+[01:04:44 -> 01:04:46] tecnicamente para esses relatórios.
+[01:04:46 -> 01:04:48] Vocês têm essa listagem de pessoas?
+[01:04:48 -> 01:04:55] Sim, Luana.
+[01:04:55 -> 01:04:57] A gente fez
+[01:04:57 -> 01:04:59] uma matriz de autorização
+[01:04:59 -> 01:05:01] na verdade é um procedimento
+[01:05:01 -> 01:05:03] que um dos anexos desse procedimento
+[01:05:03 -> 01:05:05] é uma matriz de autorização.
+[01:05:05 -> 01:05:07] A matriz de biologia já está pronta
+[01:05:07 -> 01:05:09] a Janine estava fechando a área de química
+[01:05:09 -> 01:05:11] e a Lina até comentou para a gente
+[01:05:11 -> 01:05:13] que a gente também teria que ter uma matriz
+[01:05:13 -> 01:05:15] para as próprias atividades
+[01:05:15 -> 01:05:17] ligadas a gestão.
+[01:05:17 -> 01:05:19] Acho que a gente não tinha pensado ainda nisso
+[01:05:19 -> 01:05:21] a gente estava focado mais
+[01:05:21 -> 01:05:23] na questão técnica.
+[01:05:23 -> 01:05:25] Nessas matrizes
+[01:05:25 -> 01:05:27] tem os procedimentos
+[01:05:27 -> 01:05:29] com os ensaios
+[01:05:29 -> 01:05:31] e tem até as amostragens
+[01:05:31 -> 01:05:33] e os ensaios
+[01:05:33 -> 01:05:35] para tentar autorizar
+[01:05:35 -> 01:05:37] e realizar cada um deles.
+[01:05:37 -> 01:05:39] Isso aí você falou de uma atividade específica
+[01:05:39 -> 01:05:41] que é a realização de ensaio.
+[01:05:41 -> 01:05:43] Tem atividades específicas
+[01:05:43 -> 01:05:45] que são associadas, por exemplo,
+[01:05:45 -> 01:05:47] a verificação de desempenho do método.
+[01:05:49 -> 01:05:51] Então tem pessoas também
+[01:05:51 -> 01:05:53] que têm que estar autorizadas.
+[01:05:53 -> 01:05:55] Tem que ter pessoas autorizadas
+[01:05:55 -> 01:05:57] análise crítica, interpretação
+[01:05:57 -> 01:05:59] de resultados, autorização dos resultados.
+[01:05:59 -> 01:06:01] A autorização dos resultados
+[01:06:01 -> 01:06:03] é o signatário autorizado.
+[01:06:05 -> 01:06:07] Então, não somente
+[01:06:07 -> 01:06:09] para a realização dos ensaios
+[01:06:09 -> 01:06:11] vocês também têm que ter
+[01:06:11 -> 01:06:13] definido
+[01:06:13 -> 01:06:15] as pessoas que estão autorizadas
+[01:06:15 -> 01:06:17] para essas outras atividades específicas.
+[01:06:17 -> 01:06:19] Está, João?
+[01:06:19 -> 01:06:22] Pode perguntar, Ana Paula.
+[01:06:22 -> 01:06:24] Oi Luana, não, só para complementar
+[01:06:24 -> 01:06:26] o João, que
+[01:06:26 -> 01:06:28] o procedimento que a Gabriela escreveu
+[01:06:28 -> 01:06:30] aqui no chat, que é o
+[01:06:30 -> 01:06:32] PCLMG002
+[01:06:36 -> 01:06:38] a área de química já tem
+[01:06:38 -> 01:06:40] a lista que a gente mandou por e-mail
+[01:06:40 -> 01:06:42] para a gente
+[01:06:42 -> 01:06:44] da lista do signatário da área de química.
+[01:06:44 -> 01:06:46] Então, acredito
+[01:06:46 -> 01:06:48] que também tem a das outras áreas.
+[01:06:48 -> 01:06:50] Eu também não tenho
+[01:06:50 -> 01:06:52] esse conhecimento, mas na área de química
+[01:06:52 -> 01:06:54] também já está pronta.
+[01:06:54 -> 01:06:56] Então, vocês têm que definir
+[01:06:56 -> 01:06:58] para todas as áreas
+[01:06:58 -> 01:07:00] dos laboratórios
+[01:07:00 -> 01:07:02] quais são as pessoas autorizadas
+[01:07:02 -> 01:07:04] para essas atividades específicas.
+[01:07:04 -> 01:07:06] Gente,
+[01:07:06 -> 01:07:08] recebimento de amostra,
+[01:07:08 -> 01:07:10] análise crítica
+[01:07:10 -> 01:07:12] da integridade na amostra
+[01:07:12 -> 01:07:14] quando chega no laboratório.
+[01:07:14 -> 01:07:16] Todas essas atividades críticas
+[01:07:16 -> 01:07:18] no processo têm que ter
+[01:07:18 -> 01:07:20] essas autorizações específicas,
+[01:07:20 -> 01:07:22] incluindo o signatário autorizado
+[01:07:22 -> 01:07:24] que é a pessoa que autoriza o relato.
+[01:07:24 -> 01:07:26] Ela autoriza
+[01:07:26 -> 01:07:28] a
+[01:07:28 -> 01:07:30] a emissão do relatório.
+[01:07:30 -> 01:07:32] E isso, essa autorização
+[01:07:32 -> 01:07:34] é mediante uma análise crítica
+[01:07:34 -> 01:07:36] desses dados
+[01:07:36 -> 01:07:38] que ele responde tecnicamente.
+[01:07:38 -> 01:07:58] E aí, vamos entrar
+[01:07:58 -> 01:08:00] nos requisitos
+[01:08:00 -> 01:08:02] de ingestão.
+[01:08:02 -> 01:08:05] Que são
+[01:08:05 -> 01:08:08] os requisitos
+[01:08:08 -> 01:08:10] que servem para dar suporte
+[01:08:10 -> 01:08:12] a
+[01:08:12 -> 01:08:14] a sessão
+[01:08:14 -> 01:08:16] 6, 7,
+[01:08:16 -> 01:08:18] 4 da norma.
+[01:08:18 -> 01:08:20] Então,
+[01:08:20 -> 01:08:22] esses requisitos, eles devem ser capaz
+[01:08:22 -> 01:08:24] de apoiar e demonstrar
+[01:08:24 -> 01:08:26] o atendimento consistente
+[01:08:26 -> 01:08:28] aos requisitos da 17.025
+[01:08:28 -> 01:08:30] e
+[01:08:30 -> 01:08:32] assegurar a qualidade
+[01:08:32 -> 01:08:34] dos resultados do laboratório.
+[01:08:34 -> 01:08:42] A 17.025,
+[01:08:42 -> 01:08:44] ela
+[01:08:44 -> 01:08:46] abre
+[01:08:46 -> 01:08:48] a possibilidade
+[01:08:48 -> 01:08:50] de duas formas de
+[01:08:50 -> 01:08:52] implementação desses requisitos
+[01:08:52 -> 01:08:54] do sistema de gestão
+[01:08:54 -> 01:08:56] através da opção A
+[01:08:56 -> 01:08:58] que é a opção
+[01:08:58 -> 01:09:00] escolhida
+[01:09:00 -> 01:09:02] pelo LMA
+[01:09:02 -> 01:09:04] que é, além
+[01:09:04 -> 01:09:06] de atender os requisitos
+[01:09:06 -> 01:09:08] da sessão 4, 7,
+[01:09:08 -> 01:09:10] que são os requisitos que a gente falou até aqui,
+[01:09:10 -> 01:09:12] eu e Lina,
+[01:09:12 -> 01:09:14] o laboratório deve atender
+[01:09:14 -> 01:09:16] a sessão 8
+[01:09:16 -> 01:09:18] da norma,
+[01:09:18 -> 01:09:20] que são os requisitos que a gente vai falar agora.
+[01:09:20 -> 01:09:22] E tem a opção B
+[01:09:22 -> 01:09:24] que
+[01:09:24 -> 01:09:26] é direcionada
+[01:09:26 -> 01:09:28] para laboratórios
+[01:09:28 -> 01:09:30] que têm
+[01:09:30 -> 01:09:33] a certificação da 9001.
+[01:09:33 -> 01:09:35] Então,
+[01:09:35 -> 01:09:37] para casos laboratórios com essa
+[01:09:37 -> 01:09:39] certificação da 9001,
+[01:09:41 -> 01:09:43] no qual o escopo da 9001
+[01:09:43 -> 01:09:45] inclui as atividades
+[01:09:45 -> 01:09:47] de laboratório,
+[01:09:47 -> 01:09:49] o laboratório
+[01:09:49 -> 01:09:51] pode optar pela opção
+[01:09:51 -> 01:09:53] B,
+[01:09:53 -> 01:09:55] que é, além de atender os requisitos
+[01:09:55 -> 01:09:57] de 4 a 7
+[01:09:57 -> 01:09:59] da 17.025,
+[01:09:59 -> 01:10:01] ele utilizar
+[01:10:01 -> 01:10:03] o sistema de gestão
+[01:10:03 -> 01:10:05] à luz da 9001
+[01:10:05 -> 01:10:07] para
+[01:10:07 -> 01:10:09] suporte
+[01:10:09 -> 01:10:11] dos requisitos de 4 a 7.
+[01:10:11 -> 01:10:13] Então, o requisito de gestão da 9001
+[01:10:13 -> 01:10:15] tem que atender
+[01:10:15 -> 01:10:17] a intenção
+[01:10:17 -> 01:10:19] da 17.025.
+[01:10:19 -> 01:10:21] Mas isso só é possível
+[01:10:21 -> 01:10:23] para laboratórios que sejam
+[01:10:23 -> 01:10:25] acreditados
+[01:10:25 -> 01:10:27] pela 9001
+[01:10:27 -> 01:10:29] e esse certificado,
+[01:10:29 -> 01:10:31] esse
+[01:10:31 -> 01:10:33] credenciamento
+[01:10:33 -> 01:10:35] tem, essa certificação
+[01:10:35 -> 01:10:37] tem que englobar
+[01:10:37 -> 01:10:39] as atividades de laboratório.
+[01:10:39 -> 01:10:43] E, como eu disse,
+[01:10:43 -> 01:10:45] o LMA
+[01:10:45 -> 01:10:47] ele optou pela opção A.
+[01:10:47 -> 01:10:49] Então, além de
+[01:10:49 -> 01:10:51] atender de 4 a 7
+[01:10:51 -> 01:10:53] da 17.025,
+[01:10:53 -> 01:11:00] atender a sessão 8.
+[01:11:00 -> 01:11:02] E o primeiro
+[01:11:02 -> 01:11:04] requisito
+[01:11:04 -> 01:11:06] da sessão 8 da norma
+[01:11:06 -> 01:11:08] é o requisito de documentação
+[01:11:08 -> 01:11:10] do sistema de gestão.
+[01:11:10 -> 01:11:12] Esse requisito
+[01:11:12 -> 01:11:14] ele define
+[01:11:14 -> 01:11:16] que o laboratório
+[01:11:16 -> 01:11:18] tem que estabelecer
+[01:11:18 -> 01:11:20] políticas e objetivos
+[01:11:20 -> 01:11:22] que abordem
+[01:11:22 -> 01:11:24] imparcialidade,
+[01:11:24 -> 01:11:26] competência
+[01:11:26 -> 01:11:28] e operação consistentes.
+[01:11:28 -> 01:11:30] E essas políticas e objetivos
+[01:11:30 -> 01:11:32] elas devem ser reconhecidas
+[01:11:32 -> 01:11:34] e implementadas
+[01:11:34 -> 01:11:36] em todos os níveis
+[01:11:36 -> 01:11:38] da organização.
+[01:11:38 -> 01:11:40] A gerência que tem responsabilidade
+[01:11:40 -> 01:11:42] geral pelo laboratório,
+[01:11:42 -> 01:11:44] pelas operações técnicas
+[01:11:44 -> 01:11:46] tem que evidenciar
+[01:11:46 -> 01:11:48] o comprometimento
+[01:11:48 -> 01:11:50] com o desenvolvimento,
+[01:11:50 -> 01:11:52] melhoria contínua e implementação
+[01:11:52 -> 01:11:54] do sistema de gestão.
+[01:11:54 -> 01:11:56] E, como a gerência
+[01:11:56 -> 01:11:58] ela
+[01:11:58 -> 01:12:00] pode demonstrar
+[01:12:00 -> 01:12:02] esse comprometimento
+[01:12:04 -> 01:12:06] provendo os recursos necessários
+[01:12:08 -> 01:12:10] através de reuniões perióticas
+[01:12:10 -> 01:12:12] da equipe do laboratório
+[01:12:14 -> 01:12:16] análise,
+[01:12:16 -> 01:12:18] estabelecer indicadores e metas
+[01:12:18 -> 01:12:20] associados
+[01:12:20 -> 01:12:23] aos objetivos
+[01:12:23 -> 01:12:25] da qualidade
+[01:12:25 -> 01:12:27] e analisar
+[01:12:27 -> 01:12:29] esses objetivos
+[01:12:29 -> 01:12:31] implementação
+[01:12:31 -> 01:12:33] de melhoria
+[01:12:33 -> 01:12:36] no sistema de gestão
+[01:12:36 -> 01:12:38] reuniões de análise crítica
+[01:12:38 -> 01:12:40] pela gerência.
+[01:12:40 -> 01:12:42] E, no meio
+[01:12:42 -> 01:12:44] da gerência
+[01:12:44 -> 01:12:46] demonstrar o comprometimento dela
+[01:12:46 -> 01:12:54] com o sistema de gestão.
+[01:12:54 -> 01:12:56] Eu trouxe um exemplo
+[01:12:56 -> 01:12:58] o Jaime falou que você já estabeleceu
+[01:12:58 -> 01:13:00] uma política
+[01:13:00 -> 01:13:02] da qualidade
+[01:13:02 -> 01:13:04] e aqui eu trouxe um exemplo
+[01:13:04 -> 01:13:06] de uma política
+[01:13:06 -> 01:13:08] que aborda
+[01:13:08 -> 01:13:10] operação consistente, que aborda
+[01:13:10 -> 01:13:12] imparcialidade, que aborda
+[01:13:12 -> 01:13:14] competência
+[01:13:14 -> 01:13:16] liberando
+[01:13:16 -> 01:13:18] a atividade
+[01:13:18 -> 01:13:20] realizada pelo laboratório
+[01:13:20 -> 01:13:22] pelo LMA.
+[01:13:22 -> 01:13:24] Então, realizar
+[01:13:24 -> 01:13:26] as análises ambientais
+[01:13:26 -> 01:13:28] assegurando a imparcialidade
+[01:13:28 -> 01:13:30] agilidade
+[01:13:30 -> 01:13:32] e confiabilidade
+[01:13:32 -> 01:13:34] atendendo as necessidades da organização
+[01:13:34 -> 01:13:36] e garantindo o comprimento
+[01:13:36 -> 01:13:38] das exigências normativas
+[01:13:38 -> 01:13:40] e conformidade com a 17.025.
+[01:13:40 -> 01:13:43] Buscar continuamente
+[01:13:43 -> 01:13:45] a melhoria dos nossos processos
+[01:13:45 -> 01:13:47] e capacitação do pessoal
+[01:13:47 -> 01:13:49] estabelecer
+[01:13:49 -> 01:13:51] implementar procedimentos
+[01:13:51 -> 01:13:53] para garantir uma operação
+[01:13:53 -> 01:13:55] consistente.
+[01:13:55 -> 01:13:57] Então, isso aqui é uma política
+[01:13:57 -> 01:13:59] a política do sistema de gestão
+[01:13:59 -> 01:14:01] a luz da 17.025
+[01:14:01 -> 01:14:03] que abordam
+[01:14:03 -> 01:14:05] os objetivos da 17.025
+[01:14:05 -> 01:14:07] operação consistente
+[01:14:07 -> 01:14:09] imparcialidade
+[01:14:09 -> 01:14:11] e competência.
+[01:14:11 -> 01:14:13] E aí, estabelecida
+[01:14:13 -> 01:14:15] a política
+[01:14:15 -> 01:14:17] o laboratório tem que definir
+[01:14:17 -> 01:14:19] objetivos
+[01:14:19 -> 01:14:21] para esse sistema de gestão.
+[01:14:21 -> 01:14:24] E aqui
+[01:14:24 -> 01:14:26] eu trouxe exemplos
+[01:14:26 -> 01:14:28] de objetivos
+[01:14:28 -> 01:14:30] que estão diretamente
+[01:14:30 -> 01:14:32] relacionados com a política
+[01:14:32 -> 01:14:34] da qualidade.
+[01:14:34 -> 01:14:37] Realizar
+[01:14:37 -> 01:14:39] as atividades assegurando
+[01:14:39 -> 01:14:41] a imparcialidade.
+[01:14:41 -> 01:14:43] Como que eu posso
+[01:14:43 -> 01:14:45] avaliar
+[01:14:45 -> 01:14:47] o atendimento esse objetivo?
+[01:14:47 -> 01:14:49] Então, quais indicadores
+[01:14:49 -> 01:14:51] eu posso utilizar?
+[01:14:51 -> 01:14:53] Treinamentos
+[01:14:53 -> 01:14:55] periódicos
+[01:14:55 -> 01:14:57] definir
+[01:14:57 -> 01:14:59] treinamentos periódicos
+[01:14:59 -> 01:15:01] abordando a imparcialidade
+[01:15:01 -> 01:15:03] e
+[01:15:03 -> 01:15:05] identificação de riscos.
+[01:15:05 -> 01:15:08] A própria norma
+[01:15:08 -> 01:15:10] define a necessidade
+[01:15:10 -> 01:15:12] de um planejamento de riscos
+[01:15:12 -> 01:15:14] a imparcialidade.
+[01:15:14 -> 01:15:16] E qual é a meta?
+[01:15:16 -> 01:15:18] Pelo menos um treinamento
+[01:15:18 -> 01:15:20] por ano
+[01:15:20 -> 01:15:22] abordando a imparcialidade.
+[01:15:22 -> 01:15:24] Em relação
+[01:15:24 -> 01:15:26] a identificação dos riscos
+[01:15:26 -> 01:15:29] assegurar que os riscos
+[01:15:29 -> 01:15:31] a imparcialidade
+[01:15:31 -> 01:15:33] tenham sido
+[01:15:33 -> 01:15:35] eliminados, medicados
+[01:15:35 -> 01:15:37] através da verificação da eficácia
+[01:15:37 -> 01:15:39] no monitoramento
+[01:15:39 -> 01:15:41] desses riscos.
+[01:15:41 -> 01:15:43] O objetivo
+[01:15:43 -> 01:15:45] manter os clientes satisfeitos
+[01:15:45 -> 01:15:48] como
+[01:15:48 -> 01:15:50] que eu posso avaliar
+[01:15:50 -> 01:15:52] o atendimento a esse objetivo?
+[01:15:52 -> 01:15:54] Através
+[01:15:54 -> 01:15:56] do índice de satisfação
+[01:15:56 -> 01:15:58] através
+[01:15:58 -> 01:16:00] da pesquisa de satisfação
+[01:16:00 -> 01:16:02] e índice
+[01:16:02 -> 01:16:05] de reclamação
+[01:16:05 -> 01:16:07] histórico de reclamação
+[01:16:07 -> 01:16:11] e quais
+[01:16:11 -> 01:16:13] são as minhas metas?
+[01:16:13 -> 01:16:15] O índice de satisfação
+[01:16:15 -> 01:16:17] obter
+[01:16:17 -> 01:16:19] os clientes satisfeitos
+[01:16:19 -> 01:16:21] e eu posso
+[01:16:21 -> 01:16:23] definir uma meta para isso
+[01:16:23 -> 01:16:25] 90% dos clientes satisfeitos
+[01:16:25 -> 01:16:27] 85%
+[01:16:27 -> 01:16:29] dos clientes satisfeitos
+[01:16:29 -> 01:16:31] e índice de reclamação
+[01:16:31 -> 01:16:33] não ter reclamação
+[01:16:33 -> 01:16:38] de clientes.
+[01:16:38 -> 01:16:40] Garante
+[01:16:40 -> 01:16:42] a confiança nos resultados de análise
+[01:16:42 -> 01:16:44] operar
+[01:16:44 -> 01:16:46] de forma consistente
+[01:16:46 -> 01:16:48] e melhoria contínua
+[01:16:48 -> 01:16:50] quais são os indicadores
+[01:16:50 -> 01:16:52] participação e atividade
+[01:16:52 -> 01:16:54] de site proficiência
+[01:16:54 -> 01:16:57] né
+[01:16:57 -> 01:16:59] tendo como meta 100%
+[01:16:59 -> 01:17:01] dos resultados satisfatórios
+[01:17:01 -> 01:17:03] índice de trabalho
+[01:17:03 -> 01:17:05] não conforme
+[01:17:05 -> 01:17:07] associado
+[01:17:07 -> 01:17:09] a erro e resultado de análise
+[01:17:09 -> 01:17:11] tem que ser menor ou igual
+[01:17:11 -> 01:17:13] a 5
+[01:17:13 -> 01:17:15] implementação de oportunidade de melhoria
+[01:17:15 -> 01:17:17] então implementar
+[01:17:17 -> 01:17:19] no mínimo duas oportunidades de melhoria
+[01:17:19 -> 01:17:22] por ano
+[01:17:22 -> 01:17:24] e no caso de manter a equipe
+[01:17:24 -> 01:17:26] qualificada
+[01:17:26 -> 01:17:28] estabelecer um plano
+[01:17:28 -> 01:17:30] de treinamento né
+[01:17:30 -> 01:17:32] onde esse plano
+[01:17:32 -> 01:17:34] seja
+[01:17:34 -> 01:17:36] implementado
+[01:17:36 -> 01:17:38] 90% do plano implementado
+[01:17:38 -> 01:17:40] então
+[01:17:40 -> 01:17:42] a gente estabeleceu
+[01:17:42 -> 01:17:44] objetivos relacionados
+[01:17:44 -> 01:17:46] à política
+[01:17:46 -> 01:17:48] definimos indicadores
+[01:17:48 -> 01:17:50] formas de eu conseguir
+[01:17:50 -> 01:17:52] mensurar
+[01:17:52 -> 01:17:54] avaliar o atendimento
+[01:17:54 -> 01:17:56] aos objetivos
+[01:17:56 -> 01:17:59] tá
+[01:17:59 -> 01:18:01] então aqui eu trouxe exemplos
+[01:18:01 -> 01:18:03] para vocês
+[01:18:03 -> 01:18:05] o Javi disse que você já tem
+[01:18:05 -> 01:18:07] uma política
+[01:18:07 -> 01:18:09] estabelecida
+[01:18:09 -> 01:18:11] que está no procedimento
+[01:18:11 -> 01:18:13] se não engano no manual da qualidade
+[01:18:13 -> 01:18:15] e você já tem estabelecidos objetivos
+[01:18:15 -> 01:18:17] associados
+[01:18:17 -> 01:18:19] a essa
+[01:18:19 -> 01:18:21] política
+[01:18:21 -> 01:18:26] sabe dizer
+[01:18:26 -> 01:18:28] eu não sei informar
+[01:18:28 -> 01:18:30] eu não tenho essa informação não
+[01:18:30 -> 01:18:32] mas vou perguntar aqui pra
+[01:18:32 -> 01:18:34] Jani
+[01:18:34 -> 01:18:36] então
+[01:18:36 -> 01:18:38] se vocês entendam esses objetivos
+[01:18:38 -> 01:18:40] vocês vão definir
+[01:18:40 -> 01:18:42] esses indicadores
+[01:18:42 -> 01:18:44] para avaliar periodicamente
+[01:18:44 -> 01:18:46] o atendimento dos objetivos
+[01:18:46 -> 01:18:48] e consequentemente a eficácia
+[01:18:48 -> 01:18:50] do sistema de gestão de vocês
+[01:18:50 -> 01:18:54] tá
+[01:18:54 -> 01:18:56] vocês querem trazer
+[01:18:56 -> 01:18:58] alguma pergunta
+[01:18:58 -> 01:19:00] em relação a indicadores
+[01:19:00 -> 01:19:02] que vocês possam utilizar
+[01:19:02 -> 01:19:04] diferente desses aqui que eu dei exemplo
+[01:19:04 -> 01:19:13] ficou claro
+[01:19:13 -> 01:19:15] para vocês essa parte aqui
+[01:19:15 -> 01:19:17] de avaliação de atendimento dos objetivos
+[01:19:17 -> 01:19:21] vocês têm alguma dúvida
+[01:19:21 -> 01:19:23] só lembrando
+[01:19:23 -> 01:19:25] exemplos de indicadores que eu trouxe
+[01:19:25 -> 01:19:27] vocês podem usar outros indicadores
+[01:19:27 -> 01:19:29] para
+[01:19:29 -> 01:19:31] avaliação
+[01:19:31 -> 01:19:33] desse consistente
+[01:19:33 -> 01:19:35] do atendimento aos objetivos e as políticas
+[01:19:35 -> 01:19:43] a 17.025
+[01:19:43 -> 01:19:45] ela também define
+[01:19:45 -> 01:19:47] que toda
+[01:19:47 -> 01:19:49] a documentação
+[01:19:49 -> 01:19:51] processos
+[01:19:51 -> 01:19:53] sistemas e registros
+[01:19:53 -> 01:19:55] relacionados
+[01:19:55 -> 01:19:57] ao atendimento da 17.025
+[01:19:57 -> 01:19:59] eles devem estar
+[01:19:59 -> 01:20:01] vinculados
+[01:20:01 -> 01:20:03] incluídos e referenciados
+[01:20:03 -> 01:20:05] no sistema de gestão
+[01:20:05 -> 01:20:07] nada que a gente use
+[01:20:07 -> 01:20:09] em atendimento aos
+[01:20:09 -> 01:20:11] requisitos da 17.025
+[01:20:11 -> 01:20:13] ele não pode
+[01:20:13 -> 01:20:15] não estar vinculado
+[01:20:15 -> 01:20:17] ao sistema de gestão
+[01:20:17 -> 01:20:19] a gente tem uma estrutura
+[01:20:19 -> 01:20:21] de documentação
+[01:20:21 -> 01:20:23] o nosso sistema de gestão
+[01:20:23 -> 01:20:25] ele tem uma estrutura de documentação
+[01:20:25 -> 01:20:27] iniciando lá pela política
+[01:20:27 -> 01:20:29] da qualidade
+[01:20:29 -> 01:20:31] antes da política da qualidade tem código
+[01:20:31 -> 01:20:33] de conduta
+[01:20:33 -> 01:20:35] tem as políticas da organização
+[01:20:35 -> 01:20:37] que estão acima
+[01:20:37 -> 01:20:39] do sistema de gestão da 17.025
+[01:20:39 -> 01:20:41] o manual da qualidade
+[01:20:41 -> 01:20:43] vocês estabeleceram um manual da qualidade
+[01:20:43 -> 01:20:46] que é
+[01:20:46 -> 01:20:48] a Bíblia de vocês ele direciona
+[01:20:48 -> 01:20:50] vocês quais são os procedimentos
+[01:20:50 -> 01:20:52] para cada
+[01:20:52 -> 01:20:54] requisito do sistema de gestão
+[01:20:54 -> 01:20:57] né
+[01:20:57 -> 01:20:59] os procedimentos de gestão
+[01:20:59 -> 01:21:01] que são os procedimentos
+[01:21:01 -> 01:21:03] de controle de documento
+[01:21:03 -> 01:21:05] de controle de registro
+[01:21:05 -> 01:21:07] de análise crítica
+[01:21:07 -> 01:21:09] de pedidos propostas e contratos
+[01:21:09 -> 01:21:11] né
+[01:21:11 -> 01:21:13] tem os procedimentos técnicos
+[01:21:13 -> 01:21:15] que são os procedimentos de ensaio
+[01:21:15 -> 01:21:18] que são a luz
+[01:21:18 -> 01:21:20] de métodos normalizados
+[01:21:20 -> 01:21:22] e os formulários
+[01:21:22 -> 01:21:24] que são os documentos
+[01:21:24 -> 01:21:26] que a gente utiliza para registrar
+[01:21:26 -> 01:21:29] os dados
+[01:21:29 -> 01:21:32] tem documentos
+[01:21:32 -> 01:21:34] do sistema de gestão
+[01:21:34 -> 01:21:36] que eles são
+[01:21:36 -> 01:21:38] estabelecidos pelo laboratório
+[01:21:38 -> 01:21:40] e tem documentos externos
+[01:21:40 -> 01:21:42] que também fazem
+[01:21:42 -> 01:21:45] parte do sistema de gestão
+[01:21:45 -> 01:21:47] regulamentos
+[01:21:47 -> 01:21:49] do regulamentador
+[01:21:49 -> 01:21:51] do INEIA
+[01:21:51 -> 01:21:53] do IBAMA
+[01:21:53 -> 01:21:55] certificados
+[01:21:55 -> 01:21:57] de calibração de instrumentos
+[01:21:57 -> 01:22:00] isso tudo
+[01:22:00 -> 01:22:02] faz parte do sistema de gestão
+[01:22:02 -> 01:22:04] então documentos
+[01:22:04 -> 01:22:06] que são internos
+[01:22:06 -> 01:22:08] e tem documentos que são externos
+[01:22:08 -> 01:22:10] todos eles
+[01:22:10 -> 01:22:12] tem que estar de alguma forma vinculado
+[01:22:12 -> 01:22:15] o sistema de gestão
+[01:22:15 -> 01:22:20] disponíveis
+[01:22:20 -> 01:22:22] para o pessoal
+[01:22:22 -> 01:22:25] para o uso
+[01:22:25 -> 01:22:27] toda a documentação tem que estar disponível
+[01:22:27 -> 01:22:31] para o pessoal
+[01:22:31 -> 01:22:33] que é o requisito
+[01:22:33 -> 01:22:35] de controle
+[01:22:35 -> 01:22:38] de documentos do sistema de gestão
+[01:22:38 -> 01:22:40] a norma
+[01:22:40 -> 01:22:42] ela não exige
+[01:22:42 -> 01:22:44] um procedimento
+[01:22:44 -> 01:22:46] documentado
+[01:22:46 -> 01:22:48] para controle de documentos
+[01:22:48 -> 01:22:50] no entanto
+[01:22:50 -> 01:22:52] a norma ela define
+[01:22:52 -> 01:22:54] que o laboratório
+[01:22:54 -> 01:22:56] tem que controlar
+[01:22:56 -> 01:22:58] os documentos internos
+[01:22:58 -> 01:23:00] e externos
+[01:23:00 -> 01:23:02] necessários
+[01:23:02 -> 01:23:04] no sistema de gestão
+[01:23:04 -> 01:23:06] que fazem parte do sistema de gestão
+[01:23:06 -> 01:23:08] e esse controle
+[01:23:08 -> 01:23:10] de documento
+[01:23:10 -> 01:23:12] deve incluir
+[01:23:12 -> 01:23:14] a aprovação
+[01:23:14 -> 01:23:16] de todos os documentos
+[01:23:18 -> 01:23:20] antes da sua emissão
+[01:23:20 -> 01:23:23] e essa emissão
+[01:23:23 -> 01:23:25] tem que ser
+[01:23:25 -> 01:23:27] por pessoal autorizado
+[01:23:27 -> 01:23:29] então todos os procedimentos
+[01:23:29 -> 01:23:31] do sistema de gestão
+[01:23:31 -> 01:23:33] os procedimentos internos de vocês
+[01:23:33 -> 01:23:35] eles têm que ser
+[01:23:35 -> 01:23:37] aprovados
+[01:23:37 -> 01:23:39] por pessoal autorizado
+[01:23:39 -> 01:23:41] antes da disponibilização dele
+[01:23:41 -> 01:23:45] para o pessoal usar
+[01:23:45 -> 01:23:47] então vocês têm que ter definidos
+[01:23:47 -> 01:23:49] quem
+[01:23:49 -> 01:23:51] emite
+[01:23:51 -> 01:23:54] revisa
+[01:23:54 -> 01:23:56] e quem autoriza a revisão
+[01:23:56 -> 01:23:58] obviamente procedimento
+[01:23:58 -> 01:24:00] de gestão
+[01:24:00 -> 01:24:02] essa
+[01:24:02 -> 01:24:04] sequência para o pessoal da área de gestão
+[01:24:04 -> 01:24:06] e os procedimentos técnicos
+[01:24:06 -> 01:24:09] considerando o pessoal técnico
+[01:24:09 -> 01:24:11] com competência
+[01:24:11 -> 01:24:13] para a emissão
+[01:24:13 -> 01:24:15] desses procedimentos
+[01:24:15 -> 01:24:18] esses procedimentos
+[01:24:18 -> 01:24:20] eles devem ser
+[01:24:20 -> 01:24:22] periodicamente submetidos
+[01:24:22 -> 01:24:24] e criticados
+[01:24:24 -> 01:24:26] e revisados
+[01:24:26 -> 01:24:28] quando necessário
+[01:24:28 -> 01:24:30] o laboratório tem que estabelecer
+[01:24:30 -> 01:24:32] qual a periodicidade
+[01:24:32 -> 01:24:34] que ele vai fazer a análise crítica dos documentos
+[01:24:34 -> 01:24:36] anualmente os nossos procedimentos
+[01:24:36 -> 01:24:38] vão ser analisados criticamente
+[01:24:38 -> 01:24:41] a cada dois anos
+[01:24:41 -> 01:24:43] a cada três anos
+[01:24:43 -> 01:24:45] então vocês têm que definir
+[01:24:45 -> 01:24:47] essa periodicidade
+[01:24:47 -> 01:24:49] para pegar e analisar criticamente
+[01:24:49 -> 01:24:51] aquele documento para verificar
+[01:24:51 -> 01:24:53] se há necessidade de revisão
+[01:24:53 -> 01:24:55] mas
+[01:24:55 -> 01:24:57] independente dessa análise crítica
+[01:24:57 -> 01:24:59] periódica
+[01:24:59 -> 01:25:01] caso no meio desse tempo
+[01:25:01 -> 01:25:03] eu identificar a necessidade
+[01:25:03 -> 01:25:05] da revisão de um documento
+[01:25:05 -> 01:25:08] eu vou ter que revisá-lo
+[01:25:08 -> 01:25:12] alterações
+[01:25:12 -> 01:25:14] pode perguntar
+[01:25:14 -> 01:25:16] Jaime
+[01:25:16 -> 01:25:18] Lana, desculpa, eu não sei
+[01:25:18 -> 01:25:20] se atrapalha a sua linha de raciocínio
+[01:25:20 -> 01:25:22] não atrapalha, vocês podem interromper
+[01:25:22 -> 01:25:24] qualquer momento
+[01:25:24 -> 01:25:26] voltando
+[01:25:26 -> 01:25:28] naquela pergunta que você fez
+[01:25:28 -> 01:25:30] primeiro sobre
+[01:25:30 -> 01:25:32] a política da qualidade
+[01:25:32 -> 01:25:34] e depois, aí eu falei que tinha
+[01:25:34 -> 01:25:36] e depois a respeito
+[01:25:36 -> 01:25:38] dos objetivos
+[01:25:40 -> 01:25:42] a política
+[01:25:42 -> 01:25:44] eu até entrei em contato com a Janine aqui
+[01:25:44 -> 01:25:46] a gente
+[01:25:46 -> 01:25:48] efetivamente tocou ela aqui inclusive
+[01:25:48 -> 01:25:50] é
+[01:25:50 -> 01:25:52] é um documento
+[01:25:52 -> 01:25:54] é um documento de uma página
+[01:25:54 -> 01:25:56] tem aqui
+[01:25:56 -> 01:25:59] algumas primícias
+[01:25:59 -> 01:26:01] que devem ser adotadas
+[01:26:01 -> 01:26:03] e aí tem assinatura minha
+[01:26:03 -> 01:26:05] e assinatura da Carla
+[01:26:05 -> 01:26:07] os objetivos
+[01:26:07 -> 01:26:09] eu não tenho certeza
+[01:26:09 -> 01:26:11] e
+[01:26:11 -> 01:26:13] não sei se você vai voltar nesse tópico
+[01:26:13 -> 01:26:15] acho que não, mas é um documento
+[01:26:15 -> 01:26:17] é um documento à parte Luana
+[01:26:17 -> 01:26:20] na verdade
+[01:26:20 -> 01:26:22] você tem aqui
+[01:26:22 -> 01:26:24] é uma política
+[01:26:24 -> 01:26:26] você falou que você tem estabelecido
+[01:26:28 -> 01:26:30] e quais são
+[01:26:30 -> 01:26:32] os objetivos
+[01:26:32 -> 01:26:37] dessa política
+[01:26:37 -> 01:26:39] que são os objetivos do meu sistema de gestão
+[01:26:39 -> 01:26:41] associados a essa política
+[01:26:41 -> 01:26:43] na minha opinião
+[01:26:43 -> 01:26:45] o maior deles é trazer confiabilidade
+[01:26:45 -> 01:26:47] os meus resultados
+[01:26:47 -> 01:26:49] exatamente, aí eu trouxe
+[01:26:49 -> 01:26:52] aqui
+[01:26:52 -> 01:26:54] realizar as atividades assegurando a imparcialidade
+[01:26:54 -> 01:26:56] é um objetivo do sistema de gestão
+[01:26:56 -> 01:26:58] concorda?
+[01:26:58 -> 01:27:00] sim
+[01:27:00 -> 01:27:03] manter os clientes satisfeitos
+[01:27:03 -> 01:27:05] garantir a confiança nos resultados de análise
+[01:27:05 -> 01:27:08] operar de forma
+[01:27:08 -> 01:27:10] então com o objetivo Luana, desculpa
+[01:27:10 -> 01:27:12] desculpa de interromper
+[01:27:12 -> 01:27:14] com esses objetivos eu consigo fazer
+[01:27:14 -> 01:27:16] uma avaliação
+[01:27:16 -> 01:27:18] do meu sistema
+[01:27:18 -> 01:27:20] e aí entender
+[01:27:20 -> 01:27:22] o tempo que eu preciso alocar um recurso
+[01:27:22 -> 01:27:24] por exemplo, vamos lá, chutar aqui
+[01:27:24 -> 01:27:26] melhoria contínua
+[01:27:26 -> 01:27:28] caramba, a gente está precisando
+[01:27:28 -> 01:27:30] dar uma olhada por isso aí, enfim
+[01:27:30 -> 01:27:32] falar de treinamento aqui
+[01:27:32 -> 01:27:34] a gente teve um processo de intercomparação
+[01:27:34 -> 01:27:36] que não foi
+[01:27:36 -> 01:27:38] satisfatório
+[01:27:38 -> 01:27:40] a gente fez um rodízio entre os colaboradores
+[01:27:40 -> 01:27:42] e eu identifiquei que o colaborador Jaime
+[01:27:42 -> 01:27:44] precisa de um treinamento
+[01:27:44 -> 01:27:46] para poder melhorar
+[01:27:46 -> 01:27:48] isso aí é uma auto avaliação
+[01:27:48 -> 01:27:50] eu posso considerar dessa forma
+[01:27:50 -> 01:27:52] então você avaliou
+[01:27:52 -> 01:27:54] o teu objetivo
+[01:27:54 -> 01:27:56] garantia de confiança nos resultados de análise
+[01:27:56 -> 01:27:58] aí você tem a participação
+[01:27:58 -> 01:28:00] de atividade social de proficiência
+[01:28:00 -> 01:28:02] aí você tem lá como meta 100%
+[01:28:02 -> 01:28:04] de resultados satisfatórios
+[01:28:04 -> 01:28:06] você não atingiu essa meta
+[01:28:06 -> 01:28:08] então você vai definir um plano de
+[01:28:08 -> 01:28:11] ação
+[01:28:11 -> 01:28:13] não vai
+[01:28:13 -> 01:28:15] então esses objetivos aqui
+[01:28:15 -> 01:28:17] são objetivos
+[01:28:17 -> 01:28:19] associados
+[01:28:19 -> 01:28:21] à operação consistente
+[01:28:21 -> 01:28:23] competência, imparcialidade
+[01:28:23 -> 01:28:25] que você, periodicamente
+[01:28:25 -> 01:28:27] você avalia
+[01:28:27 -> 01:28:29] porque
+[01:28:29 -> 01:28:31] como é que eu consigo avaliar
+[01:28:31 -> 01:28:33] um atendimento ao objetivo
+[01:28:33 -> 01:28:35] se eu não transformar isso em indicadores
+[01:28:35 -> 01:28:37] que eu consigo mensurar
+[01:28:37 -> 01:28:40] fica só um texto bonito, né
+[01:28:40 -> 01:28:42] você pega esse texto aqui
+[01:28:42 -> 01:28:44] é um texto bonito, né
+[01:28:44 -> 01:28:46] realizar
+[01:28:46 -> 01:28:50] que eu estou atendendo isso
+[01:28:50 -> 01:28:52] perfeito
+[01:28:52 -> 01:28:54] eu estabeleço objetivos associados
+[01:28:54 -> 01:28:57] a essa política, indicadores
+[01:28:57 -> 01:28:59] e metas associados
+[01:28:59 -> 01:29:01] desses objetivos para eu conseguir
+[01:29:01 -> 01:29:03] mensurar o atendimento
+[01:29:03 -> 01:29:09] ao objetivo do meu sistema de gestão
+[01:29:09 -> 01:29:12] perfeito, né, obrigado
+[01:29:12 -> 01:29:14] então aqui são exemplos
+[01:29:14 -> 01:29:16] de objetivos
+[01:29:16 -> 01:29:18] que estão diretamente associados
+[01:29:18 -> 01:29:20] da política, da qualidade
+[01:29:20 -> 01:29:23] tá?
+[01:29:23 -> 01:29:35] Obrigado
+[01:29:35 -> 01:29:37] não tem problema, tá, gente
+[01:29:37 -> 01:29:39] se vocês quiserem retornar
+[01:29:39 -> 01:29:41] a um slide, a gente volta
+[01:29:41 -> 01:29:43] tá, não tem problema nenhum
+[01:29:43 -> 01:29:45] tá
+[01:29:45 -> 01:29:47] eu faço até
+[01:29:47 -> 01:29:49] um treinamento
+[01:29:49 -> 01:29:51] focando até e menos exercícios
+[01:29:51 -> 01:29:53] para a gente ter esse bate-papo aqui
+[01:29:53 -> 01:29:56] e você cheirar a dúvida, tá, gente
+[01:29:56 -> 01:29:58] tem problema nenhum
+[01:29:58 -> 01:30:00] voltando aqui a parte de controle
+[01:30:00 -> 01:30:02] de documentos
+[01:30:02 -> 01:30:04] alterações
+[01:30:04 -> 01:30:06] e situação atual da revisão
+[01:30:06 -> 01:30:08] deve ser identificados
+[01:30:08 -> 01:30:10] o que que significa, né
+[01:30:10 -> 01:30:12] todos os documentos têm que ser controlados
+[01:30:12 -> 01:30:14] vocês têm uma codificação dos documentos
+[01:30:14 -> 01:30:16] vocês não têm, né
+[01:30:16 -> 01:30:18] é
+[01:30:18 -> 01:30:20] e um
+[01:30:20 -> 01:30:22] acompanhado de uma revisão
+[01:30:22 -> 01:30:24] ou versão
+[01:30:24 -> 01:30:26] ou data de emissão, não é isso
+[01:30:26 -> 01:30:28] né, revisão 1, 2
+[01:30:28 -> 01:30:30] ou versão 1, 2
+[01:30:30 -> 01:30:32] de emissão
+[01:30:32 -> 01:30:34] e aí eu tenho que ter um histórico
+[01:30:34 -> 01:30:36] dessas revisões
+[01:30:36 -> 01:30:38] o que que é um histórico de revisão
+[01:30:38 -> 01:30:40] quando o documento é revisado
+[01:30:40 -> 01:30:42] aquela pessoa que acessa o documento
+[01:30:42 -> 01:30:44] ela tem que conseguir
+[01:30:44 -> 01:30:46] enxergar claramente
+[01:30:46 -> 01:30:48] o que foi alterado de uma versão para outra
+[01:30:48 -> 01:30:52] como mente
+[01:30:52 -> 01:30:54] como que os laboratórios fazem
+[01:30:54 -> 01:30:56] tem um histórico de revisão no documento
+[01:30:56 -> 01:30:59] dizendo
+[01:30:59 -> 01:31:01] um ítem de histórico de revisão
+[01:31:01 -> 01:31:03] dentro do procedimento
+[01:31:03 -> 01:31:05] dizendo que foi alterado
+[01:31:05 -> 01:31:07] tem uns que destacam
+[01:31:07 -> 01:31:09] grifam
+[01:31:09 -> 01:31:11] o que que foi alterado
+[01:31:11 -> 01:31:13] então eu consigo ler o procedimento
+[01:31:13 -> 01:31:15] e as linhas que estão destacadas
+[01:31:15 -> 01:31:17] foram
+[01:31:17 -> 01:31:19] os tópicos revisados
+[01:31:19 -> 01:31:26] tório que mantém
+[01:31:26 -> 01:31:28] a versão anterior
+[01:31:28 -> 01:31:30] para comparativo
+[01:31:30 -> 01:31:32] para você ler anterior, ler nova
+[01:31:32 -> 01:31:34] e eu consigo identificar o que que foi alterado
+[01:31:34 -> 01:31:36] então eu estou trazendo
+[01:31:36 -> 01:31:38] diferentes formas de sistemáticas
+[01:31:38 -> 01:31:40] para
+[01:31:40 -> 01:31:43] identificação
+[01:31:43 -> 01:31:45] das alterações
+[01:31:45 -> 01:31:48] o laboratório
+[01:31:48 -> 01:31:50] definir a sua
+[01:31:50 -> 01:31:52] se eu não me engano vocês
+[01:31:52 -> 01:31:54] mantem grifado
+[01:31:54 -> 01:31:56] eu não me recordo
+[01:31:56 -> 01:31:58] porque eu vi os documentos de vocês já tem
+[01:31:58 -> 01:32:00] vai fazer 2 anos
+[01:32:00 -> 01:32:02] os documentos que você deve ter visto
+[01:32:02 -> 01:32:04] são os documentos
+[01:32:04 -> 01:32:06] que a maior parte dos documentos
+[01:32:06 -> 01:32:08] a gente tem aqui 2 sistemas
+[01:32:08 -> 01:32:10] tem o manual de operação da usina
+[01:32:10 -> 01:32:12] e a gente tem alguns procedimentos
+[01:32:12 -> 01:32:14] que estão nesse manual
+[01:32:14 -> 01:32:16] porém os procedimentos de rotina
+[01:32:16 -> 01:32:18] estão migrando para
+[01:32:18 -> 01:32:20] aquele sistema que eu te falei que é o green docks
+[01:32:20 -> 01:32:22] então
+[01:32:22 -> 01:32:24] os procedimentos que ficam
+[01:32:24 -> 01:32:26] no mall
+[01:32:26 -> 01:32:28] que é esse manual que eu te falei
+[01:32:28 -> 01:32:30] eles tem na folha de capa
+[01:32:30 -> 01:32:32] as revisões
+[01:32:32 -> 01:32:34] na 17ª revisão
+[01:32:34 -> 01:32:36] foram revisadas todas as páginas
+[01:32:36 -> 01:32:38] tem escrito lá, páginas revisadas
+[01:32:38 -> 01:32:40] por exemplo
+[01:32:40 -> 01:32:42] quem é o autor, quem é o revisor
+[01:32:42 -> 01:32:44] e quem aprovou
+[01:32:44 -> 01:32:46] e no corpo ele fica
+[01:32:46 -> 01:32:48] não é entre aspas
+[01:32:48 -> 01:32:50] ele tem um marcador aqui
+[01:32:50 -> 01:32:52] que eu não sei o nome dele
+[01:32:52 -> 01:32:54] não tem essa barra invertida no teclado
+[01:32:54 -> 01:32:56] ele é uma barra reta
+[01:32:56 -> 01:32:58] ele fica com uma sinalização
+[01:32:58 -> 01:33:00] aí que é a parte que foi revisada
+[01:33:00 -> 01:33:02] exato
+[01:33:02 -> 01:33:04] no green docks eu não lembro como é que fica
+[01:33:04 -> 01:33:06] mas eu tenho certeza
+[01:33:06 -> 01:33:08] que a gente faz dessa forma no mall
+[01:33:08 -> 01:33:11] então
+[01:33:11 -> 01:33:13] vocês tem que ir para os procedimentos
+[01:33:13 -> 01:33:15] internos gerados por vocês
+[01:33:15 -> 01:33:17] vocês tem que ter
+[01:33:17 -> 01:33:19] sistemáticas
+[01:33:19 -> 01:33:21] estabelecidas para
+[01:33:21 -> 01:33:23] identificação
+[01:33:23 -> 01:33:25] dessas alterações
+[01:33:25 -> 01:33:27] deu exemplo dentro de um sistema do outro
+[01:33:27 -> 01:33:29] não sabe como é feito
+[01:33:29 -> 01:33:31] mas certamente tem uma forma
+[01:33:31 -> 01:33:33] de indicação
+[01:33:33 -> 01:33:35] de alteração
+[01:33:38 -> 01:33:40] todos os documentos
+[01:33:40 -> 01:33:42] tem que ser univocamente identificados
+[01:33:42 -> 01:33:44] então
+[01:33:44 -> 01:33:46] vocês tem uma codificação
+[01:33:46 -> 01:33:48] dos documentos, não tem
+[01:33:48 -> 01:33:50] IP
+[01:33:50 -> 01:33:52] OP, o número
+[01:33:52 -> 01:33:54] um consecutivo específico
+[01:33:54 -> 01:33:56] um consecutivo específico
+[01:33:56 -> 01:33:58] dividido por
+[01:33:58 -> 01:34:00] procedimento, quando é procedimento de gestão
+[01:34:00 -> 01:34:02] quando é procedimento técnico
+[01:34:02 -> 01:34:04] então vocês tem
+[01:34:04 -> 01:34:06] forma de identificação unívica
+[01:34:06 -> 01:34:08] dos documentos de vocês
+[01:34:13 -> 01:34:15] as versões pertinentes
+[01:34:15 -> 01:34:17] desses documentos
+[01:34:17 -> 01:34:19] eles têm que ter
+[01:34:19 -> 01:34:21] a sua distribuição controlada
+[01:34:21 -> 01:34:23] então
+[01:34:23 -> 01:34:25] o que isso significa
+[01:34:25 -> 01:34:27] vocês tem aí um sistema
+[01:34:27 -> 01:34:29] informatizado onde os documentos
+[01:34:29 -> 01:34:31] são disponibilizados
+[01:34:31 -> 01:34:33] não é isso
+[01:34:33 -> 01:34:35] vocês têm dois sistemas de disponibilização
+[01:34:35 -> 01:34:38] de documentos
+[01:34:38 -> 01:34:40] eu tenho que assegurar
+[01:34:40 -> 01:34:42] que os documentos
+[01:34:42 -> 01:34:44] que estão disponibilizados nesse sistema
+[01:34:44 -> 01:34:46] eles estejam nas suas versões vigentes
+[01:34:46 -> 01:34:52] tem que ter esse controle
+[01:34:54 -> 01:34:56] e forma
+[01:34:56 -> 01:34:58] de
+[01:34:58 -> 01:35:00] que está lá dentro do sistema
+[01:35:00 -> 01:35:02] que é uma copia controlada
+[01:35:02 -> 01:35:05] não é isso
+[01:35:05 -> 01:35:07] o pessoal acessa
+[01:35:07 -> 01:35:09] uma versão controlada
+[01:35:09 -> 01:35:11] desse documento
+[01:35:11 -> 01:35:13] mas o sistema
+[01:35:13 -> 01:35:15] imprime
+[01:35:15 -> 01:35:18] permite que eu imprime esse documento
+[01:35:18 -> 01:35:20] ele permite que eu imprime esse documento
+[01:35:20 -> 01:35:22] como uma copia controlada
+[01:35:22 -> 01:35:24] ou não controlada
+[01:35:24 -> 01:35:26] então vocês têm que ter
+[01:35:26 -> 01:35:28] sistemática de controle
+[01:35:28 -> 01:35:31] desses documentos
+[01:35:31 -> 01:35:33] versões
+[01:35:33 -> 01:35:35] obsoletas dos documentos
+[01:35:35 -> 01:35:37] elas não devem estar disponível
+[01:35:37 -> 01:35:39] para o pessoal
+[01:35:39 -> 01:35:41] de forma
+[01:35:41 -> 01:35:43] que o pessoal use uma informação obsoleta
+[01:35:43 -> 01:35:45] então o meu sistema
+[01:35:45 -> 01:35:47] ele tem que assegurar
+[01:35:47 -> 01:35:49] que os documentos obsoletos
+[01:35:49 -> 01:35:51] eles estejam
+[01:35:51 -> 01:35:53] claramente identificados
+[01:35:53 -> 01:35:56] caso
+[01:35:56 -> 01:35:58] vocês decidam guardar por algum motivo
+[01:35:58 -> 01:36:00] tá
+[01:36:00 -> 01:36:02] eu não quero manter essa informação obsoleta
+[01:36:02 -> 01:36:04] mas eu tenho que
+[01:36:04 -> 01:36:06] identificar claramente que aquela
+[01:36:06 -> 01:36:11] informação é obsoleta
+[01:36:11 -> 01:36:13] o profissional tem que conseguir
+[01:36:13 -> 01:36:15] diferenciar o que é um documento
+[01:36:15 -> 01:36:17] vigente de um documento
+[01:36:17 -> 01:36:20] obsoleto
+[01:36:20 -> 01:36:27] os documentos externos
+[01:36:27 -> 01:36:29] né
+[01:36:29 -> 01:36:31] como eu disse
+[01:36:31 -> 01:36:33] documentos da CGECRE
+[01:36:33 -> 01:36:35] documentos emitidos pelos
+[01:36:35 -> 01:36:37] regulamentadores
+[01:36:37 -> 01:36:39] também devem ser controlados
+[01:36:39 -> 01:36:41] vocês não são
+[01:36:41 -> 01:36:43] responsáveis
+[01:36:43 -> 01:36:45] pela emissão desses documentos
+[01:36:45 -> 01:36:47] mas
+[01:36:47 -> 01:36:49] vocês são responsáveis
+[01:36:49 -> 01:36:51] por garantir
+[01:36:51 -> 01:36:53] que
+[01:36:53 -> 01:36:55] vocês têm conhecimento
+[01:36:55 -> 01:36:57] da última revisão
+[01:36:57 -> 01:36:59] válida desse documento
+[01:36:59 -> 01:37:02] externo
+[01:37:02 -> 01:37:04] a fim de assegurar que qualquer alteração
+[01:37:04 -> 01:37:06] nesses documentos externos
+[01:37:06 -> 01:37:08] sejam analisados criticamente
+[01:37:08 -> 01:37:10] e
+[01:37:10 -> 01:37:12] implementadas mudanças necessárias
+[01:37:12 -> 01:37:14] dentro do processo de vocês
+[01:37:14 -> 01:37:17] então a análise crítica
+[01:37:17 -> 01:37:19] dos documentos externos
+[01:37:19 -> 01:37:21] o controle tem esse objetivo
+[01:37:21 -> 01:37:24] tá
+[01:37:24 -> 01:37:26] e aí como
+[01:37:26 -> 01:37:28] que a gente pode
+[01:37:28 -> 01:37:30] ter
+[01:37:30 -> 01:37:32] o controle dos nossos documentos
+[01:37:32 -> 01:37:34] externos e internos
+[01:37:34 -> 01:37:36] né
+[01:37:36 -> 01:37:38] muitos laboratórios
+[01:37:38 -> 01:37:40] usam uma lista
+[01:37:40 -> 01:37:42] maestra de documentos
+[01:37:42 -> 01:37:45] onde essa lista
+[01:37:45 -> 01:37:47] maestra inclui a
+[01:37:47 -> 01:37:49] identificação
+[01:37:49 -> 01:37:51] o título do documento
+[01:37:51 -> 01:37:53] qual a revisão que ele
+[01:37:53 -> 01:37:55] está, qual a data
+[01:37:55 -> 01:37:57] de revisão
+[01:37:57 -> 01:37:59] desse documento
+[01:37:59 -> 01:38:01] e eu disse
+[01:38:01 -> 01:38:03] no slide anterior
+[01:38:03 -> 01:38:05] que o laboratório
+[01:38:05 -> 01:38:07] e periódicamente
+[01:38:07 -> 01:38:09] analisar criticamente
+[01:38:09 -> 01:38:11] seus documentos
+[01:38:11 -> 01:38:13] então vocês têm que estabelecer
+[01:38:13 -> 01:38:15] uma periodicidade para essa análise crítica
+[01:38:15 -> 01:38:17] vamos dizer que vocês estabeleceram
+[01:38:17 -> 01:38:19] uma
+[01:38:19 -> 01:38:21] periodicidade
+[01:38:21 -> 01:38:23] anual
+[01:38:23 -> 01:38:25] de análise crítica
+[01:38:25 -> 01:38:27] dos documentos
+[01:38:27 -> 01:38:29] então
+[01:38:29 -> 01:38:32] é
+[01:38:32 -> 01:38:34] o documento
+[01:38:34 -> 01:38:36] que foi emitida
+[01:38:36 -> 01:38:39] em 2020
+[01:38:39 -> 01:38:42] é
+[01:38:42 -> 01:38:44] eu
+[01:38:44 -> 01:38:46] realizei a análise crítica
+[01:38:46 -> 01:38:48] que está com uma data
+[01:38:48 -> 01:38:50] obsoleta mas vamos dizer que eu analisei
+[01:38:50 -> 01:38:52] esse documento
+[01:38:52 -> 01:38:54] em 20 de
+[01:38:54 -> 01:38:56] agosto de 2026
+[01:38:56 -> 01:39:01] analisei esse documento
+[01:39:01 -> 01:39:03] tá
+[01:39:03 -> 01:39:05] e não
+[01:39:05 -> 01:39:07] identifiquei a necessidade
+[01:39:07 -> 01:39:10] de atualizar esse documento
+[01:39:10 -> 01:39:12] então ele vai permanecer
+[01:39:12 -> 01:39:16] na revisão 1
+[01:39:16 -> 01:39:18] mas eu tenho evidência
+[01:39:18 -> 01:39:20] de que eu analisei esse documento
+[01:39:20 -> 01:39:22] dentro da periodicidade anual
+[01:39:22 -> 01:39:24] através da data
+[01:39:24 -> 01:39:26] da última análise crítica
+[01:39:26 -> 01:39:28] e ele permaneceu na revisão 1
+[01:39:28 -> 01:39:30] porque eu não defini
+[01:39:30 -> 01:39:33] não identifiquei uma necessidade de atualização
+[01:39:33 -> 01:39:35] a data da próxima análise crítica
+[01:39:35 -> 01:39:37] vai ser um ano depois
+[01:39:37 -> 01:39:39] 20 de 8 de
+[01:39:39 -> 01:39:43] 7
+[01:39:43 -> 01:39:45] então isso é uma forma de controle
+[01:39:45 -> 01:39:47] de dar essa análise crítica
+[01:39:47 -> 01:39:49] periódica dos documentos
+[01:39:49 -> 01:39:51] e a evidência
+[01:39:51 -> 01:39:53] de que eu analisei
+[01:39:53 -> 01:39:55] criticamente o documento
+[01:39:55 -> 01:39:57] mesmo em situações
+[01:39:57 -> 01:39:59] que eu não identifiquei a necessidade
+[01:39:59 -> 01:40:05] de atualização desse procedimento
+[01:40:05 -> 01:40:07] documentos externos
+[01:40:07 -> 01:40:09] então peguei aqui como por exemplo
+[01:40:09 -> 01:40:11] a nitidícula 30
+[01:40:11 -> 01:40:13] que é a política
+[01:40:13 -> 01:40:15] da estabilidade metrológica
+[01:40:15 -> 01:40:17] eu tenho lá
+[01:40:17 -> 01:40:19] a revisão
+[01:40:19 -> 01:40:21] desse documento
+[01:40:21 -> 01:40:24] que eu tenho conhecimento
+[01:40:24 -> 01:40:26] a data
+[01:40:26 -> 01:40:28] da última vez
+[01:40:28 -> 01:40:30] que eu verifiquei
+[01:40:30 -> 01:40:32] a última versão desse documento
+[01:40:32 -> 01:40:34] e aí vocês vão definir essa periodicidade
+[01:40:34 -> 01:40:36] eu não recomendo
+[01:40:36 -> 01:40:38] que seja uma periodicidade anual
+[01:40:38 -> 01:40:41] eu acho que vocês podem por exemplo
+[01:40:41 -> 01:40:43] fazer trimestralmente
+[01:40:43 -> 01:40:45] trimestralmente
+[01:40:45 -> 01:40:47] vocês chegam lá na página
+[01:40:47 -> 01:40:49] por exemplo da CGEC
+[01:40:49 -> 01:40:51] no caso que é um documento da CGEC
+[01:40:51 -> 01:40:53] verifico se houve alguma atualização
+[01:40:53 -> 01:40:55] houve alguma atualização
+[01:40:55 -> 01:40:57] eu vou baixar esse documento
+[01:40:57 -> 01:40:59] vou analisar criticamente o documento
+[01:40:59 -> 01:41:01] e verificar se eu tenho que fazer
+[01:41:01 -> 01:41:04] alguma alteração no meu processo
+[01:41:04 -> 01:41:06] não atualizou o procedimento a norma
+[01:41:06 -> 01:41:08] então
+[01:41:08 -> 01:41:10] eu tenho conhecimento da última versão vigente
+[01:41:10 -> 01:41:15] então não basta
+[01:41:15 -> 01:41:17] eu ali
+[01:41:17 -> 01:41:19] mudou da revisão 14 pra 15
+[01:41:19 -> 01:41:21] eu vou aqui e mudo a revisão
+[01:41:21 -> 01:41:23] não é somente sobre isso
+[01:41:23 -> 01:41:25] eu também tenho que analisar
+[01:41:25 -> 01:41:28] criticamente esse documento externo
+[01:41:28 -> 01:41:30] tá
+[01:41:30 -> 01:41:32] isso significa o controle
+[01:41:32 -> 01:41:35] pode falar Jaime
+[01:41:35 -> 01:41:37] inclusive porque eu posso ter que
+[01:41:37 -> 01:41:39] antecipar a revisão de números
+[01:41:39 -> 01:41:41] outros procedimentos
+[01:41:41 -> 01:41:43] que tem como um documento complementar
+[01:41:43 -> 01:41:45] esse documento externo
+[01:41:45 -> 01:41:47] correto?
+[01:41:47 -> 01:41:49] correto
+[01:41:49 -> 01:41:51] mesmo que aí vamos lá
+[01:41:51 -> 01:41:53] eu tenho um cenário
+[01:41:53 -> 01:41:55] hipotético aqui
+[01:41:55 -> 01:41:57] eu não vi que a NIT Dicla 30
+[01:41:57 -> 01:41:59] sofreu uma revisão
+[01:41:59 -> 01:42:01] esse meu controle trimestral
+[01:42:01 -> 01:42:03] tá furado por exemplo
+[01:42:03 -> 01:42:05] furado porque você não realizou
+[01:42:05 -> 01:42:07] trimestralmente?
+[01:42:07 -> 01:42:09] exato
+[01:42:09 -> 01:42:11] aí eu vou receber uma auditoria externa
+[01:42:11 -> 01:42:13] ou interna enfim
+[01:42:13 -> 01:42:15] eu vou receber até o próprio
+[01:42:15 -> 01:42:17] imétro para poder
+[01:42:17 -> 01:42:19] avaliar aqui o laboratório
+[01:42:19 -> 01:42:21] se eu
+[01:42:21 -> 01:42:23] se eu identifiquei
+[01:42:23 -> 01:42:26] esse documento
+[01:42:26 -> 01:42:28] e a uterei ótimo
+[01:42:28 -> 01:42:30] se eu não identifiquei
+[01:42:30 -> 01:42:32] mais o meu procedimento
+[01:42:32 -> 01:42:34] onde ele é citado
+[01:42:34 -> 01:42:36] e eu utilizo aí
+[01:42:36 -> 01:42:38] partes desse documento
+[01:42:38 -> 01:42:40] e se o meu procedimento tiver
+[01:42:40 -> 01:42:42] dentro da validade mas esse documento
+[01:42:42 -> 01:42:44] externo estiver fora
+[01:42:44 -> 01:42:46] e eu não tiver alterado
+[01:42:46 -> 01:42:48] isso é uma não conformidade?
+[01:42:48 -> 01:42:50] sim
+[01:42:50 -> 01:42:52] se o teu documento
+[01:42:52 -> 01:42:54] porque você definiu
+[01:42:54 -> 01:42:56] uma periodicidade para você verificar
+[01:42:56 -> 01:42:58] se você tem conhecimento
+[01:42:58 -> 01:43:00] da última versão válida do documento
+[01:43:00 -> 01:43:02] tá
+[01:43:02 -> 01:43:04] aí esse documento foi revisado
+[01:43:04 -> 01:43:06] da CGECRA
+[01:43:06 -> 01:43:08] a NIT Dicla 30 foi revisada
+[01:43:08 -> 01:43:10] tá na revisão 15
+[01:43:10 -> 01:43:12] tá
+[01:43:12 -> 01:43:15] não teve nenhuma mudança
+[01:43:15 -> 01:43:17] mas se tivesse eu não ia saber
+[01:43:17 -> 01:43:19] porque eu não verifiquei
+[01:43:19 -> 01:43:22] então eu não estou seguindo
+[01:43:22 -> 01:43:24] a minha sistemática estabelecida
+[01:43:24 -> 01:43:26] se eu definir que eu tenho que
+[01:43:26 -> 01:43:28] verificar trimestralmente
+[01:43:28 -> 01:43:30] eu tenho que ter evidência dessa verificação
+[01:43:30 -> 01:43:32] trimestral
+[01:43:32 -> 01:43:34] o não atendimento
+[01:43:34 -> 01:43:37] é uma não conformidade
+[01:43:37 -> 01:43:39] por mais que essa não conformidade eu não tenho gerado impacto
+[01:43:39 -> 01:43:41] que ao sentido da
+[01:43:41 -> 01:43:43] a norma foi revisada mas foi só
+[01:43:43 -> 01:43:45] mudança editorial não impactou
+[01:43:45 -> 01:43:48] não tinha que fazer nenhuma revisão no meu processo
+[01:43:48 -> 01:43:50] então o impacto dessa não conformidade
+[01:43:50 -> 01:43:52] foi baixo
+[01:43:52 -> 01:44:03] mas não deixa de ser não conformidade
+[01:44:03 -> 01:44:05] assim como os documentos internos
+[01:44:05 -> 01:44:07] vocês definem que vocês têm que fazer
+[01:44:07 -> 01:44:09] uma análise criscanual
+[01:44:09 -> 01:44:11] se vocês não fizeram a análise criscanual
+[01:44:11 -> 01:44:15] é uma não conformidade
+[01:44:15 -> 01:44:17] mesmo que essa análise criscanual
+[01:44:17 -> 01:44:19] quando vocês fizerem Dic
+[01:44:19 -> 01:44:21] que não tem nenhuma alteração
+[01:44:21 -> 01:44:24] mas vocês têm que ter
+[01:44:24 -> 01:44:26] evidência de que vocês estão analisando
+[01:44:26 -> 01:44:28] criticamente documentos de vocês
+[01:44:28 -> 01:44:45] na periodicidade estabelecida
+[01:44:45 -> 01:44:48] pode falar Gabriela
+[01:44:48 -> 01:44:50] Uã, nessa parte de análise crítica
+[01:44:50 -> 01:44:52] da documentação ela está prevista
+[01:44:52 -> 01:44:54] também na sua união de análise crítica
+[01:44:54 -> 01:44:56] certo?
+[01:44:56 -> 01:44:58] É uma entrada da reunião de análise crítica
+[01:44:58 -> 01:45:00] pela gerência falar dos documentos
+[01:45:00 -> 01:45:02] que foram revisados
+[01:45:02 -> 01:45:04] ali não é análise crítica da documentação
+[01:45:04 -> 01:45:06] e sim falar
+[01:45:06 -> 01:45:08] sobre
+[01:45:08 -> 01:45:10] adequação dos procedimentos
+[01:45:10 -> 01:45:12] quais procedimentos necessitaram
+[01:45:12 -> 01:45:14] de adequação ou trazer
+[01:45:14 -> 01:45:16] alguma informação que há
+[01:45:16 -> 01:45:18] necessidade de adequação de um procedimento
+[01:45:18 -> 01:45:20] então não é um momento de análise crítica
+[01:45:20 -> 01:45:22] do documento mas trazer
+[01:45:22 -> 01:45:24] o resultado
+[01:45:24 -> 01:45:26] dessas análises aqui
+[01:45:26 -> 01:45:28] então pelo menos uma vez por ano
+[01:45:28 -> 01:45:30] é bom fazer essa análise crítica da documentação
+[01:45:30 -> 01:45:32] em si né
+[01:45:32 -> 01:45:34] na verdade o que eu falo
+[01:45:34 -> 01:45:36] a análise crítica periódica da documentação
+[01:45:36 -> 01:45:38] ela depende muito da maturidade
+[01:45:38 -> 01:45:40] do sistema de gestão
+[01:45:40 -> 01:45:42] então para o sistema de gestão novo
+[01:45:42 -> 01:45:44] o ideal é a gente ter uma
+[01:45:44 -> 01:45:46] periodicidade mais reduzida
+[01:45:46 -> 01:45:48] você concorda mas conforme
+[01:45:48 -> 01:45:50] o seu sistema vai ficando maduro
+[01:45:50 -> 01:45:53] você vai ver
+[01:45:53 -> 01:45:55] que a cada análise crítica
+[01:45:55 -> 01:45:57] não está tendo necessidade de atualização
+[01:45:57 -> 01:45:59] dos procedimentos eu não vou podendo
+[01:45:59 -> 01:46:01] ir aumentando
+[01:46:01 -> 01:46:04] mas isso é de acordo com a maturidade
+[01:46:04 -> 01:46:06] com o sistema novo
+[01:46:06 -> 01:46:08] o ideal é
+[01:46:08 -> 01:46:10] fazer uma análise crítica anual
+[01:46:10 -> 01:46:12] mas o meu sistema ficando maduro
+[01:46:12 -> 01:46:14] eu fui vendo que ao longo desses anos
+[01:46:14 -> 01:46:16] dessas análises eu não
+[01:46:16 -> 01:46:18] fui identificando a necessidade de atualização
+[01:46:18 -> 01:46:20] dos procedimentos aí eu posso aumentar
+[01:46:20 -> 01:46:23] essa periodicidade
+[01:46:23 -> 01:46:40] porque meu processo já está bem robusto
+[01:46:40 -> 01:46:42] a gente anteriormente
+[01:46:42 -> 01:46:44] falou de
+[01:46:44 -> 01:46:46] controle de documento
+[01:46:46 -> 01:46:48] né
+[01:46:48 -> 01:46:50] agora a gente vai falar de controle
+[01:46:50 -> 01:46:53] de registro
+[01:46:53 -> 01:46:55] né então
+[01:46:55 -> 01:46:57] é
+[01:46:57 -> 01:46:59] os registros
+[01:46:59 -> 01:47:01] eles são documentos que apresentam
+[01:47:01 -> 01:47:03] resultados obtidos
+[01:47:03 -> 01:47:05] ou que fornecem evidências
+[01:47:05 -> 01:47:07] de atividades realizadas
+[01:47:07 -> 01:47:09] o formulário em branco
+[01:47:09 -> 01:47:11] ele é um documento
+[01:47:11 -> 01:47:14] o formulário preenchido
+[01:47:14 -> 01:47:16] é um registro
+[01:47:16 -> 01:47:18] então o formulário em branco
+[01:47:18 -> 01:47:21] tem que atender
+[01:47:21 -> 01:47:23] o requisito de controle de documento
+[01:47:23 -> 01:47:25] formulário
+[01:47:25 -> 01:47:27] preenchido
+[01:47:27 -> 01:47:29] tem que atender o requisito de controle
+[01:47:29 -> 01:47:32] de registro
+[01:47:32 -> 01:47:34] então todo documento
+[01:47:34 -> 01:47:36] que apresenta resultados obtidos
+[01:47:36 -> 01:47:38] ou que fornecem informações
+[01:47:38 -> 01:47:40] e evidências de atividades realizadas
+[01:47:40 -> 01:47:42] tem que atender
+[01:47:42 -> 01:47:44] o requisito de controle de registros
+[01:47:44 -> 01:47:46] é
+[01:47:46 -> 01:47:48] Alina
+[01:47:48 -> 01:47:50] falou de dois requisitos
+[01:47:50 -> 01:47:52] que estão diretamente relacionados
+[01:47:52 -> 01:47:54] ao requisito 8.4
+[01:47:54 -> 01:47:56] que é o requisito 7.5
+[01:47:56 -> 01:47:58] registros técnicos
+[01:47:58 -> 01:48:00] e o requisito 7.11
+[01:48:00 -> 01:48:02] que é o
+[01:48:02 -> 01:48:04] de gestão de informação
+[01:48:04 -> 01:48:06] documentada
+[01:48:06 -> 01:48:08] então esses
+[01:48:08 -> 01:48:10] dois requisitos técnicos
+[01:48:10 -> 01:48:12] estão diretamente relacionados
+[01:48:12 -> 01:48:14] a esse requisito de gestão
+[01:48:14 -> 01:48:16] 8.4 de controle de registros
+[01:48:16 -> 01:48:18] é
+[01:48:18 -> 01:48:22] a norma
+[01:48:22 -> 01:48:24] ela define
+[01:48:24 -> 01:48:26] que o laboratório tem que ter controle
+[01:48:26 -> 01:48:28] dos seus registros
+[01:48:28 -> 01:48:30] então forma de
+[01:48:30 -> 01:48:33] identificação
+[01:48:33 -> 01:48:35] forma de armazenamento
+[01:48:35 -> 01:48:37] e arquevamento
+[01:48:37 -> 01:48:39] então definia qual local
+[01:48:39 -> 01:48:41] e forma
+[01:48:41 -> 01:48:43] que esse registro
+[01:48:43 -> 01:48:45] ele vai ser armazenado
+[01:48:45 -> 01:48:48] e arquivado
+[01:48:48 -> 01:48:50] então pode ser eletrônico
+[01:48:50 -> 01:48:53] ou físico
+[01:48:53 -> 01:48:55] independente de ser eletrônico
+[01:48:55 -> 01:48:57] ou físico eu tenho que ter
+[01:48:57 -> 01:49:01] controle
+[01:49:01 -> 01:49:03] formas de proteção
+[01:49:03 -> 01:49:06] controle
+[01:49:06 -> 01:49:08] de acesso
+[01:49:08 -> 01:49:10] proteção impedindo adulteração
+[01:49:10 -> 01:49:13] então
+[01:49:13 -> 01:49:15] tem lá um documento que apresenta
+[01:49:15 -> 01:49:17] resultados obtidos
+[01:49:17 -> 01:49:19] eu tenho que assegurar
+[01:49:19 -> 01:49:21] que pessoas não autorizadas
+[01:49:21 -> 01:49:23] façam alterações
+[01:49:23 -> 01:49:25] nesse registro
+[01:49:25 -> 01:49:28] eu tenho que definir
+[01:49:28 -> 01:49:30] formas de proteção
+[01:49:35 -> 01:49:37] de perda
+[01:49:37 -> 01:49:39] de deterioração
+[01:49:39 -> 01:49:41] desses registros
+[01:49:41 -> 01:49:43] eles têm que ser guardados
+[01:49:43 -> 01:49:45] em locais
+[01:49:45 -> 01:49:47] que assegurem
+[01:49:47 -> 01:49:49] que não haja
+[01:49:49 -> 01:49:51] deterioração desses registros
+[01:49:51 -> 01:49:55] ter copias de segurança
+[01:49:55 -> 01:49:58] fazer backup
+[01:49:58 -> 01:50:00] se for falado pela Lina
+[01:50:00 -> 01:50:02] em controle
+[01:50:02 -> 01:50:04] no requisito 7.11
+[01:50:04 -> 01:50:08] formas de recuperação
+[01:50:08 -> 01:50:10] do registro
+[01:50:10 -> 01:50:12] então tem que ter forma de identificação
+[01:50:12 -> 01:50:14] de como eu consigo acessar
+[01:50:14 -> 01:50:16] aquele registro
+[01:50:16 -> 01:50:18] seja
+[01:50:18 -> 01:50:21] número da amostra
+[01:50:21 -> 01:50:23] data
+[01:50:23 -> 01:50:25] número do equipamento
+[01:50:25 -> 01:50:29] um relatório de auditoria interna
+[01:50:29 -> 01:50:31] codificação desse relatório
+[01:50:31 -> 01:50:33] RAI001-26
+[01:50:33 -> 01:50:35] isso é a forma
+[01:50:35 -> 01:50:37] de que eu estou identificando
+[01:50:37 -> 01:50:39] para recuperar esse registro
+[01:50:39 -> 01:50:42] definir tempo
+[01:50:42 -> 01:50:44] de retenção
+[01:50:44 -> 01:50:46] considerando o regulamentador
+[01:50:46 -> 01:50:49] considerando
+[01:50:49 -> 01:50:51] a necessidade do cliente
+[01:50:51 -> 01:50:53] né
+[01:50:53 -> 01:50:55] então esse tempo de retenção
+[01:50:55 -> 01:50:57] que de praxe é utilizado cinco anos
+[01:50:57 -> 01:50:59] né
+[01:50:59 -> 01:51:01] tempo caso eu preciso
+[01:51:01 -> 01:51:03] preciso por algum motivo
+[01:51:03 -> 01:51:05] acessar
+[01:51:05 -> 01:51:07] aquela informação
+[01:51:07 -> 01:51:09] eu tenho acesso aqueles dados
+[01:51:09 -> 01:51:13] e disposição
+[01:51:13 -> 01:51:15] que é
+[01:51:15 -> 01:51:17] após passado esse tempo
+[01:51:17 -> 01:51:19] de retenção
+[01:51:19 -> 01:51:21] como que eu vou dispor esse registro
+[01:51:21 -> 01:51:23] assegurando
+[01:51:23 -> 01:51:25] toda a confidencialidade das informações
+[01:51:25 -> 01:51:27] se eu vou destruir
+[01:51:27 -> 01:51:29] se eu vou deletar
+[01:51:29 -> 01:51:32] tá
+[01:51:32 -> 01:51:34] então são essas
+[01:51:34 -> 01:51:37] é
+[01:51:37 -> 01:51:39] essas formas de controle
+[01:51:39 -> 01:51:41] que a 17.025
+[01:51:41 -> 01:51:43] ela define como
+[01:51:43 -> 01:51:45] necessários
+[01:51:45 -> 01:51:47] tá
+[01:51:47 -> 01:51:49] e todos os registros
+[01:51:49 -> 01:51:51] eles devem estar
+[01:51:51 -> 01:51:53] prontamente disponíveis para o pessoal
+[01:51:53 -> 01:51:55] para a realização
+[01:51:55 -> 01:51:57] das suas atividades
+[01:51:57 -> 01:51:59] obviamente
+[01:51:59 -> 01:52:01] eu vou segurando toda a questão de proteção
+[01:52:01 -> 01:52:03] né
+[01:52:03 -> 01:52:05] mas eles têm que estar disponíveis
+[01:52:05 -> 01:52:07] para todo o pessoal
+[01:52:07 -> 01:52:14] realizar as suas atividades
+[01:52:14 -> 01:52:16] e aqui
+[01:52:16 -> 01:52:18] eu trouxe
+[01:52:18 -> 01:52:20] um exemplo de uma planilha
+[01:52:20 -> 01:52:22] de controle de registros
+[01:52:22 -> 01:52:24] né
+[01:52:24 -> 01:52:26] então por exemplo a identificação
+[01:52:26 -> 01:52:28] né
+[01:52:28 -> 01:52:30] do documento
+[01:52:30 -> 01:52:32] 412 ATA
+[01:52:32 -> 01:52:34] a forma de armazenamento
+[01:52:34 -> 01:52:37] no drive
+[01:52:37 -> 01:52:39] qualidade
+[01:52:39 -> 01:52:41] barra, paixinha, análise crítica
+[01:52:41 -> 01:52:43] então a proteção
+[01:52:43 -> 01:52:46] acesso restrito
+[01:52:46 -> 01:52:48] copa de segurança
+[01:52:48 -> 01:52:50] é feito
+[01:52:50 -> 01:52:53] através da nuvem
+[01:52:53 -> 01:52:55] forma de arquivamento
+[01:52:55 -> 01:52:57] eletrônico nesse caso aqui
+[01:52:57 -> 01:53:00] recuperação pelo ano
+[01:53:00 -> 01:53:02] né
+[01:53:02 -> 01:53:05] então análise crítica
+[01:53:05 -> 01:53:07] 6, 2027
+[01:53:07 -> 01:53:09] assim que eu consigo
+[01:53:09 -> 01:53:11] recuperar o registro
+[01:53:11 -> 01:53:13] tempo de retenção
+[01:53:13 -> 01:53:15] 5 anos
+[01:53:15 -> 01:53:17] passado esse tempo
+[01:53:17 -> 01:53:19] como eu vou dispor esse registro
+[01:53:19 -> 01:53:21] eu vou descartar
+[01:53:21 -> 01:53:24] vou deletar ele
+[01:53:24 -> 01:53:26] tá
+[01:53:26 -> 01:53:28] vocês têm um planilha
+[01:53:28 -> 01:53:30] de controle de registros
+[01:53:30 -> 01:53:39] como é que vocês controlam os registros de vocês
+[01:53:39 -> 01:53:41] vocês sabem dizer
+[01:53:41 -> 01:53:43] a luana
+[01:53:43 -> 01:53:45] de geração de consecutivos
+[01:53:45 -> 01:53:47] de documentação de consecutivos
+[01:53:47 -> 01:53:49] mas eu acho que a gente não tem essa
+[01:53:49 -> 01:53:51] estrutura conforme você tá
+[01:53:51 -> 01:53:53] mencionando aqui não
+[01:53:53 -> 01:53:55] de como é que é feita a proteção
+[01:53:55 -> 01:53:57] a copa, essas informações não
+[01:53:57 -> 01:53:59] tá
+[01:53:59 -> 01:54:01] até onde eu sei pelo menos né
+[01:54:01 -> 01:54:03] todas essas informações não necessariamente precisam estar
+[01:54:03 -> 01:54:05] numa forma de uma planilha de controle de registro
+[01:54:05 -> 01:54:07] mas elas têm que estar definidas
+[01:54:07 -> 01:54:09] está Gabriela
+[01:54:09 -> 01:54:11] estão definidas um procedimento nosso
+[01:54:11 -> 01:54:13] isso né
+[01:54:13 -> 01:54:15] e aí a forma de armazenamento
+[01:54:15 -> 01:54:17] que fica direcionado pra cada
+[01:54:17 -> 01:54:19] tipo de registro
+[01:54:19 -> 01:54:21] né mas vocês podem ter definido
+[01:54:21 -> 01:54:23] né
+[01:54:23 -> 01:54:25] dentro do procedimento de vocês
+[01:54:25 -> 01:54:27] né sobre
+[01:54:27 -> 01:54:29] é
+[01:54:29 -> 01:54:31] forma de proteção
+[01:54:31 -> 01:54:33] né mas vocês têm que lembrar
+[01:54:33 -> 01:54:35] que existe registros físicos
+[01:54:35 -> 01:54:37] e registros
+[01:54:37 -> 01:54:41] eletrônicos
+[01:54:41 -> 01:54:43] e aí o controle de registro de vocês
+[01:54:43 -> 01:54:45] tem que considerar essas duas
+[01:54:45 -> 01:54:47] formas de arquivamento
+[01:54:47 -> 01:54:49] eletrônico e físico
+[01:54:49 -> 01:54:51] vocês também têm registros físicos
+[01:54:51 -> 01:54:54] temos a gente tem no nosso anexo
+[01:54:54 -> 01:54:56] o anexo do procedimento que eu coloquei
+[01:54:56 -> 01:54:58] no chat tem a
+[01:54:58 -> 01:55:00] informação
+[01:55:00 -> 01:55:02] de onde ele é armazenado
+[01:55:02 -> 01:55:04] quanto tempo ele fica arquivado
+[01:55:04 -> 01:55:07] qual que é a disposição dele
+[01:55:07 -> 01:55:09] de cada tipo de documento
+[01:55:09 -> 01:55:11] de cada tipo de registro
+[01:55:11 -> 01:55:15] né
+[01:55:15 -> 01:55:20] mais alguma pergunta gente
+[01:55:20 -> 01:55:25] pessoal como a gente
+[01:55:25 -> 01:55:27] está adiantado
+[01:55:27 -> 01:55:29] aqui no treinamento
+[01:55:29 -> 01:55:31] dá pra dar mais de uma
+[01:55:31 -> 01:55:33] horinha de almoço
+[01:55:33 -> 01:55:35] pra vocês
+[01:55:35 -> 01:55:37] tá
+[01:55:37 -> 01:55:39] dá pra gente finalizar agora
+[01:55:39 -> 01:55:41] e retornar uma hora pode falar Jaime
+[01:55:41 -> 01:55:43] então vamos lá
+[01:55:43 -> 01:55:45] o horário de almoço aqui na empresa
+[01:55:45 -> 01:55:47] é
+[01:55:47 -> 01:55:49] é de uma hora e meia
+[01:55:49 -> 01:55:51] você acha que consegue atender esse horário
+[01:55:51 -> 01:55:53] consigo atender
+[01:55:53 -> 01:55:55] uma hora e meia
+[01:55:55 -> 01:55:57] pra gente não mexer aqui
+[01:55:57 -> 01:55:59] no almoço do pessoal
+[01:55:59 -> 01:56:01] pode ser assim
+[01:56:01 -> 01:56:03] pode retornar 13.30
+[01:56:03 -> 01:56:06] pode retornar 13.30
+[01:56:06 -> 01:56:08] obrigado
+[01:56:08 -> 01:56:10] você já quer encerrar agora você vai até que horas
+[01:56:10 -> 01:56:12] então a gente vai conforme
+[01:56:12 -> 01:56:14] o andamento do treinamento
+[01:56:14 -> 01:56:16] tá gente
+[01:56:16 -> 01:56:18] pessoal que tá de ônibus
+[01:56:18 -> 01:56:20] pega um ônibus 11.45
+[01:56:20 -> 01:56:22] então
+[01:56:22 -> 01:56:24] eu acho que
+[01:56:24 -> 01:56:26] se você conseguir
+[01:56:26 -> 01:56:28] se você tá achando que tá adiantado
+[01:56:28 -> 01:56:30] eu ia sugerir pra gente ir até 11.40
+[01:56:30 -> 01:56:32] tá
+[01:56:32 -> 01:56:34] é porque eu não queria porque
+[01:56:34 -> 01:56:36] senão eu vou iniciar um requisito aqui
+[01:56:36 -> 01:56:38] vou parar quatro minutos depois
+[01:56:38 -> 01:56:40] fica a vontade
+[01:56:40 -> 01:56:42] vamos retornar 13.30
+[01:56:42 -> 01:56:44] então
+[01:56:44 -> 01:56:46] tá 13.30 a gente retorna
+[01:56:46 -> 01:56:48] é só pra eu não começar um requisito e parar
+[01:56:48 -> 01:56:50] é por isso que eu pensei
+[01:56:50 -> 01:56:52] não claro
+[01:56:52 -> 01:56:54] vamos estaremos todos
+[01:56:54 -> 01:56:56] aqui 13.30 né pessoal
+[01:56:56 -> 01:56:58] todos 13.30
+[01:56:58 -> 01:57:00] pessoal
+[01:57:00 -> 01:57:02] obrigada bom almoço pra vocês
+[01:57:02 -> 01:57:04] e até mais tarde
+[01:57:04 -> 01:57:06] tchau tchau
+[01:57:06 -> 01:57:08] tchau tchau

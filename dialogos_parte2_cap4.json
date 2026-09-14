@@ -1,0 +1,88 @@
+{
+  "title": "Parte 2 - Capítulo 04: Requisito 7.2 - Seleção, Verificação e Validação de Métodos",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_2",
+  "chapter_filename": "Podcast_Parte2_Capitulo_4_Itens_4_1_a_4_3_Completo_Thalita_e_Francisca.mp3",
+  "episodes": [
+    {
+      "id": "4.1",
+      "filename": "Podcast_Parte2_Item_4_1_Metodo_Apropriado_Matriz_e_Uso.mp3",
+      "title": "Item 4.1 - Método Apropriado à Matriz e ao Uso Pretendido",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, entramos no Capítulo 4 da Parte 2: o Requisito 7.2 da ISO 17025, tratando da seleção, verificação e validação de métodos. Por que a escolha do método começa obrigatoriamente pela matriz da amostra?"
+        ],
+        [
+          "Francisca",
+          "Porque método analítico não é receita universal de bolo, Thalita! Um método validado para água potável tratada pode falhar miseravelmente se aplicado a um efluente industrial bruto carregado de matéria orgânica ou a uma água do mar com alta salinidade."
+        ],
+        [
+          "Thalita",
+          "E qual é o dever do laboratório perante o cliente nesse momento da seleção?"
+        ],
+        [
+          "Francisca",
+          "O requisito 7.2.1.1 exige que o laboratório utilize métodos apropriados para todas as atividades. Se o cliente solicitar um método inadequado ou desatualizado para aquela matriz, o laboratório tem o dever técnico de alertá-lo e sugerir o método normatizado correto."
+        ],
+        [
+          "Thalita",
+          "Sensacional! Orientação técnica que protege a confiabilidade do resultado e previne interferências analíticas graves."
+        ]
+      ]
+    },
+    {
+      "id": "4.2",
+      "filename": "Podcast_Parte2_Item_4_2_Ultima_Versao_Valida_do_Metodo.mp3",
+      "title": "Item 4.2 - A Regra da Última Versão Válida e as Exceções Legítimas",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 4.2, Francisca, vem a famosa regra da ISO 17025: o laboratório deve usar a última versão válida dos métodos normalizados, como Standard Methods ou ASTM. Mas o laboratório pode continuar usando uma versão anterior?"
+        ],
+        [
+          "Francisca",
+          "Pode sim, Thalita! A classificação técnica dessa fala é Confirmado com Ressalva. O requisito 7.2.1.3 diz claramente: o laboratório deve assegurar que utiliza a última versão válida, a menos que não seja apropriado ou possível fazer isso."
+        ],
+        [
+          "Thalita",
+          "E quais são os exemplos reais em que a versão anterior continua sendo a correta?"
+        ],
+        [
+          "Francisca",
+          "Pense em licenças ambientais expedidas por órgãos reguladores que citam expressamente uma edição específica de uma norma, ou um contrato de cliente que exige manter a mesma metodologia histórica de monitoramento de dez anos atrás para não perder a série histórica! Havendo justificativa técnica e aceite do cliente, a versão anterior é perfeitamente legítima."
+        ],
+        [
+          "Thalita",
+          "Excelente esclarecimento! A regra é a última versão, mas a ISO respeita requisitos legais e contratos históricos."
+        ]
+      ]
+    },
+    {
+      "id": "4.3",
+      "filename": "Podcast_Parte2_Item_4_3_Metodo_Revisado_e_Nova_Verificacao.mp3",
+      "title": "Item 4.3 - Método Revisado: A Necessidade de Nova Verificação",
+      "dialogue": [
+        [
+          "Thalita",
+          "Pra fechar a Seção 4, o Item 4.3 aborda o que fazer quando sai uma edição novinha do método normalizado. Francisca, o laboratório pode simplesmente atualizar o título do POP e começar a assinar os laudos com o ano novo?"
+        ],
+        [
+          "Francisca",
+          "De jeito nenhum, Thalita! O requisito 7.2.1.5 exige que o laboratório verifique se pode realizar apropriadamente os métodos antes de introduzi-los. Se o método foi revisado, a equipe técnica precisa fazer uma análise comparativa: o que mudou na nova edição?"
+        ],
+        [
+          "Thalita",
+          "E se a nova edição mudou a etapa de digestão ácida ou o comprimento de onda do ensaio?"
+        ],
+        [
+          "Francisca",
+          "Se houve qualquer alteração técnica relevante nos insumos, etapas ou equipamentos, o laboratório deve executar um novo estudo de verificação de desempenho: avaliar precisão, exatidão e limites de quantificação antes de colocar o método em rotina. Adotar versão nova sem verificação experimental é não conformidade gravíssima!"
+        ],
+        [
+          "Thalita",
+          "Perfeito! Atualização normativa exige competência comprovada na bancada e não apenas no papel."
+        ]
+      ]
+    }
+  ]
+}

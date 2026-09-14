@@ -1,0 +1,1091 @@
+Pessoal que retornou, vou pedir para já abrir a câmera para saber quem já está aí, por favor.
+
+Pessoal que já retornou, por favor, abre uma câmera aí para saber se o pessoal já voltou.
+
+Bom, gente, retornado.
+
+Entrando no requisito de confidencialidade, o laboratório deve garantir que as informações obtidas ou geradas durante a realização das atividades de laboratório sejam mantidas em confidencialidade, considerando todo o pessoal que tem acesso às informações confidenciais, incluindo o pessoal interno, externo e provedores externos.
+
+A 17º e 25º, ela define a necessidade de acordos legais de confidencialidade.
+
+Então, firmar acordos de confidencialidade com todo o pessoal.
+
+Os laboratórios implementam isso através de um termo de confidencialidade, cláusula de confidencialidade em contrato de trabalho, um termo associado ao código de conduta, declarando que o colaborador se compromete a atender os requisitos daquele código que inclui requisitos de confidencialidade.
+
+Então, no caso de confidencialidade, há a necessidade desse acordo legal.
+
+Controle de acesso, implementar sistemas de controle de acesso físico.
+
+Então, placa de controle de acesso nas áreas do laboratório e locais que têm informações do cliente.
+
+Não somente o acesso às instalações, mas também o acesso à eletrônia e as informações confidenciais.
+
+Então, através de login e senha, as pastas protegidas com as informações do cliente, treinamentos regulares, realizar treinamentos periódicos sobre a importância da confidencialidade.
+
+Tem empresas que realizam treinamentos periódicos no código de conduta.
+
+Vocês sabem informar quem tem autoridade no laboratório para informar os resultados de ensaio para o cliente?
+
+Como é que os resultados são fornecidos para o cliente?
+
+Quem tem autoridade no laboratório para informar os resultados?
+
+Eu acho que os resultados são informados através dos relatórios.
+
+Se for alguma coisa específica que tiver fora dos parâmetros e que necessitar de uma ação imediata, eu acredito que seja o gestor da LMA, quem faça contato com o gestor da OR responsável.
+
+Quem tem autoridade dentro do LMA para encaminhar os relatórios para o cliente, para autorizar a emissão dos relatórios?
+
+Os relatórios são feitos normalmente pelos técnicos, aprovados pelo gestor, e liberados, eu acho que pela Carla.
+
+Então, eu não me lembro. Eu não estou à frente disso aqui do laboratório.
+
+Eu liberaria como alta direção, mas até quando eu me lembro do todo o processo que estava sendo executado aqui pelo laboratório, haveria assim uma lista de pessoas que teriam autoridade para liberar os resultados.
+
+Então, eu não sei se isso aí realmente não posso responder pelo laboratório.
+
+Mas pelo que eu me lembro era isso.
+
+Alguém do laboratório em si me corrige.
+
+Isso teria uma relação de pessoas autorizadas a liberar esses laudos e essas análises.
+
+Obviamente com a anuência do chefe do laboratório.
+
+Então, estou entendendo que exista essa relação de pessoas previamente autorizadas.
+
+Eu entendo que seja dessa forma.
+
+Com uma lista ou dentro de um procedimento.
+
+Quem é do laboratório que realmente pode me confirmar que essa parte do processo, como agora eu estou em outro lado, eu não sei mais responder esses detalhes.
+
+Em última instância, para fora, precisando fazer interlupção com outros órgãos ou com outros interessados.
+
+A depender da alta direção, aí sim, sairia com alguma assinatura minha.
+
+Mas a análise em si dos resultados, dos resultados de fato executados e apresentados seria total responsabilidade das pessoas elencadas pelo próprio laboratório, pela gestão do laboratório.
+
+Eu fico, no meu caso, eu sou acima disso, não participo diretamente.
+
+Eu não tenho autorização para liberar nenhum áudio.
+
+Eu não participo dessa liberação.
+
+Eu estou fora dessa etapa do processo.
+
+Então, pelo que a Carla comentou, tem uma lista de pessoas autorizadas a liberar os resultados.
+
+Então, só pode informar o resultado por cliente as pessoas que estão dentro dessa lista de pessoas autorizadas.
+
+O pessoal da operação, o cliente interno, pode falar diretamente com os técnicos no laboratório sobre resultados ou solicitar prazos para emissão de certificados diferentes do acordado na proposta do serviço?
+
+E aí, pessoal, pode?
+
+Eu já acabei de falar com o Jaima aqui, que ele falou que já está entrando no treinamento e eu falei que já está fazendo falta aqui, que eu acho que tem questões aqui, que eu acho que seriam mais para ele responder.
+
+Eu acho que o pessoal da operação não pode falar diretamente com os técnicos.
+
+Não, respeito Renata.
+
+Não pode tratar diretamente com o técnico, como até vocês disseram anteriormente, é com a gerência do laboratório, prazo, de execução.
+
+E relacionado, mais uma vez a Carla, Renata vai falar, está faltando gente do laboratório aqui, que não entrou.
+
+Vocês certamente também se têm definido pessoas que são autorizadas a acessar o laboratório.
+
+Então, principalmente o cliente interno, ele não deve ser autorizado a acessar o laboratório sem um acompanhamento do pessoal do laboratório.
+
+Então, vocês têm certamente estabelecido dentro dos procedimentos de vocês um controle de acesso.
+
+Quais são as pessoas autorizadas a acessar o laboratório e as áreas que têm informações do cliente, por último, sendo da Electro Nuclear, existe um acesso restrito de pessoal dentro da Electro Nuclear, que está autorizado a acessar o laboratório.
+
+Pode falar, Gabriela, se ele levantou a mão.
+
+Eu ia falar que aqui a gente faz esse controle de acesso por identificação facial em algumas das salas, por exemplo.
+
+E a gente tem também com pessoas que vêm de fora, a gente tem um registro e um livro da pessoa que está acessando e sempre com uma escolta também.
+
+E esse controle facial é somente para o pessoal do laboratório, ou tem pessoas fora do laboratório que estão autorizadas a acessar o laboratório?
+
+Em termos da parte facial, dependendo do caso, a gente consegue fazer liberação para uma outra pessoa acessar por um período determinado.
+
+Mas, no geral, é só o pessoal do laboratório, com algumas exceções.
+
+Então, essas foram as sistemáticas apresentadas pela Gabriela, estabelecidas para essa questão de assegurar a confidencialidade, ter controle de acesso, em relação às informações também armazenadas eletrônicamente.
+
+E aí, pessoal, vamos entrar nos requisitos de estrutura, que é a sessão 5 da 17.025.
+
+O primeiro requisito da 17.025, ele define que o laboratório tem que ser uma entidade legal, ou fazer parte de uma entidade legal, que seja legalmente responsável por suas atividades.
+
+Para os laboratórios que são postulantes da acreditação, ou laboratórios acreditados, tem documentos da CGECRE, que definem requisitos que o laboratório tem que atender.
+
+Então, por exemplo, a eletroneclear, que tem essa acreditação no radar, essa busca dessa acreditação, em relação à documentação legal, tem que atender a nitidícula 31.
+
+E aí, a nitidícula 31 exige, como documentos legais, o contrato social ou o estatuto, no caso do estatuto, a procuração que define quem é o representante legal daquela organização, ao varar de funcionamento, se ao varar de funcionamento fizer menção ao lado do corpo de bombeiro e da vigilância sanitária, também tem que ser apresentado e o CNPJ.
+
+Então, essa é a documentação legal exigida pela CGECRE, para a fim de avaliar se a entidade é uma entidade legal, se faz parte da entidade legal, identificar a gerência que tem a responsabilidade geral pelo laboratório.
+
+Quando a gente estava falando aqui de imparcialidade, a gente ficou, ah não, porque a gerência tem que ser acompanhada pela gerência, a comunicação tem que ser através da gerência.
+
+Essa gerência, falada no requisito 5.2, da 17.25, é a gerência que tem responsabilidade pela provisão de recursos e quem responde pelas operações técnicas do laboratório.
+
+Essa gerência, ela pode ser composta por 1, 2, 3, 4, 5, não importa o número de pessoas e funções.
+
+Mas essa gerência que tem responsabilidade geral pelo laboratório, é a gerência que provê recursos e quem responde pelas operações técnicas do laboratório.
+
+Vocês têm o entendimento de quais funções tem responsabilidade geral pelo laboratório, até o Jaime, quando estava falando de imparcialidade, falou sobre a Carla, que entra aí como a alta direção a parte de provisão de recursos necessários para o laboratório.
+
+Mas quem compõe a gerência, quem responde pelas operações técnicas do laboratório?
+
+Quem ou qual conjunto de pessoas que responde pelas operações técnicas do laboratório?
+
+A gente tem uma organização que é o seguinte, nós estamos vinculados à Carla, que ela é assessora.
+
+Ela tem uma estrutura que é assessoria de gestão ambiental, gestão ambiental do licenciamento.
+
+E a gente tem uma divisão, que eu sou o chefe dessa divisão, no momento.
+
+A gente tem o João Pedro, como supervisor da biologia.
+
+E a gente tem a Janine, como supervisora da química.
+
+Então essa é a estrutura, eu não sei se é exatamente isso que você perguntou, mas a estrutura formal do laboratório e os demais fazem parte do corpo técnico.
+
+Então a Carla entra na parte de provisão de recursos e as operações técnicas.
+
+Quem gerencia as operações técnicas é você, mas a Janine da parte de química e quem mais do biológico, o João Pedro.
+
+Então a gerência que responde pelas operações técnicas, ela já é a Janine e o João Pedro.
+
+E quem entra para a provisão de recursos é a Carla.
+
+Então vocês 4 compõem a gerência que tem responsabilidade geral pelo laboratório.
+
+É definir a estrutura organizacional e gerencial do laboratório.
+
+Essa estrutura geralmente ela está definida através de um organograma.
+
+E esse organograma tem que estar disponível para o pessoal.
+
+Vocês conseguem acessar o organograma da organização como, gente?
+
+Entranete.
+
+Ele está num procedimento, existe um procedimento e ele está num sistema que a gente tem aqui de gerenciamento de documentos chamado de Green Docks.
+
+E ele está sempre acessível por esse sistema até para a gente manter sempre o documento mais atual para consulta.
+
+Então consulta é feito diretamente no sistema.
+
+Então vocês conseguem acessar a estrutura organizacional e gerencial através do organograma que está disponível para vocês através do sistema que o Jain me mencionou.
+
+Aqui um exemplo resumido de uma estrutura organizacional, né?
+
+Onde como Jain me mencionou a gerência de operação, né?
+
+Ela está em outra diretoria, né?
+
+Aqui, gente, eu não fiz uma estrutura organizacional da eletronuclear porque eu não tenho acesso essa estrutura, né?
+
+Eu já até tive, já vi, mas foi só em 2024.
+
+Então como eu não tenho acesso aqui, eu fiz uma forma resumida, tá?
+
+Então temos o diretor, né?
+
+Para a parte de provisão de recursos, o gerente técnico que responde pelas operações técnicas do laboratório e o gerente da qualidade que é o responsável pelo sistema de gestão, né?
+
+O gerente da qualidade, ele está ligado ao laboratório também, tá?
+
+E aí dentro do laboratório as funções.
+
+Tem supervisor, tem analista técnico ou estagiário, né?
+
+Essa estrutura organizacional gerencial, ela deve demonstrar as relações entre as gerencias, as operações técnicas e serviços de apoio.
+
+São serviços de apoio, né?
+
+RH, TI, financeiro.
+
+Então todas essas são áreas de apoio que dão suporte para o laboratório, né?
+
+São áreas que não estão dentro do laboratório, mas fazem parte de...
+
+Para dar o apoio para a realização das atividades no laboratório.
+
+E essas funções, todas as funções que têm atividades críticas dentro do processo, e isso inclui também a área de apoio, por exemplo, temos ali o RH, né?
+
+Para a parte de seleção de pessoal.
+
+Ele tem uma atividade crítica dentro do processo do sistema de gestão da 17.025.
+
+Então tem que ter definido a função, o cargo, né?
+
+E os requisitos de competência.
+
+Então não são somente para as funções do laboratório.
+
+São funções para as áreas de apoio também que têm atividades críticas dentro do processo.
+
+Então responsabilidade, autoridade e interrelacionamento do pessoal definido.
+
+E aí trazendo aqui algumas responsabilidades dentro daquela estrutura que eu demonstrei, né?
+
+O diretor tem como responsabilidade e autoridade estabelecer e manter políticas da qualidade, garantir a disponibilidade dos recursos necessários para a eficácia do sistema de gestão, né?
+
+A segurar que as responsabilidades e autoridades para cada função estão claramente definidas e comunicadas.
+
+O gerente técnico, que responde pelas operações técnicas do laboratório, garantir que os ensaios sejam realizados de acordo com os métodos estabelecidos, de acordo com os métodos normalizados, com os procedimentos técnicos do laboratório, identificar desvios e implementar as suas corretivas, então de identificar falhas técnicas durante o processo e gerir a gestão dessas não-conformidades, estabelecer planos de ação, garantir que as políticas e objetivos associados à competência,
+
+em parcialidade e operação consistente estejam efetivamente implementados no laboratório.
+
+Início de ações para evitar e minimizar desvio, então para o gerenciamento de riscos, autorização de pessoal para a realização de atividades específicas, então quem responde pelas operações técnicas, autoriza o pessoal para realizar ensaio, para verificar desempenho de método, para autorizar relatórios, emissão de resultados para o cliente, que responde pelas operações técnicas, é responsável pelo monitoramento e supervisão do pessoal e das operações.
+
+Então vocês aí dentro desse conjunto, Jaime, a Janine e o João, eles são responsáveis por essas atividades.
+
+E o responsável pelo sistema de gestão, o gerente da qualidade, ele é responsável pela implementação, manutenção e melhoria do sistema de gestão, como um facilitador do processo, planejamento de auditorias internas, monitorar e revisar os processos da qualidade, assegurar que os procedimentos estejam sendo analisados criticamente dentro da periodicidade estabelecida, que eles estejam disponíveis para o pessoal realizar as suas atividades dentro das suas versões vigentes,
+
+relar a sua gerência, a gerência que tem responsabilidade geral pelo laboratório, sobre o desempenho do sistema de gestão e qualquer necessidade de melhoria, identificação dos desvios do sistema de gestão, ou dos procedimentos para a realização das atividades de laboratório.
+
+Então essas são as responsabilidades do responsável pelo sistema de gestão.
+
+Então eu trouxe as responsabilidades de três funções chaves dentro do sistema de gestão.
+
+Mas como eu disse, todas as funções que têm atividades críticas no processo têm que ter as suas responsabilidades e autoridades definidas.
+
+A 17.025, ela também define que o laboratório deve definir e documentar o conjunto de atividades de laboratório e atendimento dos requisitos.
+
+A 17.025, ela é uma norma para três atividades de laboratório, ensaio, calibração e amostragem.
+
+No caso do laboratório da eletronutriar, vocês realizam duas atividades de laboratório, ensaio e amostragem.
+
+Então dentro dessas atividades de ensaio e amostragem que o laboratório de monitoração realiza, vocês têm que definir e documentar qual conjunto dessas atividades está em conformidade com a 17.025.
+
+Quais atividades que fazem parte do escopo da 17.025 de vocês, do sistema de gestão de vocês?
+
+Então um exemplo, os ensaios radioquímicos, biológicos e químicos realizados nas instalações permanentes do laboratório de monitoração ambiental está em conformidade com a 17.025.
+
+Então aqui é um exemplo.
+
+Aqui não foi incluído atividades de amostragem, mas aqui é um exemplo só.
+
+Então vocês têm que definir quais atividades de amostragem e de ensaio está em conformidade com a 17.025.
+
+E essas atividades realizadas nas instalações permanentes e nas instalações do cliente, elas devem ser realizadas atendendo os requisitos da 17.025, os requisitos do cliente, os requisitos dos regulamentadores, vocês têm como regulamentadores o INEIA, a Comissão Nacional de Energia Nuclear, o IBAMA
+
+e as organizações que fornecem reconhecimento, a CGECRI, no caso de laboratórios postulantes de acreditação ou laboratórios acreditados.
+
+Vocês têm documentado qual conjunto de atividades de laboratório que está em conformidade com a 17.025, alguém sabe informar, onde está documentado o escopo de ensaios e amostragens que faz parte do sistema de gestão de vocês?
+
+Luana, a Genine está mais à frente desse processo aí, mas de qualquer forma, a gente tem um manual da qualidade e a gente está estruturando, óbvio que a gente tem números, processos e números parâmetros de análise, a gente está definindo um número ideal e aí a gente vai ter agora uma auditoria interna,
+
+isso vai ser mais um parâmetro para a gente ajustar esse número e a partir daí a gente vai decidir o número de ensaios que a gente vai chamar.
+
+Vai fazer parte do sistema de gestão de vocês.
+
+Exatamente, então agora, no momento, eu acho que pronto, pronto, pronto, já de acordo com a 17.025, não tem nenhum.
+
+Vocês não têm definido.
+
+Entendi.
+
+A amostragem vai entrar também?
+
+Eu acho que não.
+
+Nesse primeiro momento, eu acho que não.
+
+Nesse primeiro momento não, só vai entrar.
+
+Mas eu posso tirar essa dúvida com a Genine aqui, mandar um zap para ela e assim que ela responder, eu te aviso.
+
+Tá.
+
+A necessidade de ter uma comunicação interna sobre a eficácia do sistema de gestão, então o que deve ser comunicado?
+
+Resultados de auditorias internas, resultados de avaliações externas, seja do cliente, seja de organismo de acreditação, políticas e objetivos, indicadores e metas associadas às políticas e objetivos, pesquisa de satisfação,
+
+resultado de atividade e ensaio de proficiência.
+
+Então, todas essas informações a respeito da eficácia do sistema de gestão deve ser comunicada para o pessoal.
+
+E como que essas informações podem ser comunicadas?
+
+Através de quadros de avisos, intranet, reuniões periódicas, eu lembro quando eu fiz o diagnóstico na eletroniclear, vocês declararam que realizavam reuniões periódicas para abordar situações a respeito do sistema de gestão, treinamentos sobre imparcialidade, sobre confidencialidade,
+
+sobre gestão de riscos, e-mails.
+
+Então, todas são formas de comunicação de informações a respeito da eficácia do sistema de gestão.
+
+E qual o objetivo, que é 7.025, define sobre essa necessidade de comunicação?
+
+Garantia que todos o pessoal envolvido no sistema de gestão esteja informados sobre decisões e mudanças implementadas para o engajamento do pessoal com os processos do sistema de gestão e com formidade contínua.
+
+Vocês sabem mencionar formas de comunicação interna de vocês.
+
+O meu disse, ainda tem as reuniões periódicas, vocês ainda estão fazendo as reuniões periódicas, Gabriel.
+
+João, vocês fazem as reuniões periódicas, não é isso?
+
+E mais quais outras formas de comunicação da eficácia do sistema de gestão você tem implementado?
+
+Vocês sabem dizer quadros de avisos?
+
+Você tem quadros de avisos?
+
+Onde a política da qualidade está disponível para vocês?
+
+Luana, a política da qualidade já foi elaborada, já foi submetida para um departamento que a gente tem aqui de garantia da qualidade.
+
+Eu creio que ela já consta no procedimento, porém não tenho certeza, acho que ela não está exposta no quadro de avisos.
+
+Mas ela está divulgada através do procedimento que está disponível no sistema de disponibilização de documentos de vocês, né?
+
+Exatamente, e toda vez que você tem um procedimento que está entrando em vigor, um procedimento novo, é emitindo um e-mail para fazer a divulgação para que todos os envolvidos tomem conhecimento.
+
+Então, esse e-mail ele vai direcionado para a equipe, toda, uma forma geral.
+
+Se for um procedimento interno, assim, só do setor, é uma instrução de trabalho.
+
+Se for um procedimento que envolva outras áreas, é um procedimento corporativo.
+
+Então, a gente envia o nome do procedimento, o link para acessar, o nome, o consecutivo e o título, e o link para acessar e a data de início e a data do envio do e-mail.
+
+Então, esse processo é padrão para a empresa toda.
+
+Então, mais uma forma de comunicação exemplificada pelo Jairo, tá?
+
+A norma, ela define que, ao serem implementadas mudanças dentro do sistema de gestão, a necessidade de um planejamento a fim de assegurar a eficácia, tá?
+
+Por mais que seja uma mudança positiva, algo que vai prover melhoria para o processo, por exemplo, a implementação de um sistema informatizado para a gestão de dados, a necessidade de um planejamento, definindo objetivos.
+
+Qual é o objetivo da implementação dessa mudança?
+
+Da onde foi requerida essa mudança, às vezes, vem de uma necessidade externa, definida por um regulamentador.
+
+Quais são os riscos envolvidos na implementação dessa mudança?
+
+Quais recursos necessários?
+
+Quais são as áreas envolvidas para a implementação dessa mudança?
+
+Qual o plano de ação, considerando os riscos, recursos necessários, áreas envolvidas?
+
+Quais meios de comunicação do andamento da implementação dessa mudança?
+
+Da finalização da implementação dessa mudança e qual a eficácia?
+
+Qual foi o resultado obtido da implementação dessa mudança?
+
+Então, sempre quando for implementar mudanças, algumas delas há a necessidade desse planejamento.
+
+Vocês têm um procedimento para a gestão de mudanças.
+
+Quando eu faço essas perguntas para vocês, é com o objetivo de tentar fazer vocês pensarem nos processos de vocês e vocês tentarem enxergar o que eu estou falando aqui na 17.025 dentro do sistema de vocês.
+
+Então, não tem problema vocês não saberem, mas é só para vocês pensarem no processo e ver se não, Lona, a gente tem um procedimento sim e vocês enxergarem a 17.025 dentro dos processos de vocês, tá?
+
+É com esse objetivo que eu faço essas perguntas, tá, gente?
+
+E aí, vocês têm conhecimento?
+
+Vocês terem um procedimento de gestão de mudanças?
+
+Vocês têm algum formulário?
+
+Eu acho que sobre esse tema, não.
+
+Eu, pelo menos, não recordo de nunca...
+
+O procedimento em si se existe, eu nunca vi.
+
+E nem quando a gente apresenta as listas e faz acompanhamento de validade, eu nunca vi nada parecido sobre esse tema, Lona.
+
+Nem toda mudança requer uma gestão, incluindo todas essas atividades, tá, gente?
+
+Mas, por exemplo, a implementação de um sistema informatizado, de gestão de dados, ele requer um planejamento, um plano de ação definido, né?
+
+Uma avaliação de riscos, tá?
+
+Então, caso vocês não tenham um processo documentado, um formulário, eu recomendo que vocês estabeleçam para a implementação, em alguns casos de tipo, para algumas mudanças, vocês implementarem essa gestão, tá?
+
+Aí, considerando, né, laboratórios postulantes de acreditação, a NIT Dicula 31, que é o regulamento da CECRE, ela define quais mudanças devem ser comunicadas previamente a CECRE.
+
+Então, assim, laboratórios acreditados, né, têm que ter conhecimento de quais mudanças devem comunicar a CECRE que estão estabelecidos na NIT Dicula 31.
+
+Alguma dúvida pessoal sobre a sessão 5 da Norma, vocês querem complementar alguma coisa, perguntar alguma coisa, foi entendido?
+
+Então, os requisitos de recursos são os requisitos técnicos que a Lina conversou com vocês na semana passada, né?
+
+O requisito que eu trouxe aqui de recursos foi somente o requisito de pessoal, tá, gente?
+
+Que também faz parte aqui da parte de gestão, por isso que eu trouxe, tá?
+
+A 17.025, ela define que o laboratório tem que ter um procedimento documentado para gestão de pessoal, tá?
+
+E essa gestão de pessoal, ela tem o objetivo de assegurar a competência do pessoal para a realização das suas atividades.
+
+Então, inicia com um procedimento para definição dos requisitos de competência, né, para funções críticas no processo.
+
+E esses requisitos de competência, eles têm que considerar requisitos de formação, experiência, habilidades, treinamentos, conhecimento técnico,
+
+para os requisitos de competência têm que considerar esses requisitos, tá?
+
+E quando vocês forem definir, vocês têm que considerar as responsabilidades e autoridades para essa função.
+
+Então, certamente, vocês têm uma descrição de cargos, né?
+
+Onde estão definidos requisitos de competência para cada função, certo?
+
+É...
+
+Definidos requisitos de competência, né?
+
+Tem etapa de seleção de pessoal, né, qual é o processo de seleção da organização.
+
+Então, vocês têm...
+
+dos servidores públicos, né, que são através de concurso e vocês também têm terceirizados, não têm?
+
+Vocês também trabalham com terceirizados.
+
+Seja pelo...
+
+pelo processo, né, de concurso público ou por terceirizados, esse processo, ele tem que assegurar que sejam selecionados pessoas competentes, né?
+
+Então, é...
+
+para o caso dos terceirizados, né, processos de entrevista, análise curricular, então, têm etapas do processo, né, para a seleção desse pessoal.
+
+Selecionado o pessoal, seja através do concurso público ou através do processo de...
+
+de contratação, seja bolsista, seja CLT, estagiário, né?
+
+O pessoal vai ter que passar por treinamentos específicos para desempenho da função, né?
+
+Então, tem procedimentos que são inerentes a função, a função, que é para qualquer função.
+
+Então, treinamento nas políticas e objetivos do sistema de gestão, treinamento no manual da qualidade, né, o Jaime disse que vocês têm um manual da qualidade, onde falam de todos os requisitos
+
+do sistema de gestão, né?
+
+E tem os treinamentos específicos para as atividades específicas, né?
+
+Então, o técnico que vai executar ensaio, então, treinamento nos procedimentos de ensaio, o técnico que vai verificar desempenho de método,
+
+validar método, autorizar resultados, então, ele tem que passar pelo período de supervisão.
+
+Então, realizar as atividades supervisionadas por algum técnico já autorizado, por uma pessoa designada pela, por quem responde
+
+pelas operações técnicas para acompanhamento desse profissional que está em fase de supervisão.
+
+Nessa etapa de supervisão, todos os dados emitidos por esse técnico sobre supervisão devem ser assinados em conjunto
+
+com técnico autorizado, tá?
+
+Ele não tem autoridade o técnico sobre supervisão de emitir resultados sozinho, tá?
+
+Então, sempre tem que ter aquela assinatura ao lado de quem está responsável pela supervisão.
+
+Passado esse período de supervisão, entra a etapa de autorização, que é vocês validarem se aquele técnico, aquele profissional
+
+está apto para realizar as atividades.
+
+Então, por exemplo, um técnico que vai realizar ensaio, você pode fazer considerar os resultados da supervisão
+
+junto com a realização de um ensaio de uma amostra conhecida para validar aquela atividade daquele técnico.
+
+Então, considerando esses resultados isso vai ser avaliado por quem responde pelas operações técnicas no laboratório para autorizar o profissional, a realização
+
+de uma atividade específica.
+
+E após essa realização do profissional ele tem que ser periodicamente monitorado.
+
+O que esse monitoramento da competência é você verificar se aquele profissional permanece atendendo
+
+aos requisitos de competência para a função que ele desempenha.
+
+O laboratório é um procedimento e reter registro de todas essas etapas que eu falei.
+
+Vocês certamente em conjunto com recursos humanos da eletronuclear tem estabelecido um procedimento
+
+para definição de requisitos de competência para seleção, para treinamento, para o procedimento da competência do pessoal.
+
+Um conjunto de procedimentos que definem essas etapas do processo.
+
+E aqui eu trouxe uma atividade crítica uma atividade específica crítica
+
+que é direcionada para o signatário autorizado.
+
+A luz do documento 20 o signatário autorizado é a pessoa autorizada pelo laboratório como responsável pelo conteúdo
+
+dos relatórios de ensaio emitidos pelo laboratório.
+
+Então, quando vocês emitem o relatório, tem um nome ali de uma pessoa.
+
+Essa pessoa responde tecnicamente pelos resultados emitidos naquele relato.
+
+E para essa pessoa responder tecnicamente pelos resultados pelos dados emitidos naquele relato
+
+que o nome dela, que leva o nome dela ela tem que ser capaz de interpretar os resultados apresentados nesses documentos.
+
+E discutir tecnicamente esses resultados.
+
+Então, o atário autorizado tem conhecimento sobre as especificações do revelamentador.
+
+Ele tem que ter conhecimento sobre a matriz analisada sobre histórico de resultados.
+
+Por quê? Porque ele é responsável por todo o conteúdo do relatório de ensaio.
+
+Todas as informações presentes naquele relatório são de responsabilidade do signatário autorizado.
+
+Ele tem que conseguir interpretar os resultados apresentados discutir tecnicamente emitir opiniões técnicas quando requerido pelo cliente.
+
+Verificar se os resultados de ensaio estão em conformidade com as especificações.
+
+Auxiliar tecnicamente a gerência quando solicitado para esclarecimentos clientes na interpretação dos resultados dos ensaios emitidos.
+
+E auxiliar tecnicamente a gerência na validação investigação de reclamações.
+
+Ele tem que ter conhecimento também, gente.
+
+Então, de tratamento de trabalho não conforme, de ferramentas de garantia da validade dos resultados, interpretação de ferramentas de garantia da validade cartas de controle.
+
+Então, tem que ter conhecimento de todos esses dados para quando chegar ao relatório e ele analisar criticamente para autorizar para o cliente.
+
+Então, a Carla quando a gente estava falando sobre confidencialidade eu perguntei quais são as pessoas autorizadas a encaminhar
+
+os resultados de ensaio para o cliente e a Carla falou de uma lista de pessoas autorizadas.
+
+Essa lista de pessoas autorizadas são ensignatários autorizados.
+
+E aí a Carla ela não sobre confirmar como é se vocês têm essa listagem de pessoas autorizadas mas eu acredito
+
+que sim.
+
+Vocês têm uma listagem de pessoas autorizadas a incluir o nome no relatório de ensaio assinar aqueles relatórios porque responde tecnicamente para esses relatórios.
+
+Vocês têm essa listagem de pessoas?
+
+Sim, Luana.
+
+A gente fez uma matriz de autorização na verdade é um procedimento que um dos anexos desse procedimento é uma matriz de autorização.
+
+A matriz de biologia já está pronta a Janine estava fechando a área de química e a Lina até comentou para a gente que a gente também teria que ter uma matriz para as próprias atividades ligadas a gestão.
+
+Acho que a gente não tinha pensado ainda nisso a gente estava focado mais na questão técnica.
+
+Nessas matrizes tem os procedimentos com os ensaios e tem até as amostragens e os ensaios para tentar autorizar
+
+e realizar cada um deles.
+
+Isso aí você falou de uma atividade específica que é a realização de ensaio.
+
+Tem atividades específicas que são associadas, por exemplo, a verificação de desempenho do método.
+
+Então tem pessoas também que têm que estar autorizadas.
+
+Tem que ter pessoas autorizadas análise crítica, interpretação de resultados, autorização dos resultados.
+
+A autorização dos resultados é o signatário autorizado.
+
+Então, não somente para a realização dos ensaios vocês também têm que ter definido as pessoas que estão autorizadas para essas outras atividades específicas.
+
+Está, João?
+
+Pode perguntar, Ana Paula.
+
+Oi Luana, não, só para complementar o João, que o procedimento que a Gabriela escreveu aqui no chat, que é o PCLMG002 a área de química já tem
+
+a lista que a gente mandou por e-mail para a gente da lista do signatário da área de química.
+
+Então, acredito que também tem a das outras áreas.
+
+Eu também não tenho esse conhecimento, mas na área de química também já está pronta.
+
+Então, vocês têm que definir para todas as áreas dos laboratórios quais são as pessoas autorizadas para essas atividades específicas.
+
+Gente, recebimento de amostra, análise crítica da integridade na amostra quando chega no laboratório.
+
+Todas essas atividades críticas no processo têm que ter essas autorizações específicas, incluindo o signatário autorizado que é a pessoa que autoriza o relato.
+
+Ela autoriza a a emissão do relatório.
+
+E isso, essa autorização é mediante uma análise crítica desses dados que ele responde tecnicamente.
+
+E aí, vamos entrar nos requisitos de ingestão.
+
+Que são os requisitos que servem para dar suporte a a sessão 6, 7,
+
+4 da norma.
+
+Então, esses requisitos, eles devem ser capaz de apoiar e demonstrar o atendimento consistente aos requisitos da 17.025 e
+
+assegurar a qualidade dos resultados do laboratório.
+
+A 17.025, ela abre a possibilidade de duas formas de implementação desses requisitos
+
+do sistema de gestão através da opção A que é a opção escolhida pelo LMA que é, além
+
+de atender os requisitos da sessão 4, 7, que são os requisitos que a gente falou até aqui, eu e Lina, o laboratório deve atender a sessão 8
+
+da norma, que são os requisitos que a gente vai falar agora.
+
+E tem a opção B que é direcionada para laboratórios que têm a certificação da 9001.
+
+Então, para casos laboratórios com essa certificação da 9001, no qual o escopo da 9001 inclui as atividades de laboratório,
+
+o laboratório pode optar pela opção B, que é, além de atender os requisitos de 4 a 7 da 17.025,
+
+ele utilizar o sistema de gestão à luz da 9001 para suporte dos requisitos de 4 a 7.
+
+Então, o requisito de gestão da 9001 tem que atender a intenção da 17.025.
+
+Mas isso só é possível para laboratórios que sejam acreditados pela 9001 e esse certificado, esse
+
+credenciamento tem, essa certificação tem que englobar as atividades de laboratório.
+
+E, como eu disse, o LMA ele optou pela opção A.
+
+Então, além de atender de 4 a 7 da 17.025, atender a sessão 8.
+
+E o primeiro requisito da sessão 8 da norma é o requisito de documentação do sistema de gestão.
+
+Esse requisito ele define que o laboratório tem que estabelecer políticas e objetivos que abordem
+
+imparcialidade, competência e operação consistentes.
+
+E essas políticas e objetivos elas devem ser reconhecidas e implementadas em todos os níveis da organização.
+
+A gerência que tem responsabilidade geral pelo laboratório, pelas operações técnicas tem que evidenciar o comprometimento com o desenvolvimento,
+
+melhoria contínua e implementação do sistema de gestão.
+
+E, como a gerência ela pode demonstrar esse comprometimento provendo os recursos necessários através de reuniões perióticas
+
+da equipe do laboratório análise, estabelecer indicadores e metas associados aos objetivos da qualidade
+
+e analisar esses objetivos implementação de melhoria no sistema de gestão reuniões de análise crítica
+
+pela gerência.
+
+E, no meio da gerência demonstrar o comprometimento dela com o sistema de gestão.
+
+Eu trouxe um exemplo o Jaime falou que você já estabeleceu uma política da qualidade e aqui eu trouxe um exemplo de uma política
+
+que aborda operação consistente, que aborda imparcialidade, que aborda competência liberando a atividade
+
+realizada pelo laboratório pelo LMA.
+
+Então, realizar as análises ambientais assegurando a imparcialidade agilidade e confiabilidade atendendo as necessidades da organização
+
+e garantindo o comprimento das exigências normativas e conformidade com a 17.025.
+
+Buscar continuamente a melhoria dos nossos processos e capacitação do pessoal estabelecer implementar procedimentos para garantir uma operação
+
+consistente.
+
+Então, isso aqui é uma política a política do sistema de gestão a luz da 17.025 que abordam os objetivos da 17.025 operação consistente
+
+imparcialidade e competência.
+
+E aí, estabelecida a política o laboratório tem que definir objetivos para esse sistema de gestão.
+
+E aqui eu trouxe exemplos de objetivos que estão diretamente relacionados com a política da qualidade.
+
+Realizar as atividades assegurando a imparcialidade.
+
+Como que eu posso avaliar o atendimento esse objetivo?
+
+Então, quais indicadores eu posso utilizar?
+
+Treinamentos periódicos definir treinamentos periódicos abordando a imparcialidade e
+
+identificação de riscos.
+
+A própria norma define a necessidade de um planejamento de riscos a imparcialidade.
+
+E qual é a meta?
+
+Pelo menos um treinamento por ano abordando a imparcialidade.
+
+Em relação a identificação dos riscos assegurar que os riscos a imparcialidade tenham sido eliminados, medicados
+
+através da verificação da eficácia no monitoramento desses riscos.
+
+O objetivo manter os clientes satisfeitos como que eu posso avaliar o atendimento a esse objetivo?
+
+Através do índice de satisfação através da pesquisa de satisfação e índice de reclamação
+
+histórico de reclamação e quais são as minhas metas?
+
+O índice de satisfação obter os clientes satisfeitos e eu posso definir uma meta para isso 90% dos clientes satisfeitos
+
+85% dos clientes satisfeitos e índice de reclamação não ter reclamação de clientes.
+
+Garante a confiança nos resultados de análise operar de forma consistente e melhoria contínua quais são os indicadores
+
+participação e atividade de site proficiência né tendo como meta 100% dos resultados satisfatórios índice de trabalho
+
+não conforme associado a erro e resultado de análise tem que ser menor ou igual a 5 implementação de oportunidade de melhoria
+
+então implementar no mínimo duas oportunidades de melhoria por ano e no caso de manter a equipe qualificada estabelecer um plano
+
+de treinamento né onde esse plano seja implementado 90% do plano implementado então
+
+a gente estabeleceu objetivos relacionados à política definimos indicadores formas de eu conseguir mensurar
+
+avaliar o atendimento aos objetivos tá então aqui eu trouxe exemplos para vocês o Javi disse que você já tem
+
+uma política estabelecida que está no procedimento se não engano no manual da qualidade e você já tem estabelecidos objetivos associados
+
+a essa política sabe dizer eu não sei informar eu não tenho essa informação não mas vou perguntar aqui pra
+
+Jani então se vocês entendam esses objetivos vocês vão definir esses indicadores para avaliar periodicamente
+
+o atendimento dos objetivos e consequentemente a eficácia do sistema de gestão de vocês tá vocês querem trazer alguma pergunta
+
+em relação a indicadores que vocês possam utilizar diferente desses aqui que eu dei exemplo ficou claro para vocês essa parte aqui de avaliação de atendimento dos objetivos
+
+vocês têm alguma dúvida só lembrando exemplos de indicadores que eu trouxe vocês podem usar outros indicadores para avaliação
+
+desse consistente do atendimento aos objetivos e as políticas a 17.025 ela também define que toda a documentação
+
+processos sistemas e registros relacionados ao atendimento da 17.025 eles devem estar vinculados
+
+incluídos e referenciados no sistema de gestão nada que a gente use em atendimento aos requisitos da 17.025 ele não pode
+
+não estar vinculado ao sistema de gestão a gente tem uma estrutura de documentação o nosso sistema de gestão ele tem uma estrutura de documentação
+
+iniciando lá pela política da qualidade antes da política da qualidade tem código de conduta tem as políticas da organização que estão acima
+
+do sistema de gestão da 17.025 o manual da qualidade vocês estabeleceram um manual da qualidade que é a Bíblia de vocês ele direciona vocês quais são os procedimentos
+
+para cada requisito do sistema de gestão né os procedimentos de gestão que são os procedimentos de controle de documento
+
+de controle de registro de análise crítica de pedidos propostas e contratos né tem os procedimentos técnicos que são os procedimentos de ensaio
+
+que são a luz de métodos normalizados e os formulários que são os documentos que a gente utiliza para registrar os dados
+
+tem documentos do sistema de gestão que eles são estabelecidos pelo laboratório e tem documentos externos que também fazem
+
+parte do sistema de gestão regulamentos do regulamentador do INEIA do IBAMA certificados
+
+de calibração de instrumentos isso tudo faz parte do sistema de gestão então documentos que são internos e tem documentos que são externos
+
+todos eles tem que estar de alguma forma vinculado o sistema de gestão disponíveis para o pessoal para o uso
+
+toda a documentação tem que estar disponível para o pessoal que é o requisito de controle de documentos do sistema de gestão a norma
+
+ela não exige um procedimento documentado para controle de documentos no entanto a norma ela define
+
+que o laboratório tem que controlar os documentos internos e externos necessários no sistema de gestão
+
+que fazem parte do sistema de gestão e esse controle de documento deve incluir a aprovação de todos os documentos
+
+antes da sua emissão e essa emissão tem que ser por pessoal autorizado então todos os procedimentos do sistema de gestão
+
+os procedimentos internos de vocês eles têm que ser aprovados por pessoal autorizado antes da disponibilização dele para o pessoal usar
+
+então vocês têm que ter definidos quem emite revisa e quem autoriza a revisão obviamente procedimento
+
+de gestão essa sequência para o pessoal da área de gestão e os procedimentos técnicos considerando o pessoal técnico com competência
+
+para a emissão desses procedimentos esses procedimentos eles devem ser periodicamente submetidos e criticados
+
+e revisados quando necessário o laboratório tem que estabelecer qual a periodicidade que ele vai fazer a análise crítica dos documentos anualmente os nossos procedimentos
+
+vão ser analisados criticamente a cada dois anos a cada três anos então vocês têm que definir essa periodicidade para pegar e analisar criticamente
+
+aquele documento para verificar se há necessidade de revisão mas independente dessa análise crítica periódica caso no meio desse tempo
+
+eu identificar a necessidade da revisão de um documento eu vou ter que revisá-lo alterações pode perguntar Jaime
+
+Lana, desculpa, eu não sei se atrapalha a sua linha de raciocínio não atrapalha, vocês podem interromper qualquer momento voltando naquela pergunta que você fez
+
+primeiro sobre a política da qualidade e depois, aí eu falei que tinha e depois a respeito dos objetivos a política
+
+eu até entrei em contato com a Janine aqui a gente efetivamente tocou ela aqui inclusive é é um documento é um documento de uma página
+
+tem aqui algumas primícias que devem ser adotadas e aí tem assinatura minha e assinatura da Carla os objetivos
+
+eu não tenho certeza e não sei se você vai voltar nesse tópico acho que não, mas é um documento é um documento à parte Luana na verdade
+
+você tem aqui é uma política você falou que você tem estabelecido e quais são os objetivos dessa política
+
+que são os objetivos do meu sistema de gestão associados a essa política na minha opinião o maior deles é trazer confiabilidade os meus resultados exatamente, aí eu trouxe
+
+aqui realizar as atividades assegurando a imparcialidade é um objetivo do sistema de gestão concorda?
+
+sim manter os clientes satisfeitos garantir a confiança nos resultados de análise operar de forma então com o objetivo Luana, desculpa desculpa de interromper
+
+com esses objetivos eu consigo fazer uma avaliação do meu sistema e aí entender o tempo que eu preciso alocar um recurso por exemplo, vamos lá, chutar aqui
+
+melhoria contínua caramba, a gente está precisando dar uma olhada por isso aí, enfim falar de treinamento aqui a gente teve um processo de intercomparação que não foi
+
+satisfatório a gente fez um rodízio entre os colaboradores e eu identifiquei que o colaborador Jaime precisa de um treinamento para poder melhorar isso aí é uma auto avaliação
+
+eu posso considerar dessa forma então você avaliou o teu objetivo garantia de confiança nos resultados de análise aí você tem a participação de atividade social de proficiência
+
+aí você tem lá como meta 100% de resultados satisfatórios você não atingiu essa meta então você vai definir um plano de ação não vai
+
+então esses objetivos aqui são objetivos associados à operação consistente competência, imparcialidade que você, periodicamente
+
+você avalia porque como é que eu consigo avaliar um atendimento ao objetivo se eu não transformar isso em indicadores que eu consigo mensurar
+
+fica só um texto bonito, né você pega esse texto aqui é um texto bonito, né realizar que eu estou atendendo isso perfeito
+
+eu estabeleço objetivos associados a essa política, indicadores e metas associados desses objetivos para eu conseguir mensurar o atendimento ao objetivo do meu sistema de gestão
+
+perfeito, né, obrigado então aqui são exemplos de objetivos que estão diretamente associados da política, da qualidade tá?
+
+Obrigado não tem problema, tá, gente se vocês quiserem retornar a um slide, a gente volta tá, não tem problema nenhum tá
+
+eu faço até um treinamento focando até e menos exercícios para a gente ter esse bate-papo aqui e você cheirar a dúvida, tá, gente tem problema nenhum
+
+voltando aqui a parte de controle de documentos alterações e situação atual da revisão deve ser identificados o que que significa, né
+
+todos os documentos têm que ser controlados vocês têm uma codificação dos documentos vocês não têm, né é e um acompanhado de uma revisão
+
+ou versão ou data de emissão, não é isso né, revisão 1, 2 ou versão 1, 2 de emissão e aí eu tenho que ter um histórico
+
+dessas revisões o que que é um histórico de revisão quando o documento é revisado aquela pessoa que acessa o documento ela tem que conseguir enxergar claramente
+
+o que foi alterado de uma versão para outra como mente como que os laboratórios fazem tem um histórico de revisão no documento dizendo um ítem de histórico de revisão
+
+dentro do procedimento dizendo que foi alterado tem uns que destacam grifam o que que foi alterado então eu consigo ler o procedimento
+
+e as linhas que estão destacadas foram os tópicos revisados tório que mantém a versão anterior para comparativo
+
+para você ler anterior, ler nova e eu consigo identificar o que que foi alterado então eu estou trazendo diferentes formas de sistemáticas para identificação
+
+das alterações o laboratório definir a sua se eu não me engano vocês mantem grifado eu não me recordo
+
+porque eu vi os documentos de vocês já tem vai fazer 2 anos os documentos que você deve ter visto são os documentos que a maior parte dos documentos a gente tem aqui 2 sistemas
+
+tem o manual de operação da usina e a gente tem alguns procedimentos que estão nesse manual porém os procedimentos de rotina estão migrando para aquele sistema que eu te falei que é o green docks
+
+então os procedimentos que ficam no mall que é esse manual que eu te falei eles tem na folha de capa as revisões
+
+na 17ª revisão foram revisadas todas as páginas tem escrito lá, páginas revisadas por exemplo quem é o autor, quem é o revisor e quem aprovou
+
+e no corpo ele fica não é entre aspas ele tem um marcador aqui que eu não sei o nome dele não tem essa barra invertida no teclado ele é uma barra reta
+
+ele fica com uma sinalização aí que é a parte que foi revisada exato no green docks eu não lembro como é que fica mas eu tenho certeza que a gente faz dessa forma no mall
+
+então vocês tem que ir para os procedimentos internos gerados por vocês vocês tem que ter sistemáticas estabelecidas para
+
+identificação dessas alterações deu exemplo dentro de um sistema do outro não sabe como é feito mas certamente tem uma forma de indicação
+
+de alteração todos os documentos tem que ser univocamente identificados então vocês tem uma codificação dos documentos, não tem
+
+IP OP, o número um consecutivo específico um consecutivo específico dividido por procedimento, quando é procedimento de gestão
+
+quando é procedimento técnico então vocês tem forma de identificação unívica dos documentos de vocês as versões pertinentes desses documentos
+
+eles têm que ter a sua distribuição controlada então o que isso significa vocês tem aí um sistema informatizado onde os documentos
+
+são disponibilizados não é isso vocês têm dois sistemas de disponibilização de documentos eu tenho que assegurar que os documentos
+
+que estão disponibilizados nesse sistema eles estejam nas suas versões vigentes tem que ter esse controle e forma de que está lá dentro do sistema
+
+que é uma copia controlada não é isso o pessoal acessa uma versão controlada desse documento mas o sistema
+
+imprime permite que eu imprime esse documento ele permite que eu imprime esse documento como uma copia controlada ou não controlada então vocês têm que ter
+
+sistemática de controle desses documentos versões obsoletas dos documentos elas não devem estar disponível para o pessoal
+
+de forma que o pessoal use uma informação obsoleta então o meu sistema ele tem que assegurar que os documentos obsoletos eles estejam
+
+claramente identificados caso vocês decidam guardar por algum motivo tá eu não quero manter essa informação obsoleta mas eu tenho que
+
+identificar claramente que aquela informação é obsoleta o profissional tem que conseguir diferenciar o que é um documento vigente de um documento obsoleto
+
+os documentos externos né como eu disse documentos da CGECRE documentos emitidos pelos regulamentadores
+
+também devem ser controlados vocês não são responsáveis pela emissão desses documentos mas vocês são responsáveis
+
+por garantir que vocês têm conhecimento da última revisão válida desse documento externo
+
+a fim de assegurar que qualquer alteração nesses documentos externos sejam analisados criticamente e implementadas mudanças necessárias dentro do processo de vocês
+
+então a análise crítica dos documentos externos o controle tem esse objetivo tá e aí como que a gente pode
+
+ter o controle dos nossos documentos externos e internos né muitos laboratórios usam uma lista
+
+maestra de documentos onde essa lista maestra inclui a identificação o título do documento qual a revisão que ele
+
+está, qual a data de revisão desse documento e eu disse no slide anterior que o laboratório
+
+e periódicamente analisar criticamente seus documentos então vocês têm que estabelecer uma periodicidade para essa análise crítica vamos dizer que vocês estabeleceram
+
+uma periodicidade anual de análise crítica dos documentos então
+
+é o documento que foi emitida em 2020 é eu
+
+realizei a análise crítica que está com uma data obsoleta mas vamos dizer que eu analisei esse documento em 20 de agosto de 2026
+
+analisei esse documento tá e não identifiquei a necessidade de atualizar esse documento então ele vai permanecer
+
+na revisão 1 mas eu tenho evidência de que eu analisei esse documento dentro da periodicidade anual através da data da última análise crítica
+
+e ele permaneceu na revisão 1 porque eu não defini não identifiquei uma necessidade de atualização a data da próxima análise crítica vai ser um ano depois 20 de 8 de
+
+7 então isso é uma forma de controle de dar essa análise crítica periódica dos documentos e a evidência de que eu analisei
+
+criticamente o documento mesmo em situações que eu não identifiquei a necessidade de atualização desse procedimento documentos externos então peguei aqui como por exemplo
+
+a nitidícula 30 que é a política da estabilidade metrológica eu tenho lá a revisão desse documento
+
+que eu tenho conhecimento a data da última vez que eu verifiquei a última versão desse documento e aí vocês vão definir essa periodicidade
+
+eu não recomendo que seja uma periodicidade anual eu acho que vocês podem por exemplo fazer trimestralmente trimestralmente vocês chegam lá na página
+
+por exemplo da CGEC no caso que é um documento da CGEC verifico se houve alguma atualização houve alguma atualização eu vou baixar esse documento vou analisar criticamente o documento
+
+e verificar se eu tenho que fazer alguma alteração no meu processo não atualizou o procedimento a norma então eu tenho conhecimento da última versão vigente então não basta
+
+eu ali mudou da revisão 14 pra 15 eu vou aqui e mudo a revisão não é somente sobre isso eu também tenho que analisar criticamente esse documento externo
+
+tá isso significa o controle pode falar Jaime inclusive porque eu posso ter que antecipar a revisão de números outros procedimentos
+
+que tem como um documento complementar esse documento externo correto?
+
+correto mesmo que aí vamos lá eu tenho um cenário hipotético aqui eu não vi que a NIT Dicla 30 sofreu uma revisão
+
+esse meu controle trimestral tá furado por exemplo furado porque você não realizou trimestralmente?
+
+exato aí eu vou receber uma auditoria externa ou interna enfim eu vou receber até o próprio imétro para poder avaliar aqui o laboratório
+
+se eu se eu identifiquei esse documento e a uterei ótimo se eu não identifiquei mais o meu procedimento
+
+onde ele é citado e eu utilizo aí partes desse documento e se o meu procedimento tiver dentro da validade mas esse documento externo estiver fora
+
+e eu não tiver alterado isso é uma não conformidade?
+
+sim se o teu documento porque você definiu uma periodicidade para você verificar se você tem conhecimento da última versão válida do documento
+
+tá aí esse documento foi revisado da CGECRA a NIT Dicla 30 foi revisada tá na revisão 15 tá
+
+não teve nenhuma mudança mas se tivesse eu não ia saber porque eu não verifiquei então eu não estou seguindo a minha sistemática estabelecida se eu definir que eu tenho que
+
+verificar trimestralmente eu tenho que ter evidência dessa verificação trimestral o não atendimento é uma não conformidade por mais que essa não conformidade eu não tenho gerado impacto
+
+que ao sentido da a norma foi revisada mas foi só mudança editorial não impactou não tinha que fazer nenhuma revisão no meu processo então o impacto dessa não conformidade foi baixo
+
+mas não deixa de ser não conformidade assim como os documentos internos vocês definem que vocês têm que fazer uma análise criscanual se vocês não fizeram a análise criscanual é uma não conformidade
+
+mesmo que essa análise criscanual quando vocês fizerem Dic que não tem nenhuma alteração mas vocês têm que ter evidência de que vocês estão analisando criticamente documentos de vocês
+
+na periodicidade estabelecida pode falar Gabriela Uã, nessa parte de análise crítica da documentação ela está prevista também na sua união de análise crítica certo?
+
+É uma entrada da reunião de análise crítica pela gerência falar dos documentos que foram revisados ali não é análise crítica da documentação e sim falar sobre
+
+adequação dos procedimentos quais procedimentos necessitaram de adequação ou trazer alguma informação que há necessidade de adequação de um procedimento então não é um momento de análise crítica
+
+do documento mas trazer o resultado dessas análises aqui então pelo menos uma vez por ano é bom fazer essa análise crítica da documentação em si né
+
+na verdade o que eu falo a análise crítica periódica da documentação ela depende muito da maturidade do sistema de gestão então para o sistema de gestão novo o ideal é a gente ter uma
+
+periodicidade mais reduzida você concorda mas conforme o seu sistema vai ficando maduro você vai ver que a cada análise crítica não está tendo necessidade de atualização
+
+dos procedimentos eu não vou podendo ir aumentando mas isso é de acordo com a maturidade com o sistema novo o ideal é fazer uma análise crítica anual
+
+mas o meu sistema ficando maduro eu fui vendo que ao longo desses anos dessas análises eu não fui identificando a necessidade de atualização dos procedimentos aí eu posso aumentar essa periodicidade
+
+porque meu processo já está bem robusto a gente anteriormente falou de controle de documento né agora a gente vai falar de controle
+
+de registro né então é os registros eles são documentos que apresentam resultados obtidos
+
+ou que fornecem evidências de atividades realizadas o formulário em branco ele é um documento o formulário preenchido é um registro
+
+então o formulário em branco tem que atender o requisito de controle de documento formulário preenchido tem que atender o requisito de controle
+
+de registro então todo documento que apresenta resultados obtidos ou que fornecem informações e evidências de atividades realizadas tem que atender
+
+o requisito de controle de registros é Alina falou de dois requisitos que estão diretamente relacionados ao requisito 8.4
+
+que é o requisito 7.5 registros técnicos e o requisito 7.11 que é o de gestão de informação documentada
+
+então esses dois requisitos técnicos estão diretamente relacionados a esse requisito de gestão 8.4 de controle de registros é
+
+a norma ela define que o laboratório tem que ter controle dos seus registros então forma de identificação
+
+forma de armazenamento e arquevamento então definia qual local e forma que esse registro ele vai ser armazenado
+
+e arquivado então pode ser eletrônico ou físico independente de ser eletrônico ou físico eu tenho que ter controle
+
+formas de proteção controle de acesso proteção impedindo adulteração então tem lá um documento que apresenta
+
+resultados obtidos eu tenho que assegurar que pessoas não autorizadas façam alterações nesse registro eu tenho que definir
+
+formas de proteção de perda de deterioração desses registros eles têm que ser guardados em locais
+
+que assegurem que não haja deterioração desses registros ter copias de segurança fazer backup se for falado pela Lina
+
+em controle no requisito 7.11 formas de recuperação do registro então tem que ter forma de identificação de como eu consigo acessar
+
+aquele registro seja número da amostra data número do equipamento um relatório de auditoria interna
+
+codificação desse relatório RAI001-26 isso é a forma de que eu estou identificando para recuperar esse registro definir tempo
+
+de retenção considerando o regulamentador considerando a necessidade do cliente né então esse tempo de retenção
+
+que de praxe é utilizado cinco anos né tempo caso eu preciso preciso por algum motivo acessar aquela informação
+
+eu tenho acesso aqueles dados e disposição que é após passado esse tempo de retenção como que eu vou dispor esse registro
+
+assegurando toda a confidencialidade das informações se eu vou destruir se eu vou deletar tá então são essas
+
+é essas formas de controle que a 17.025 ela define como necessários tá
+
+e todos os registros eles devem estar prontamente disponíveis para o pessoal para a realização das suas atividades obviamente
+
+eu vou segurando toda a questão de proteção né mas eles têm que estar disponíveis para todo o pessoal realizar as suas atividades e aqui
+
+eu trouxe um exemplo de uma planilha de controle de registros né então por exemplo a identificação né
+
+do documento 412 ATA a forma de armazenamento no drive qualidade barra, paixinha, análise crítica
+
+então a proteção acesso restrito copa de segurança é feito através da nuvem forma de arquivamento
+
+eletrônico nesse caso aqui recuperação pelo ano né então análise crítica 6, 2027 assim que eu consigo
+
+recuperar o registro tempo de retenção 5 anos passado esse tempo como eu vou dispor esse registro eu vou descartar
+
+vou deletar ele tá vocês têm um planilha de controle de registros como é que vocês controlam os registros de vocês vocês sabem dizer
+
+a luana de geração de consecutivos de documentação de consecutivos mas eu acho que a gente não tem essa estrutura conforme você tá mencionando aqui não
+
+de como é que é feita a proteção a copa, essas informações não tá até onde eu sei pelo menos né todas essas informações não necessariamente precisam estar numa forma de uma planilha de controle de registro
+
+mas elas têm que estar definidas está Gabriela estão definidas um procedimento nosso isso né e aí a forma de armazenamento que fica direcionado pra cada
+
+tipo de registro né mas vocês podem ter definido né dentro do procedimento de vocês né sobre é
+
+forma de proteção né mas vocês têm que lembrar que existe registros físicos e registros eletrônicos e aí o controle de registro de vocês
+
+tem que considerar essas duas formas de arquivamento eletrônico e físico vocês também têm registros físicos temos a gente tem no nosso anexo o anexo do procedimento que eu coloquei
+
+no chat tem a informação de onde ele é armazenado quanto tempo ele fica arquivado qual que é a disposição dele de cada tipo de documento
+
+de cada tipo de registro né mais alguma pergunta gente pessoal como a gente está adiantado aqui no treinamento
+
+dá pra dar mais de uma horinha de almoço pra vocês tá dá pra gente finalizar agora e retornar uma hora pode falar Jaime
+
+então vamos lá o horário de almoço aqui na empresa é é de uma hora e meia você acha que consegue atender esse horário consigo atender
+
+uma hora e meia pra gente não mexer aqui no almoço do pessoal pode ser assim pode retornar 13.30 pode retornar 13.30
+
+obrigado você já quer encerrar agora você vai até que horas então a gente vai conforme o andamento do treinamento tá gente pessoal que tá de ônibus
+
+pega um ônibus 11.45 então eu acho que se você conseguir se você tá achando que tá adiantado eu ia sugerir pra gente ir até 11.40
+
+tá é porque eu não queria porque senão eu vou iniciar um requisito aqui vou parar quatro minutos depois fica a vontade vamos retornar 13.30
+
+então tá 13.30 a gente retorna é só pra eu não começar um requisito e parar é por isso que eu pensei não claro vamos estaremos todos
+
+aqui 13.30 né pessoal todos 13.30 pessoal obrigada bom almoço pra vocês e até mais tarde tchau tchau
+
+tchau tchau

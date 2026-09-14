@@ -1,0 +1,69 @@
+{
+  "title": "Parte 3 - Capítulo 12 Especial: Plano de Implantação e Checklist de Auditoria Final",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_3",
+  "episodes": [
+    {
+      "id": "12_especial",
+      "filename": "Podcast_Parte3_Capitulo_12_Plano_de_Implantacao_e_Checklist_Final_Dia_3.mp3",
+      "title": "Capítulo 12 Especial - Plano de Implantação e Checklist Definitivo de Auditoria da ISO 17025",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, chegamos ao grandioso capítulo final da nossa série de podcasts da ISO/IEC 17025:2017: o Capítulo 12 Especial com o Plano de Ação e o Checklist Definitivo de Auditoria da Parte 3! Para o gestor ou analista que quer sair da teoria e blindar seu laboratório, quais são os seis passos mestres?"
+        ],
+        [
+          "Francisca",
+          "É hora de transformar conhecimento em ação prática imediata, Thalita! O Passo Um é estruturar o Procedimento de Garantia da Validade dos Resultados pelo Requisito 7.7. O laboratório deve mapear cada ensaio do escopo e definir pelo menos uma combinação consistente de mecanismos internos: materiais de controle, duplicatas com limite de repetibilidade pré-definido e checagens funcionais com critérios claros de alerta e ação."
+        ],
+        [
+          "Thalita",
+          "E o Passo Dois para o monitoramento externo?"
+        ],
+        [
+          "Francisca",
+          "O Passo Dois é o Plano Quadrienal de Ensaio de Proficiência e Comparações Interlaboratoriais, em total alinhamento com a NIT-DICLA-026 da Cgcre. Mapeie os provedores acreditados pela norma 17043, justifique tecnicamente qualquer indisponibilidade e formalize a análise crítica de cada rodada, indo muito além do Z-score satisfatório."
+        ],
+        [
+          "Thalita",
+          "Sensacional! E no coração da entrega ao cliente, o Passo Três?"
+        ],
+        [
+          "Francisca",
+          "O Passo Três é o Checklist de Emissão de Relatórios pelo Requisito 7.8! Revise o layout dos laudos: assegure a numeração de páginas com total identificável, a versão do método analítico, a regra de decisão acordada com o cliente quando houver declaração de conformidade, e institua o procedimento rigoroso para controle de emendas rastreáveis."
+        ],
+        [
+          "Thalita",
+          "E o Passo Quatro, a ponte com a Metrologia Aplicada?"
+        ],
+        [
+          "Francisca",
+          "O Passo Quatro é o Roteiro de Adequação de Equipamentos frente ao Uso Pretendido! Para cada certificado de calibração recebido, aplique a fórmula de segurança: módulo do erro mais incerteza expandida comparados com o Erro Máximo Admissível do método. Emita o parecer formal de aprovação assinado antes de colocar o instrumento na rotina!"
+        ],
+        [
+          "Thalita",
+          "E para os relacionamentos e contingências, o Passo Cinco?"
+        ],
+        [
+          "Francisca",
+          "O Passo Cinco é a governança de Reclamações no 7.9 e Trabalho Não Conforme no 7.10! Garanta a independência de quem aprova as respostas ao cliente, e nunca trate um Trabalho Não Conforme apenas no presente: avalie sempre o impacto retroativo em resultados passados com gestão de risco ágil."
+        ],
+        [
+          "Thalita",
+          "E para fechar a infraestrutura digital, o Passo Seis?"
+        ],
+        [
+          "Francisca",
+          "O Passo Seis é a Gestão da Informação e Validação pelo Requisito 7.11! Faça o inventário de todas as planilhas e softwares, bloqueie as células de fórmulas com senha, valide os cálculos com dados padrão conhecidos e institua testes periódicos de restauração de backup para garantir integridade total dos dados."
+        ],
+        [
+          "Thalita",
+          "Francisca, que jornada espetacular! Uma verdadeira pós-graduação prática em áudio, cobrindo todos os requisitos da ISO/IEC 17025:2017, unindo a visão de bancada com a autoridade técnica da acreditação. Muito obrigada por compartilhar tanta sabedoria!"
+        ],
+        [
+          "Francisca",
+          "Foi uma honra imensa, Thalita! Parabéns a todos os profissionais de laboratório que buscam a excelência técnica e a integridade metrológica todos os dias. O laboratório de vocês está pronto para brilhar em qualquer auditoria!"
+        ]
+      ]
+    }
+  ]
+}

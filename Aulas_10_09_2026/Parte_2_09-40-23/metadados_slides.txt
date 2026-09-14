@@ -1,0 +1,49 @@
+====================================================================================================
+METADADOS DE SLIDES E CORRELAÇÃO - 2026-09-10 09-40-23.mp4
+Duração Total: 02:04:52 | Total de Slides Únicos: 40
+====================================================================================================
+SLIDE    TEMPO        DURAÇÃO    CLÁUSULA/ITEM             ASSUNTO / TÍTULO
+----------------------------------------------------------------------------------------------------
+#001     00:00:00     00:21:06   Item 4.2                  4.2 Confidencialidade
+#002     00:21:06     00:07:24   Geral / Treinamento       LCV - Exercício 2
+#003     00:28:30     00:05:45   Seção 5 - Requisitos de Estrutura 
+ Ser 5. Requisitos de Estrutura
+#004     00:34:15     00:02:51   Seção 5 Requisitos de Estrutura Estrutura Organizacional e Gerencial
+#005     00:37:06     00:00:36   Seção 6 Requisitos de Recursos LCV - Responsabilidades e autoridades
+#006     00:37:42     00:01:42   Geral / Treinamento       LCV - Responsabilidades e autoridades
+#007     00:39:24     00:01:06   Seção 7 Requisitos de Processo LCV - Responsabilidades e autoridades
+#008     00:40:30     00:04:18   Seção 5 - Requisitos de Estrutura 
+ Definir 5.Requisitos de Estrutura
+#009     00:44:48     00:04:03   Item 8.8 Auditorias Internas Comunicação interna
+#010     00:48:51     00:04:18   Seção 8 Sistema de Gestão Planejamento e implementação de mudanças
+#011     00:53:09     00:00:06   Seção 6 - Requisitos de recurso 6.Requisitos de recurso
+#012     00:53:15     00:00:15   Seção 8 Sistema de Gestão Planejamento e implementação de mudanças
+#013     00:53:30     00:00:15   Seção 6 - Requisitos de recurso 6.Requisitos de recurso
+#014     00:53:45     00:05:45   Item 6.2                  6.2 Pessoal
+#015     00:59:30     00:01:15   Item 6.2                  6.2 Pessoal
+#016     01:00:45     00:01:45   Geral / Treinamento       Signatário Autorizado
+#017     01:02:30     00:05:15   Geral / Treinamento       Signatário Autorizado
+#018     01:07:45     00:00:24   Seção 8 - Requisitos do sistema de 8.Requisitos do sistema de
+#019     01:08:09     00:00:30   Seção 8 - Generalidades 
+ Deve ser capaz 8. Generalidades
+#020     01:08:39     00:02:21   Seção 8 - Opção A e B     8. Opção A e B
+#021     01:11:00     00:01:54   Item 8.2                  8.2 Documentação do sistema de gestão
+#022     01:12:54     00:01:30   Item 4.1 Imparcialidade   Política da qualidade
+#023     01:14:24     00:05:18   Item 4.1 Imparcialidade   Objetivos da qualidade
+#024     01:19:42     00:02:48   Seção 5 Requisitos de Estrutura Estrutura da documentação
+#025     01:22:30     00:03:48   Item 8.3                  8.3 Controle de documentos do sistema de
+#026     01:26:18     00:00:06   Item 4.1 Imparcialidade   Objetivos da qualidade
+#027     01:26:24     00:00:24   Item 4.1 Imparcialidade   Política da qualidade
+#028     01:26:48     00:01:54   Item 4.1 Imparcialidade   Objetivos da qualidade
+#029     01:28:42     00:00:12   Item 4.1 Imparcialidade   Política da qualidade
+#030     01:28:54     00:00:33   Item 4.1 Imparcialidade   Objetivos da qualidade
+#031     01:29:27     00:00:06   Seção 5 Requisitos de Estrutura Estrutura da documentação
+#032     01:29:33     00:07:54   Item 8.3                  8.3 Controle de documentos do sistema de
+#033     01:37:27     00:07:18   Geral / Treinamento       Controle de documentos (externos e inter
+#034     01:44:45     00:00:06   Item 8.4                  Gabnelle Maria Fonseca Pierangeli Fessan
+#035     01:44:51     00:01:48   Geral / Treinamento       Controle de documentos (externos e inter
+#036     01:46:39     00:05:33   Item 8.4                  8.4 Controle de Registros
+#037     01:52:12     00:04:21   Item 8.4                  Conakora Fonealorod
+#038     01:56:33     00:00:45   Item 8.5                  8.5 Ações para abordar; riscos e oportun
+#039     01:57:18     00:01:21   Geral / Treinamento       CM - CS
+#040     01:58:39     00:06:13   Geral / Treinamento       LN

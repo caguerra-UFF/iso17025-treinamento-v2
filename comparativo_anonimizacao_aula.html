@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativo de Alternativas Custo Zero (R$ 0,00) • Aulas ISO 17025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0b0f19;
+            --card: rgba(18, 26, 43, 0.85);
+            --border: rgba(255, 255, 255, 0.08);
+            --accent: #38bdf8;
+            --danger: #ef4444;
+            --success: #10b981;
+            --purple: #a855f7;
+            --text: #f8fafc;
+            --muted: #94a3b8;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: radial-gradient(circle at 50% 0%, #172554 0%, #0b0f19 60%, #030712 100%);
+            color: var(--text);
+            padding: 40px 20px 80px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1050px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 35px; }
+        .badge {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            padding: 6px 16px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffffff 0%, #38bdf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        p.subtitle {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 780px;
+            margin: 0 auto 20px;
+        }
+        .highlight-box {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 12px;
+            padding: 18px 22px;
+            margin-bottom: 35px;
+            font-size: 0.95rem;
+            color: #e2e8f0;
+        }
+        .section-header {
+            margin: 35px 0 16px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section-cost {
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: rgba(16, 185, 129, 0.2);
+            color: #34d399;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+            gap: 18px;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(56, 189, 248, 0.4);
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.4);
+        }
+        .card.orig {
+            border-color: rgba(239, 68, 68, 0.4);
+            background: rgba(69, 10, 10, 0.3);
+        }
+        .card-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-tag {
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .tag-red { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+        .tag-green { background: rgba(16, 185, 129, 0.2); color: #34d399; }
+        .tag-blue { background: rgba(56, 189, 248, 0.2); color: #38bdf8; }
+        .tag-purple { background: rgba(168, 85, 247, 0.2); color: #c084fc; }
+        .card-desc {
+            font-size: 0.88rem;
+            color: var(--muted);
+            margin-bottom: 16px;
+            flex-grow: 1;
+            line-height: 1.45;
+        }
+        audio {
+            width: 100%;
+            height: 38px;
+            border-radius: 8px;
+            outline: none;
+            margin-top: 8px;
+        }
+        .decision-footer {
+            background: rgba(15, 23, 42, 0.85);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 16px;
+            padding: 28px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .decision-footer h3 {
+            font-size: 1.3rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .decision-footer p {
+            color: var(--muted);
+            font-size: 0.95rem;
+            max-width: 750px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="badge">💰 Custo Zero (R$ 0,00) • Comparador de Áudio</div>
+        <h1>Alternativas Gratuitas para os Áudios das Aulas</h1>
+        <p class="subtitle">
+            Ouça as amostras abaixo criadas a partir do <b>Item 001 da Aula</b>. Compare a voz original da professora com as opções gratuitas de modulação DSP e de narração por IA.
+        </p>
+    </header>
+
+    <div class="highlight-box">
+        🎯 <b>Objetivo:</b> Substituir os 244 arquivos de aula da pasta <code>Trechos_Aulas/</code> para que a voz real da professora não seja utilizada sem autorização, <b>sem gastar com planos em dólar da ElevenLabs</b>.
+    </div>
+
+    <!-- REFERÊNCIA ORIGINAL -->
+    <div class="section-header">
+        <div class="section-title">⚠️ 1. Áudio Original da Professora (Como está hoje)</div>
+        <span class="card-tag tag-red">Voz Não Autorizada</span>
+    </div>
+    <div class="card-grid">
+        <div class="card orig">
+            <div class="card-title">
+                <span>Voz Real da Professora (Lina)</span>
+                <span class="card-tag tag-red">Gravação Original</span>
+            </div>
+            <p class="card-desc">Trecho real capturado durante a aula gravada. É exatamente esta voz que precisa ser anonimizada ou substituída nos 244 arquivos.</p>
+            <audio controls preload="none">
+                <source src="amostras_anonimizacao/01_Original_Voz_Professora.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+
+    <!-- ALTERNATIVA 1: MODULAÇÃO DIGITAL DSP (RUBBERBAND) -->
+    <div class="section-header">
+        <div class="section-title">⚡ 2. Alternativa 1: Modulação Acústica DSP (Altera a Identidade Vocal do Áudio Real)</div>
+        <span class="section-cost">Custo: R$ 0,00 • Imediato</span>
+    </div>
+    <p style="color: var(--muted); margin-bottom: 16px; font-size: 0.92rem;">
+        <b>Como funciona:</b> Processamento de sinal digital com o algoritmo <i>Rubberband</i>. Preserva o ritmo exato da aula, as pausas, a entonação humana e a sincronia com os slides, mas <b>desloca o pitch e os formantes biológicos</b>, tornando a voz da professora 100% anônima e irreconhecível.
+    </p>
+
+    <div class="card-grid">
+        <div class="card">
+            <div class="card-title">
+                <span>Modulação Rubberband (Tom Jovem)</span>
+                <span class="card-tag tag-green">Recomendada DSP</span>
+            </div>
+            <p class="card-desc">Ajuste de formante e pitch (+14%). Transforma a identidade vocal em uma mulher mais jovem e dinâmica. A voz da professora fica totalmente mascarada.</p>
+            <audio controls preload="none">
+                <source src="amostras_anonimizacao/06_Modulacao_Profissional_Rubberband_Agudo.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                <span>Modulação Rubberband (Tom Maduro)</span>
+                <span class="card-tag tag-green">Anonimizada</span>
+            </div>
+            <p class="card-desc">Ajuste de pitch (-11%). Dá à voz um timbre mais grave e aveludado, eliminando a assinatura acústica original da instrutora.</p>
+            <audio controls preload="none">
+                <source src="amostras_anonimizacao/07_Modulacao_Profissional_Rubberband_Grave.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                <span>Modulação Clássica (+16%)</span>
+                <span class="card-tag tag-blue">Filtro Rápido</span>
+            </div>
+            <p class="card-desc">Filtro clássico de reamostragem asetrate. Ágil e direto, confere um tom enérgico e despersonalizado.</p>
+            <audio controls preload="none">
+                <source src="amostras_anonimizacao/02_Voz_Original_Modulada_Pitch_Mais_Alto.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+
+    <!-- ALTERNATIVA 2: LEITURA INTEGRAL POR VOZ NEURAL (EDGE-TTS) -->
+    <div class="section-header">
+        <div class="section-title">🤖 3. Alternativa 2: Narração Neural Gratuita por IA (Edge-TTS)</div>
+        <span class="section-cost">Custo: R$ 0,00 • Ilimitado</span>
+    </div>
+    <p style="color: var(--muted); margin-bottom: 16px; font-size: 0.92rem;">
+        <b>Como funciona:</b> Como possuímos o texto transcrito na íntegra de cada aula, podemos substituir o arquivo por uma narração limpa de estúdio feita por IA neural de alta fidelidade (sem nenhum ruído de sala de aula).
+    </p>
+
+    <div class="card-grid">
+        <div class="card">
+            <div class="card-title">
+                <span>Voz Neural Thalita (Edge-TTS)</span>
+                <span class="card-tag tag-purple">Moderna & Ágil</span>
+            </div>
+            <p class="card-desc">Voz feminina brasileira, jovem, clara e com ótima dicção técnica. Ideal para estudo focado e ágil da norma.</p>
+            <audio controls preload="none">
+                <source src="amostras_anonimizacao/05_Aula_Narrada_IA_Thalita_EdgeTTS.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                <span>Voz Neural Francisca (Edge-TTS)</span>
+                <span class="card-tag tag-purple">Formal & Sóbria</span>
+            </div>
+            <p class="card-desc">Voz brasileira formal, clássica de cursos institucionais e ambientes corporativos. Tom respeitoso e firme.</p>
+            <audio controls preload="none">
+                <source src="amostras_anonimizacao/08_Aula_Narrada_IA_Francisca_EdgeTTS.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                <span>Voz Neural Ava (Edge-TTS)</span>
+                <span class="card-tag tag-purple">Suave & Aveludada</span>
+            </div>
+            <p class="card-desc">Voz neural com entonação serena, calma e ritmo pausado, agradável para longas horas de escuta contínua.</p>
+            <audio controls preload="none">
+                <source src="amostras_anonimizacao/04_Aula_Narrada_IA_Ava_EdgeTTS.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+
+    
+    <!-- SEÇÃO 4: A NOVA ABORDAGEM PROPOSTA (REFINAMENTO POR IA + DIÁLOGO PEDAGÓGICO) -->
+    <div class="section-header" style="border-top: 2px solid #38bdf8; padding-top: 25px; margin-top: 45px;">
+        <div class="section-title" style="color: #38bdf8;">
+            ✨ 4. NOVA PROPOSTA: Roteirização Pedagógica por IA (Texto Refinado + Diálogo Reconstruído)
+        </div>
+        <span class="section-cost" style="background: rgba(56, 189, 248, 0.2); color: #38bdf8;">Qualidade Masterclass</span>
+    </div>
+    <div style="background: rgba(30, 41, 59, 0.85); border: 1px solid #38bdf8; border-radius: 12px; padding: 18px 22px; margin-bottom: 24px;">
+        <p style="color: #f8fafc; font-size: 0.95rem; line-height: 1.6; margin-bottom: 10px;">
+            💡 <b>A Solução Definitiva para a Fluidez:</b> Em vez da IA ler uma transcrição crua com hesitações ("né", "tá", frases cortadas e termos técnicos trocados pelo Whisper), a IA <b>reescreve o trecho em linguagem falada didática</b>:
+        </p>
+        <ul style="color: #94a3b8; font-size: 0.9rem; margin-left: 20px; line-height: 1.6;">
+            <li><b>Auto-cura de termos técnicos:</b> Corrige termos de metrologia corrompidos (ex: "Cgcre", "MRC", "ISO 17025").</li>
+            <li><b>Tom Explicativo de Sala de Aula:</b> A Professora Helena ensina com autoridade, clareza e exemplos reais da bancada.</li>
+            <li><b>Diálogo Vivo:</b> Quando há perguntas de alunos, entra a voz do Aluno (Antonio), e a Professora responde diretamente a ele!</li>
+        </ul>
+    </div>
+
+    <div class="card-grid">
+        <div class="card" style="border-color: #10b981; background: rgba(6, 78, 59, 0.25); border-width: 2px;">
+            <div class="card-title">
+                <span>Formato Solicitado: Narradora Explica Dúvida do Funcionário + Resposta de Helena</span>
+                <span class="card-tag tag-green">🎯 Exato Como Pedido</span>
+            </div>
+            <p class="card-desc">
+                <b>Item 001 • Cliente Interno e Imparcialidade:</b><br>
+                1. <b>Professora Helena</b> introduz o requisito 7.9.<br>
+                2. <b>Narradora (Francisca)</b> intervém: <i>"Durante este trecho, um funcionário do laboratório levantou uma dúvida prática sobre clientes internos..."</i><br>
+                3. <b>Professora Helena</b> responde didaticamente com autoridade e desmistifica a norma.
+            </p>
+            <audio controls preload="none">
+                <source src="amostras_anonimizacao/11_Aula_Narradora_Duvida_Funcionario_Item_001.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="card" style="border-color: #10b981; background: rgba(6, 78, 59, 0.25); border-width: 2px;">
+            <div class="card-title">
+                <span>Formato Solicitado: Com Nome do Funcionário Mantido (Ex: Rodrigo)</span>
+                <span class="card-tag tag-green">🎯 Nome Preservado</span>
+            </div>
+            <p class="card-desc">
+                <b>Item 6.4.4 • Medição em Campo e Sonda:</b><br>
+                1. <b>Professora Helena</b> introduz os cuidados da medição direta.<br>
+                2. <b>Narradora</b> cita o funcionário: <i>"Neste momento, o funcionário Rodrigo levantou uma dúvida sobre imersão do sensor..."</i><br>
+                3. <b>Professora Helena</b> responde: <i>"Excelente colocação do Rodrigo!..."</i>
+            </p>
+            <audio controls preload="none">
+                <source src="amostras_anonimizacao/12_Aula_Narradora_Duvida_Funcionario_Rodrigo.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="card" style="border-color: #38bdf8; background: rgba(14, 116, 144, 0.15);">
+            <div class="card-title">
+                <span>Aula Expositiva Direta da Professora Helena (Sem Dúvidas)</span>
+                <span class="card-tag tag-blue">Aula Pura</span>
+            </div>
+            <p class="card-desc">
+                <b>Item 002 • Acreditação vs Certificação (Cgcre/Inmetro):</b><br>
+                Quando o trecho original não tem dúvidas de alunos, a Professora Helena conduz uma aula explicativa fluida, sem "né" e com dicção técnica perfeita.
+            </p>
+            <audio controls preload="none">
+                <source src="amostras_anonimizacao/10_Aula_Refinada_IA_Item_002_Explicativa.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    
+    </div>
+    <!-- RESUMO COMPARATIVO DE DECISÃO -->
+    <div class="decision-footer">
+        <h3>Qual dessas duas soluções a Custo Zero você prefere?</h3>
+        <p>
+            <b>1. Se escolher Modulação Rubberband:</b> Aplicamos o algoritmo em todos os 244 arquivos em cerca de <b>1 minuto</b>. Mantém toda a dinâmica da aula real (perguntas de alunos, pausas, explicação espontânea), mas a identidade vocal da professora fica 100% protegida e irreconhecível.<br><br>
+            <b>2. Se escolher Narração Neural (Thalita ou Francisca):</b> O script lê as transcrições textuais das aulas e gera os 244 arquivos em cerca de <b>15 minutos</b>. Fica com qualidade de estúdio e 100% sintética.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

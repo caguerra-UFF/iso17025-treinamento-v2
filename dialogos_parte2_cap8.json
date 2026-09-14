@@ -1,0 +1,142 @@
+{
+  "title": "Parte 2 - Capítulo 08: Requisito 7.5 - Registros Técnicos e Contemporaneidade",
+  "output_dir": "F:/Transcricoes_Consolidadas/Podcasts_Tematicos/Thalita_e_Francisca/Parte_2",
+  "chapter_filename": "Podcast_Parte2_Capitulo_8_Itens_8_1_a_8_6_Completo_Thalita_e_Francisca.mp3",
+  "episodes": [
+    {
+      "id": "8.1",
+      "filename": "Podcast_Parte2_Item_8_1_Reconstruir_a_Atividade_Laboratorial.mp3",
+      "title": "Item 8.1 - Registros Técnicos: O Teste da Reconstrução Histórica",
+      "dialogue": [
+        [
+          "Thalita",
+          "Francisca, entramos no Capítulo 8 da Parte 2: o Requisito 7.5 da ISO 17025, registros técnicos. O instrutor disse uma frase marcante: o registro tem que ser tão completo que permita reconstruir o ensaio daqui a cinco anos exatamente como ele foi feito. É isso mesmo?"
+        ],
+        [
+          "Francisca",
+          "Essa é a definição de ouro do requisito 7.5.1, Thalita! Os registros técnicos devem conter informações suficientes para permitir a repetição da atividade de laboratório em condições o mais próximas possível das originais. Identificação do equipamento usado, número do lote do reagente, padrões, analista responsável e dados brutos de leitura."
+        ],
+        [
+          "Thalita",
+          "E por que apenas o valor final do laudo não é suficiente?"
+        ],
+        [
+          "Francisca",
+          "Porque se um cliente ou a Justiça questionar o resultado dois anos depois, o laudo é apenas a ponta do iceberg! O que prova a idoneidade metrológica é a pasta com a memória de cálculo, pesagens originais da balança e curva de calibração do dia. Sem o dado bruto, o laudo perde o sustento jurídico."
+        ],
+        [
+          "Thalita",
+          "Sensacional! O registro técnico é a certidão de nascimento de cada resultado emitido."
+        ]
+      ]
+    },
+    {
+      "id": "8.2",
+      "filename": "Podcast_Parte2_Item_8_2_Contemporaneidade_do_Registro.mp3",
+      "title": "Item 8.2 - Contemporaneidade: O Registro Imediato no Momento da Ação",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 8.2, Francisca, surge o princípio da contemporaneidade. Nada de anotar o peso na luva cirúrgica ou num pedaço de papel toalha para passar a limpo no fim da tarde! O que diz a norma sobre o momento do registro?"
+        ],
+        [
+          "Francisca",
+          "O requisito 7.5.1 é categórico: as observações originais, dados e cálculos devem ser registrados no momento em que são feitos! Passar a limpo é uma das maiores fontes de erro de transcrição em laboratório e é considerado prática inaceitável em auditorias da Cgcre."
+        ],
+        [
+          "Thalita",
+          "E como garantir que a contemporaneidade seja cumprida na correria da bancada?"
+        ],
+        [
+          "Francisca",
+          "Cadernos de bancada numerados e rubricados, fichas de ensaio padronizadas ou terminais de computador direto ao lado das balanças e cromatógrafos. A pesagem saiu, o valor é digitado ou anotado no ato. Registro contemporâneo é sinônimo de integridade de dados."
+        ],
+        [
+          "Thalita",
+          "Excelente! Quem anota no ato nunca depende da memória e blinda o laboratório contra desvios."
+        ]
+      ]
+    },
+    {
+      "id": "8.3",
+      "filename": "Podcast_Parte2_Item_8_3_O_Famoso_Lapis_Nao_Pode.mp3",
+      "title": "Item 8.3 - O Famoso 'Lápis Não Pode': A Rastreabilidade do Erro",
+      "dialogue": [
+        [
+          "Thalita",
+          "Chegamos ao Item 8.3 com um dos maiores clássicos dos treinamentos de qualidade: por que o instrutor foi tão enfático ao dizer que lápis, borracha e corretivo líquido são terminantemente proibidos no laboratório?"
+        ],
+        [
+          "Francisca",
+          "Porque a borracha apaga a história do dado, Thalita! O requisito 7.5.2 exige que as alterações nos registros técnicos possam ser rastreadas até as versões anteriores e observações originais. Se você usa lápis ou corretivo branquinho, você destrói a evidência do que estava escrito antes."
+        ],
+        [
+          "Thalita",
+          "E como a ISO 17025 manda corrigir um erro num registro em papel?"
+        ],
+        [
+          "Francisca",
+          "A regra é simples e elegante: passa-se um traço simples sobre o dado incorreto, de forma que o número original continue perfeitamente legível. Ao lado, anota-se o valor correto, a data e a rubrica de quem fez a correção. O erro não é vergonha; apagar o erro é que é não conformidade!"
+        ],
+        [
+          "Thalita",
+          "Lição magistral de transparência metrológica: a história do dado tem que ser preservada intacta."
+        ]
+      ]
+    },
+    {
+      "id": "8.4",
+      "filename": "Podcast_Parte2_Item_8_4_Controle_de_Planilhas_e_Trilha_de_Auditoria.mp3",
+      "title": "Item 8.4 - Controle de Planilhas Eletrônicas e Trilha de Auditoria",
+      "dialogue": [
+        [
+          "Thalita",
+          "No Item 8.4, migramos do papel para o computador: muitas equipes usam planilhas de Excel para calcular resultados e curvas de calibração. Francisca, como atender ao requisito 7.5.2 no ambiente digital?"
+        ],
+        [
+          "Francisca",
+          "Planilha eletrônica em laboratório não pode ser um arquivo solto onde qualquer um mexe nas fórmulas, Thalita! A planilha precisa ser validada, ter as células de cálculo bloqueadas com senha e, acima de tudo, ter controle de versões arquivadas."
+        ],
+        [
+          "Thalita",
+          "E nos sistemas informatizados tipo LIMS?"
+        ],
+        [
+          "Francisca",
+          "Os sistemas devem possuir trilha de auditoria automatizada, o chamado audit trail! Se um analista alterar uma leitura de absorbância ou um fator de diluição, o sistema grava automaticamente: quem alterou, a data, o horário, o valor antigo e o motivo da mudança. A era digital exige o mesmo rigor de rastreabilidade do papel."
+        ],
+        [
+          "Thalita",
+          "Perfeito! Software seguro com trilha de auditoria impede alterações indevidas e garante confiabilidade total."
+        ]
+      ]
+    },
+    {
+      "id": "8.5",
+      "filename": "Podcast_Parte2_Item_8_5_Prazo_de_Retencao_de_Registros.mp3",
+      "title": "Item 8.5 - Prazo de Retenção de Registros Técnicos",
+      "dialogue": [
+        [
+          "Thalita",
+          "Pra fechar a Seção 8, o Item 8.5 trata do tempo de guarda de toda essa documentação. Por quantos anos o laboratório precisa guardar os dados brutos e laudos emitidos?"
+        ],
+        [
+          "Francisca",
+          "O prazo mínimo é estabelecido pelo sistema de gestão e pelas exigências regulatórias dos clientes, Thalita! Para laboratórios acreditados pela Cgcre, o padrão comumente adotado e auditado é de no mínimo quatro a cinco anos de guarda segura."
+        ],
+        [
+          "Thalita",
+          "E como armazenar esse volume imenso sem perder a integridade dos arquivos?"
+        ],
+        [
+          "Francisca",
+          "Com rotinas rigorosas de backup digital periódico em servidores seguros, proteção contra incêndio e umidade para arquivos físicos em papel, e controle de acesso restrito. Guardar com segurança é garantir que a prova metrológica esteja viva sempre que for necessária."
+        ],
+        [
+          "Thalita",
+          "Sensacional, Francisca! Uma verdadeira aula de governança de dados e rastreabilidade técnica da ISO 17025."
+        ]
+      ]
+    }
+  ]
+}

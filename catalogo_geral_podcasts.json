@@ -1,0 +1,998 @@
+{
+  "Parte 1 (02/09/2026) - Equipamentos, Calibração e Gestão de Fornecedores": [
+    {
+      "filename": "Podcast_Capitulo_10_Itens_10_1_a_10_4_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 5186.3,
+      "size_mb": 5.06,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Capitulo_11_Itens_11_1_a_11_7_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 8748.8,
+      "size_mb": 8.54,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Capitulo_12_Mitos_Excessos_e_Fatos_ISO17025.mp3",
+      "size_kb": 3410.7,
+      "size_mb": 3.33,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Capitulo_13_Plano_de_Implantacao_e_Checklist_Final_Dia_1.mp3",
+      "size_kb": 2262.7,
+      "size_mb": 2.21,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Capitulo_2_Itens_2_1_a_2_3_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 3695.2,
+      "size_mb": 3.61,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Capitulo_3_Itens_3_1_a_3_3_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 3464.1,
+      "size_mb": 3.38,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Capitulo_4_Itens_4_1_a_4_3_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 3459.9,
+      "size_mb": 3.38,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Capitulo_5_Itens_5_1_a_5_4_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 4554.4,
+      "size_mb": 4.45,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Capitulo_7_Itens_7_1_a_7_4_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 4772.4,
+      "size_mb": 4.66,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Capitulo_8_Itens_8_1_a_8_4_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 5368.2,
+      "size_mb": 5.24,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Capitulo_9_Itens_9_1_a_9_3_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 3884.6,
+      "size_mb": 3.79,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Item_10_1_Checklist_Tecnico_Certificados_Calibracao.mp3",
+      "size_kb": 1292.9,
+      "size_mb": 1.26,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_10_2_Capacidade_Medicao_Calibracao_CMC.mp3",
+      "size_kb": 1142.4,
+      "size_mb": 1.12,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_10_3_Exemplo_pHmetro_Calibracao_Eletrica.mp3",
+      "size_kb": 1360.4,
+      "size_mb": 1.33,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_10_4_Sensor_Temperatura_Associado_pHmetro.mp3",
+      "size_kb": 1317.7,
+      "size_mb": 1.29,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_11_1_Produtor_Competente_e_ISO_17034.mp3",
+      "size_kb": 1494.4,
+      "size_mb": 1.46,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_11_2_Incerteza_do_MRC_Compativel_com_Uso.mp3",
+      "size_kb": 1110.0,
+      "size_mb": 1.08,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_11_3_Lote_Validade_e_Condicoes_do_Certificado.mp3",
+      "size_kb": 1238.5,
+      "size_mb": 1.21,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_11_4_Temperatura_20C_vs_25C_para_pH.mp3",
+      "size_kb": 1097.4,
+      "size_mb": 1.07,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_11_5_Quantidade_Minima_de_Amostra_do_MRC.mp3",
+      "size_kb": 1140.5,
+      "size_mb": 1.11,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_11_6_Validade_Apos_Abertura.mp3",
+      "size_kb": 1238.9,
+      "size_mb": 1.21,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_11_7_Uso_de_Reagente_ou_Material_Vencido.mp3",
+      "size_kb": 1302.2,
+      "size_mb": 1.27,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_1_9_Manutencao_Cabines_Fluxo_Laminar_e_Infraestrutura.mp3",
+      "size_kb": 1350.5,
+      "size_mb": 1.32,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_2_1_Plano_de_Manutencao_e_Calibracao.mp3",
+      "size_kb": 1297.1,
+      "size_mb": 1.27,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_2_2_Sistema_Informatizado_vs_Planilha.mp3",
+      "size_kb": 1128.8,
+      "size_mb": 1.1,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_2_3_Manutencao_ao_Uso_Real.mp3",
+      "size_kb": 1214.1,
+      "size_mb": 1.19,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_3_1_Verificacao_Antes_do_Uso.mp3",
+      "size_kb": 1269.4,
+      "size_mb": 1.24,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_3_2_Exatidao_Precisao_e_Incerteza.mp3",
+      "size_kb": 999.9,
+      "size_mb": 0.98,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_3_3_Criterio_de_Aceitacao_Antes_da_Compra.mp3",
+      "size_kb": 1139.6,
+      "size_mb": 1.11,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_4_1_Identificacao_da_Situacao_do_Equipamento.mp3",
+      "size_kb": 1196.3,
+      "size_mb": 1.17,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_4_2_Data_da_Proxima_Calibracao_na_Etiqueta.mp3",
+      "size_kb": 1165.8,
+      "size_mb": 1.14,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_4_3_Equipamento_Fora_do_Escopo.mp3",
+      "size_kb": 1042.5,
+      "size_mb": 1.02,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_5_1_Quando_a_ISO_Exige_Checagem.mp3",
+      "size_kb": 1091.3,
+      "size_mb": 1.07,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_5_2_Exemplo_pHmetro_e_Controle.mp3",
+      "size_kb": 1089.9,
+      "size_mb": 1.06,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_5_3_Transporte_ao_Campo_e_Verificacao.mp3",
+      "size_kb": 1134.9,
+      "size_mb": 1.11,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_5_4_Prazo_15_Minutos_pH_e_Temperatura.mp3",
+      "size_kb": 1165.4,
+      "size_mb": 1.14,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_6_1_Sondas_Consoles_e_Multiparametros.mp3",
+      "size_kb": 2061.1,
+      "size_mb": 2.01,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_7_1_Conceito_Pratico_Rastreabilidade.mp3",
+      "size_kb": 1099.7,
+      "size_mb": 1.07,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_7_2_Toda_Calibracao_em_Laboratorio_Acreditado.mp3",
+      "size_kb": 1345.8,
+      "size_mb": 1.31,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_7_3_Sistema_Internacional_e_Excecoes.mp3",
+      "size_kb": 1054.7,
+      "size_mb": 1.03,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_7_4_Reconhecimento_Internacional_e_NIT_DICLA_030.mp3",
+      "size_kb": 1199.1,
+      "size_mb": 1.17,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_8_1_Especificacao_Vinculada_ao_Ensaio.mp3",
+      "size_kb": 1462.5,
+      "size_mb": 1.43,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_8_2_Validacao_do_Metodo_para_Especificacoes.mp3",
+      "size_kb": 1272.7,
+      "size_mb": 1.24,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_8_3_Avaliacao_Selecao_Monitoramento_Reavaliacao.mp3",
+      "size_kb": 1244.6,
+      "size_mb": 1.22,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_8_4_Comunicacao_Competencia_Criterios_Aceitacao.mp3",
+      "size_kb": 1315.4,
+      "size_mb": 1.28,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_9_1_O_Que_Observar_no_Relatorio_de_Manutencao.mp3",
+      "size_kb": 1284.9,
+      "size_mb": 1.25,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_9_2_Frequencia_Anual_Manutencao_Espectrofotometro.mp3",
+      "size_kb": 1250.2,
+      "size_mb": 1.22,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_9_3_Documentos_Orientativos_Cgcre_DOC_vs_NIT.mp3",
+      "size_kb": 1294.3,
+      "size_mb": 1.26,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Item_9_4_Checklist_Manutencao_Espectrofotometria_e_Absorcao_Atomica.mp3",
+      "size_kb": 1176.1,
+      "size_mb": 1.15,
+      "is_full_chapter": false
+    }
+  ],
+  "Parte 2 (03/09/2026) - Requisitos de Processo: 7.1 a 7.6": [
+    {
+      "filename": "Podcast_Parte2_Capitulo_10_Mitos_Excessos_e_Fatos_Processo_ISO17025.mp3",
+      "size_kb": 3152.9,
+      "size_mb": 3.08,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte2_Capitulo_11_Plano_de_Implantacao_e_Checklist_Dia2.mp3",
+      "size_kb": 2301.6,
+      "size_mb": 2.25,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte2_Capitulo_2_Itens_2_1_a_2_4_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 4762.1,
+      "size_mb": 4.65,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte2_Capitulo_3_Itens_3_1_a_3_6_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 6906.1,
+      "size_mb": 6.74,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte2_Capitulo_4_Itens_4_1_a_4_3_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 3508.2,
+      "size_mb": 3.43,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte2_Capitulo_5_Itens_5_1_a_5_5_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 5595.5,
+      "size_mb": 5.46,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte2_Capitulo_6_Itens_6_1_a_6_7_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 8062.5,
+      "size_mb": 7.87,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte2_Capitulo_7_Itens_7_1_a_7_4_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 4513.2,
+      "size_mb": 4.41,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte2_Capitulo_8_Itens_8_1_a_8_6_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 5565.0,
+      "size_mb": 5.43,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte2_Capitulo_9_Itens_9_1_a_9_8_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 8214.4,
+      "size_mb": 8.02,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte2_Item_2_1_Quantidade_Minima_MRC_Homogeneidade.mp3",
+      "size_kb": 1165.8,
+      "size_mb": 1.14,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_2_2_Validade_Apos_Abertura_ou_Reamostragem.mp3",
+      "size_kb": 1154.1,
+      "size_mb": 1.13,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_2_3_Material_Vencido_Rastreabilidade_vs_Controle.mp3",
+      "size_kb": 1146.6,
+      "size_mb": 1.12,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_2_4_Competencia_do_Produtor_e_Reconhecimento.mp3",
+      "size_kb": 1221.6,
+      "size_mb": 1.19,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_3_1_Cliente_Interno_Analise_Critica_Simplificada.mp3",
+      "size_kb": 1205.7,
+      "size_mb": 1.18,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_3_2_O_Que_Precisa_Ser_Definido_no_Pedido.mp3",
+      "size_kb": 1054.7,
+      "size_mb": 1.03,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_3_3_Regra_de_Decisao_e_Tratamento_da_Incerteza.mp3",
+      "size_kb": 1371.6,
+      "size_mb": 1.34,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_3_4_Provedores_Externos_Dentro_do_Contrato.mp3",
+      "size_kb": 1049.6,
+      "size_mb": 1.02,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_3_5_Alteracoes_Desvios_e_Aceite_do_Cliente.mp3",
+      "size_kb": 1012.1,
+      "size_mb": 0.99,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_3_6_Cooperacao_com_o_Cliente.mp3",
+      "size_kb": 1102.5,
+      "size_mb": 1.08,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_4_1_Metodo_Apropriado_Matriz_e_Uso.mp3",
+      "size_kb": 1109.1,
+      "size_mb": 1.08,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_4_2_Ultima_Versao_Valida_do_Metodo.mp3",
+      "size_kb": 1198.2,
+      "size_mb": 1.17,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_4_3_Metodo_Revisado_e_Nova_Verificacao.mp3",
+      "size_kb": 1145.2,
+      "size_mb": 1.12,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_4_4_Transicao_de_Metodos_e_Ciclo_Quadrienal.mp3",
+      "size_kb": 1178.5,
+      "size_mb": 1.15,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_5_1_Plano_e_Metodo_de_Amostragem.mp3",
+      "size_kb": 1199.6,
+      "size_mb": 1.17,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_5_2_Procedimento_em_Formato_de_Fluxograma.mp3",
+      "size_kb": 1097.9,
+      "size_mb": 1.07,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_5_3_Disponibilidade_no_Local_da_Amostragem.mp3",
+      "size_kb": 1037.4,
+      "size_mb": 1.01,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_5_4_Checklist_de_Materiais_e_Logistica.mp3",
+      "size_kb": 995.2,
+      "size_mb": 0.97,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_5_5_Politica_Cgcre_para_Amostragem.mp3",
+      "size_kb": 1173.3,
+      "size_mb": 1.15,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_6_1_Tempos_de_Preservacao_e_Condicoes.mp3",
+      "size_kb": 1145.7,
+      "size_mb": 1.12,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_6_2_Brancos_de_Equipamento_Campo_Viagem_Metodo.mp3",
+      "size_kb": 1241.8,
+      "size_mb": 1.21,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_6_3_Temperatura_da_Caixa_vs_da_Amostra.mp3",
+      "size_kb": 1051.0,
+      "size_mb": 1.03,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_6_4_O_Mito_do_Gelo_Reciclavel.mp3",
+      "size_kb": 1163.5,
+      "size_mb": 1.14,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_6_5_Duplicata_de_Campo_vs_Laboratorio.mp3",
+      "size_kb": 1017.7,
+      "size_mb": 0.99,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_6_6_Frequencia_Um_a_Cada_Vinte.mp3",
+      "size_kb": 1193.9,
+      "size_mb": 1.17,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_6_7_Amostra_Fortificada_e_Efeito_de_Matriz.mp3",
+      "size_kb": 1120.8,
+      "size_mb": 1.09,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_6_8_Dinamica_Termica_Caixas_Transporte_e_Risco_Congelamento.mp3",
+      "size_kb": 1070.7,
+      "size_mb": 1.05,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_7_1_Procedimento_Ciclo_Completo_do_Item.mp3",
+      "size_kb": 1068.8,
+      "size_mb": 1.04,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte2_Item_7_2_Identificacao_Inequivoca_e_Subamostras.mp3",
+      "size_kb": 1098.3,
+      "size_mb": 1.07,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_7_3_Item_Recebido_Fora_de_Condicao.mp3",
+      "size_kb": 1170.5,
+      "size_mb": 1.14,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_7_4_Armazenamento_Segregacao_e_Monitoramento.mp3",
+      "size_kb": 1101.6,
+      "size_mb": 1.08,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_7_5_Codificacao_Subamostras_e_Amostras_Danificadas.mp3",
+      "size_kb": 1167.2,
+      "size_mb": 1.14,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_8_1_Reconstruir_a_Atividade_Laboratorial.mp3",
+      "size_kb": 1245.0,
+      "size_mb": 1.22,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_8_2_Contemporaneidade_do_Registro.mp3",
+      "size_kb": 1073.9,
+      "size_mb": 1.05,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_8_3_O_Famoso_Lapis_Nao_Pode.mp3",
+      "size_kb": 1081.0,
+      "size_mb": 1.06,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_8_4_Controle_de_Planilhas_e_Trilha_de_Auditoria.mp3",
+      "size_kb": 1072.5,
+      "size_mb": 1.05,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_8_5_Prazo_de_Retencao_de_Registros.mp3",
+      "size_kb": 1000.4,
+      "size_mb": 0.98,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_9_1_Identificar_Contribuicoes_Antes_de_Calcular.mp3",
+      "size_kb": 1131.6,
+      "size_mb": 1.11,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_9_2_Tipo_A_e_Tipo_B_Desmistificados.mp3",
+      "size_kb": 973.2,
+      "size_mb": 0.95,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_9_3_Repetibilidade_Precisao_Intermediaria.mp3",
+      "size_kb": 975.0,
+      "size_mb": 0.95,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_9_4_Vidrarias_e_a_Abordagem_do_Pior_Caso.mp3",
+      "size_kb": 953.9,
+      "size_mb": 0.93,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_9_5_Contribuicao_da_Amostragem_na_Incerteza.mp3",
+      "size_kb": 950.2,
+      "size_mb": 0.93,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_9_6_Regra_dos_Trinta_Por_Cento_Eurachem.mp3",
+      "size_kb": 967.1,
+      "size_mb": 0.94,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_9_7_Incerteza_em_Ensaios_Qualitativos.mp3",
+      "size_kb": 972.2,
+      "size_mb": 0.95,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte2_Item_9_8_A_ISO_Nao_Ensina_a_Formula.mp3",
+      "size_kb": 1144.7,
+      "size_mb": 1.12,
+      "is_full_chapter": false
+    }
+  ],
+  "Parte 3 (04/09/2026) - Garantia da Validade, Laudos, Metrologia e Gestão": [
+    {
+      "filename": "Podcast_Parte3_Capitulo_11_Mitos_Excessos_e_Fatos_Garantia_e_Gestao.mp3",
+      "size_kb": 4068.8,
+      "size_mb": 3.97,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte3_Capitulo_12_Plano_de_Implantacao_e_Checklist_Final_Dia_3.mp3",
+      "size_kb": 3629.1,
+      "size_mb": 3.54,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte3_Capitulo_2_Itens_2_1_a_2_10_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 10292.4,
+      "size_mb": 10.05,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte3_Capitulo_3_Itens_3_1_a_3_7_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 8126.8,
+      "size_mb": 7.94,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte3_Capitulo_4_Itens_4_1_a_4_8_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 8559.9,
+      "size_mb": 8.36,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte3_Capitulos_5_6_7_Metrologia_e_Acreditacao_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 12398.9,
+      "size_mb": 12.11,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte3_Capitulos_8_9_10_Reclamacoes_TNC_e_Sistemas_Completo_Thalita_e_Francisca.mp3",
+      "size_kb": 10815.5,
+      "size_mb": 10.56,
+      "is_full_chapter": true
+    },
+    {
+      "filename": "Podcast_Parte3_Item_10_1_Acesso_Protecao_e_Integridade_dos_Dados.mp3",
+      "size_kb": 947.9,
+      "size_mb": 0.93,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_10_2_Sistemas_em_Nuvem_e_Responsabilidade_do_Laboratorio.mp3",
+      "size_kb": 957.7,
+      "size_mb": 0.94,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_10_3_Backup_Periodico_e_Teste_de_Restauracao.mp3",
+      "size_kb": 900.5,
+      "size_mb": 0.88,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_10_4_Validacao_de_Planilhas_e_Calculos.mp3",
+      "size_kb": 1119.4,
+      "size_mb": 1.09,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_10_8_Validacao_Interfaces_LIMS_e_Testes_Queda_de_Rede.mp3",
+      "size_kb": 953.5,
+      "size_mb": 0.93,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_2_10_Todos_os_Mecanismos_Sao_Obrigatorios.mp3",
+      "size_kb": 1341.6,
+      "size_mb": 1.31,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_2_1_Procedimento_Registros_e_Tendencias.mp3",
+      "size_kb": 1052.9,
+      "size_mb": 1.03,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_2_2_Limites_Internos_vs_Criterios_Externos.mp3",
+      "size_kb": 953.9,
+      "size_mb": 0.93,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_2_3_MRCs_e_Materiais_de_Controle.mp3",
+      "size_kb": 973.2,
+      "size_mb": 0.95,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_2_4_Checagens_Funcionais_e_Intermediarias.mp3",
+      "size_kb": 975.0,
+      "size_mb": 0.95,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_2_5_Replicatas_Duplicatas_e_Repetibilidade.mp3",
+      "size_kb": 994.3,
+      "size_mb": 0.97,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_2_6_Reensaio_de_Itens_Retidos.mp3",
+      "size_kb": 878.9,
+      "size_mb": 0.86,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_2_7_Correlacao_Entre_Caracteristicas_Diferentes.mp3",
+      "size_kb": 1033.6,
+      "size_mb": 1.01,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_2_8_Analise_Critica_e_Comparacoes_Intralaboratoriais.mp3",
+      "size_kb": 935.7,
+      "size_mb": 0.91,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_2_9_Ensaios_de_Amostras_Cegas.mp3",
+      "size_kb": 970.8,
+      "size_mb": 0.95,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_3_1_O_Que_a_ISO_Exige_no_PEP.mp3",
+      "size_kb": 1217.9,
+      "size_mb": 1.19,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_3_2_Politica_Cgcre_NIT_DICLA_026.mp3",
+      "size_kb": 1091.3,
+      "size_mb": 1.07,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_3_3_Indisponibilidade_de_Provedor_de_PEP.mp3",
+      "size_kb": 1098.8,
+      "size_mb": 1.07,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_3_4_Relatorio_Preliminar_vs_Final.mp3",
+      "size_kb": 1005.0,
+      "size_mb": 0.98,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_3_5_Leitura_Critica_do_Zscore_e_Tendencias.mp3",
+      "size_kb": 1118.0,
+      "size_mb": 1.09,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_3_6_Resultado_Insatisfatorio_e_Acao_Corretiva.mp3",
+      "size_kb": 1235.2,
+      "size_mb": 1.21,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_3_7_Comentarios_Tecnicos_do_Provedor_Melhoria.mp3",
+      "size_kb": 1232.4,
+      "size_mb": 1.2,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_3_8_Plano_Quadrienal_PEP_e_Provedores_Nao_Acreditados.mp3",
+      "size_kb": 1137.2,
+      "size_mb": 1.11,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_4_1_Revisao_e_Autorizacao_Antes_da_Liberacao.mp3",
+      "size_kb": 1016.3,
+      "size_mb": 0.99,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_4_2_Relatorio_Simplificado_Cliente_Interno.mp3",
+      "size_kb": 1051.9,
+      "size_mb": 1.03,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_4_3_Conteudo_Minimo_e_Fim_do_Relatorio.mp3",
+      "size_kb": 1054.3,
+      "size_mb": 1.03,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_4_4_Unidades_e_o_Mito_do_Sempre_SI.mp3",
+      "size_kb": 1134.9,
+      "size_mb": 1.11,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_4_5_Identificacao_de_Quem_Autoriza_Assinatura.mp3",
+      "size_kb": 948.3,
+      "size_mb": 0.93,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_4_6_Incerteza_e_Regra_de_Decisao_no_Laudo.mp3",
+      "size_kb": 995.7,
+      "size_mb": 0.97,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_4_7_Opinioes_Interpretacoes_e_Amostragem.mp3",
+      "size_kb": 1092.2,
+      "size_mb": 1.07,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_4_8_Emendas_Retificacoes_e_Cancelamento_de_Laudos.mp3",
+      "size_kb": 1119.9,
+      "size_mb": 1.09,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_5_1_Uso_do_Simbolo_e_Referencia_Acreditacao.mp3",
+      "size_kb": 1100.2,
+      "size_mb": 1.07,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_5_2_Sancoes_Suspensao_e_Cancelamento_do_Simbolo.mp3",
+      "size_kb": 983.5,
+      "size_mb": 0.96,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_5_3_Sancoes_Cgcre_Simbolo_e_Sinistros_Caso_RS.mp3",
+      "size_kb": 1095.0,
+      "size_mb": 1.07,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_6_1_Erro_Maximo_Admissivel_vs_Erro_de_Medicao.mp3",
+      "size_kb": 1154.6,
+      "size_mb": 1.13,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_6_2_Exatidao_vs_Precisao_Conceitos_Metrologicos.mp3",
+      "size_kb": 970.4,
+      "size_mb": 0.95,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_6_3_Incerteza_Nao_e_Apenas_Precisao.mp3",
+      "size_kb": 922.5,
+      "size_mb": 0.9,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_6_4_Leitura_Critica_do_Certificado_de_Calibracao.mp3",
+      "size_kb": 1058.0,
+      "size_mb": 1.03,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_7_1_Uso_Pretendido_Define_o_Criterio.mp3",
+      "size_kb": 966.1,
+      "size_mb": 0.94,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_7_2_Soma_do_Erro_e_Incerteza_como_Criterio.mp3",
+      "size_kb": 897.2,
+      "size_mb": 0.88,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_7_3_Regra_Pratica_da_Tolerancia_Dividida_por_Tres.mp3",
+      "size_kb": 924.9,
+      "size_mb": 0.9,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_7_4_Correcao_do_Erro_vs_Estreitamento_da_Faixa.mp3",
+      "size_kb": 1053.3,
+      "size_mb": 1.03,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_7_5_Medicao_Direta_em_Campo_vs_Controle_de_Faixa.mp3",
+      "size_kb": 1001.8,
+      "size_mb": 0.98,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_7_6_Resultado_Proximo_de_Limite_Regulatorio.mp3",
+      "size_kb": 1148.0,
+      "size_mb": 1.12,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_7_7_Oficina_Construcao_Faixa_Operacional_Corrigida.mp3",
+      "size_kb": 1051.4,
+      "size_mb": 1.03,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_7_8_Imersao_Total_do_Sensor_e_Limites_Praticos_Incerteza.mp3",
+      "size_kb": 948.3,
+      "size_mb": 0.93,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_8_1_Processo_Documentado_e_Disponivel.mp3",
+      "size_kb": 963.3,
+      "size_mb": 0.94,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_8_2_Independencia_na_Analise_e_Conclusao.mp3",
+      "size_kb": 1024.7,
+      "size_mb": 1.0,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_8_3_Reclamacoes_Explicitas_e_Implicitas.mp3",
+      "size_kb": 1080.0,
+      "size_mb": 1.05,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_8_4_Reclamacoes_Cliente_Interno_e_Limites_Tecnicos.mp3",
+      "size_kb": 923.0,
+      "size_mb": 0.9,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_9_1_Conceito_e_Abrangencia_do_TNC.mp3",
+      "size_kb": 971.3,
+      "size_mb": 0.95,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_9_2_Risco_Impacto_e_Resultados_Anteriores.mp3",
+      "size_kb": 933.8,
+      "size_mb": 0.91,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_9_3_Notificacao_ao_Cliente_e_Retomada_do_Trabalho.mp3",
+      "size_kb": 743.0,
+      "size_mb": 0.73,
+      "is_full_chapter": false
+    },
+    {
+      "filename": "Podcast_Parte3_Item_9_4_Relacao_com_Acao_Corretiva_e_Matriz_de_Risco.mp3",
+      "size_kb": 973.2,
+      "size_mb": 0.95,
+      "is_full_chapter": false
+    }
+  ]
+}
