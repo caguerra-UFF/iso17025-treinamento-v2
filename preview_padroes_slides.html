@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padrões de Slides • Eletronuclear + ELMA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --blue: #0072CE;
+            --green: #84BD00;
+            --navy: #003366;
+            --dark-bg: #0b1320;
+            --card-bg: #1e293b;
+            --text-light: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f172a;
+            color: var(--text-light);
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 45px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .logo-combo-top {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 25px;
+            background: rgba(255,255,255,0.04);
+            padding: 15px 30px;
+            border-radius: 50px;
+            display: inline-flex;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .logo-combo-top img.logo-ele {
+            height: 48px;
+            filter: drop-shadow(0 2px 8px rgba(0,0,0,0.3));
+        }
+
+        .logo-combo-top .divider {
+            width: 2px;
+            height: 40px;
+            background: rgba(255,255,255,0.2);
+        }
+
+        .logo-combo-top img.logo-elma {
+            height: 52px;
+            filter: drop-shadow(0 2px 8px rgba(0,0,0,0.3));
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 32px;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        header h1 span.highlight-green {
+            color: var(--green);
+        }
+
+        header h1 span.highlight-blue {
+            color: #38bdf8;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 16px;
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 18px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background: rgba(0, 114, 206, 0.15);
+            border: 1px solid rgba(0, 114, 206, 0.35);
+            color: #38bdf8;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .section-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
+            color: #fff;
+            margin: 40px 0 20px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title::before {
+            content: "";
+            display: inline-block;
+            width: 6px;
+            height: 24px;
+            background: var(--green);
+            border-radius: 3px;
+        }
+
+        .grid-propostas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(640px, 1fr));
+            gap: 35px;
+            margin-bottom: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-propostas {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card-proposta {
+            background: var(--card-bg);
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 12px 30px -5px rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .card-proposta:hover {
+            transform: translateY(-4px);
+            border-color: #38bdf8;
+        }
+
+        .card-header {
+            padding: 16px 24px;
+            background: rgba(15, 23, 42, 0.8);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .card-header h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .tag-opcao {
+            background: var(--green);
+            color: #0f172a;
+            font-size: 12px;
+            font-weight: 800;
+            padding: 4px 12px;
+            border-radius: 20px;
+            text-transform: uppercase;
+        }
+
+        .slide-preview-wrapper {
+            background: #000;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slide-preview-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.6);
+        }
+
+        .card-desc {
+            padding: 22px 26px;
+            flex-grow: 1;
+        }
+
+        .card-desc h3 {
+            font-size: 15px;
+            color: #38bdf8;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .card-desc ul {
+            list-style: none;
+            font-size: 14px;
+            color: #cbd5e1;
+        }
+
+        .card-desc ul li {
+            position: relative;
+            padding-left: 22px;
+            margin-bottom: 8px;
+        }
+
+        .card-desc ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--green);
+            font-weight: 800;
+        }
+
+        .comparison-panel {
+            background: #132238;
+            border: 1px solid rgba(56, 189, 248, 0.25);
+            border-radius: 16px;
+            padding: 30px;
+            margin: 45px 0;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 800px) {
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .comparison-box {
+            background: #0b1320;
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .comparison-tag {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 800;
+            padding: 4px 14px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .tag-bad {
+            background: #ef4444;
+            color: #fff;
+        }
+
+        .tag-good {
+            background: var(--green);
+            color: #0f172a;
+        }
+
+        .comparison-box img {
+            width: 100%;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+
+        .action-box {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 16px;
+            padding: 35px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .action-box h3 {
+            font-size: 22px;
+            color: #fff;
+            margin-bottom: 12px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .action-box p {
+            color: var(--text-muted);
+            font-size: 15px;
+            max-width: 750px;
+            margin: 0 auto 25px auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="logo-combo-top">
+            <img src="assets/logo_eletronuclear.png" alt="Eletronuclear" class="logo-ele">
+            <div class="divider"></div>
+            <img src="assets/logo_elma.png" alt="ELMA" class="logo-elma">
+        </div>
+        <h1>Padronização Visual Oficial • <span class="highlight-blue">Eletronuclear</span> + <span class="highlight-green">ELMA</span></h1>
+        <p>Remoção definitiva e automatizada de todos os logotipos e padrões visuais de terceiros (LCN / Luana Castilho Neves). Os slides passam a ostentar a identidade oficial da <strong>Eletronuclear</strong> e do <strong>ELMA (Laboratório de Monitoração Ambiental)</strong>.</p>
+        <div class="badges">
+            <span class="badge">🔒 100% Livre de Direitos de Terceiros</span>
+            <span class="badge">⚛️ Eletronuclear Energia Limpa</span>
+            <span class="badge">🧪 ELMA • Monitoração Ambiental</span>
+            <span class="badge">⚡ Aplicação em Lote nos 241 Slides</span>
+        </div>
+    </header>
+
+    <h2 class="section-title">Opções de Layout com as Duas Logos Combinadas</h2>
+
+    <div class="grid-propostas">
+        
+        <!-- OPÇÃO 1 -->
+        <div class="card-proposta">
+            <div class="card-header">
+                <h2>Opção 1: Dual Extremidades (Recomendada)</h2>
+                <span class="tag-opcao">Opção 1</span>
+            </div>
+            <div class="slide-preview-wrapper">
+                <img src="test_dual_op1_extremidades.jpg" alt="Opção 1 - Dual Extremidades">
+            </div>
+            <div class="card-desc">
+                <h3>Estrutura do Padrão 1</h3>
+                <ul>
+                    <li><strong>Canto Superior Esquerdo:</strong> Logo oficial da <em>Eletronuclear (Energia Limpa)</em>.</li>
+                    <li><strong>Canto Superior Direito:</strong> Emblema do <em>ELMA (Laboratório de Monitoração Ambiental)</em>.</li>
+                    <li><strong>Topo:</strong> Faixa corporativa bicolor (Azul Tecnológico 70% + Verde Energia 30%).</li>
+                    <li><strong>Rodapé:</strong> Barra técnica discreta em tom cinza claro para suporte de leitura.</li>
+                    <li><strong>Vantagem:</strong> Equilíbrio visual simétrico perfeito, preservando todo o centro para o conteúdo técnico e infográficos.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- OPÇÃO 2 -->
+        <div class="card-proposta">
+            <div class="card-header">
+                <h2>Opção 2: Parceria Integrada (Lado a Lado à Esquerda)</h2>
+                <span class="tag-opcao" style="background: #38bdf8;">Opção 2</span>
+            </div>
+            <div class="slide-preview-wrapper">
+                <img src="test_dual_op2_juntos.jpg" alt="Opção 2 - Parceria Integrada">
+            </div>
+            <div class="card-desc">
+                <h3>Estrutura do Padrão 2</h3>
+                <ul>
+                    <li><strong>Canto Superior Esquerdo:</strong> <em>Eletronuclear</em> | <em>ELMA</em> unidos por um divisor vertical suave.</li>
+                    <li><strong>Canto Superior Direito:</strong> Tag destacada com o requisito normativo (ex: <code>ISO/IEC 17025</code>).</li>
+                    <li><strong>Topo:</strong> Faixa contínua em Azul Tecnológico.</li>
+                    <li><strong>Rodapé:</strong> Barra sólida em Azul Marinho Corporativo.</li>
+                    <li><strong>Vantagem:</strong> Associa visualmente as duas marcas em bloco único, liberando o lado direito para identificação de módulo/requisito.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- DEMONSTRAÇÃO REAL EM INFOGRÁFICO -->
+    <div class="comparison-panel">
+        <h2 style="font-size: 20px; color: #fff; margin-bottom: 6px; font-family: 'Montserrat', sans-serif;">
+            📊 Demonstração em Slide de Infográfico / Diagrama (Slide 03)
+        </h2>
+        <p style="color: var(--text-muted); font-size: 14px;">
+            Veja como o Padrão 1 (Dual Extremidades) se comporta em um slide que possui ilustrações coloridas complexas. O logotipo antigo da LCN foi completamente limpo e substituído sem comprometer os desenhos do gráfico.
+        </p>
+        <div class="comparison-grid">
+            <div class="comparison-box">
+                <span class="comparison-tag tag-bad">Original (Com logotipo de terceiros LCN)</span>
+                <img src="Aulas_10_09_2026/Parte_1_08-06-59/slides/slide_003_00-05-21.jpg" alt="Slide 3 Original">
+            </div>
+            <div class="comparison-box">
+                <span class="comparison-tag tag-good">Padronizado (Eletronuclear + ELMA)</span>
+                <img src="test_dual_slide_2.jpg" alt="Slide 3 Padronizado">
+            </div>
+        </div>
+    </div>
+
+    <!-- TRATAMENTO DO SLIDE 1 (BIO DO INSTRUTOR) -->
+    <div class="comparison-panel" style="background: #111c2e;">
+        <h2 style="font-size: 20px; color: #fff; margin-bottom: 6px; font-family: 'Montserrat', sans-serif;">
+            👤 Tratamento Especial do Slide 01 (Bio e Foto da Instrutora)
+        </h2>
+        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 20px;">
+            O Slide 01 original contém a foto, mini-currículo da instrutora e a logo da empresa terceira. Para resguardo institucional completo, propomos substituir o Slide 01 por uma <strong>Capa Institucional Oficial do Treinamento</strong> com as duas logos em destaque e o título do curso.
+        </p>
+        <div style="max-width: 780px; margin: 0 auto; text-align: center;">
+            <div class="comparison-box">
+                <span class="comparison-tag tag-good">Proposta para o Slide 01: Capa Oficial do Treinamento ELMA / Eletronuclear</span>
+                <img src="test_dual_capa_institucional.jpg" alt="Capa Institucional">
+            </div>
+        </div>
+    </div>
+
+    <div class="action-box">
+        <h3>Qual layout você prefere aplicar nos 241 slides?</h3>
+        <p>
+            <strong>Opção 1 (Dual Extremidades)</strong>: Eletronuclear na esquerda + ELMA na direita (mais simétrico e espaçoso).<br>
+            <strong>Opção 2 (Parceria Integrada)</strong>: Eletronuclear e ELMA lado a lado na esquerda com tag à direita.<br>
+            Assim que você confirmar sua preferência, nosso script processará e atualizará todos os 241 slides em lote!
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

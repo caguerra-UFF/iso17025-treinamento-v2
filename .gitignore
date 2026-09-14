@@ -25,5 +25,9 @@ test_pronuncia_*/
 Trechos_Aulas_Modulada/
 
 
-Trechos_Aulas_Thalita/
+# Backups de slides e testes de imagens locais
+Aulas_10_09_2026/backup_slides_originais/
+test_*.jpg
 
+
+Trechos_Aulas_Thalita/
