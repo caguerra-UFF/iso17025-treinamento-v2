@@ -1219,9 +1219,7 @@ html_template = f'''<!DOCTYPE html>
                     <span>🎯</span> Configurar Avaliação Metrológica
                 </div>
                 <p class="config-desc">
-                    Escolha o perfil profissional para direcionar o foco das questões (Corpo Técnico, Gerencial ou Geral), 
-                    a seção da norma desejada, o modo de realização e a quantidade de perguntas.
-                    Todas as questões contam com narração oficial por voz (ícone 🔊), controle de parada imediata (⏹️) e diagnóstico inédito por alternativa.
+                    Personalize seu simulado por perfil profissional, seção da norma e formato de aplicação.
                 </p>
 
                 <div class="config-grid">
@@ -1232,15 +1230,15 @@ html_template = f'''<!DOCTYPE html>
                             <label class="radio-card">
                                 <input type="radio" name="examMode" value="study" checked>
                                 <div class="radio-info">
-                                    <strong>Modo Estudo (Diagnóstico Imediato)</strong>
-                                    <span>Ao marcar uma alternativa, você visualiza na hora o porquê daquele erro e por que a outra é a correta.</span>
+                                    <strong>Modo Estudo</strong>
+                                    <span>Gabarito, diagnóstico do erro e debate comentados na hora.</span>
                                 </div>
                             </label>
                             <label class="radio-card">
                                 <input type="radio" name="examMode" value="exam">
                                 <div class="radio-info">
-                                    <strong>Modo Prova Oficial (Cronometrado)</strong>
-                                    <span>Simulação de avaliação com contagem regressiva e laudo com radar de competências ao final.</span>
+                                    <strong>Modo Prova</strong>
+                                    <span>Cronometrado, sem consulta e com laudo de desempenho ao final.</span>
                                 </div>
                             </label>
                         </div>
@@ -1248,15 +1246,15 @@ html_template = f'''<!DOCTYPE html>
 
                     <!-- 2. Perfil do Avaliado -->
                     <div class="config-group">
-                        <label class="group-title">2. Perfil do Avaliado (Foco da Prova)</label>
+                        <label class="group-title">2. Perfil Profissional</label>
                         <select id="selectProfile" class="select-custom" onchange="updateFilterNotice()">
-                            <option value="all" selected>🌐 Todos os Perfis (Avaliação Global da Norma - 50 Questões)</option>
-                            <option value="tecnico">🛠️ Corpo Técnico (Bancada, Equipamentos, Incerteza & Métodos)</option>
-                            <option value="gerencial">👔 Corpo Gerencial (Liderança, Riscos, SGQ & Tomada de Decisão)</option>
-                            <option value="geral">🌐 Geral / Institucional (Cultura da Qualidade, Sigilo & Diretrizes)</option>
+                            <option value="all" selected>🌐 Todos os Perfis (Visão Global)</option>
+                            <option value="tecnico">🛠️ Corpo Técnico (Bancada e Métodos)</option>
+                            <option value="gerencial">👔 Corpo Gerencial (Gestão e Riscos)</option>
+                            <option value="geral">🌐 Geral / Institucional (Cultura e Sigilo)</option>
                         </select>
                         <p style="font-size: 11.5px; color: var(--text-muted); margin-top: 8px;">
-                            Adapta as questões à sua atuação profissional na Eletronuclear.
+                            Questões direcionadas à sua rotina de trabalho.
                         </p>
                     </div>
 
@@ -1264,29 +1262,26 @@ html_template = f'''<!DOCTYPE html>
                     <div class="config-group">
                         <label class="group-title">3. Seção da Norma</label>
                         <select id="selectScope" class="select-custom" onchange="updateFilterNotice()">
-                            <option value="all" selected>Todas as Seções (Cláusulas 4 a 8)</option>
-                            <option value="4">Seção 4: Requisitos Gerais (4.1 Imparcialidade & 4.2 Confidencialidade)</option>
-                            <option value="5">Seção 5: Requisitos de Estrutura (5.1 a 5.7)</option>
-                            <option value="6">Seção 6: Requisitos de Recursos (Pessoal, Instalações, Calibração, Compras)</option>
-                            <option value="7">Seção 7: Requisitos de Processos (Validação, Amostragem, Incerteza, PEP, Relatórios)</option>
-                            <option value="8">Seção 8: Requisitos de Gestão (Opções A/B, Riscos, Ações Corretivas, Auditoria)</option>
+                            <option value="all" selected>Todas as Seções (Norma Completa)</option>
+                            <option value="4">Seção 4: Requisitos Gerais (Imparcialidade e Sigilo)</option>
+                            <option value="5">Seção 5: Estrutura Organizacional</option>
+                            <option value="6">Seção 6: Recursos (Pessoal, Equipamentos e Metrologia)</option>
+                            <option value="7">Seção 7: Processos (Ensaios, Métodos e Incerteza)</option>
+                            <option value="8">Seção 8: Gestão (Riscos e Auditorias)</option>
                         </select>
-                        <p style="font-size: 11.5px; color: var(--text-muted); margin-top: 8px;">
-                            Permite treinar uma cláusula específica da ABNT NBR ISO/IEC 17025.
-                        </p>
                     </div>
 
                     <!-- 4. Quantidade de Questões -->
                     <div class="config-group">
                         <label class="group-title">4. Quantidade de Questões</label>
                         <select id="selectCount" class="select-custom" onchange="updateFilterNotice()">
-                            <option value="10">10 Questões (Aprox. 15 min)</option>
-                            <option value="20" selected>20 Questões (Aprox. 30 min)</option>
-                            <option value="30">30 Questões (Aprox. 45 min)</option>
-                            <option value="all">Todas as Questões Disponíveis no Filtro</option>
+                            <option value="10">10 Questões (~15 min)</option>
+                            <option value="20" selected>20 Questões (~30 min)</option>
+                            <option value="30">30 Questões (~45 min)</option>
+                            <option value="all">Todas as Questões do Filtro</option>
                         </select>
                         <p style="font-size: 11.5px; color: var(--text-muted); margin-top: 8px;">
-                            No Modo Prova, o tempo limite é proporcional (1,5 min por questão).
+                            Tempo no Modo Prova: 1,5 min/questão.
                         </p>
                     </div>
                 </div>
