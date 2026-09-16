@@ -97,6 +97,7 @@ Cada entrada no arquivo `questoes_simulado.json` deve conter a estrutura canôni
 ### Regras Mandatórias de Conteúdo:
 1. **Sem Explicações Genéricas:** É terminantemente proibido utilizar explicações repetitivas ou genéricas como *"A alternativa adota uma premissa incorreta..."*. O diagnóstico deve citar a razão técnica concreta do erro daquela alternativa.
 2. **Quatro Alternativas (A, B, C, D):** Exatamente uma alternativa correta e três distratores plausíveis.
+3. **Distribuição Equilibrada do Gabarito (Sem Vício de Letra):** O gabarito jamais deve se concentrar em uma única letra (ex: B sempre correta). Deve haver uma distribuição equilibrada e alternada entre A, B, C e D (~25% para cada alternativa no banco), sem repetições consecutivas monótonas e garantindo que todas as alternativas sejam contempladas em cada seção da norma.
 
 ---
 
@@ -131,7 +132,8 @@ def phonetize_text(text: str) -> str:
     
     # 2. Siglas normativas e institucionais
     text = text.replace("ISO/IEC", "ISO").replace("ISO 17025:2017", "ISO 17025")
-    text = re.sub(r'\bCgcre\b', 'Se-gê-cre', text, flags=re.IGNORECASE)
+    text = re.sub(r'\bCgcre\b', 'Sêgécre', text, flags=re.IGNORECASE)
+    text = re.sub(r'\bCGCRE\b', 'Sêgécre', text, flags=re.IGNORECASE)
     text = re.sub(r'\bInmetro\b', 'In-metro', text, flags=re.IGNORECASE)
     text = re.sub(r'\bEMA\b', 'E-M-A', text)
     text = re.sub(r'\bPEP\b', 'P-E-P', text)

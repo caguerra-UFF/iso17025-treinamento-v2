@@ -1187,7 +1187,115 @@ html_template = f'''<!DOCTYPE html>
                 border: 1px solid #ccc !important;
             }}
         }}
+
+        /* ==================================================================
+           IDENTIFICACAO DO PARTICIPANTE (LOGIN GOOGLE - GOOGLE IDENTITY SERVICES)
+           ================================================================== */
+        .identity-card {{
+            background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+            border: 1px solid var(--border-dark);
+            border-left: 5px solid var(--accent);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+        }}
+
+        .identity-info {{
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            min-width: 260px;
+        }}
+
+        .identity-avatar {{
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background: var(--primary-light);
+            border: 2px solid var(--border-dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            overflow: hidden;
+            flex-shrink: 0;
+        }}
+
+        .identity-avatar img {{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }}
+
+        .identity-title {{
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            color: var(--text-muted);
+        }}
+
+        .identity-name {{
+            font-size: 16px;
+            font-weight: 800;
+            color: var(--primary-dark);
+            line-height: 1.25;
+        }}
+
+        .identity-email {{
+            font-size: 12.5px;
+            color: var(--text-muted);
+        }}
+
+        .identity-actions {{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }}
+
+        #googleSignInButton {{
+            min-height: 40px;
+            display: flex;
+            align-items: center;
+        }}
+
+        .google-config-notice {{
+            display: none;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 1.5;
+            color: #92400e;
+            background: var(--warning-light);
+            border: 1px solid #fcd34d;
+            border-radius: 8px;
+            padding: 10px 14px;
+            margin: -8px 0 18px 0;
+        }}
+
+        .results-identity-line {{
+            margin-top: 10px;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--primary-dark);
+        }}
+
+        .exam-user-badge {{
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--primary-dark);
+            border-left: 1px solid var(--border-dark);
+            padding-left: 10px;
+        }}
     </style>
+
+    <!-- Google Identity Services: biblioteca de login oficial do Google (carregada de forma assincrona) -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 <body>
 
@@ -1221,6 +1329,27 @@ html_template = f'''<!DOCTYPE html>
                 <p class="config-desc">
                     Personalize seu simulado por perfil profissional, seção da norma e formato de aplicação.
                 </p>
+
+                <!-- Identificação do Participante (Login Google) -->
+                <div id="identityCard" class="identity-card">
+                    <div class="identity-info">
+                        <div id="identityAvatar" class="identity-avatar">👤</div>
+                        <div>
+                            <div class="identity-title">Identificação do Participante</div>
+                            <div id="identityName" class="identity-name">Não identificado</div>
+                            <div id="identityEmail" class="identity-email">
+                                Entre com sua conta Google para registrar oficialmente o resultado desta avaliação.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="identity-actions">
+                        <div id="googleSignInButton"></div>
+                        <button id="btnGoogleSignOut" class="btn-nav" style="display: none;" onclick="signOutGoogle()">
+                            <span>🚪</span> Trocar de Conta
+                        </button>
+                    </div>
+                </div>
+                <div id="googleConfigNotice" class="google-config-notice"></div>
 
                 <div class="config-grid">
                     <!-- 1. Modo de Exame -->
@@ -1332,6 +1461,9 @@ html_template = f'''<!DOCTYPE html>
                     <span id="examModeBadge" style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">
                         MODO ESTUDO
                     </span>
+                    <span class="exam-user-badge">
+                        👤 <span id="examUserName">—</span>
+                    </span>
                 </div>
 
                 <div class="progress-bar-wrap">
@@ -1436,6 +1568,10 @@ html_template = f'''<!DOCTYPE html>
                 <p id="resultsStatusDesc" class="results-sub">
                     Você demonstrou excelente compreensão metrológica dos requisitos da ABNT NBR ISO/IEC 17025:2017 e das práticas da Eletronuclear.
                 </p>
+
+                <div id="resultsIdentityLine" class="results-identity-line">
+                    <!-- Preenchido via JavaScript -->
+                </div>
 
                 <div class="results-metrics-grid">
                     <div class="metric-box">
@@ -1543,10 +1679,258 @@ html_template = f'''<!DOCTYPE html>
         const audioPlayer = document.getElementById('audioPlayer');
         let currentPlayingBtn = null;
 
+        // ==================================================================
+        // AUTENTICACAO GOOGLE (GOOGLE IDENTITY SERVICES) - ETAPA 1
+        // ------------------------------------------------------------------
+        // Para ativar: crie um Client ID OAuth do tipo "Aplicativo da Web"
+        // no Google Cloud e cole o valor em GOOGLE_CLIENT_ID logo abaixo.
+        // Guia passo a passo: GUIA_CRIACAO_CLIENT_ID_GOOGLE.md
+        // ==================================================================
+        const GOOGLE_CLIENT_ID = 'COLE_AQUI_O_CLIENT_ID.apps.googleusercontent.com';
+        const REQUIRE_GOOGLE_LOGIN = true;   // true = exige identificacao para iniciar a avaliacao
+        const GOOGLE_LOGIN_ENABLED = GOOGLE_CLIENT_ID.startsWith('COLE_AQUI') === false;
+        const RESULT_ENDPOINT = '';          // Etapa 2 (Google Apps Script). Vazio = envio por e-mail desativado.
+        const USER_STORAGE_KEY = 'iso17025_current_user';
+
+        let currentUser = null;
+
+        // Decodifica o payload do ID token (JWT) apenas para EXIBICAO.
+        // A verificacao de autenticidade e feita no servidor (Etapa 2).
+        function decodeJwtPayload(token) {{
+            try {{
+                const parts = String(token).split('.');
+                if (parts.length < 2) return null;
+                const base64 = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+                const padded = base64 + '='.repeat((4 - (base64.length % 4)) % 4);
+                const binary = atob(padded);
+                const bytes = new Uint8Array(binary.length);
+                for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+                return JSON.parse(new TextDecoder('utf-8').decode(bytes));
+            }} catch (e) {{
+                console.log('Notice:', e);
+                return null;
+            }}
+        }}
+
+        function loadStoredUser() {{
+            try {{
+                const raw = localStorage.getItem(USER_STORAGE_KEY);
+                if (!raw) return null;
+                const stored = JSON.parse(raw);
+                if (!stored || !stored.exp || (Date.now() / 1000) >= stored.exp) {{
+                    localStorage.removeItem(USER_STORAGE_KEY);
+                    return null;
+                }}
+                return stored;
+            }} catch (e) {{
+                console.log('Notice:', e);
+                return null;
+            }}
+        }}
+
+        function saveUser(user) {{
+            currentUser = user;
+            try {{
+                localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(user));
+            }} catch (e) {{
+                console.log('Notice:', e);
+            }}
+            renderIdentity();
+        }}
+
+        function getParticipantIdentity() {{
+            if (!currentUser) return null;
+            return {{
+                sub: currentUser.sub,
+                email: currentUser.email,
+                name: currentUser.name,
+                hd: currentUser.hd || null
+            }};
+        }}
+
+        function isIdentificationSatisfied() {{
+            if (!GOOGLE_LOGIN_ENABLED) return true;   // login ainda nao configurado: modo livre
+            if (!REQUIRE_GOOGLE_LOGIN) return true;   // exigencia desligada
+            return !!(currentUser && currentUser.email);
+        }}
+
+        function renderIdentity() {{
+            const avatar = document.getElementById('identityAvatar');
+            const nameEl = document.getElementById('identityName');
+            const emailEl = document.getElementById('identityEmail');
+            const btnOut = document.getElementById('btnGoogleSignOut');
+            const examUser = document.getElementById('examUserName');
+            const notice = document.getElementById('googleConfigNotice');
+            if (!avatar || !nameEl || !emailEl) return;
+
+            if (currentUser) {{
+                avatar.innerHTML = currentUser.picture
+                    ? '<img src="' + currentUser.picture + '" alt="Foto do participante" referrerpolicy="no-referrer">'
+                    : '👤';
+                nameEl.textContent = currentUser.name || 'Participante identificado';
+                emailEl.textContent = currentUser.email + (currentUser.hd ? ' • ' + currentUser.hd : '');
+                if (btnOut) btnOut.style.display = 'inline-flex';
+                if (examUser) examUser.textContent = currentUser.name || currentUser.email;
+                if (notice) notice.style.display = 'none';
+            }} else {{
+                avatar.innerHTML = '👤';
+                nameEl.textContent = 'Não identificado';
+                emailEl.textContent = 'Entre com sua conta Google para registrar oficialmente o resultado desta avaliação.';
+                if (btnOut) btnOut.style.display = 'none';
+                if (examUser) examUser.textContent = '—';
+            }}
+        }}
+
+        function renderGoogleUnavailable(reason) {{
+            const holder = document.getElementById('googleSignInButton');
+            const notice = document.getElementById('googleConfigNotice');
+            if (holder) holder.innerHTML = '';
+            if (notice) {{
+                notice.style.display = 'block';
+                notice.textContent = reason;
+            }}
+        }}
+
+        function handleGoogleCredential(response) {{
+            const payload = decodeJwtPayload(response && response.credential ? response.credential : '');
+            if (!payload || !payload.email) {{
+                alert('Não foi possível ler os dados da sua conta Google. Tente novamente.');
+                return;
+            }}
+            if (payload.email_verified === false) {{
+                alert('O e-mail desta conta Google não está verificado. Use uma conta com e-mail verificado.');
+                return;
+            }}
+            if (GOOGLE_CLIENT_ID && payload.aud !== GOOGLE_CLIENT_ID) {{
+                alert('A credencial recebida pertence a outro aplicativo. Confira o Client ID configurado.');
+                return;
+            }}
+            if (payload.exp && (Date.now() / 1000) >= payload.exp) {{
+                alert('A sessão do Google expirou. Entre novamente.');
+                return;
+            }}
+            saveUser({{
+                sub: payload.sub,
+                email: payload.email,
+                name: payload.name || payload.email,
+                picture: payload.picture || '',
+                hd: payload.hd || '',
+                credential: response.credential,
+                iat: payload.iat,
+                exp: payload.exp
+            }});
+        }}
+
+        function signOutGoogle() {{
+            try {{
+                if (window.google && google.accounts && google.accounts.id) {{
+                    google.accounts.id.disableAutoSelect();
+                }}
+            }} catch (e) {{
+                console.log('Notice:', e);
+            }}
+            currentUser = null;
+            try {{
+                localStorage.removeItem(USER_STORAGE_KEY);
+            }} catch (e) {{
+                console.log('Notice:', e);
+            }}
+            renderIdentity();
+        }}
+
+        function initGoogleLogin() {{
+            if (!GOOGLE_LOGIN_ENABLED) {{
+                renderGoogleUnavailable('Login Google ainda não configurado: defina GOOGLE_CLIENT_ID em scripts_processamento/construir_simulado_html.py (veja GUIA_CRIACAO_CLIENT_ID_GOOGLE.md). Enquanto isso, a avaliação segue em modo livre, sem registro de identidade.');
+                return;
+            }}
+            let attempts = 0;
+            const tryInit = () => {{
+                attempts++;
+                if (window.google && google.accounts && google.accounts.id) {{
+                    google.accounts.id.initialize({{
+                        client_id: GOOGLE_CLIENT_ID,
+                        callback: handleGoogleCredential,
+                        use_fedcm_for_prompt: true
+                    }});
+                    const holder = document.getElementById('googleSignInButton');
+                    if (holder) {{
+                        google.accounts.id.renderButton(holder, {{
+                            type: 'standard',
+                            theme: 'outline',
+                            size: 'large',
+                            shape: 'rectangular',
+                            text: 'signin_with',
+                            logo_alignment: 'left',
+                            locale: 'pt-BR'
+                        }});
+                    }}
+                    renderIdentity();
+                    return;
+                }}
+                if (attempts < 40) {{
+                    setTimeout(tryInit, 250);
+                }} else {{
+                    renderGoogleUnavailable('Não foi possível carregar a biblioteca de login do Google. Verifique a conexão com a internet e se a página está sendo acessada por http/https (e não por file://).');
+                }}
+            }};
+            tryInit();
+        }}
+
+        function collectResultPayload(correctCount, total, percent, passed, timeSpentSeconds) {{
+            const answers = activeQuestions.map(q => ({{
+                id: q.id,
+                resposta: userAnswers[q.id] || null,
+                acertou_cliente: userAnswers[q.id] === q.correta
+            }}));
+            const perfilEl = document.getElementById('selectProfile');
+            const secaoEl = document.getElementById('selectScope');
+            return {{
+                app: 'simulado-iso17025',
+                versao: 'etapa1-identidade',
+                enviado_em: new Date().toISOString(),
+                identidade: getParticipantIdentity(),
+                sessao: {{
+                    modo: examMode,
+                    questoes_total: total,
+                    acertos: correctCount,
+                    percentual: percent,
+                    aprovado: passed,
+                    tempo_segundos: timeSpentSeconds,
+                    filtros: {{
+                        perfil: perfilEl ? perfilEl.value : 'all',
+                        secao: secaoEl ? secaoEl.value : 'all'
+                    }}
+                }},
+                respostas: answers
+            }};
+        }}
+
+        function submitResultToServer(payload) {{
+            if (!RESULT_ENDPOINT) {{
+                console.log('[Simulado] RESULT_ENDPOINT não configurado: o envio por e-mail (Etapa 2) está desativado. O resultado segue salvo apenas neste navegador.');
+                return;
+            }}
+            try {{
+                fetch(RESULT_ENDPOINT, {{
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: {{ 'Content-Type': 'text/plain;charset=utf-8' }},
+                    body: JSON.stringify(payload)
+                }}).catch(e => console.log('Notice:', e));
+            }} catch (e) {{
+                console.log('Notice:', e);
+            }}
+        }}
+
         window.addEventListener('DOMContentLoaded', () => {{
             renderUserStats();
             setupKeyboardShortcuts();
             updateFilterNotice();
+
+            // Identificacao do participante via Google (Etapa 1)
+            currentUser = loadStoredUser();
+            renderIdentity();
+            initGoogleLogin();
 
             audioPlayer.addEventListener('ended', resetTTSButtons);
             audioPlayer.addEventListener('pause', () => {{
@@ -1752,6 +2136,10 @@ html_template = f'''<!DOCTYPE html>
 
         // Iniciar Simulado com Filtro por Perfil e Seção
         function startExam(customQuestions = null) {{
+            if (!isIdentificationSatisfied()) {{
+                alert('Identifique-se com sua conta Google antes de iniciar a avaliação. O resultado ficará vinculado a este e-mail no relatório de desempenho.');
+                return;
+            }}
             stopAllAudio();
             examMode = document.querySelector('input[name="examMode"]:checked').value;
             const profileChoice = document.getElementById('selectProfile').value;
@@ -2110,12 +2498,29 @@ html_template = f'''<!DOCTYPE html>
                     score: correctCount,
                     total: total,
                     percent: percent,
-                    passed: passed
+                    passed: passed,
+                    user_name: currentUser ? currentUser.name : null,
+                    user_email: currentUser ? currentUser.email : null,
+                    user_sub: currentUser ? currentUser.sub : null
                 }});
                 localStorage.setItem('iso17025_exam_history', JSON.stringify(hist.slice(0, 30)));
             }} catch (e) {{
                 console.log('Notice:', e);
             }}
+
+            // Identidade do participante no laudo de desempenho
+            const identityLine = document.getElementById('resultsIdentityLine');
+            if (identityLine) {{
+                if (currentUser) {{
+                    identityLine.innerHTML = '👤 Avaliação realizada por <strong>' + (currentUser.name || 'Participante') + '</strong> — ' + currentUser.email;
+                }} else {{
+                    identityLine.innerHTML = '👤 Avaliação sem identificação registrada (login Google não configurado ou não utilizado).';
+                }}
+            }}
+
+            // Pacote de resultado (pronto para envio por e-mail ao participante e ao gestor na Etapa 2)
+            const resultPayload = collectResultPayload(correctCount, total, percent, passed, timeSpentSeconds);
+            submitResultToServer(resultPayload);
 
             // Preencher Hero de Resultados
             const scoreCircle = document.getElementById('scoreCircle');

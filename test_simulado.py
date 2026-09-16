@@ -19,12 +19,13 @@ assert len(qs) == 50, f"Expected 50 questions, got {len(qs)}"
 
 dist_secao = {}
 dist_perfil = {}
+dist_correta = {'A': 0, 'B': 0, 'C': 0, 'D': 0}
 missing_audios = []
 missing_debates = []
 missing_exp = []
 missing_profile = []
 
-for q in qs:
+for idx, q in enumerate(qs):
     qid = q['id']
     sec = q['secao_raiz']
     dist_secao[sec] = dist_secao.get(sec, 0) + 1
@@ -36,7 +37,11 @@ for q in qs:
     else:
         dist_perfil[perfil] = dist_perfil.get(perfil, 0) + 1
 
-    assert q.get('correta') in ['A', 'B', 'C', 'D'], f"Invalid correta in {qid}"
+    correta = q.get('correta')
+    assert correta in ['A', 'B', 'C', 'D'], f"Invalid correta in {qid}"
+    dist_correta[correta] += 1
+    if idx > 0:
+        assert correta != qs[idx - 1].get('correta'), f"Repetição consecutiva monótona em {qid} ({correta} após {qs[idx - 1].get('correta')})"
     assert len(q.get('alternativas', [])) == 4, f"Alternativas != 4 in {qid}"
     assert os.path.exists(q['audio_ref']), f"Missing audio: {q['audio_ref']}"
     
@@ -78,6 +83,9 @@ print(f"[OK] 50/50 questions verified with 100% existing audios, and AI explanat
 print(f"[OK] 250/250 synthesized audio files (50 statements + 200 alternatives) verified in Audios_Simulado/")
 print(f"  Distribution by section: {dist_secao}")
 print(f"  Distribution by profile: {dist_perfil}")
+print(f"  Distribution by answer key (gabarito balanceado): {dist_correta}")
+assert dist_correta['A'] >= 10 and dist_correta['B'] >= 10 and dist_correta['C'] >= 10 and dist_correta['D'] >= 10, f"Gabarito desbalanceado: {dist_correta}"
+assert dist_correta['B'] < 20, f"Gabarito ainda excessivamente concentrado na letra B: {dist_correta['B']}"
 assert dist_perfil['tecnico'] == 22, f"Expected 22 tecnico, got {dist_perfil['tecnico']}"
 assert dist_perfil['gerencial'] == 18, f"Expected 18 gerencial, got {dist_perfil['gerencial']}"
 assert dist_perfil['geral'] == 10, f"Expected 10 geral, got {dist_perfil['geral']}"
@@ -113,6 +121,62 @@ assert 'Simulado Padrão' not in sim_html, "Simulado Padrão still present in si
 assert 'simulado padrão' not in sim_html.lower(), "simulado padrão still present in simulado.html!"
 
 print(f"[OK] simulado.html verified ({len(sim_html)} chars, valid structure with audio stop controls, profiles and NO 'Simulado Padrão')!")
+
+print('--- TEST 2.1: Autenticação Google (Etapa 1 - Identidade do Participante) ---')
+# Biblioteca oficial Google Identity Services
+assert '<script src="https://accounts.google.com/gsi/client" async defer></script>' in sim_html, \
+    "GIS client library script tag missing from simulado.html"
+
+# Constantes de configuração do login
+assert 'const GOOGLE_CLIENT_ID' in sim_html, "GOOGLE_CLIENT_ID constant missing from simulado.html"
+assert 'const REQUIRE_GOOGLE_LOGIN' in sim_html, "REQUIRE_GOOGLE_LOGIN constant missing from simulado.html"
+assert 'const GOOGLE_LOGIN_ENABLED' in sim_html, "GOOGLE_LOGIN_ENABLED constant missing from simulado.html"
+assert 'const RESULT_ENDPOINT' in sim_html, "RESULT_ENDPOINT constant missing from simulado.html"
+assert 'iso17025_current_user' in sim_html, "USER_STORAGE_KEY (iso17025_current_user) missing from simulado.html"
+
+# Elementos de interface da identificação
+for element_id in ['identityCard', 'identityAvatar', 'identityName', 'identityEmail',
+                   'googleSignInButton', 'btnGoogleSignOut', 'googleConfigNotice',
+                   'resultsIdentityLine', 'examUserName']:
+    assert element_id in sim_html, f"Identity UI element '{element_id}' missing from simulado.html"
+
+# Funções do fluxo de autenticação (assinaturas com chave simples = escaping correto do f-string)
+for func_name in ['decodeJwtPayload', 'loadStoredUser', 'saveUser', 'getParticipantIdentity',
+                  'isIdentificationSatisfied', 'renderIdentity', 'renderGoogleUnavailable',
+                  'handleGoogleCredential', 'signOutGoogle', 'initGoogleLogin',
+                  'collectResultPayload', 'submitResultToServer']:
+    assert f'function {func_name}(' in sim_html, f"Function {func_name} missing from simulado.html"
+
+# Chamadas da API do Google Identity Services
+assert 'google.accounts.id.initialize({' in sim_html, "google.accounts.id.initialize call missing"
+assert 'google.accounts.id.renderButton(' in sim_html, "google.accounts.id.renderButton call missing"
+assert 'use_fedcm_for_prompt: true' in sim_html, "use_fedcm_for_prompt flag missing (FedCM)"
+assert 'disableAutoSelect' in sim_html, "disableAutoSelect (sign out) call missing"
+assert 'email_verified' in sim_html, "email_verified validation missing"
+assert "callback: handleGoogleCredential" in sim_html, "Google credential callback not wired"
+
+# Bloqueio do início da prova sem identificação + envio do resultado
+assert 'if (!isIdentificationSatisfied()) {' in sim_html, "startExam identification guard missing"
+assert 'user_email: currentUser ? currentUser.email : null' in sim_html, "Identity not saved in exam history"
+assert 'collectResultPayload(correctCount, total, percent, passed, timeSpentSeconds)' in sim_html, \
+    "Result payload not built at finishExam"
+assert 'submitResultToServer(resultPayload)' in sim_html, "Result payload not submitted at finishExam"
+
+# Guarda de regressão do f-string: nenhuma chave dupla pode vazar para o HTML/JS gerado
+# (o bloco de dados das questões é JSON legítimo e fica fora da verificação)
+css_marker = 'IDENTIFICACAO DO PARTICIPANTE (LOGIN GOOGLE'
+data_marker = 'const ALL_QUESTIONS = '
+i_css = sim_html.find(css_marker)
+i_data = sim_html.find(data_marker)
+assert i_css != -1, "Identity CSS block not found in simulado.html"
+assert i_data != -1, "Questions data block not found in simulado.html"
+i_after_data = sim_html.find('\n', i_data) + 1
+novo_codigo = sim_html[i_css:i_data] + sim_html[i_after_data:]
+assert '{{' not in novo_codigo and '}}' not in novo_codigo, \
+    "f-string escaping error: double braces leaked into the generated simulado.html"
+
+print("[OK] Login Google (Google Identity Services) integrado: botão de identificação, identidade no laudo, guarda em startExam e payload de resultado para a Etapa 2!")
+
 
 print('--- TEST 3: Links in Portal Pages ---')
 for page in ['index.html', 'lma-iso17025.html', 'player_interativo.html']:

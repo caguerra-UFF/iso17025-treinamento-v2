@@ -4,6 +4,10 @@ Gerador de Debates Inéditos para o Simulado ISO/IEC 17025:2017.
 Produz 50 podcasts dinâmicos entre Thalita e Francisca analisando
 a questão, as armadilhas das alternativas incorretas e o fundamento da correta.
 Salva em Podcasts_Simulado/{qid}_debate.mp3 com vozes neurais e concatenação ffmpeg.
+Aplica regras fonéticas aprovadas:
+- Standard Methods -> stán-derd mé-thadz
+- Cgcre / CGCRE -> Sêgécre
+- Atualização dinâmica da letra correta e da letra distratora.
 """
 
 import asyncio
@@ -26,6 +30,9 @@ def phonetize_text(text: str) -> str:
     text = re.sub(r'\bStandard Methods\b', 'stán-derd mé-thadz', text, flags=re.IGNORECASE)
     text = re.sub(r'\bStandard Method\b', 'stán-derd mé-thad', text, flags=re.IGNORECASE)
     text = text.replace("ISO/IEC", "ISO").replace("ISO 17025:2017", "ISO 17025")
+    # Cgcre -> Sêgécre (pronúncia correta solicitada)
+    text = re.sub(r'\bCgcre\b', 'Sêgécre', text, flags=re.IGNORECASE)
+    text = re.sub(r'\bCGCRE\b', 'Sêgécre', text, flags=re.IGNORECASE)
     return text
 
 def clean_summary(text: str, max_words: int = 25) -> str:
@@ -58,7 +65,7 @@ def build_dialogue_turns(q: dict):
     exp_correta = exp_map.get(correta, {})
     fund_acerto = clean_summary(exp_correta.get('fundamentacao_acerto', q.get('justificativa', '')), 26)
 
-    # 4 turnos dinâmicos e naturais
+    # 4 turnos dinâmicos e naturais com fonética aplicada
     dialogue = [
         ("Thalita", phonetize_text(
             f"Francisca, vamos analisar essa questão do Requisito {clausula} sobre {tema}. "
@@ -109,8 +116,8 @@ async def gerar_debate_questao(q: dict, silence_file: Path, force=False):
             cfile = tmp_path / f"turn_{idx:02d}.mp3"
             cfile.write_bytes(audio)
             
-            lines.append(f"file '{cfile.as_posix()}'")
-            lines.append(f"file '{silence_file.as_posix()}'")
+            lines.append(f"file '{cfile.resolve().as_posix()}'")
+            lines.append(f"file '{silence_file.resolve().as_posix()}'")
             
         concat_txt.write_text("\n".join(lines), encoding="utf-8")
         
@@ -126,7 +133,8 @@ async def gerar_debate_questao(q: dict, silence_file: Path, force=False):
 
 async def main():
     print("==========================================================")
-    print(" GERANDO 50 DEBATES INEDITOS DO SIMULADO - THALITA & FRANCISCA")
+    print(" GERANDO 50 DEBATES INÉDITOS DO SIMULADO - THALITA & FRANCISCA")
+    print(" (Com nova distribuição de gabarito e pronúncia Sêgécre)     ")
     print("==========================================================")
     
     silence_file = OUTPUT_DIR / "_silence_180ms.mp3"
@@ -140,7 +148,7 @@ async def main():
     with open('questoes_simulado.json', 'r', encoding='utf-8') as f:
         questoes = json.load(f)
         
-    print(f"Total de questoes para gerar debates: {len(questoes)}")
+    print(f"Total de questões para gerar debates: {len(questoes)}")
     
     # Processar em lotes controlados
     batch_size = 5
@@ -158,8 +166,7 @@ async def main():
     with open('questoes_simulado.json', 'w', encoding='utf-8') as f:
         json.dump(questoes, f, ensure_ascii=False, indent=2)
         
-    print("\n[OK] Todos os 50 debates ineditos foram gerados e vinculados em questoes_simulado.json!")
+    print("\n[OK] Todos os 50 debates inéditos foram gerados e vinculados em questoes_simulado.json!")
 
 if __name__ == '__main__':
     asyncio.run(main())
-
