@@ -131,14 +131,14 @@ assert '<script src="firebase_simulado.js"></script>' in sim_html, "firebase_sim
 
 # Elementos de interface da identificação, cadastro e gestão
 for element_id in ['identityCard', 'identityAvatar', 'identityName', 'identityEmail', 'identityStatusBadge',
-                   'btnGoogleLogin', 'btnDemoLogin', 'btnEditCadastro', 'btnGestorPanel', 'btnGoogleSignOut',
+                   'btnGoogleLogin', 'btnManualLogin', 'btnDemoLogin', 'btnEditCadastro', 'btnGestorPanel', 'btnGoogleSignOut',
                    'modalCadastro', 'cadMatricula', 'cadSetor', 'cadFuncao',
                    'modalPainelGestor', 'dashTableBody', 'dashSearchInput', 'dashFilterStatus', 'btnExportCSV',
                    'resultsIdentityLine', 'certStampBox', 'examUserName']:
     assert element_id in sim_html, f"Identity/Auth/Dashboard UI element '{element_id}' missing from simulado.html"
 
 # Funções do fluxo de autenticação e dashboard
-for func_name in ['updateAuthUI', 'handleLoginGoogle', 'handleLoginDemo', 'handleLogout',
+for func_name in ['updateAuthUI', 'handleLoginGoogle', 'handleLoginManual', 'handleLoginDemo', 'handleLogout',
                   'openModalCadastro', 'closeModalCadastro', 'salvarCadastroForm',
                   'openModalPainelGestor', 'closeModalPainelGestor', 'renderTabelaGestor',
                   'filtrarTabelaGestor', 'exportarRelatorioCSV']:

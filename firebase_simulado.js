@@ -71,6 +71,15 @@ class FirebaseSimuladoService {
             } else {
                 console.warn("[FirebaseSimulado] SDK Firebase não detectado. Ativando modo local resiliente.");
             }
+            // Se houver sessão manual salva localmente e nenhum usuário Firebase ativo, restaura
+            const savedManual = localStorage.getItem('iso17025_manual_user');
+            if (savedManual && !this.currentUser) {
+                try {
+                    const parsed = JSON.parse(savedManual);
+                    this.currentUser = parsed.user;
+                    this.currentProfile = parsed.profile;
+                } catch (e) {}
+            }
         } catch (e) {
             console.error("[FirebaseSimulado] Erro ao inicializar Firebase:", e);
         }
@@ -95,12 +104,28 @@ class FirebaseSimuladoService {
     }
 
     /**
-     * Login em 1 clique com Conta Google
+     * Login em 1 clique com Conta Google (com detecção de protocolo e fallback automático)
      */
     async loginGoogle() {
-        if (!this.auth) {
-            return this._loginMockDemo();
+        // 1. Verificação de protocolo local file://
+        if (window.location.protocol === 'file:') {
+            const prosseguir = confirm(
+                "ℹ️ AVISO SOBRE AMBIENTE LOCAL (protocolo file://):\n\n" +
+                "O Google bloqueia a abertura de popups de login seguro quando arquivos HTML são abertos diretamente pelo disco local (file://).\n\n" +
+                "• Para usar o login com Conta Google real: abra o simulado via servidor web local (ex: rodando 'python -m http.server 8000' ou 'npx serve' no terminal e acessando http://localhost:8000/simulado.html).\n\n" +
+                "Deseja se identificar agora informando seu Nome e Matrícula diretamente para realizar sua prova e emitir o Laudo Oficial?"
+            );
+            if (prosseguir) {
+                return this.loginManualPrompt();
+            }
+            return null;
         }
+
+        if (!this.auth) {
+            alert("Aviso: O SDK do Firebase não pôde ser carregado (possível bloqueio de rede ou offline). Ativando identificação direta.");
+            return this.loginManualPrompt();
+        }
+
         try {
             const provider = new firebase.auth.GoogleAuthProvider();
             provider.setCustomParameters({ prompt: 'select_account' });
@@ -111,12 +136,109 @@ class FirebaseSimuladoService {
             return { success: true, user: result.user, profile: this.currentProfile };
         } catch (error) {
             console.error("[FirebaseSimulado] Erro no login Google:", error);
-            // Se o popup for bloqueado ou offline, perguntar se deseja usar modo teste
-            if (error.code === 'auth/popup-blocked' || error.code === 'auth/network-request-failed') {
-                alert("Aviso: O popup de login foi bloqueado pelo navegador ou não há conexão. Verifique as permissões de popups.");
+            
+            if (error.code === 'auth/operation-not-supported-in-this-environment') {
+                const prosseguir = confirm(
+                    "O ambiente atual não suporta popup do Google (ambiente restrito ou protocolo local).\n\n" +
+                    "Deseja se identificar informando seu Nome e Matrícula diretamente?"
+                );
+                if (prosseguir) return this.loginManualPrompt();
+                return null;
             }
+            if (error.code === 'auth/unauthorized-domain') {
+                const prosseguir = confirm(
+                    "Domínio Não Autorizado no Firebase:\n\n" +
+                    "O domínio '" + window.location.hostname + "' precisa ser incluído em 'Authorized Domains' no Firebase Console do projeto 'duapp-ea6a8'.\n\n" +
+                    "Deseja prosseguir informando seu Nome e Matrícula diretamente?"
+                );
+                if (prosseguir) return this.loginManualPrompt();
+                return null;
+            }
+            if (error.code === 'auth/popup-blocked') {
+                const prosseguir = confirm(
+                    "O navegador bloqueou o popup do Google.\n\n" +
+                    "Deseja se identificar informando seu Nome e Matrícula diretamente?"
+                );
+                if (prosseguir) return this.loginManualPrompt();
+                return null;
+            }
+            if (error.code === 'auth/popup-closed-by-user') {
+                console.log("[FirebaseSimulado] Popup fechado pelo usuário.");
+                return null;
+            }
+            
+            const fallback = confirm(
+                "Falha ao autenticar com o Google (" + (error.message || error.code) + ").\n\n" +
+                "Deseja prosseguir informando seu Nome e Matrícula diretamente?"
+            );
+            if (fallback) return this.loginManualPrompt();
             throw error;
         }
+    }
+
+    /**
+     * Identificação Manual Direta (Nome, Matrícula e Setor)
+     * Permite identificação oficial mesmo offline ou sob file://
+     */
+    loginManualPrompt(nomePadrao, emailPadrao) {
+        let nome = prompt("Informe seu Nome Completo para registro oficial na ISO/IEC 17025:", nomePadrao || "");
+        if (!nome || !nome.trim()) return null;
+        nome = nome.trim();
+
+        let email = prompt("Informe seu E-mail Institucional:", emailPadrao || "participante@eletronuclear.gov.br");
+        if (!email || !email.trim()) return null;
+        email = email.trim();
+
+        let matricula = prompt("Informe sua Matrícula / Registro Funcional (ex: EN-10492):", "");
+        matricula = matricula ? matricula.trim() : "";
+
+        let setor = prompt("Informe seu Setor / Laboratório (ex: LMA, Química Analítica, SGQ):", "LMA - Laboratório de Monitoramento Ambiental");
+        setor = setor ? setor.trim() : "LMA";
+
+        const uid = "USR_" + Math.abs(this._hashString(email)).toString(36).toUpperCase();
+        const manualUser = {
+            uid: uid,
+            email: email,
+            displayName: nome,
+            photoURL: "https://ui-avatars.com/api/?name=" + encodeURIComponent(nome) + "&background=0f4c81&color=fff"
+        };
+        this.currentUser = manualUser;
+        this.currentProfile = {
+            uid: uid,
+            email: email,
+            nome: nome,
+            matricula: matricula,
+            setor: setor,
+            funcao: "Analista / Técnico",
+            perfilMetrologico: "geral",
+            isHabilitado: false,
+            melhorNota: 0,
+            totalTentativas: 0,
+            cadastroCompleto: !!matricula,
+            dataCriacao: new Date().toISOString(),
+            ultimaAtividade: new Date().toISOString()
+        };
+
+        if (this.db) {
+            try {
+                this.db.collection('iso17025_usuarios').doc(uid).set(this.currentProfile, { merge: true }).catch(err => {
+                    console.warn("[FirebaseSimulado] Aviso ao sincronizar com Firestore:", err);
+                });
+            } catch (e) {}
+        }
+
+        localStorage.setItem('iso17025_manual_user', JSON.stringify({ user: manualUser, profile: this.currentProfile }));
+        this._notifyListeners();
+        return { success: true, user: manualUser, profile: this.currentProfile };
+    }
+
+    _hashString(str) {
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+            hash = ((hash << 5) - hash) + str.charCodeAt(i);
+            hash |= 0;
+        }
+        return hash;
     }
 
     /**
@@ -124,11 +246,12 @@ class FirebaseSimuladoService {
      */
     async logout() {
         if (this.auth) {
-            await this.auth.signOut();
+            try { await this.auth.signOut(); } catch (e) {}
         }
         this.currentUser = null;
         this.currentProfile = null;
         localStorage.removeItem('iso17025_demo_user');
+        localStorage.removeItem('iso17025_manual_user');
         this._notifyListeners();
     }
 
