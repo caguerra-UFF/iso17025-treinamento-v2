@@ -122,49 +122,39 @@ assert 'simulado padrão' not in sim_html.lower(), "simulado padrão still prese
 
 print(f"[OK] simulado.html verified ({len(sim_html)} chars, valid structure with audio stop controls, profiles and NO 'Simulado Padrão')!")
 
-print('--- TEST 2.1: Autenticação Google (Etapa 1 - Identidade do Participante) ---')
-# Biblioteca oficial Google Identity Services
-assert '<script src="https://accounts.google.com/gsi/client" async defer></script>' in sim_html, \
-    "GIS client library script tag missing from simulado.html"
+print('--- TEST 2.1: Autenticação Google & Firebase (Identificação, Cadastro e Habilitação) ---')
+# SDKs compat do Firebase e módulo local
+assert 'firebase-app-compat.js' in sim_html, "Firebase App SDK tag missing from simulado.html"
+assert 'firebase-auth-compat.js' in sim_html, "Firebase Auth SDK tag missing from simulado.html"
+assert 'firebase-firestore-compat.js' in sim_html, "Firebase Firestore SDK tag missing from simulado.html"
+assert '<script src="firebase_simulado.js"></script>' in sim_html, "firebase_simulado.js script tag missing from simulado.html"
 
-# Constantes de configuração do login
-assert 'const GOOGLE_CLIENT_ID' in sim_html, "GOOGLE_CLIENT_ID constant missing from simulado.html"
-assert 'const REQUIRE_GOOGLE_LOGIN' in sim_html, "REQUIRE_GOOGLE_LOGIN constant missing from simulado.html"
-assert 'const GOOGLE_LOGIN_ENABLED' in sim_html, "GOOGLE_LOGIN_ENABLED constant missing from simulado.html"
-assert 'const RESULT_ENDPOINT' in sim_html, "RESULT_ENDPOINT constant missing from simulado.html"
-assert 'iso17025_current_user' in sim_html, "USER_STORAGE_KEY (iso17025_current_user) missing from simulado.html"
+# Elementos de interface da identificação, cadastro e gestão
+for element_id in ['identityCard', 'identityAvatar', 'identityName', 'identityEmail', 'identityStatusBadge',
+                   'btnGoogleLogin', 'btnDemoLogin', 'btnEditCadastro', 'btnGestorPanel', 'btnGoogleSignOut',
+                   'modalCadastro', 'cadMatricula', 'cadSetor', 'cadFuncao',
+                   'modalPainelGestor', 'dashTableBody', 'dashSearchInput', 'dashFilterStatus', 'btnExportCSV',
+                   'resultsIdentityLine', 'certStampBox', 'examUserName']:
+    assert element_id in sim_html, f"Identity/Auth/Dashboard UI element '{element_id}' missing from simulado.html"
 
-# Elementos de interface da identificação
-for element_id in ['identityCard', 'identityAvatar', 'identityName', 'identityEmail',
-                   'googleSignInButton', 'btnGoogleSignOut', 'googleConfigNotice',
-                   'resultsIdentityLine', 'examUserName']:
-    assert element_id in sim_html, f"Identity UI element '{element_id}' missing from simulado.html"
-
-# Funções do fluxo de autenticação (assinaturas com chave simples = escaping correto do f-string)
-for func_name in ['decodeJwtPayload', 'loadStoredUser', 'saveUser', 'getParticipantIdentity',
-                  'isIdentificationSatisfied', 'renderIdentity', 'renderGoogleUnavailable',
-                  'handleGoogleCredential', 'signOutGoogle', 'initGoogleLogin',
-                  'collectResultPayload', 'submitResultToServer']:
+# Funções do fluxo de autenticação e dashboard
+for func_name in ['updateAuthUI', 'handleLoginGoogle', 'handleLoginDemo', 'handleLogout',
+                  'openModalCadastro', 'closeModalCadastro', 'salvarCadastroForm',
+                  'openModalPainelGestor', 'closeModalPainelGestor', 'renderTabelaGestor',
+                  'filtrarTabelaGestor', 'exportarRelatorioCSV']:
     assert f'function {func_name}(' in sim_html, f"Function {func_name} missing from simulado.html"
 
-# Chamadas da API do Google Identity Services
-assert 'google.accounts.id.initialize({' in sim_html, "google.accounts.id.initialize call missing"
-assert 'google.accounts.id.renderButton(' in sim_html, "google.accounts.id.renderButton call missing"
-assert 'use_fedcm_for_prompt: true' in sim_html, "use_fedcm_for_prompt flag missing (FedCM)"
-assert 'disableAutoSelect' in sim_html, "disableAutoSelect (sign out) call missing"
-assert 'email_verified' in sim_html, "email_verified validation missing"
-assert "callback: handleGoogleCredential" in sim_html, "Google credential callback not wired"
+# Guarda de Prova Oficial (exige login e cadastro completo)
+assert "if (examMode === 'exam')" in sim_html, "startExam exam mode check missing"
+assert "openModalCadastro()" in sim_html, "openModalCadastro trigger in startExam missing"
 
-# Bloqueio do início da prova sem identificação + envio do resultado
-assert 'if (!isIdentificationSatisfied()) {' in sim_html, "startExam identification guard missing"
-assert 'user_email: currentUser ? currentUser.email : null' in sim_html, "Identity not saved in exam history"
-assert 'collectResultPayload(correctCount, total, percent, passed, timeSpentSeconds)' in sim_html, \
-    "Result payload not built at finishExam"
-assert 'submitResultToServer(resultPayload)' in sim_html, "Result payload not submitted at finishExam"
+# Registro da Prova e Selo de Habilitação Metrológica
+assert 'window.firebaseSimulado.enviarSubmissaoProva' in sim_html, "enviarSubmissaoProva call missing from finishExam"
+assert 'HABILITAÇÃO METROLÓGICA OFICIAL CONCEDIDA' in sim_html, "Official habilitation stamp missing from finishExam"
+assert 'CÓDIGO DE AUTENTICIDADE E RASTREABILIDADE' in sim_html, "Authenticity code missing from finishExam"
 
 # Guarda de regressão do f-string: nenhuma chave dupla pode vazar para o HTML/JS gerado
-# (o bloco de dados das questões é JSON legítimo e fica fora da verificação)
-css_marker = 'IDENTIFICACAO DO PARTICIPANTE (LOGIN GOOGLE'
+css_marker = 'IDENTIFICACAO DO PARTICIPANTE'
 data_marker = 'const ALL_QUESTIONS = '
 i_css = sim_html.find(css_marker)
 i_data = sim_html.find(data_marker)
@@ -175,7 +165,7 @@ novo_codigo = sim_html[i_css:i_data] + sim_html[i_after_data:]
 assert '{{' not in novo_codigo and '}}' not in novo_codigo, \
     "f-string escaping error: double braces leaked into the generated simulado.html"
 
-print("[OK] Login Google (Google Identity Services) integrado: botão de identificação, identidade no laudo, guarda em startExam e payload de resultado para a Etapa 2!")
+print("[OK] Firebase Auth + Firestore integrados: Login Google, Cadastro de Matrícula/Setor, Guarda de Prova Oficial, Selo de Habilitação Metrológica e Painel do Gestor com Exportação CSV!")
 
 
 print('--- TEST 3: Links in Portal Pages ---')

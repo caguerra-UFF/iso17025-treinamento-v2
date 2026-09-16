@@ -1267,11 +1267,278 @@
             border-left: 1px solid var(--border-dark);
             padding-left: 10px;
         }
+
+        /* Badges de Status de Habilitação */
+        .badge-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 3px 9px;
+            border-radius: 999px;
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+        .badge-habilitado {
+            background: #dcfce7;
+            color: #15803d;
+            border: 1px solid #86efac;
+        }
+        .badge-pendente {
+            background: #fef3c7;
+            color: #b45309;
+            border: 1px solid #fde68a;
+        }
+
+        /* Botões de Ação de Autenticação */
+        .btn-google-login {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #ffffff;
+            color: #374151;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            padding: 8px 14px;
+            font-size: 13.5px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .btn-google-login:hover {
+            background: #f9fafb;
+            border-color: #9ca3af;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .btn-gestor-panel {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: linear-gradient(135deg, #0f4c81, #1e3a8a);
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 14px;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .btn-gestor-panel:hover {
+            opacity: 0.92;
+            transform: translateY(-1px);
+        }
+
+        /* Estilos dos Modais (Cadastro e Painel Gestor) */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(15, 23, 42, 0.65);
+            backdrop-filter: blur(4px);
+            z-index: 9999;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+        }
+        .modal-box {
+            background: #ffffff;
+            border-radius: 14px;
+            width: 100%;
+            max-width: 580px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            max-height: 90vh;
+        }
+        .modal-box.modal-large {
+            max-width: 980px;
+        }
+        .modal-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: #ffffff;
+            padding: 16px 22px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .modal-header h3 {
+            font-size: 16px;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .modal-close {
+            background: none;
+            border: none;
+            color: #ffffff;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0.85;
+        }
+        .modal-close:hover {
+            opacity: 1;
+        }
+        .modal-body {
+            padding: 22px;
+            overflow-y: auto;
+        }
+        .modal-footer {
+            padding: 14px 22px;
+            background: #f8fafc;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+        .form-group-modal {
+            margin-bottom: 14px;
+        }
+        .form-group-modal label {
+            display: block;
+            font-size: 12.5px;
+            font-weight: 700;
+            color: #334155;
+            margin-bottom: 5px;
+        }
+        .form-input-modal, .form-select-modal {
+            width: 100%;
+            padding: 9px 12px;
+            border: 1px solid var(--border-dark);
+            border-radius: 8px;
+            font-size: 13.5px;
+            color: #1e293b;
+            background: #ffffff;
+            outline: none;
+            box-sizing: border-box;
+        }
+        .form-input-modal:focus, .form-select-modal:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+        }
+        .form-input-modal[readonly] {
+            background: #f1f5f9;
+            color: #64748b;
+            cursor: not-allowed;
+        }
+
+        /* Painel do Gestor */
+        .dash-metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 10px;
+            margin-bottom: 18px;
+        }
+        .dash-stat-card {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .dash-stat-val {
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--primary);
+        }
+        .dash-stat-lbl {
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+        .dash-filters-bar {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 14px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .dash-table-wrap {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow-x: auto;
+            background: #ffffff;
+            max-height: 400px;
+        }
+        .dash-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12.5px;
+            text-align: left;
+        }
+        .dash-table th {
+            background: #f1f5f9;
+            color: #475569;
+            font-weight: 700;
+            padding: 9px 12px;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+        .dash-table td {
+            padding: 9px 12px;
+            border-bottom: 1px solid #f1f5f9;
+            color: #334155;
+        }
+        .dash-table tr:hover td {
+            background: #f8fafc;
+        }
+
+        /* Carimbo de Habilitação no Laudo */
+        .cert-stamp-box {
+            margin-top: 18px;
+            padding: 16px 20px;
+            border-radius: 10px;
+            border: 2px dashed;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            background: #ffffff;
+        }
+        .cert-stamp-box.apto {
+            border-color: #16a34a;
+            background: #f0fdf4;
+            color: #166534;
+        }
+        .cert-stamp-box.pendente {
+            border-color: #d97706;
+            background: #fffbeb;
+            color: #92400e;
+        }
+        .cert-stamp-icon {
+            font-size: 34px;
+            flex-shrink: 0;
+        }
+        .cert-stamp-title {
+            font-size: 14.5px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            margin-bottom: 4px;
+        }
+        .cert-stamp-meta {
+            font-size: 12.5px;
+            opacity: 0.9;
+        }
     </style>
 
-    <!-- Google Identity Services: biblioteca de login oficial do Google (carregada de forma assincrona) -->
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <!-- Firebase SDKs (Compat v9/v10 - Vanilla HTML/JS) -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="firebase_simulado.js"></script>
 </head>
+
 <body>
 
     <!-- Header Principal -->
@@ -1305,22 +1572,37 @@
                     Personalize seu simulado por perfil profissional, seção da norma e formato de aplicação.
                 </p>
 
-                <!-- Identificação do Participante (Login Google) -->
+                <!-- Identificação do Participante (Login Google + Firebase) -->
                 <div id="identityCard" class="identity-card">
                     <div class="identity-info">
                         <div id="identityAvatar" class="identity-avatar">👤</div>
                         <div>
-                            <div class="identity-title">Identificação do Participante</div>
-                            <div id="identityName" class="identity-name">Não identificado</div>
+                            <div class="identity-title">
+                                Identificação Funcional do Participante
+                                <span id="identityStatusBadge" class="badge-status badge-pendente" style="margin-left: 6px;">Não Autenticado</span>
+                            </div>
+                            <div id="identityName" class="identity-name">Visitante / Convidado</div>
                             <div id="identityEmail" class="identity-email">
-                                Entre com sua conta Google para registrar oficialmente o resultado desta avaliação.
+                                Entre com sua Conta Google para registrar sua avaliação e habilitar seu perfil perante a ISO/IEC 17025.
                             </div>
                         </div>
                     </div>
                     <div class="identity-actions">
-                        <div id="googleSignInButton"></div>
-                        <button id="btnGoogleSignOut" class="btn-nav" style="display: none;" onclick="signOutGoogle()">
-                            <span>🚪</span> Trocar de Conta
+                        <button id="btnGoogleLogin" class="btn-google-login" onclick="handleLoginGoogle()">
+                            <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+                            <span>Entrar com Google</span>
+                        </button>
+                        <button id="btnDemoLogin" class="btn-nav" style="display: inline-flex;" onclick="handleLoginDemo()" title="Simula usuário para testes rápidos">
+                            <span>⚡ Modo Teste</span>
+                        </button>
+                        <button id="btnEditCadastro" class="btn-nav" style="display: none;" onclick="openModalCadastro()">
+                            <span>👤 Meu Cadastro</span>
+                        </button>
+                        <button id="btnGestorPanel" class="btn-gestor-panel" style="display: none;" onclick="openModalPainelGestor()">
+                            <span>📊 Painel do Gestor</span>
+                        </button>
+                        <button id="btnGoogleSignOut" class="btn-nav" style="display: none;" onclick="handleLogout()">
+                            <span>🚪 Sair</span>
                         </button>
                     </div>
                 </div>
@@ -1548,6 +1830,9 @@
                     <!-- Preenchido via JavaScript -->
                 </div>
 
+                <!-- Selo de Habilitação Metrológica Oficial -->
+                <div id="certStampBox" class="cert-stamp-box" style="display: none;"></div>
+
                 <div class="results-metrics-grid">
                     <div class="metric-box">
                         <strong id="metricScoreFraction">17 / 20</strong>
@@ -1620,7 +1905,152 @@
                 <!-- Preenchido via JavaScript -->
             </div>
         </section>
+
+        <!-- ==============================================================
+             MODAL 1: CADASTRO SIMPLES DO PARTICIPANTE (PRIMEIRO ACESSO)
+             ============================================================== -->
+        <div id="modalCadastro" class="modal-overlay">
+            <div class="modal-box">
+                <div class="modal-header">
+                    <h3><span>👤</span> Cadastro Funcional do Participante</h3>
+                    <button class="modal-close" onclick="closeModalCadastro()">✕</button>
+                </div>
+                <form id="formCadastroSimples" onsubmit="salvarCadastroForm(event)">
+                    <div class="modal-body">
+                        <p style="font-size: 13px; color: #64748b; margin-bottom: 16px;">
+                            Preencha seus dados funcionais da Eletronuclear para emissão do <strong>Laudo Oficial de Habilitação Metrológica (ISO/IEC 17025)</strong>.
+                        </p>
+
+                        <div class="form-group-modal">
+                            <label for="cadNome">Nome Completo (como constará no Laudo/Certificado)</label>
+                            <input type="text" id="cadNome" class="form-input-modal" required placeholder="Seu nome completo">
+                        </div>
+
+                        <div class="form-group-modal">
+                            <label for="cadEmail">E-mail Institucional / Conta Google</label>
+                            <input type="email" id="cadEmail" class="form-input-modal" readonly>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                            <div class="form-group-modal">
+                                <label for="cadMatricula">Matrícula / Reg. Funcional *</label>
+                                <input type="text" id="cadMatricula" class="form-input-modal" required placeholder="Ex: EN-10492">
+                            </div>
+                            <div class="form-group-modal">
+                                <label for="cadSetor">Setor / Laboratório *</label>
+                                <select id="cadSetor" class="form-select-modal" required>
+                                    <option value="">Selecione o setor...</option>
+                                    <option value="LMA - Laboratório de Monitoramento Ambiental">LMA - Lab. Monitoramento Ambiental</option>
+                                    <option value="Química Analítica e Ensaios Físico-Químicos">Química Analítica / Físico-Química</option>
+                                    <option value="Radiometria e Proteção Radiológica">Radiometria / Proteção Radiológica</option>
+                                    <option value="Garantia da Qualidade e Metrologia">Garantia da Qualidade / SGQ</option>
+                                    <option value="Operação e Apoio de Usinas (Angra 1 e 2)">Operação / Usinas (Angra 1 e 2)</option>
+                                    <option value="Meio Ambiente e Licenciamento">Meio Ambiente e Licenciamento</option>
+                                    <option value="Outro Setor">Outro Setor da Eletronuclear</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                            <div class="form-group-modal">
+                                <label for="cadFuncao">Cargo / Função</label>
+                                <input type="text" id="cadFuncao" class="form-input-modal" placeholder="Ex: Químico, Técnico, Supervisor">
+                            </div>
+                            <div class="form-group-modal">
+                                <label for="cadPerfilMetrologico">Perfil Metrológico Principal</label>
+                                <select id="cadPerfilMetrologico" class="form-select-modal">
+                                    <option value="geral">Geral / Institucional</option>
+                                    <option value="tecnico">Corpo Técnico (Execução e Métodos)</option>
+                                    <option value="gerencial">Corpo Gerencial / SGQ</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-nav" onclick="closeModalCadastro()">Cancelar</button>
+                        <button type="submit" class="btn-action-primary" style="padding: 9px 20px;">
+                            <span>💾</span> Salvar Cadastro
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- ==============================================================
+             MODAL 2: PAINEL DO GESTOR / INSTRUTOR (WHITELIST PROTEGIDA)
+             ============================================================== -->
+        <div id="modalPainelGestor" class="modal-overlay">
+            <div class="modal-box modal-large">
+                <div class="modal-header">
+                    <h3><span>📊</span> Painel do Gestor e Instrutor • Habilitações ISO/IEC 17025</h3>
+                    <button class="modal-close" onclick="closeModalPainelGestor()">✕</button>
+                </div>
+                <div class="modal-body">
+                    <!-- Métricas Rápidas -->
+                    <div class="dash-metrics-grid">
+                        <div class="dash-stat-card">
+                            <div id="dashTotalUsers" class="dash-stat-val">0</div>
+                            <div class="dash-stat-lbl">Participantes</div>
+                        </div>
+                        <div class="dash-stat-card">
+                            <div id="dashTotalHabilitados" class="dash-stat-val" style="color: var(--success);">0</div>
+                            <div class="dash-stat-lbl">Habilitados (Aptos)</div>
+                        </div>
+                        <div class="dash-stat-card">
+                            <div id="dashTaxaAprovacao" class="dash-stat-val">0%</div>
+                            <div class="dash-stat-lbl">Taxa de Habilitação</div>
+                        </div>
+                        <div class="dash-stat-card">
+                            <div id="dashMediaNota" class="dash-stat-val">0%</div>
+                            <div class="dash-stat-lbl">Média de Pontuação</div>
+                        </div>
+                    </div>
+
+                    <!-- Barra de Filtros e Busca -->
+                    <div class="dash-filters-bar">
+                        <input type="text" id="dashSearchInput" class="form-input-modal" style="max-width: 260px;" placeholder="🔍 Buscar por nome ou matrícula..." oninput="filtrarTabelaGestor()">
+                        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                            <select id="dashFilterStatus" class="form-select-modal" style="width: auto;" onchange="filtrarTabelaGestor()">
+                                <option value="all">Todos os Status</option>
+                                <option value="apto">Apenas Habilitados (Aptos)</option>
+                                <option value="pendente">Apenas Em Treinamento</option>
+                            </select>
+                            <button id="btnExportCSV" class="btn-action-primary" style="padding: 8px 14px; font-size: 13px;" onclick="exportarRelatorioCSV()">
+                                <span>📥</span> Exportar CSV / Excel
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Tabela de Alunos -->
+                    <div class="dash-table-wrap">
+                        <table class="dash-table">
+                            <thead>
+                                <tr>
+                                    <th>Participante</th>
+                                    <th>Matrícula & Setor</th>
+                                    <th>Status Metrológico</th>
+                                    <th>Melhor Nota</th>
+                                    <th>Tentativas</th>
+                                    <th>Data Habilitação / Avaliação</th>
+                                </tr>
+                            </thead>
+                            <tbody id="dashTableBody">
+                                <tr>
+                                    <td colspan="6" style="text-align: center; padding: 24px; color: #64748b;">
+                                        Carregando registros do banco de dados...
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-action-secondary" onclick="closeModalPainelGestor()">Fechar Painel</button>
+                </div>
+            </div>
+        </div>
     </main>
+
 
     <!-- Barra Flutuante de Controle e Parada de Áudio -->
     <div id="floatingAudioBar" class="floating-audio-bar" style="display: none;">
@@ -1655,246 +2085,311 @@
         let currentPlayingBtn = null;
 
         // ==================================================================
-        // AUTENTICACAO GOOGLE (GOOGLE IDENTITY SERVICES) - ETAPA 1
-        // ------------------------------------------------------------------
-        // Para ativar: crie um Client ID OAuth do tipo "Aplicativo da Web"
-        // no Google Cloud e cole o valor em GOOGLE_CLIENT_ID logo abaixo.
-        // Guia passo a passo: GUIA_CRIACAO_CLIENT_ID_GOOGLE.md
+        // AUTENTICAÇÃO FIREBASE E IDENTIFICAÇÃO DO PARTICIPANTE
         // ==================================================================
-        const GOOGLE_CLIENT_ID = 'COLE_AQUI_O_CLIENT_ID.apps.googleusercontent.com';
-        const REQUIRE_GOOGLE_LOGIN = true;   // true = exige identificacao para iniciar a avaliacao
-        const GOOGLE_LOGIN_ENABLED = GOOGLE_CLIENT_ID.startsWith('COLE_AQUI') === false;
-        const RESULT_ENDPOINT = '';          // Etapa 2 (Google Apps Script). Vazio = envio por e-mail desativado.
-        const USER_STORAGE_KEY = 'iso17025_current_user';
-
         let currentUser = null;
+        let currentProfile = null;
+        let gestorAlunosLista = [];
 
-        // Decodifica o payload do ID token (JWT) apenas para EXIBICAO.
-        // A verificacao de autenticidade e feita no servidor (Etapa 2).
-        function decodeJwtPayload(token) {
-            try {
-                const parts = String(token).split('.');
-                if (parts.length < 2) return null;
-                const base64 = parts[1].replace(/-/g, '+').replace(/_/g, '/');
-                const padded = base64 + '='.repeat((4 - (base64.length % 4)) % 4);
-                const binary = atob(padded);
-                const bytes = new Uint8Array(binary.length);
-                for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
-                return JSON.parse(new TextDecoder('utf-8').decode(bytes));
-            } catch (e) {
-                console.log('Notice:', e);
-                return null;
-            }
-        }
-
-        function loadStoredUser() {
-            try {
-                const raw = localStorage.getItem(USER_STORAGE_KEY);
-                if (!raw) return null;
-                const stored = JSON.parse(raw);
-                if (!stored || !stored.exp || (Date.now() / 1000) >= stored.exp) {
-                    localStorage.removeItem(USER_STORAGE_KEY);
-                    return null;
-                }
-                return stored;
-            } catch (e) {
-                console.log('Notice:', e);
-                return null;
-            }
-        }
-
-        function saveUser(user) {
+        function updateAuthUI(user, profile) {
             currentUser = user;
-            try {
-                localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(user));
-            } catch (e) {
-                console.log('Notice:', e);
-            }
-            renderIdentity();
-        }
+            currentProfile = profile;
 
-        function getParticipantIdentity() {
-            if (!currentUser) return null;
-            return {
-                sub: currentUser.sub,
-                email: currentUser.email,
-                name: currentUser.name,
-                hd: currentUser.hd || null
-            };
-        }
-
-        function isIdentificationSatisfied() {
-            if (!GOOGLE_LOGIN_ENABLED) return true;   // login ainda nao configurado: modo livre
-            if (!REQUIRE_GOOGLE_LOGIN) return true;   // exigencia desligada
-            return !!(currentUser && currentUser.email);
-        }
-
-        function renderIdentity() {
             const avatar = document.getElementById('identityAvatar');
             const nameEl = document.getElementById('identityName');
             const emailEl = document.getElementById('identityEmail');
+            const statusBadge = document.getElementById('identityStatusBadge');
+            const btnGoogle = document.getElementById('btnGoogleLogin');
+            const btnDemo = document.getElementById('btnDemoLogin');
+            const btnEdit = document.getElementById('btnEditCadastro');
+            const btnGestor = document.getElementById('btnGestorPanel');
             const btnOut = document.getElementById('btnGoogleSignOut');
             const examUser = document.getElementById('examUserName');
-            const notice = document.getElementById('googleConfigNotice');
-            if (!avatar || !nameEl || !emailEl) return;
 
-            if (currentUser) {
-                avatar.innerHTML = currentUser.picture
-                    ? '<img src="' + currentUser.picture + '" alt="Foto do participante" referrerpolicy="no-referrer">'
-                    : '👤';
-                nameEl.textContent = currentUser.name || 'Participante identificado';
-                emailEl.textContent = currentUser.email + (currentUser.hd ? ' • ' + currentUser.hd : '');
+            if (user) {
+                // Usuário logado
+                if (avatar) {
+                    avatar.innerHTML = user.photoURL 
+                        ? `<img src="${user.photoURL}" alt="Foto" referrerpolicy="no-referrer">` 
+                        : '👤';
+                }
+                if (nameEl) {
+                    nameEl.textContent = (profile && profile.nome) || user.displayName || 'Participante';
+                }
+                if (emailEl) {
+                    const matText = (profile && profile.matricula) ? ` • Matrícula: ${profile.matricula}` : '';
+                    const setCol = (profile && profile.setor) ? ` • ${profile.setor}` : '';
+                    emailEl.textContent = `${user.email || 'Conta vinculada'}${matText}${setCol}`;
+                }
+                if (statusBadge) {
+                    if (profile && profile.isHabilitado) {
+                        statusBadge.className = 'badge-status badge-apto';
+                        statusBadge.textContent = '✓ Habilitado (Apto)';
+                    } else if (profile && profile.matricula) {
+                        statusBadge.className = 'badge-status badge-pendente';
+                        statusBadge.textContent = 'Em Treinamento';
+                    } else {
+                        statusBadge.className = 'badge-status badge-pendente';
+                        statusBadge.textContent = 'Cadastro Pendente';
+                    }
+                }
+                if (btnGoogle) btnGoogle.style.display = 'none';
+                if (btnDemo) btnDemo.style.display = 'none';
+                if (btnEdit) btnEdit.style.display = 'inline-flex';
                 if (btnOut) btnOut.style.display = 'inline-flex';
-                if (examUser) examUser.textContent = currentUser.name || currentUser.email;
-                if (notice) notice.style.display = 'none';
+                if (examUser) examUser.textContent = (profile && profile.nome) || user.displayName || user.email;
+
+                // Verificar permissão de instrutor / gestor
+                if (btnGestor && window.firebaseSimulado) {
+                    btnGestor.style.display = window.firebaseSimulado.isInstrutor() ? 'inline-flex' : 'none';
+                }
+
+                // Se o usuário logou pela primeira vez e não tem matrícula, abrir modal de cadastro suavemente
+                if (profile && !profile.matricula && !sessionStorage.getItem('iso17025_modal_shown')) {
+                    sessionStorage.setItem('iso17025_modal_shown', '1');
+                    openModalCadastro();
+                }
             } else {
-                avatar.innerHTML = '👤';
-                nameEl.textContent = 'Não identificado';
-                emailEl.textContent = 'Entre com sua conta Google para registrar oficialmente o resultado desta avaliação.';
+                // Visitante deslogado
+                if (avatar) avatar.innerHTML = '👤';
+                if (nameEl) nameEl.textContent = 'Visitante / Não Autenticado';
+                if (emailEl) emailEl.textContent = 'Entre com sua Conta Google para registrar sua avaliação e habilitar seu perfil perante a ISO/IEC 17025.';
+                if (statusBadge) {
+                    statusBadge.className = 'badge-status badge-pendente';
+                    statusBadge.textContent = 'Não Autenticado';
+                }
+                if (btnGoogle) btnGoogle.style.display = 'inline-flex';
+                if (btnDemo) btnDemo.style.display = 'inline-flex';
+                if (btnEdit) btnEdit.style.display = 'none';
+                if (btnGestor) btnGestor.style.display = 'none';
                 if (btnOut) btnOut.style.display = 'none';
                 if (examUser) examUser.textContent = '—';
             }
         }
 
-        function renderGoogleUnavailable(reason) {
-            const holder = document.getElementById('googleSignInButton');
-            const notice = document.getElementById('googleConfigNotice');
-            if (holder) holder.innerHTML = '';
-            if (notice) {
-                notice.style.display = 'block';
-                notice.textContent = reason;
-            }
-        }
-
-        function handleGoogleCredential(response) {
-            const payload = decodeJwtPayload(response && response.credential ? response.credential : '');
-            if (!payload || !payload.email) {
-                alert('Não foi possível ler os dados da sua conta Google. Tente novamente.');
-                return;
-            }
-            if (payload.email_verified === false) {
-                alert('O e-mail desta conta Google não está verificado. Use uma conta com e-mail verificado.');
-                return;
-            }
-            if (GOOGLE_CLIENT_ID && payload.aud !== GOOGLE_CLIENT_ID) {
-                alert('A credencial recebida pertence a outro aplicativo. Confira o Client ID configurado.');
-                return;
-            }
-            if (payload.exp && (Date.now() / 1000) >= payload.exp) {
-                alert('A sessão do Google expirou. Entre novamente.');
-                return;
-            }
-            saveUser({
-                sub: payload.sub,
-                email: payload.email,
-                name: payload.name || payload.email,
-                picture: payload.picture || '',
-                hd: payload.hd || '',
-                credential: response.credential,
-                iat: payload.iat,
-                exp: payload.exp
-            });
-        }
-
-        function signOutGoogle() {
+        async function handleLoginGoogle() {
+            if (!window.firebaseSimulado) return;
             try {
-                if (window.google && google.accounts && google.accounts.id) {
-                    google.accounts.id.disableAutoSelect();
+                const res = await window.firebaseSimulado.loginGoogle();
+                if (res && res.user) {
+                    updateAuthUI(res.user, res.profile);
                 }
-            } catch (e) {
-                console.log('Notice:', e);
+            } catch (err) {
+                console.error('Falha no login Google:', err);
             }
-            currentUser = null;
-            try {
-                localStorage.removeItem(USER_STORAGE_KEY);
-            } catch (e) {
-                console.log('Notice:', e);
-            }
-            renderIdentity();
         }
 
-        function initGoogleLogin() {
-            if (!GOOGLE_LOGIN_ENABLED) {
-                renderGoogleUnavailable('Login Google ainda não configurado: defina GOOGLE_CLIENT_ID em scripts_processamento/construir_simulado_html.py (veja GUIA_CRIACAO_CLIENT_ID_GOOGLE.md). Enquanto isso, a avaliação segue em modo livre, sem registro de identidade.');
+        function handleLoginDemo() {
+            if (!window.firebaseSimulado) return;
+            const res = window.firebaseSimulado._loginMockDemo();
+            updateAuthUI(res.user, res.profile);
+        }
+
+        async function handleLogout() {
+            if (!window.firebaseSimulado) return;
+            if (confirm('Deseja realmente sair da sua conta?')) {
+                await window.firebaseSimulado.logout();
+                updateAuthUI(null, null);
+            }
+        }
+
+        // Modal de Cadastro
+        function openModalCadastro() {
+            const modal = document.getElementById('modalCadastro');
+            if (!modal) return;
+
+            const nameInp = document.getElementById('cadNome');
+            const emailInp = document.getElementById('cadEmail');
+            const matInp = document.getElementById('cadMatricula');
+            const setorSel = document.getElementById('cadSetor');
+            const funcInp = document.getElementById('cadFuncao');
+            const perfilSel = document.getElementById('cadPerfilMetrologico');
+
+            if (currentUser) {
+                if (nameInp) nameInp.value = (currentProfile && currentProfile.nome) || currentUser.displayName || '';
+                if (emailInp) emailInp.value = currentUser.email || '';
+                if (matInp) matInp.value = (currentProfile && currentProfile.matricula) || '';
+                if (setorSel) setorSel.value = (currentProfile && currentProfile.setor) || '';
+                if (funcInp) funcInp.value = (currentProfile && currentProfile.funcao) || '';
+                if (perfilSel) perfilSel.value = (currentProfile && currentProfile.perfilMetrologico) || 'geral';
+            }
+
+            modal.classList.add('active');
+        }
+
+        function closeModalCadastro() {
+            const modal = document.getElementById('modalCadastro');
+            if (modal) modal.classList.remove('active');
+        }
+
+        async function salvarCadastroForm(e) {
+            e.preventDefault();
+            if (!currentUser) {
+                alert('Você precisa estar autenticado para salvar seus dados cadastrais.');
                 return;
             }
-            let attempts = 0;
-            const tryInit = () => {
-                attempts++;
-                if (window.google && google.accounts && google.accounts.id) {
-                    google.accounts.id.initialize({
-                        client_id: GOOGLE_CLIENT_ID,
-                        callback: handleGoogleCredential,
-                        use_fedcm_for_prompt: true
-                    });
-                    const holder = document.getElementById('googleSignInButton');
-                    if (holder) {
-                        google.accounts.id.renderButton(holder, {
-                            type: 'standard',
-                            theme: 'outline',
-                            size: 'large',
-                            shape: 'rectangular',
-                            text: 'signin_with',
-                            logo_alignment: 'left',
-                            locale: 'pt-BR'
-                        });
-                    }
-                    renderIdentity();
-                    return;
-                }
-                if (attempts < 40) {
-                    setTimeout(tryInit, 250);
-                } else {
-                    renderGoogleUnavailable('Não foi possível carregar a biblioteca de login do Google. Verifique a conexão com a internet e se a página está sendo acessada por http/https (e não por file://).');
-                }
-            };
-            tryInit();
-        }
 
-        function collectResultPayload(correctCount, total, percent, passed, timeSpentSeconds) {
-            const answers = activeQuestions.map(q => ({
-                id: q.id,
-                resposta: userAnswers[q.id] || null,
-                acertou_cliente: userAnswers[q.id] === q.correta
-            }));
-            const perfilEl = document.getElementById('selectProfile');
-            const secaoEl = document.getElementById('selectScope');
-            return {
-                app: 'simulado-iso17025',
-                versao: 'etapa1-identidade',
-                enviado_em: new Date().toISOString(),
-                identidade: getParticipantIdentity(),
-                sessao: {
-                    modo: examMode,
-                    questoes_total: total,
-                    acertos: correctCount,
-                    percentual: percent,
-                    aprovado: passed,
-                    tempo_segundos: timeSpentSeconds,
-                    filtros: {
-                        perfil: perfilEl ? perfilEl.value : 'all',
-                        secao: secaoEl ? secaoEl.value : 'all'
-                    }
-                },
-                respostas: answers
-            };
-        }
+            const matricula = document.getElementById('cadMatricula').value.trim();
+            const setor = document.getElementById('cadSetor').value;
+            const funcao = document.getElementById('cadFuncao').value.trim();
+            const nome = document.getElementById('cadNome').value.trim();
+            const perfilMetrologico = document.getElementById('cadPerfilMetrologico').value;
 
-        function submitResultToServer(payload) {
-            if (!RESULT_ENDPOINT) {
-                console.log('[Simulado] RESULT_ENDPOINT não configurado: o envio por e-mail (Etapa 2) está desativado. O resultado segue salvo apenas neste navegador.');
+            if (!matricula || !setor) {
+                alert('Por favor, informe a Matrícula e o Setor de atuação.');
                 return;
             }
+
             try {
-                fetch(RESULT_ENDPOINT, {
-                    method: 'POST',
-                    mode: 'no-cors',
-                    headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-                    body: JSON.stringify(payload)
-                }).catch(e => console.log('Notice:', e));
-            } catch (e) {
-                console.log('Notice:', e);
+                const dados = { nome, matricula, setor, funcao, perfilMetrologico };
+                const updated = await window.firebaseSimulado.salvarCadastro(dados);
+                currentProfile = updated;
+                updateAuthUI(currentUser, currentProfile);
+                closeModalCadastro();
+                alert('✓ Cadastro funcional salvo com sucesso!');
+            } catch (err) {
+                console.error('Erro ao salvar cadastro:', err);
+                alert('Erro ao salvar os dados. Tente novamente.');
             }
+        }
+
+        // Painel do Gestor / Instrutor
+        async function openModalPainelGestor() {
+            const modal = document.getElementById('modalPainelGestor');
+            if (!modal) return;
+
+            modal.classList.add('active');
+            const tbody = document.getElementById('dashTableBody');
+            if (tbody) {
+                tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; padding: 24px; color: #64748b;">Carregando dados dos participantes...</td></tr>';
+            }
+
+            try {
+                gestorAlunosLista = await window.firebaseSimulado.carregarPainelGestor();
+                renderTabelaGestor(gestorAlunosLista);
+            } catch (err) {
+                console.error('Erro ao carregar painel:', err);
+                if (tbody) {
+                    tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; padding: 24px; color: var(--danger);">Erro ao carregar dados do banco de dados.</td></tr>';
+                }
+            }
+        }
+
+        function closeModalPainelGestor() {
+            const modal = document.getElementById('modalPainelGestor');
+            if (modal) modal.classList.remove('active');
+        }
+
+        function renderTabelaGestor(lista) {
+            const tbody = document.getElementById('dashTableBody');
+            if (!tbody) return;
+
+            const total = lista.length;
+            const habilitados = lista.filter(u => u.isHabilitado).length;
+            const taxa = total > 0 ? Math.round((habilitados / total) * 100) : 0;
+            const somaNotas = lista.reduce((acc, u) => acc + (u.melhorNota || 0), 0);
+            const media = total > 0 ? Math.round(somaNotas / total) : 0;
+
+            const elTotal = document.getElementById('dashTotalUsers');
+            const elHab = document.getElementById('dashTotalHabilitados');
+            const elTaxa = document.getElementById('dashTaxaAprovacao');
+            const elMedia = document.getElementById('dashMediaNota');
+
+            if (elTotal) elTotal.textContent = total;
+            if (elHab) elHab.textContent = habilitados;
+            if (elTaxa) elTaxa.textContent = taxa + '%';
+            if (elMedia) elMedia.textContent = media + '%';
+
+            if (lista.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; padding: 24px; color: #64748b;">Nenhum participante encontrado com os filtros aplicados.</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = lista.map(u => {
+                const statusBadge = u.isHabilitado 
+                    ? '<span class="badge-status badge-apto">✓ Habilitado (Apto)</span>' 
+                    : '<span class="badge-status badge-pendente">Em Treinamento</span>';
+                
+                const dataFormatada = u.dataHabilitacao 
+                    ? new Date(u.dataHabilitacao).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })
+                    : (u.ultimaAtividade ? new Date(u.ultimaAtividade).toLocaleDateString('pt-BR') : '—');
+
+                return `
+                    <tr>
+                        <td>
+                            <strong>${u.nome || 'Participante'}</strong>
+                            <div style="font-size: 11px; color: #64748b;">${u.email || '—'}</div>
+                        </td>
+                        <td>
+                            <strong style="color: var(--primary);">${u.matricula || 'Sem matrícula'}</strong>
+                            <div style="font-size: 11px; color: #475569;">${u.setor || 'Setor não informado'}</div>
+                        </td>
+                        <td>${statusBadge}</td>
+                        <td>
+                            <strong style="color: ${ (u.melhorNota || 0) >= 70 ? 'var(--success)' : 'var(--danger)' }; font-size: 14px;">
+                                ${u.melhorNota || 0}%
+                            </strong>
+                        </td>
+                        <td style="text-align: center;">${u.totalTentativas || 0}</td>
+                        <td style="font-size: 12px; color: #475569;">${dataFormatada}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function filtrarTabelaGestor() {
+            const search = (document.getElementById('dashSearchInput').value || '').toLowerCase().trim();
+            const statusFilter = document.getElementById('dashFilterStatus').value;
+
+            let filtrados = [...gestorAlunosLista];
+
+            if (statusFilter === 'apto') {
+                filtrados = filtrados.filter(u => u.isHabilitado);
+            } else if (statusFilter === 'pendente') {
+                filtrados = filtrados.filter(u => !u.isHabilitado);
+            }
+
+            if (search) {
+                filtrados = filtrados.filter(u => 
+                    (u.nome && u.nome.toLowerCase().includes(search)) ||
+                    (u.matricula && u.matricula.toLowerCase().includes(search)) ||
+                    (u.email && u.email.toLowerCase().includes(search)) ||
+                    (u.setor && u.setor.toLowerCase().includes(search))
+                );
+            }
+
+            renderTabelaGestor(filtrados);
+        }
+
+        function exportarRelatorioCSV() {
+            if (!gestorAlunosLista || gestorAlunosLista.length === 0) {
+                alert('Não há dados disponíveis para exportação.');
+                return;
+            }
+
+            const headers = ['Nome Completo', 'E-mail', 'Matrícula', 'Setor / Laboratório', 'Função', 'Status ISO 17025', 'Melhor Nota (%)', 'Total Avaliações', 'Data Habilitação / Última Prova'];
+            const rows = gestorAlunosLista.map(u => [
+                `"${(u.nome || '').replace(/"/g, '""')}"`,
+                `"${(u.email || '').replace(/"/g, '""')}"`,
+                `"${(u.matricula || '').replace(/"/g, '""')}"`,
+                `"${(u.setor || '').replace(/"/g, '""')}"`,
+                `"${(u.funcao || '').replace(/"/g, '""')}"`,
+                `"${u.isHabilitado ? 'Habilitado (Apto - ISO 17025)' : 'Em Treinamento (Não Habilitado)'}"`,
+                u.melhorNota || 0,
+                u.totalTentativas || 0,
+                `"${u.dataHabilitacao || u.ultimaAtividade || ''}"`
+            ]);
+
+            const csvContent = '\uFEFF' + [headers.join(';'), ...rows.map(r => r.join(';'))].join('\r\n');
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `relatorio_habilitacoes_iso17025_${new Date().toISOString().slice(0, 10)}.csv`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
         }
 
         window.addEventListener('DOMContentLoaded', () => {
@@ -1902,10 +2397,12 @@
             setupKeyboardShortcuts();
             updateFilterNotice();
 
-            // Identificacao do participante via Google (Etapa 1)
-            currentUser = loadStoredUser();
-            renderIdentity();
-            initGoogleLogin();
+            // Integração Firebase Simulado
+            if (window.firebaseSimulado) {
+                window.firebaseSimulado.onAuthChange((user, profile) => {
+                    updateAuthUI(user, profile);
+                });
+            }
 
             audioPlayer.addEventListener('ended', resetTTSButtons);
             audioPlayer.addEventListener('pause', () => {
@@ -2111,12 +2608,23 @@
 
         // Iniciar Simulado com Filtro por Perfil e Seção
         function startExam(customQuestions = null) {
-            if (!isIdentificationSatisfied()) {
-                alert('Identifique-se com sua conta Google antes de iniciar a avaliação. O resultado ficará vinculado a este e-mail no relatório de desempenho.');
-                return;
-            }
-            stopAllAudio();
             examMode = document.querySelector('input[name="examMode"]:checked').value;
+
+            // Se for Modo Prova Oficial, exige identificação e matrícula preenchida
+            if (examMode === 'exam') {
+                if (!currentUser) {
+                    alert('Identificação Obrigatória: Para realizar a Prova Oficial de Habilitação da ISO/IEC 17025, faça login com sua Conta Google (ou utilize o Modo Teste).');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                    return;
+                }
+                if (!currentProfile || !currentProfile.matricula) {
+                    alert('Cadastro Incompleto: Por favor, informe sua Matrícula e Setor antes de iniciar a Prova Oficial.');
+                    openModalCadastro();
+                    return;
+                }
+            }
+
+            stopAllAudio();
             const profileChoice = document.getElementById('selectProfile').value;
             const scope = document.getElementById('selectScope').value;
             const countChoice = document.getElementById('selectCount').value;
@@ -2487,15 +2995,72 @@
             const identityLine = document.getElementById('resultsIdentityLine');
             if (identityLine) {
                 if (currentUser) {
-                    identityLine.innerHTML = '👤 Avaliação realizada por <strong>' + (currentUser.name || 'Participante') + '</strong> — ' + currentUser.email;
+                    const matInfo = (currentProfile && currentProfile.matricula) ? ` • Matrícula: ${currentProfile.matricula} (${currentProfile.setor || 'SGQ'})` : '';
+                    identityLine.innerHTML = `👤 Avaliação realizada por <strong>${ (currentProfile && currentProfile.nome) || currentUser.displayName || 'Participante' }</strong> — ${currentUser.email || ''}${matInfo}`;
                 } else {
-                    identityLine.innerHTML = '👤 Avaliação sem identificação registrada (login Google não configurado ou não utilizado).';
+                    identityLine.innerHTML = '👤 Avaliação realizada em modo visitante / não autenticado.';
                 }
             }
 
-            // Pacote de resultado (pronto para envio por e-mail ao participante e ao gestor na Etapa 2)
-            const resultPayload = collectResultPayload(correctCount, total, percent, passed, timeSpentSeconds);
-            submitResultToServer(resultPayload);
+            // Selo de Habilitação Metrológica Oficial (quando logado)
+            const certBox = document.getElementById('certStampBox');
+            if (certBox) {
+                if (currentUser && passed) {
+                    const certCode = window.firebaseSimulado ? window.firebaseSimulado._gerarCodigoAutenticidade(currentUser.uid, percent) : `ISO17025-${Date.now()}`;
+                    certBox.style.display = 'flex';
+                    certBox.innerHTML = `
+                        <div class="cert-stamp-icon">🛡️</div>
+                        <div class="cert-stamp-content">
+                            <h4>HABILITAÇÃO METROLÓGICA OFICIAL CONCEDIDA (ISO/IEC 17025:2017)</h4>
+                            <p>O participante <strong>${ (currentProfile && currentProfile.nome) || currentUser.displayName || 'Participante' }</strong> (Matrícula: <strong>${ (currentProfile && currentProfile.matricula) || 'EN-REG' }</strong>) atingiu índice de conformidade de <strong>${percent}%</strong>, estando formalmente <strong>HABILITADO / APTO</strong> perante os requisitos normativos do laboratório.</p>
+                            <div class="cert-stamp-hash">CÓDIGO DE AUTENTICIDADE E RASTREABILIDADE: ${certCode}</div>
+                        </div>
+                    `;
+                } else if (currentUser && !passed) {
+                    certBox.style.display = 'flex';
+                    certBox.style.background = '#fff1f2';
+                    certBox.style.borderColor = '#fca5a5';
+                    certBox.innerHTML = `
+                        <div class="cert-stamp-icon">⚠️</div>
+                        <div class="cert-stamp-content">
+                            <h4 style="color: var(--danger);">EM TREINAMENTO • NECESSITA REVISÃO DOS REQUISITOS</h4>
+                            <p>Aproveitamento de <strong>${percent}%</strong> (Corte: 70%). Conforme diretrizes da qualidade, o participante deverá revisar os itens apontados no diagnóstico e repetir o exame para emissão do registro de aptidão.</p>
+                        </div>
+                    `;
+                } else {
+                    certBox.style.display = 'none';
+                }
+            }
+
+            // Envio e Registro da Avaliação no Firebase Firestore
+            if (window.firebaseSimulado && currentUser) {
+                const submissaoPayload = {
+                    percent: percent,
+                    totalQuestions: total,
+                    correctCount: correctCount,
+                    wrongCount: total - correctCount,
+                    examMode: examMode,
+                    timeSpentSeconds: timeSpentSeconds,
+                    profileFilter: document.getElementById('selectProfile').value,
+                    scopeFilter: document.getElementById('selectScope').value,
+                    radarProfile: profileScores,
+                    radarSection: sectionScores,
+                    answersSummary: activeQuestions.map(q => ({
+                        id: q.id,
+                        clausula: q.clausula,
+                        resposta: userAnswers[q.id] || null,
+                        correta: q.correta,
+                        acertou: userAnswers[q.id] === q.correta
+                    }))
+                };
+                window.firebaseSimulado.enviarSubmissaoProva(submissaoPayload)
+                    .then(doc => {
+                        console.log('[Simulado] Prova registrada com sucesso no Firestore:', doc ? doc.submissaoId : 'OK');
+                    })
+                    .catch(err => {
+                        console.warn('[Simulado] Registro salvo localmente. Falha no envio Firestore:', err);
+                    });
+            }
 
             // Preencher Hero de Resultados
             const scoreCircle = document.getElementById('scoreCircle');
