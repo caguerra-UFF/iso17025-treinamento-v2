@@ -131,7 +131,7 @@ assert '<script src="firebase_simulado.js"></script>' in sim_html, "firebase_sim
 
 # Elementos de interface da identificação, cadastro e gestão
 for element_id in ['identityCard', 'identityAvatar', 'identityName', 'identityEmail', 'identityStatusBadge',
-                   'btnGoogleLogin', 'btnManualLogin', 'btnDemoLogin', 'btnEditCadastro', 'btnGestorPanel', 'btnGoogleSignOut',
+                   'btnGoogleLogin', 'btnCadastrarNovo', 'btnDemoLogin', 'btnEditCadastro', 'btnGestorPanel', 'btnGoogleSignOut',
                    'modalCadastro', 'cadMatricula', 'cadSetor', 'cadFuncao',
                    'modalPainelGestor', 'dashTableBody', 'dashSearchInput', 'dashFilterStatus', 'btnExportCSV',
                    'resultsIdentityLine', 'certStampBox', 'examUserName']:
