@@ -144,6 +144,13 @@ for func_name in ['updateAuthUI', 'handleLoginGoogle', 'handleLoginManual', 'han
                   'filtrarTabelaGestor', 'exportarRelatorioCSV']:
     assert f'function {func_name}(' in sim_html, f"Function {func_name} missing from simulado.html"
 
+# Opções de Cargo e Laboratório do Cadastro Funcional
+assert '<option value="Supervisor">Supervisor</option>' in sim_html, "Cargo 'Supervisor' missing"
+assert '<option value="Chefe de Divisão">Chefe de Divisão</option>' in sim_html, "Cargo 'Chefe de Divisão' missing"
+assert '<option value="Química">Química</option>' in sim_html, "Laboratório 'Química' missing"
+assert '<option value="Briologia">Briologia</option>' in sim_html, "Laboratório 'Briologia' missing"
+assert '<option value="Secretaria">Secretaria</option>' in sim_html, "Laboratório 'Secretaria' missing"
+
 # Guarda de Prova Oficial (exige login e cadastro completo)
 assert "if (examMode === 'exam')" in sim_html, "startExam exam mode check missing"
 assert "openModalCadastro()" in sim_html, "openModalCadastro trigger in startExam missing"

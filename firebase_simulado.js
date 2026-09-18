@@ -192,8 +192,8 @@ class FirebaseSimuladoService {
         let matricula = prompt("Informe sua Matrícula / Registro Funcional (ex: EN-10492):", "");
         matricula = matricula ? matricula.trim() : "";
 
-        let setor = prompt("Informe seu Setor / Laboratório (ex: LMA, Química Analítica, SGQ):", "LMA - Laboratório de Monitoramento Ambiental");
-        setor = setor ? setor.trim() : "LMA";
+        let setor = prompt("Informe seu Laboratório (Química, Briologia, Secretaria):", "Química");
+        setor = setor ? setor.trim() : "Química";
 
         const uid = "USR_" + Math.abs(this._hashString(email)).toString(36).toUpperCase();
         const manualUser = {
@@ -209,8 +209,8 @@ class FirebaseSimuladoService {
             nome: nome,
             matricula: matricula,
             setor: setor,
-            funcao: "Analista / Técnico",
-            perfilMetrologico: "geral",
+            funcao: "Supervisor",
+            perfilMetrologico: "gerencial",
             isHabilitado: false,
             melhorNota: 0,
             totalTentativas: 0,
@@ -485,9 +485,9 @@ class FirebaseSimuladoService {
             email: demoUser.email,
             nome: demoUser.displayName,
             matricula: "MAT-94821",
-            setor: "LMA - Laboratório de Monitoramento Ambiental",
-            funcao: "Analista Metrológico Sênior",
-            perfilMetrologico: "tecnico",
+            setor: "Química",
+            funcao: "Supervisor",
+            perfilMetrologico: "gerencial",
             isHabilitado: false,
             melhorNota: 0,
             totalTentativas: 0,
@@ -505,8 +505,8 @@ class FirebaseSimuladoService {
                 nome: "Carlos Eduardo Guerra",
                 email: "caguerra.uff@gmail.com",
                 matricula: "EN-10492",
-                setor: "LMA - Química Analítica",
-                funcao: "Responsável Técnico Metrológico",
+                setor: "Química",
+                funcao: "Supervisor",
                 isHabilitado: true,
                 melhorNota: 94,
                 totalTentativas: 2,
@@ -517,8 +517,8 @@ class FirebaseSimuladoService {
                 nome: "Mariana Silveira Ramos",
                 email: "mariana.ramos@eletronuclear.gov.br",
                 matricula: "EN-20381",
-                setor: "Radiometria Ambiental",
-                funcao: "Técnica em Radioproteção",
+                setor: "Briologia",
+                funcao: "Supervisor",
                 isHabilitado: true,
                 melhorNota: 88,
                 totalTentativas: 1,
@@ -529,8 +529,8 @@ class FirebaseSimuladoService {
                 nome: "Roberto Mendes Ferreira",
                 email: "roberto.mendes@eletronuclear.gov.br",
                 matricula: "EN-09823",
-                setor: "Garantia da Qualidade",
-                funcao: "Auditor Interno da Qualidade",
+                setor: "Secretaria",
+                funcao: "Chefe de Divisão",
                 isHabilitado: false,
                 melhorNota: 64,
                 totalTentativas: 1

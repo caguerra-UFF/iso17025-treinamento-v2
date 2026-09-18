@@ -1980,24 +1980,24 @@ html_template = f'''<!DOCTYPE html>
                                 <input type="text" id="cadMatricula" class="form-input-modal" required placeholder="Ex: EN-10492">
                             </div>
                             <div class="form-group-modal">
-                                <label for="cadSetor">Setor / Laboratório *</label>
+                                <label for="cadSetor">Laboratório *</label>
                                 <select id="cadSetor" class="form-select-modal" required>
-                                    <option value="">Selecione o setor...</option>
-                                    <option value="LMA - Laboratório de Monitoramento Ambiental">LMA - Lab. Monitoramento Ambiental</option>
-                                    <option value="Química Analítica e Ensaios Físico-Químicos">Química Analítica / Físico-Química</option>
-                                    <option value="Radiometria e Proteção Radiológica">Radiometria / Proteção Radiológica</option>
-                                    <option value="Garantia da Qualidade e Metrologia">Garantia da Qualidade / SGQ</option>
-                                    <option value="Operação e Apoio de Usinas (Angra 1 e 2)">Operação / Usinas (Angra 1 e 2)</option>
-                                    <option value="Meio Ambiente e Licenciamento">Meio Ambiente e Licenciamento</option>
-                                    <option value="Outro Setor">Outro Setor da Eletronuclear</option>
+                                    <option value="">Selecione o laboratório...</option>
+                                    <option value="Química">Química</option>
+                                    <option value="Briologia">Briologia</option>
+                                    <option value="Secretaria">Secretaria</option>
                                 </select>
                             </div>
                         </div>
 
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
                             <div class="form-group-modal">
-                                <label for="cadFuncao">Cargo / Função</label>
-                                <input type="text" id="cadFuncao" class="form-input-modal" placeholder="Ex: Químico, Técnico, Supervisor">
+                                <label for="cadFuncao">Cargo *</label>
+                                <select id="cadFuncao" class="form-select-modal" required>
+                                    <option value="">Selecione o cargo...</option>
+                                    <option value="Supervisor">Supervisor</option>
+                                    <option value="Chefe de Divisão">Chefe de Divisão</option>
+                                </select>
                             </div>
                             <div class="form-group-modal">
                                 <label for="cadPerfilMetrologico">Perfil Metrológico Principal</label>
@@ -2051,7 +2051,7 @@ html_template = f'''<!DOCTYPE html>
 
                     <!-- Barra de Filtros e Busca -->
                     <div class="dash-filters-bar">
-                        <input type="text" id="dashSearchInput" class="form-input-modal" style="max-width: 260px;" placeholder="🔍 Buscar por nome ou matrícula..." oninput="filtrarTabelaGestor()">
+                        <input type="text" id="dashSearchInput" class="form-input-modal" style="max-width: 260px;" placeholder="🔍 Buscar por nome, matrícula, laboratório..." oninput="filtrarTabelaGestor()">
                         <div style="display: flex; gap: 8px; flex-wrap: wrap;">
                             <select id="dashFilterStatus" class="form-select-modal" style="width: auto;" onchange="filtrarTabelaGestor()">
                                 <option value="all">Todos os Status</option>
@@ -2070,7 +2070,7 @@ html_template = f'''<!DOCTYPE html>
                             <thead>
                                 <tr>
                                     <th>Participante</th>
-                                    <th>Matrícula & Setor</th>
+                                    <th>Matrícula, Laboratório & Cargo</th>
                                     <th>Status Metrológico</th>
                                     <th>Melhor Nota</th>
                                     <th>Tentativas</th>
@@ -2297,8 +2297,8 @@ html_template = f'''<!DOCTYPE html>
             const email = (emailInp && emailInp.value ? emailInp.value.trim() : '') || 'participante@eletronuclear.gov.br';
             const perfilMetrologico = document.getElementById('cadPerfilMetrologico').value;
 
-            if (!matricula || !setor) {{
-                alert('Por favor, informe a Matrícula e o Setor de atuação.');
+            if (!matricula || !setor || !funcao) {{
+                alert('Por favor, informe a Matrícula, o Laboratório e o Cargo.');
                 return;
             }}
 
@@ -2385,7 +2385,7 @@ html_template = f'''<!DOCTYPE html>
                         </td>
                         <td>
                             <strong style="color: var(--primary);">${{u.matricula || 'Sem matrícula'}}</strong>
-                            <div style="font-size: 11px; color: #475569;">${{u.setor || 'Setor não informado'}}</div>
+                            <div style="font-size: 11px; color: #475569;">${{u.setor || 'Laboratório não informado'}}${{u.funcao ? ' • ' + u.funcao : ''}}</div>
                         </td>
                         <td>${{statusBadge}}</td>
                         <td>
@@ -2417,7 +2417,8 @@ html_template = f'''<!DOCTYPE html>
                     (u.nome && u.nome.toLowerCase().includes(search)) ||
                     (u.matricula && u.matricula.toLowerCase().includes(search)) ||
                     (u.email && u.email.toLowerCase().includes(search)) ||
-                    (u.setor && u.setor.toLowerCase().includes(search))
+                    (u.setor && u.setor.toLowerCase().includes(search)) ||
+                    (u.funcao && u.funcao.toLowerCase().includes(search))
                 );
             }}
 
@@ -2430,7 +2431,7 @@ html_template = f'''<!DOCTYPE html>
                 return;
             }}
 
-            const headers = ['Nome Completo', 'E-mail', 'Matrícula', 'Setor / Laboratório', 'Função', 'Status ISO 17025', 'Melhor Nota (%)', 'Total Avaliações', 'Data Habilitação / Última Prova'];
+            const headers = ['Nome Completo', 'E-mail', 'Matrícula', 'Laboratório', 'Cargo', 'Status ISO 17025', 'Melhor Nota (%)', 'Total Avaliações', 'Data Habilitação / Última Prova'];
             const rows = gestorAlunosLista.map(u => [
                 `"${{(u.nome || '').replace(/"/g, '""')}}"`,
                 `"${{(u.email || '').replace(/"/g, '""')}}"`,
