@@ -6,6 +6,10 @@
     <title>Treinamento ABNT NBR ISO/IEC 17025:2017 | Estação de Estudo & Player Interativo</title>
     <style>
         :root {
+            --en-green: #a5c711;
+            --en-green-dark: #829f09;
+            --en-blue: #1b80c4;
+            --en-blue-dark: #093757;
             --primary: #0f4c81;
             --primary-dark: #092c4d;
             --primary-light: #e8f0fe;
@@ -44,41 +48,119 @@
             overflow: hidden;
         }
 
-        /* Header Superior */
-        header {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+        /* Header Superior Padrão Eletronuclear / LMA */
+        header.app-header {
+            background: linear-gradient(135deg, #093757 0%, #105587 35%, #1b80c4 85%, #2390db 100%);
             color: white;
             padding: 12px 20px;
-            box-shadow: var(--shadow);
+            border-bottom: 5px solid var(--en-green, #a5c711);
+            box-shadow: 0 8px 24px rgba(9, 55, 87, 0.25);
             z-index: 200;
             flex-shrink: 0;
         }
-        .header-container {
+        .app-header-container {
             max-width: 100%;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
-            gap: 12px;
+            gap: 16px;
         }
-        .header-left {
-            display: flex;
-            align-items: center;
-            gap: 12px;
+        .header-text-block {
+            flex: 1 1 500px;
+            min-width: 280px;
         }
-        .header-title h1 {
-            font-size: 18px;
-            font-weight: 700;
-            letter-spacing: -0.3px;
+        .eyebrow {
+            font-size: 11px;
+            letter-spacing: .16em;
+            text-transform: uppercase;
+            color: var(--en-green, #a5c711);
+            font-weight: 800;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+            margin-bottom: 2px;
+        }
+        .header-text-block h1 {
+            font-size: clamp(16px, 1.6vw, 21px);
+            font-weight: 800;
+            line-height: 1.25;
+            margin: 2px 0 3px 0;
+            color: #ffffff;
             display: flex;
             align-items: center;
             gap: 8px;
         }
-        .header-title p {
+        .header-text-block p {
+            max-width: 950px;
+            color: #e8f4fc;
+            margin: 2px 0 0;
             font-size: 12px;
-            color: #cbd5e1;
-            margin-top: 2px;
+            line-height: 1.4;
+        }
+        .author-line {
+            margin-top: 5px;
+            font-size: 11.5px;
+            color: #d8ecf8;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .author-line strong {
+            color: #ffffff;
+        }
+        .author-modal-trigger {
+            background: rgba(165, 199, 17, 0.22);
+            color: #ffffff;
+            border: 1px solid var(--en-green, #a5c711);
+            border-radius: 12px;
+            padding: 2px 8px;
+            font-size: 11px;
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .2s ease;
+        }
+        .author-modal-trigger:hover {
+            background: var(--en-green, #a5c711);
+            color: #082903;
+            transform: scale(1.05);
+        }
+        .header-right-col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 8px;
+        }
+        .header-logos-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: #ffffff;
+            padding: 4px 12px;
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(9, 55, 87, 0.2);
+            border: 2px solid var(--en-green, #a5c711);
+            flex-shrink: 0;
+        }
+        .header-logos-wrapper img {
+            height: 34px;
+            max-width: 115px;
+            object-fit: contain;
+            display: block;
+        }
+        .header-logos-divider {
+            width: 1.5px;
+            height: 26px;
+            background: #cbd5e1;
+        }
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
         }
         .btn-toggle-sidebar {
             background: rgba(255, 255, 255, 0.15);
@@ -89,13 +171,166 @@
             font-size: 12px;
             font-weight: 600;
             cursor: pointer;
-            display: flex;
+            display: inline-flex;
             align-items: center;
-            gap: 5px;
+            gap: 6px;
             transition: all 0.2s;
         }
         .btn-toggle-sidebar:hover {
-            background: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.28);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+        .btn-toggle-sidebar.active {
+            background: #2563eb;
+            border-color: #93c5fd;
+            color: #ffffff;
+            box-shadow: 0 0 10px rgba(37, 99, 235, 0.45);
+        }
+
+        /* Modal Desenvolvedor */
+        .author-modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 99999;
+            opacity: 0;
+            transition: opacity 0.25s ease;
+        }
+        .author-modal-overlay.open {
+            display: flex;
+            opacity: 1;
+        }
+        .author-modal-card {
+            background: #ffffff;
+            border-radius: 18px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 0, 0, 0.08);
+            width: 94%;
+            max-width: 660px;
+            padding: 30px 22px 24px;
+            position: relative;
+            transform: scale(0.92);
+            transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+            text-align: center;
+        }
+        .author-modal-overlay.open .author-modal-card {
+            transform: scale(1);
+        }
+        .author-modal-close {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            border: 1px solid var(--border);
+            background: #f1f5f9;
+            color: var(--text-muted);
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+        .author-modal-close:hover {
+            background: #fee2e2;
+            color: var(--danger);
+            border-color: #fca5a5;
+            transform: rotate(90deg);
+        }
+        .author-avatar-badge {
+            width: 58px;
+            height: 58px;
+            margin: 0 auto 12px;
+            background: linear-gradient(135deg, var(--primary-light), #dbeafe);
+            border: 2px solid #bfdbfe;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+        }
+        .author-name {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            margin-bottom: 6px;
+            letter-spacing: -0.02em;
+        }
+        .author-modal-content {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 18px 20px;
+            text-align: left;
+            margin: 18px 0 20px;
+        }
+        .author-info-block + .author-info-block {
+            margin-top: 14px;
+            padding-top: 14px;
+            border-top: 1px dashed var(--border);
+        }
+        .author-block-title {
+            font-size: 0.82rem;
+            font-weight: 800;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            margin-bottom: 6px;
+        }
+        .author-item {
+            font-size: 0.96rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .author-item::before {
+            content: "•";
+            color: var(--accent);
+            font-size: 1.2rem;
+            line-height: 1;
+        }
+        .author-logos-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            padding-top: 6px;
+            width: 100%;
+        }
+        .author-logo-card {
+            background: #ffffff;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 6px 8px;
+            height: 125px;
+            flex: 1;
+            max-width: 195px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease;
+        }
+        .author-logo-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+        }
+        .author-logo-card img {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+            display: block;
         }
 
         /* Controles de Layout e Ajuste de Tela */
@@ -928,22 +1163,37 @@
 </head>
 <body>
 
-    <!-- Header Principal -->
-    <header>
-        <div class="header-container">
-            <div class="header-left">
-                <button class="btn-toggle-sidebar" onclick="toggleSidebar()" title="Exibir/Ocultar Sumário da Norma">
-                    ☰ Sumário ISO
-                </button>
-                <div class="header-title">
-                    <h1>📘 ABNT NBR ISO/IEC 17025:2017 & Treinamento Técnico</h1>
-                    <p>Estação Integrada: Norma Destacada, 216 Itens Estruturados & Áudios Sincronizados (02 a 04/09/2026)</p>
+    <!-- Header Principal Padrão Eletronuclear / LMA -->
+    <header class="app-header">
+        <div class="app-header-container">
+            <div class="header-text-block">
+                <div class="eyebrow">Laboratório de Monitoração Ambiental (LMA) • Central Nuclear Almirante Álvaro Alberto • CNAAA</div>
+                <h1 id="appHeaderTitle">
+                    <span style="font-size: 24px;">🎧</span> Player Multimídia & Transcrições | ABNT NBR ISO/IEC 17025:2017
+                </h1>
+                <p id="appHeaderDesc">
+                    Estação integrada por dia de treinamento: norma destacada, 216 itens estruturados, slides originais e áudios com cancelamento de ruído da Eletronuclear.
+                </p>
+                
+                <!-- Linha Desenvolvido por com Modal de Informações -->
+                <div class="author-line">
+                    <span>Desenvolvido por: <strong>Carlos Eduardo Guerra de Mendonça</strong> - Mat.: 217404</span>
+                    <button type="button" class="author-modal-trigger" onclick="openAuthorModal()" title="Mais informações sobre o desenvolvedor">( ? )</button>
                 </div>
             </div>
 
-            <div class="header-right">
-                <div class="pdf-links">
-                    <a href="simulado.html" target="_blank" class="pdf-btn" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-color: #34d399; font-weight: 700; color: #ffffff; text-decoration: none;" title="Abrir Sistema Interativo de Provas e Questões de Múltipla Escolha da ISO 17025">
+            <!-- Logos Oficiais Eletronuclear + ELMA e Ações -->
+            <div class="header-right-col">
+                <div class="header-logos-wrapper">
+                    <img src="assets/logo_eletronuclear.png" alt="Eletronuclear" title="Eletronuclear • Central Nuclear Almirante Álvaro Alberto">
+                    <div class="header-logos-divider"></div>
+                    <img src="assets/logo_elma.png" alt="LMA / ELMA" title="ELMA / LMA • Laboratório de Monitoração Ambiental">
+                </div>
+                <div class="header-actions">
+                    <button class="btn-toggle-sidebar" onclick="toggleSidebar()" title="Exibir/Ocultar Sumário da Norma">
+                        ☰ Sumário ISO
+                    </button>
+                    <a href="simulado.html" target="_blank" class="pdf-btn" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-color: #34d399; font-weight: 700; color: #ffffff; text-decoration: none; box-shadow: 0 2px 6px rgba(16, 185, 129, 0.35);" title="Abrir Sistema Interativo de Provas e Questões de Múltipla Escolha da ISO 17025">
                         📝 Simulado & Provas
                     </a>
                     <a href="index.html" class="pdf-btn" style="background: rgba(255, 255, 255, 0.15); border-color: rgba(255, 255, 255, 0.3);">
@@ -1751,6 +2001,20 @@
             renderCards(filtered);
         }
 
+        // Controle do Modal do Desenvolvedor
+        function openAuthorModal() {
+            const m = document.getElementById('authorModalOverlay');
+            if (m) m.classList.add('open');
+        }
+        function closeAuthorModal(e) {
+            if (e && e.target && e.target !== e.currentTarget && !e.target.classList.contains('author-modal-close')) return;
+            const m = document.getElementById('authorModalOverlay');
+            if (m) m.classList.remove('open');
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeAuthorModal();
+        });
+
         // Inicialização
         initColumnWidths();
         renderSidebar();
@@ -1758,6 +2022,41 @@
         player.load();
         renderCards(itemsData);
     </script>
+
+    <!-- Modal Janela Sobre o Desenvolvedor -->
+    <div id="authorModalOverlay" class="author-modal-overlay" onclick="closeAuthorModal(event)">
+        <div class="author-modal-card" onclick="event.stopPropagation()">
+            <button class="author-modal-close" onclick="closeAuthorModal()" title="Fechar">✕</button>
+            
+            <div class="author-avatar-badge">👨‍🔬</div>
+            <h2 class="author-name">Carlos Eduardo Guerra de Mendonça</h2>
+
+            <div class="author-modal-content">
+                <div class="author-info-block">
+                    <div class="author-block-title">Graduação em:</div>
+                    <div class="author-item">Química / Engenharia Química</div>
+                    <div class="author-item">Sistemas de Computação</div>
+                </div>
+
+                <div class="author-info-block">
+                    <div class="author-block-title">Mestrado em:</div>
+                    <div class="author-item">Tecnologias Nucleares: Computação</div>
+                </div>
+            </div>
+
+            <div class="author-logos-container">
+                <div class="author-logo-card" title="IEN - Instituto de Engenharia Nuclear">
+                    <img src="assets/logo_ien.png" alt="IEN - Instituto de Engenharia Nuclear">
+                </div>
+                <div class="author-logo-card" title="UERJ - Universidade do Estado do Rio de Janeiro">
+                    <img src="assets/logo_uerj.png" alt="UERJ - Universidade do Estado do Rio de Janeiro">
+                </div>
+                <div class="author-logo-card" title="UFF - Universidade Federal Fluminense">
+                    <img src="assets/logo_uff.png" alt="UFF - Universidade Federal Fluminense">
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

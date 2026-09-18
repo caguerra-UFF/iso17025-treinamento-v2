@@ -69,43 +69,128 @@ html_template = f'''<!DOCTYPE html>
             flex-direction: column;
         }}
 
-        /* Header Superior */
-        header {{
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+        /* ========================================================
+           HEADER PADRÃO ELETRONUCLEAR / LMA (MESMO PADRÃO RNC)
+           ======================================================== */
+        :root {{
+            --en-green: #a5c711;
+            --en-green-dark: #829f09;
+            --en-blue: #1b80c4;
+            --en-blue-dark: #093757;
+        }}
+
+        header.app-header {{
+            background: linear-gradient(135deg, #093757 0%, #105587 35%, #1b80c4 85%, #2390db 100%);
             color: white;
-            padding: 14px 24px;
-            box-shadow: var(--shadow);
+            padding: 22px max(24px, calc((100vw - 1550px)/2));
+            border-bottom: 5px solid var(--en-green);
+            box-shadow: 0 8px 24px rgba(9, 55, 87, 0.25);
             position: sticky;
             top: 0;
-            z-index: 100;
+            z-index: 1000;
         }}
-        .header-wrap {{
-            max-width: 1200px;
-            margin: 0 auto;
+        .app-header-container {{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 20px;
             flex-wrap: wrap;
-            gap: 12px;
         }}
-        .header-title {{
+        .header-text-block {{
+            flex: 1 1 520px;
+            min-width: 280px;
+            max-width: 1050px;
+        }}
+        .eyebrow {{
+            font-size: 11.5px;
+            letter-spacing: .16em;
+            text-transform: uppercase;
+            color: var(--en-green);
+            font-weight: 800;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+            margin-bottom: 4px;
+        }}
+        .header-text-block h1 {{
+            font-size: clamp(20px, 2.6vw, 30px);
+            font-weight: 800;
+            line-height: 1.2;
+            margin: 4px 0 6px 0;
+            color: #ffffff;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 8px;
         }}
-        .header-title h1 {{
-            font-size: 19px;
+        .header-text-block p {{
+            max-width: 950px;
+            color: #e8f4fc;
+            margin: 4px 0 0;
+            font-size: 13.5px;
+            line-height: 1.45;
+        }}
+        .author-line {{
+            margin-top: 10px;
+            font-size: 12.5px;
+            color: #d8ecf8;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }}
+        .author-line strong {{
+            color: #ffffff;
+        }}
+        .author-modal-trigger {{
+            background: rgba(165, 199, 17, 0.22);
+            color: #ffffff;
+            border: 1px solid var(--en-green);
+            border-radius: 12px;
+            padding: 2px 8px;
+            font-size: 11px;
             font-weight: 700;
-            letter-spacing: -0.3px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .2s ease;
         }}
-        .header-title p {{
-            font-size: 12px;
-            color: #cbd5e1;
+        .author-modal-trigger:hover {{
+            background: var(--en-green);
+            color: #082903;
+            transform: scale(1.05);
+        }}
+        .header-logos-wrapper {{
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            background: #ffffff;
+            padding: 8px 16px;
+            border-radius: 14px;
+            box-shadow: 0 6px 22px rgba(9, 55, 87, 0.25);
+            border: 2.5px solid var(--en-green);
+            flex-shrink: 0;
+        }}
+        .header-logos-wrapper img {{
+            height: 44px;
+            max-width: 130px;
+            object-fit: contain;
+            display: block;
+        }}
+        .header-logos-divider {{
+            width: 1.5px;
+            height: 36px;
+            background: #cbd5e1;
+        }}
+        .header-right-col {{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 10px;
         }}
         .header-actions {{
             display: flex;
             align-items: center;
             gap: 10px;
+            flex-wrap: wrap;
         }}
         .btn-header {{
             background: rgba(255, 255, 255, 0.15);
@@ -126,6 +211,157 @@ html_template = f'''<!DOCTYPE html>
             background: rgba(255, 255, 255, 0.28);
             border-color: rgba(255, 255, 255, 0.5);
             transform: translateY(-1px);
+        }}
+
+        /* Modal Desenvolvedor */
+        .author-modal-overlay {{
+            position: fixed;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 999999;
+            opacity: 0;
+            transition: opacity .25s ease;
+        }}
+        .author-modal-overlay.open {{
+            display: flex !important;
+            opacity: 1;
+        }}
+        .author-modal-card {{
+            background: #ffffff;
+            border-radius: 18px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+            width: 94%;
+            max-width: 640px;
+            padding: 26px 22px 20px;
+            position: relative;
+            text-align: center;
+        }}
+        .author-modal-close {{
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            border: 1px solid #e2e8f0;
+            background: #f1f5f9;
+            color: #64748b;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .2s;
+        }}
+        .author-modal-close:hover {{
+            background: #fee2e2;
+            color: #ef4444;
+        }}
+        .author-avatar-badge {{
+            width: 54px;
+            height: 54px;
+            margin: 0 auto 10px;
+            background: linear-gradient(135deg, #e0f2fe, #bae6fd);
+            border: 2px solid #7dd3fc;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+        }}
+        .author-name {{
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #0f172a;
+            margin: 0 0 4px;
+        }}
+        .author-modal-content {{
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 14px 18px;
+            text-align: left;
+            margin: 14px 0 16px;
+        }}
+        .author-info-block + .author-info-block {{
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px dashed #e2e8f0;
+        }}
+        .author-block-title {{
+            font-size: .8rem;
+            font-weight: 800;
+            color: #0284c7;
+            text-transform: uppercase;
+            letter-spacing: .04em;
+            margin-bottom: 4px;
+        }}
+        .author-item {{
+            font-size: .92rem;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 3px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }}
+        .author-item::before {{
+            content: "•";
+            color: #0d9488;
+            font-size: 1.2rem;
+            line-height: 1;
+        }}
+        .author-logos-container {{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            width: 100%;
+        }}
+        .author-logo-card {{
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 6px 8px;
+            height: 85px;
+            flex: 1;
+            max-width: 175px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: all .2s ease;
+        }}
+        .author-logo-card:hover {{
+            transform: translateY(-2px);
+            border-color: #0d9488;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+        }}
+        .author-logo-card img {{
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+            display: block;
+        }}
+
+        @media (max-width: 960px) {{
+            .app-header-container {{
+                flex-direction: column;
+                align-items: stretch;
+                gap: 14px;
+            }}
+            .header-right-col {{
+                align-items: flex-start;
+            }}
+            .header-logos-wrapper {{
+                align-self: flex-start;
+            }}
         }}
 
         /* Container Principal */
@@ -1581,19 +1817,37 @@ html_template = f'''<!DOCTYPE html>
 
 <body>
 
-    <!-- Header Principal -->
-    <header>
-        <div class="header-wrap">
-            <div class="header-title">
-                <span style="font-size: 26px;">📝</span>
-                <div>
-                    <h1>Sistema de Provas & Simulados | ABNT NBR ISO/IEC 17025:2017</h1>
+    <!-- Header Principal Padrão Eletronuclear / LMA -->
+    <header class="app-header">
+        <div class="app-header-container">
+            <div class="header-text-block">
+                <div class="eyebrow">Laboratório de Monitoração Ambiental (LMA) • Central Nuclear Almirante Álvaro Alberto • CNAAA</div>
+                <h1 id="appHeaderTitle">
+                    <span style="font-size: 28px;">📝</span> Sistema de Provas & Simulados (ISO/IEC 17025:2017)
+                </h1>
+                <p id="appHeaderDesc">
+                    Avaliação oficial e capacitação metrológica em conformidade com os requisitos da <b>ABNT NBR ISO/IEC 17025:2017</b> e rotinas da Eletronuclear;
+                </p>
+                
+                <!-- Linha Desenvolvido por com Modal de Informações -->
+                <div class="author-line">
+                    <span>Desenvolvido por: <strong>Carlos Eduardo Guerra de Mendonça</strong> - Mat.: 217404</span>
+                    <button type="button" class="author-modal-trigger" onclick="openAuthorModal()" title="Mais informações sobre o desenvolvedor">( ? )</button>
                 </div>
             </div>
-            <div class="header-actions">
-                <a href="index.html" class="btn-header" title="Voltar à Estação de Estudos e Transcrições">
-                    📘 Voltar ao Treinamento
-                </a>
+
+            <!-- Logos Oficiais Eletronuclear + ELMA e Navegação -->
+            <div class="header-right-col">
+                <div class="header-logos-wrapper">
+                    <img src="assets/logo_eletronuclear.png" alt="Eletronuclear" title="Eletronuclear • Central Nuclear Almirante Álvaro Alberto">
+                    <div class="header-logos-divider"></div>
+                    <img src="assets/logo_elma.png" alt="LMA / ELMA" title="ELMA / LMA • Laboratório de Monitoração Ambiental">
+                </div>
+                <div class="header-actions">
+                    <a href="index.html" class="btn-header" title="Voltar à Estação de Estudos e Transcrições">
+                        📘 Voltar ao Treinamento
+                    </a>
+                </div>
             </div>
         </div>
     </header>
@@ -2091,6 +2345,44 @@ html_template = f'''<!DOCTYPE html>
                 </div>
             </div>
         </div>
+
+        <!-- ==============================================================
+             MODAL DO DESENVOLVEDOR (FORMAÇÃO E PARCERIAS INSTITUCIONAIS)
+             ============================================================== -->
+        <div class="author-modal-overlay" id="authorModalOverlay" onclick="closeAuthorModal()">
+            <div class="author-modal-card" onclick="event.stopPropagation()">
+                <button type="button" class="author-modal-close" onclick="closeAuthorModal()" title="Fechar">✕</button>
+                
+                <div class="author-avatar-badge">👨‍🔬</div>
+                <h2 class="author-name">Carlos Eduardo Guerra de Mendonça</h2>
+                <div style="font-size:13px;color:#64748b;font-weight:600;margin-bottom:8px;">Matrícula: 217404 • Eletronuclear / LMA</div>
+
+                <div class="author-modal-content">
+                    <div class="author-info-block">
+                        <div class="author-block-title">Graduação em:</div>
+                        <div class="author-item">Química / Engenharia Química</div>
+                        <div class="author-item">Sistemas de Computação</div>
+                    </div>
+
+                    <div class="author-info-block">
+                        <div class="author-block-title">Mestrado em:</div>
+                        <div class="author-item">Ciência e Tecnologias Nucleares: Métodos Computacionais</div>
+                    </div>
+                </div>
+
+                <div class="author-logos-container">
+                    <div class="author-logo-card" title="IEN - Instituto de Engenharia Nuclear">
+                        <img src="assets/logo_ien.png" alt="IEN - Instituto de Engenharia Nuclear">
+                    </div>
+                    <div class="author-logo-card" title="UERJ - Universidade do Estado do Rio de Janeiro">
+                        <img src="assets/logo_uerj.png" alt="UERJ - Universidade do Estado do Rio de Janeiro">
+                    </div>
+                    <div class="author-logo-card" title="UFF - Universidade Federal Fluminense">
+                        <img src="assets/logo_uff.png" alt="UFF - Universidade Federal Fluminense">
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
 
@@ -2340,6 +2632,16 @@ html_template = f'''<!DOCTYPE html>
         function closeModalPainelGestor() {{
             const modal = document.getElementById('modalPainelGestor');
             if (modal) modal.classList.remove('active');
+        }}
+
+        function openAuthorModal() {{
+            const modal = document.getElementById('authorModalOverlay');
+            if (modal) modal.classList.add('open');
+        }}
+
+        function closeAuthorModal() {{
+            const modal = document.getElementById('authorModalOverlay');
+            if (modal) modal.classList.remove('open');
         }}
 
         function renderTabelaGestor(lista) {{
@@ -3353,6 +3655,7 @@ html_template = f'''<!DOCTYPE html>
                     stopAllAudio();
                     closeModalCadastro();
                     closeModalPainelGestor();
+                    closeAuthorModal();
                     return;
                 }}
                 if (!document.getElementById('viewExam').classList.contains('active')) return;

@@ -176,7 +176,7 @@ print("[OK] Firebase Auth + Firestore integrados: Login Google, Cadastro de Matr
 
 
 print('--- TEST 3: Links in Portal Pages ---')
-for page in ['index.html', 'lma-iso17025.html', 'player_interativo.html']:
+for page in ['index.html', 'lma-iso17025.html', 'player_interativo.html', 'player_normativo.html']:
     with open(page, 'r', encoding='utf-8') as f:
         content = f.read()
     assert 'simulado.html' in content, f"simulado.html not linked in {page}"

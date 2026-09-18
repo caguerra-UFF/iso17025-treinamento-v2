@@ -7,6 +7,10 @@
     <title>Treinamento ISO/IEC 17025:2017 | Estação por Ordem Normativa Contínua</title>
     <style>
         :root {
+            --en-green: #a5c711;
+            --en-green-dark: #829f09;
+            --en-blue: #1b80c4;
+            --en-blue-dark: #093757;
             --primary: #0f4c81;
             --primary-dark: #092c4d;
             --primary-light: #e8f0fe;
@@ -45,121 +49,143 @@
             overflow: hidden;
         }
 
-        /* Header Superior */
-        header {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+        /* Header Superior Padrão Eletronuclear / LMA */
+        header.app-header {
+            background: linear-gradient(135deg, #093757 0%, #105587 35%, #1b80c4 85%, #2390db 100%);
             color: white;
             padding: 12px 20px;
-            box-shadow: var(--shadow);
+            border-bottom: 5px solid var(--en-green, #a5c711);
+            box-shadow: 0 8px 24px rgba(9, 55, 87, 0.25);
             z-index: 200;
             flex-shrink: 0;
         }
-
-        .header-container {
+        .app-header-container {
             max-width: 100%;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
-            gap: 12px;
+            gap: 16px;
         }
-
-        .header-left {
-            display: flex;
-            align-items: center;
-            gap: 12px;
+        .header-text-block {
+            flex: 1 1 500px;
+            min-width: 280px;
         }
-
-        .header-title h1 {
-            font-size: 18px;
-            font-weight: 700;
-            letter-spacing: -0.3px;
+        .eyebrow {
+            font-size: 11px;
+            letter-spacing: .16em;
+            text-transform: uppercase;
+            color: var(--en-green, #a5c711);
+            font-weight: 800;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+            margin-bottom: 2px;
+        }
+        .header-text-block h1 {
+            font-size: clamp(16px, 1.6vw, 21px);
+            font-weight: 800;
+            line-height: 1.25;
+            margin: 2px 0 3px 0;
+            color: #ffffff;
             display: flex;
             align-items: center;
             gap: 8px;
         }
-
-        .header-title p {
+        .header-text-block p {
+            max-width: 950px;
+            color: #e8f4fc;
+            margin: 2px 0 0;
             font-size: 12px;
-            color: #cbd5e1;
-            margin-top: 2px;
+            line-height: 1.4;
         }
-
-        .btn-toggle-sidebar {
-            background: rgba(255, 255, 255, 0.15);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            color: white;
-            padding: 6px 12px;
-            border-radius: 6px;
-            font-size: 12px;
-            font-weight: 600;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            transition: all 0.2s;
-        }
-
-        .btn-toggle-sidebar:hover {
-            background: rgba(255, 255, 255, 0.28);
-            border-color: rgba(255, 255, 255, 0.5);
-        }
-
-        .btn-toggle-sidebar.active {
-            background: #2563eb;
-            border-color: #93c5fd;
-            color: #ffffff;
-            box-shadow: 0 0 10px rgba(37, 99, 235, 0.45);
-        }
-
-        /* Controles de Layout e Ajuste de Tela */
-        .header-right {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            flex-wrap: wrap;
-        }
-
-        /* Identificação do Desenvolvedor no Topo */
         .author-line {
-            font-size: 0.83rem;
-            color: #cbd5e1;
-            margin-top: 3px;
+            margin-top: 5px;
+            font-size: 11.5px;
+            color: #d8ecf8;
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 8px;
             flex-wrap: wrap;
         }
-
         .author-line strong {
             color: #ffffff;
-            font-weight: 600;
         }
-
         .author-modal-trigger {
-            background: rgba(255, 255, 255, 0.18);
+            background: rgba(165, 199, 17, 0.22);
             color: #ffffff;
-            border: 1px solid rgba(255, 255, 255, 0.45);
+            border: 1px solid var(--en-green, #a5c711);
             border-radius: 12px;
-            padding: 1px 8px;
-            font-size: 0.78rem;
+            padding: 2px 8px;
+            font-size: 11px;
             font-weight: 700;
             cursor: pointer;
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            transition: all 0.2s ease;
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-            line-height: 1.4;
+            transition: all .2s ease;
         }
-
         .author-modal-trigger:hover {
+            background: var(--en-green, #a5c711);
+            color: #082903;
+            transform: scale(1.05);
+        }
+        .header-right-col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 8px;
+        }
+        .header-logos-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 12px;
             background: #ffffff;
-            color: var(--primary-dark);
-            transform: scale(1.08);
-            border-color: #ffffff;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            padding: 4px 12px;
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(9, 55, 87, 0.2);
+            border: 2px solid var(--en-green, #a5c711);
+            flex-shrink: 0;
+        }
+        .header-logos-wrapper img {
+            height: 34px;
+            max-width: 115px;
+            object-fit: contain;
+            display: block;
+        }
+        .header-logos-divider {
+            width: 1.5px;
+            height: 26px;
+            background: #cbd5e1;
+        }
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .btn-toggle-sidebar {
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+        .btn-toggle-sidebar:hover {
+            background: rgba(255, 255, 255, 0.28);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+        .btn-toggle-sidebar.active {
+            background: #2563eb;
+            border-color: #93c5fd;
+            color: #ffffff;
+            box-shadow: 0 0 10px rgba(37, 99, 235, 0.45);
         }
 
         /* Modal Janela Sobre Mim */
@@ -1987,36 +2013,46 @@
 
 <body>
 
-    <!-- Header Principal -->
-    <header>
-        <div class="header-container">
-            <div class="header-left">
-                <button class="btn-toggle-sidebar" onclick="toggleSidebar()" title="Exibir/Ocultar Sumário da Norma">
-                    ☰ Sumário ISO
-                </button>
-                <div class="header-title">
-                    <h1>📘 ABNT NBR ISO/IEC 17025:2017 & Treinamento Técnico</h1>
-                    <p class="author-line">Desenvolvido por: <strong>Carlos Eduardo Guerra de Mendonça</strong> - Mat.:
-                        217404 <button class="author-modal-trigger" onclick="openAuthorModal()"
-                            title="Mais informações sobre o desenvolvedor">( ? )</button></p>
+    <!-- Header Principal Padrão Eletronuclear / LMA -->
+    <header class="app-header">
+        <div class="app-header-container">
+            <div class="header-text-block">
+                <div class="eyebrow">Laboratório de Monitoração Ambiental (LMA) • Central Nuclear Almirante Álvaro Alberto • CNAAA</div>
+                <h1 id="appHeaderTitle">
+                    <span style="font-size: 24px;">📖</span> Áudio-Norma Interativa | ABNT NBR ISO/IEC 17025:2017
+                </h1>
+                <p id="appHeaderDesc">
+                    Estação integrada por ordem normativa contínua: cláusulas estruturadas, transcrições comentadas e áudios com cancelamento de ruído da Eletronuclear.
+                </p>
+                
+                <!-- Linha Desenvolvido por com Modal de Informações -->
+                <div class="author-line">
+                    <span>Desenvolvido por: <strong>Carlos Eduardo Guerra de Mendonça</strong> - Mat.: 217404</span>
+                    <button type="button" class="author-modal-trigger" onclick="openAuthorModal()" title="Mais informações sobre o desenvolvedor">( ? )</button>
                 </div>
             </div>
 
-            <div class="header-right">
-
-                <div class="pdf-links">
-                    <button class="pdf-btn"
-                        style="background: rgba(37, 99, 235, 0.35); border-color: rgba(147, 197, 253, 0.5);"
-                        onclick="openGlossaryModal()"
-                        title="Consultar glossário completo de termos técnicos e siglas da ISO 17025">
+            <!-- Logos Oficiais Eletronuclear + ELMA e Ações -->
+            <div class="header-right-col">
+                <div class="header-logos-wrapper">
+                    <img src="assets/logo_eletronuclear.png" alt="Eletronuclear" title="Eletronuclear • Central Nuclear Almirante Álvaro Alberto">
+                    <div class="header-logos-divider"></div>
+                    <img src="assets/logo_elma.png" alt="LMA / ELMA" title="ELMA / LMA • Laboratório de Monitoração Ambiental">
+                </div>
+                <div class="header-actions">
+                    <button class="btn-toggle-sidebar" onclick="toggleSidebar()" title="Exibir/Ocultar Sumário da Norma">
+                        ☰ Sumário ISO
+                    </button>
+                    <a href="simulado.html" target="_blank" class="pdf-btn" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-color: #34d399; font-weight: 700; color: #ffffff; text-decoration: none; box-shadow: 0 2px 6px rgba(16, 185, 129, 0.35);" title="Abrir Sistema Interativo de Provas e Questões de Múltipla Escolha da ISO 17025">
+                        📝 Simulado & Provas (50 Questões)
+                    </a>
+                    <button class="pdf-btn" style="background: rgba(37, 99, 235, 0.35); border-color: rgba(147, 197, 253, 0.5);" onclick="openGlossaryModal()" title="Consultar glossário completo de termos técnicos e siglas da ISO 17025">
                         📚 Glossário Metrológico
                     </button>
-                    <button class="pdf-btn norma-highlight" onclick="openNormaViewer(1)">
+                    <button class="pdf-btn norma-highlight" onclick="openNormaViewer(1)" title="Abrir visualizador da norma oficial com destaques">
                         📄 Ver Norma com Destaques
                     </button>
-                    <a href="player_interativo.html" class="pdf-btn"
-                        style="background: rgba(255, 255, 255, 0.15); border-color: rgba(255, 255, 255, 0.3);"
-                        title="Alternar para a visualização original organizada por dia de treinamento">
+                    <a href="player_interativo.html" class="pdf-btn" style="background: rgba(255, 255, 255, 0.15); border-color: rgba(255, 255, 255, 0.3);" title="Alternar para a visualização original organizada por dia de treinamento">
                         📅 Modo Cronológico (Por Dia)
                     </a>
                 </div>
@@ -2180,7 +2216,7 @@
         <div class="author-modal-card" onclick="event.stopPropagation()">
             <button class="author-modal-close" onclick="closeAuthorModal()" title="Fechar">✕</button>
 
-            <div class="author-avatar-badge">🎓</div>
+            <div class="author-avatar-badge">👨‍🔬</div>
             <h2 class="author-name">Carlos Eduardo Guerra de Mendonça</h2>
 
             <div class="author-modal-content">
@@ -2192,7 +2228,7 @@
 
                 <div class="author-info-block">
                     <div class="author-block-title">Mestrado em:</div>
-                    <div class="author-item">Ciência e Tecnologias Nucleares: Métodos Computacionaiss</div>
+                    <div class="author-item">Tecnologias Nucleares: Computação</div>
                 </div>
             </div>
 
