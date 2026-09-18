@@ -1588,7 +1588,6 @@ html_template = f'''<!DOCTYPE html>
                 <span style="font-size: 26px;">📝</span>
                 <div>
                     <h1>Sistema de Provas & Simulados | ABNT NBR ISO/IEC 17025:2017</h1>
-                    <p>Treinamento Especializado • Laboratórios da Eletronuclear • Perfis Técnico, Gerencial e Geral</p>
                 </div>
             </div>
             <div class="header-actions">
@@ -1606,7 +1605,7 @@ html_template = f'''<!DOCTYPE html>
         <section id="viewConfig" class="view-section active">
             <div class="config-card">
                 <div class="config-title">
-                    <span>🎯</span> Configurar Avaliação Metrológica
+                    <span>🎯</span> Avaliação
                 </div>
                 <p class="config-desc">
                     Personalize seu simulado por perfil profissional, seção da norma e formato de aplicação.
