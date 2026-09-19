@@ -79,6 +79,37 @@ html_template = f'''<!DOCTYPE html>
             --en-blue-dark: #093757;
         }}
 
+        /* Cantos Retos em Todos os Botões e SVGs (Padrão Eletronuclear / Tratamento de Não Conformidades) */
+        button,
+        .filebutton,
+        nav.subnav a,
+        .btn,
+        [class*="btn-"],
+        [class*="-btn"],
+        .pdf-btn,
+        .author-modal-trigger,
+        .author-modal-close,
+        .slide-modal-close,
+        .modal-close,
+        .glossary-modal-close,
+        .glossary-popover-close,
+        .glossary-popover-btn-more,
+        .transcript-drawer-close,
+        .filter-tab,
+        .preset-btn,
+        .sidebar-reset-btn,
+        .sidebar-close-btn,
+        input[type="button"],
+        input[type="submit"],
+        input[type="reset"] {{
+            border-radius: 0px !important;
+        }}
+
+        svg,
+        svg * {{
+            border-radius: 0px !important;
+        }}
+
         header.app-header {{
             background: linear-gradient(135deg, #093757 0%, #105587 35%, #1b80c4 85%, #2390db 100%);
             color: white;
@@ -143,7 +174,7 @@ html_template = f'''<!DOCTYPE html>
             background: rgba(165, 199, 17, 0.22);
             color: #ffffff;
             border: 1px solid var(--en-green);
-            border-radius: 12px;
+            border-radius: 0px !important;
             padding: 2px 8px;
             font-size: 11px;
             font-weight: 700;
@@ -198,7 +229,7 @@ html_template = f'''<!DOCTYPE html>
             color: white;
             text-decoration: none;
             padding: 7px 14px;
-            border-radius: 6px;
+            border-radius: 0px !important;
             font-size: 13px;
             font-weight: 600;
             cursor: pointer;
@@ -247,7 +278,7 @@ html_template = f'''<!DOCTYPE html>
             right: 14px;
             width: 32px;
             height: 32px;
-            border-radius: 50%;
+            border-radius: 0px !important;
             border: 1px solid #e2e8f0;
             background: #f1f5f9;
             color: #64748b;
@@ -395,7 +426,7 @@ html_template = f'''<!DOCTYPE html>
             color: var(--primary);
             width: 28px;
             height: 28px;
-            border-radius: 50%;
+            border-radius: 0px !important;
             font-size: 13px;
             cursor: pointer;
             display: inline-flex;
@@ -463,7 +494,7 @@ html_template = f'''<!DOCTYPE html>
             color: white;
             border: none;
             padding: 7px 16px;
-            border-radius: 30px;
+            border-radius: 0px !important;
             font-size: 12.5px;
             font-weight: 700;
             cursor: pointer;
@@ -612,7 +643,7 @@ html_template = f'''<!DOCTYPE html>
             color: white;
             border: none;
             padding: 16px 32px;
-            border-radius: 10px;
+            border-radius: 0px !important;
             font-size: 16px;
             font-weight: 700;
             cursor: pointer;
@@ -742,7 +773,7 @@ html_template = f'''<!DOCTYPE html>
         .q-nav-btn {{
             width: 34px;
             height: 34px;
-            border-radius: 6px;
+            border-radius: 0px !important;
             border: 1px solid var(--border-dark);
             background: #f8fafc;
             color: var(--text-main);
@@ -873,7 +904,7 @@ html_template = f'''<!DOCTYPE html>
             border: 1px solid var(--border-dark);
             color: var(--text-muted);
             padding: 4px 12px;
-            border-radius: 6px;
+            border-radius: 0px !important;
             font-size: 12px;
             font-weight: 600;
             cursor: pointer;
@@ -897,7 +928,7 @@ html_template = f'''<!DOCTYPE html>
             border: 1px solid #ddd6fe;
             color: #6d28d9;
             padding: 4px 12px;
-            border-radius: 6px;
+            border-radius: 0px !important;
             font-size: 12px;
             font-weight: 700;
             cursor: pointer;
@@ -1102,7 +1133,7 @@ html_template = f'''<!DOCTYPE html>
             border: 1px solid var(--border-dark);
             color: var(--primary);
             padding: 6px 14px;
-            border-radius: 6px;
+            border-radius: 0px !important;
             font-size: 12.5px;
             font-weight: 700;
             cursor: pointer;
@@ -1130,7 +1161,7 @@ html_template = f'''<!DOCTYPE html>
             border: 1px solid var(--border-dark);
             color: var(--text-main);
             padding: 10px 20px;
-            border-radius: 8px;
+            border-radius: 0px !important;
             font-size: 14px;
             font-weight: 700;
             cursor: pointer;
@@ -1152,7 +1183,7 @@ html_template = f'''<!DOCTYPE html>
             color: white;
             border: none;
             padding: 10px 24px;
-            border-radius: 8px;
+            border-radius: 0px !important;
             font-size: 14px;
             font-weight: 700;
             cursor: pointer;
@@ -1325,7 +1356,7 @@ html_template = f'''<!DOCTYPE html>
             color: white;
             border: none;
             padding: 12px 24px;
-            border-radius: 8px;
+            border-radius: 0px !important;
             font-size: 14.5px;
             font-weight: 700;
             cursor: pointer;
@@ -1344,7 +1375,7 @@ html_template = f'''<!DOCTYPE html>
             color: var(--text-main);
             border: 1px solid var(--border-dark);
             padding: 12px 20px;
-            border-radius: 8px;
+            border-radius: 0px !important;
             font-size: 14.5px;
             font-weight: 700;
             cursor: pointer;
@@ -1380,7 +1411,7 @@ html_template = f'''<!DOCTYPE html>
             border: 1px solid var(--border);
             color: var(--text-main);
             padding: 6px 14px;
-            border-radius: 6px;
+            border-radius: 0px !important;
             font-size: 12.5px;
             font-weight: 700;
             cursor: pointer;
@@ -1560,7 +1591,7 @@ html_template = f'''<!DOCTYPE html>
             background: #ffffff;
             color: #374151;
             border: 1px solid #d1d5db;
-            border-radius: 8px;
+            border-radius: 0px !important;
             padding: 8px 14px;
             font-size: 13.5px;
             font-weight: 700;
@@ -1580,7 +1611,7 @@ html_template = f'''<!DOCTYPE html>
             background: linear-gradient(135deg, #0f4c81, #1e3a8a);
             color: #ffffff;
             border: none;
-            border-radius: 8px;
+            border-radius: 0px !important;
             padding: 8px 14px;
             font-size: 13px;
             font-weight: 700;
@@ -1654,6 +1685,7 @@ html_template = f'''<!DOCTYPE html>
         .modal-close {{
             background: none;
             border: none;
+            border-radius: 0px !important;
             color: #ffffff;
             font-size: 20px;
             cursor: pointer;
